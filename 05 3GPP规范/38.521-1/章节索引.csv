@@ -1,0 +1,397 @@
+﻿规范,文件,条款,标题
+38.521-1,38521-1-k00_s00-s05.docx,1,Scope
+38.521-1,38521-1-k00_s00-s05.docx,2,References
+38.521-1,38521-1-k00_s00-s05.docx,3,"Definitions, symbols and abbreviations"
+38.521-1,38521-1-k00_s00-s05.docx,3.1,Definitions
+38.521-1,38521-1-k00_s00-s05.docx,3.2,Symbols
+38.521-1,38521-1-k00_s00-s05.docx,3.3,Abbreviations
+38.521-1,38521-1-k00_s00-s05.docx,4,General
+38.521-1,38521-1-k00_s00-s05.docx,4.1,Relationship between minimum requirements and test requirements
+38.521-1,38521-1-k00_s00-s05.docx,4.2,Applicability of minimum requirements
+38.521-1,38521-1-k00_s00-s05.docx,4.3,Specification suffix information
+38.521-1,38521-1-k00_s00-s05.docx,4.4,Test points analysis
+38.521-1,38521-1-k00_s00-s05.docx,4.5,Applicability and test coverage rules
+38.521-1,38521-1-k00_s00-s05.docx,4.6,Pass fail decision rule of test case
+38.521-1,38521-1-k00_s00-s05.docx,5,Operating bands and Channel arrangement
+38.521-1,38521-1-k00_s00-s05.docx,5.1,General
+38.521-1,38521-1-k00_s00-s05.docx,5.2,Operating bands
+38.521-1,38521-1-k00_s00-s05.docx,5.3,UE channel bandwidth
+38.521-1,38521-1-k00_s00-s05.docx,5.3.1,General
+38.521-1,38521-1-k00_s00-s05.docx,5.3.2,Maximum transmission bandwidth configuration
+38.521-1,38521-1-k00_s00-s05.docx,5.3.3,Minimum guard band and transmission bandwidth configuration
+38.521-1,38521-1-k00_s00-s05.docx,5.3.4,RB alignment
+38.521-1,38521-1-k00_s00-s05.docx,5.3.5,UE channel bandwidth per operating band
+38.521-1,38521-1-k00_s00-s05.docx,5.3.6,Asymmetric channel bandwidths
+38.521-1,38521-1-k00_s00-s05.docx,5.4,Channel arrangement
+38.521-1,38521-1-k00_s00-s05.docx,5.4.1,Channel spacing
+38.521-1,38521-1-k00_s00-s05.docx,5.4.1.1,Channel spacing for adjacent NR carriers
+38.521-1,38521-1-k00_s00-s05.docx,5.4.2,Channel raster
+38.521-1,38521-1-k00_s00-s05.docx,5.4.2.1,NR-ARFCN and channel raster
+38.521-1,38521-1-k00_s00-s05.docx,5.4.2.2,Channel raster to resource element mapping
+38.521-1,38521-1-k00_s00-s05.docx,5.4.2.3,Channel raster entries for each operating band
+38.521-1,38521-1-k00_s00-s05.docx,5.4.3,Synchronization raster
+38.521-1,38521-1-k00_s00-s05.docx,5.4.3.1,Synchronization raster and numbering
+38.521-1,38521-1-k00_s00-s05.docx,5.4.3.2,Synchronization raster to synchronization block resource element mapping
+38.521-1,38521-1-k00_s00-s05.docx,5.4.3.3,Synchronization raster entries for each operating band
+38.521-1,38521-1-k00_s00-s05.docx,5.4.4,TX–RX frequency separation
+38.521-1,38521-1-k00_s06-s0602C.docx,6,Transmitter characteristics
+38.521-1,38521-1-k00_s06-s0602C.docx,6.0,"General test requirements for ΔTIB,c"
+38.521-1,38521-1-k00_s06-s0602C.docx,6.1,General
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2,Transmitter power
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.1,UE maximum output power
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.1.1,Test purpose
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.1.2,Test applicability
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.1.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.1.4,Test description
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.1.5,Test requirement
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.2,UE maximum output power reduction
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.2.1,Test purpose
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.2.2,Test applicability
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.2.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.2.4,Test description
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.2.5,Test requirement
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.3,UE additional maximum output power reduction
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.3.1,Test purpose
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.3.2,Test applicability
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.3.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.3.4,Test description
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.3.5,Test requirement
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4,Configured transmitted power
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.1,Test purpose
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.2,Test applicability
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.4,Test description
+38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.5,Test requirement
+38.521-1,38521-1-k00_s06-s0602C.docx,8,;	0.54 ≤ B < 1.08
+38.521-1,38521-1-k00_s06-s0602C.docx,7,;	1.08 ≤ B < 2.16
+38.521-1,38521-1-k00_s06-s0602C.docx,6.5,;	2.16 ≤ B < 3.24
+38.521-1,38521-1-k00_s06-s0602C.docx,5.5,;	3.24 ≤ B < 5.4
+38.521-1,38521-1-k00_s06-s0602C.docx,4,;	5.4 ≤ B
+38.521-1,38521-1-k00_s06-s0602C.docx,8,;	 0.54 ≤ B < 1.08
+38.521-1,38521-1-k00_s06-s0602C.docx,7,; 	1.08 ≤ B < 2.16
+38.521-1,38521-1-k00_s06-s0602C.docx,6.5,; 	2.16 ≤ B < 3.24
+38.521-1,38521-1-k00_s06-s0602C.docx,6,; 	3.24 ≤ B < 5.4
+38.521-1,38521-1-k00_s06-s0602C.docx,5.5,; 	5.4 ≤ B ≤ 10.8
+38.521-1,38521-1-k00_s06-s0602C.docx,4,; 	10.8 < B
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3,Output power dynamics
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1,Minimum output power
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1.1,Test purpose
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1.2,Test applicability
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1.4,Test description
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1.5,Test requirement
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.2,Transmit OFF power
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.2.1,Test purpose
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.2.2,Test applicability
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.2.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.2.4,Test description
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.2.5,Test requirement
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3,Transmit ON/OFF time mask
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3.1,General
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3.2,General ON/OFF time mask
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3.3,Transmit power time mask for slot and short or subslot boundaries
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3.4,PRACH time mask
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3.6,SRS time mask
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3.7,PUSCH-PUCCH and PUSCH-SRS time masks
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.3.9,Transmit power time mask for consecutive short subslot transmissions boundaries
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4,Power control
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4.1,General
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4.2,Absolute power tolerance
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4.3,Relative power tolerance
+38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4.4,Aggregate power tolerance
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,3.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCCs according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCCs according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC1, SCC2 and SCC3 according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCC according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4,Transmit signal quality
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1,Frequency error
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1.1,Test purpose
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1.2,Test applicability
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1.4,Test description
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1.5,Test requirement
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2,Transmit modulation quality
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.1,Error Vector Magnitude
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.2,Carrier leakage
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.3,In-band emissions
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.4,EVM equalizer spectrum flatness
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.5,EVM equalizer spectrum flatness for Pi/2 BPSK
+38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.6,Phase continuity requirements for DMRS bundling
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,PUCCH is set according to Table Table 6.4.2.6.4.1-1.
+38.521-1,38521-1-k00_s0605.docx,6.5,Output RF spectrum emissions
+38.521-1,38521-1-k00_s0605.docx,6.5.0,General
+38.521-1,38521-1-k00_s0605.docx,6.5.1,Occupied bandwidth
+38.521-1,38521-1-k00_s0605.docx,6.5.1.1,Test purpose
+38.521-1,38521-1-k00_s0605.docx,6.5.1.2,Test applicability
+38.521-1,38521-1-k00_s0605.docx,6.5.1.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0605.docx,6.5.1.4,Test description
+38.521-1,38521-1-k00_s0605.docx,6.5.1.5,Test requirement
+38.521-1,38521-1-k00_s0605.docx,6.5.2,Out of band emission
+38.521-1,38521-1-k00_s0605.docx,6.5.2.1,General
+38.521-1,38521-1-k00_s0605.docx,6.5.2.2,Spectrum emission mask
+38.521-1,38521-1-k00_s0605.docx,6.5.2.3,Additional spectrum emission mask
+38.521-1,38521-1-k00_s0605.docx,6.5.2.4,Adjacent channel leakage ratio
+38.521-1,38521-1-k00_s0605.docx,6.5.3,Spurious emissions
+38.521-1,38521-1-k00_s0605.docx,6.5.3.1,General spurious emissions
+38.521-1,38521-1-k00_s0605.docx,6.5.3.2,Spurious emissions for UE co-existence
+38.521-1,38521-1-k00_s0605.docx,6.5.3.3,Additional spurious emissions
+38.521-1,38521-1-k00_s0605.docx,6.5.4,Transmit intermodulation
+38.521-1,38521-1-k00_s0605.docx,6.5.4.1,Test purpose
+38.521-1,38521-1-k00_s0605.docx,6.5.4.2,Test applicability
+38.521-1,38521-1-k00_s0605.docx,6.5.4.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0605.docx,6.5.4.4,Test description
+38.521-1,38521-1-k00_s0605.docx,6.5.4.5,Test requirement
+38.521-1,38521-1-k00_s0700.docx,7,Receiver characteristics
+38.521-1,38521-1-k00_s0700.docx,7.1,General
+38.521-1,38521-1-k00_s0700.docx,7.2,Diversity characteristics
+38.521-1,38521-1-k00_s0700.docx,7.3,Reference sensitivity
+38.521-1,38521-1-k00_s0700.docx,7.3.1,General
+38.521-1,38521-1-k00_s0700.docx,7.3.2,Reference sensitivity power level
+38.521-1,38521-1-k00_s0700.docx,7.3.2.1,Test purpose
+38.521-1,38521-1-k00_s0700.docx,7.3.2.2,Test applicability
+38.521-1,38521-1-k00_s0700.docx,7.3.2.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0700.docx,7.3.2.4,Test description
+38.521-1,38521-1-k00_s0700.docx,7.3.2.5,Test requirement
+38.521-1,38521-1-k00_s0700.docx,7.3.3,"ΔRIB,c"
+38.521-1,38521-1-k00_s0700.docx,7.4,Maximum input level
+38.521-1,38521-1-k00_s0700.docx,7.4.1,Test purpose
+38.521-1,38521-1-k00_s0700.docx,7.4.2,Test applicability
+38.521-1,38521-1-k00_s0700.docx,7.4.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0700.docx,7.4.4,Test description
+38.521-1,38521-1-k00_s0700.docx,7.4.4.1,Initial conditions
+38.521-1,38521-1-k00_s0700.docx,7.4.4.2,Test procedure
+38.521-1,38521-1-k00_s0700.docx,7.4.4.3,Message contents
+38.521-1,38521-1-k00_s0700.docx,7.4.5,Test requirement
+38.521-1,38521-1-k00_s0700.docx,7.5,Adjacent channel selectivity
+38.521-1,38521-1-k00_s0700.docx,7.5.1,Test purpose
+38.521-1,38521-1-k00_s0700.docx,7.5.2,Test applicability
+38.521-1,38521-1-k00_s0700.docx,7.5.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0700.docx,7.5.4,Test description
+38.521-1,38521-1-k00_s0700.docx,7.5.4.1,Initial conditions
+38.521-1,38521-1-k00_s0700.docx,7.5.4.2,Test procedure
+38.521-1,38521-1-k00_s0700.docx,7.5.4.3,Message contents
+38.521-1,38521-1-k00_s0700.docx,7.5.5,Test requirement
+38.521-1,38521-1-k00_s0700.docx,7.6,Blocking characteristics
+38.521-1,38521-1-k00_s0700.docx,7.6.1,General
+38.521-1,38521-1-k00_s0700.docx,7.6.2,In-band blocking
+38.521-1,38521-1-k00_s0700.docx,7.6.2.1,Test purpose
+38.521-1,38521-1-k00_s0700.docx,7.6.2.2,Test applicability
+38.521-1,38521-1-k00_s0700.docx,7.6.2.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0700.docx,7.6.2.4,Test description
+38.521-1,38521-1-k00_s0700.docx,7.6.2.5,Test requirement
+38.521-1,38521-1-k00_s0700.docx,7.6.3,Out-of-band blocking
+38.521-1,38521-1-k00_s0700.docx,7.6.3.1,Test Purpose
+38.521-1,38521-1-k00_s0700.docx,7.6.3.2,Test Applicability
+38.521-1,38521-1-k00_s0700.docx,7.6.3.3,Minimum Conformance Requirements
+38.521-1,38521-1-k00_s0700.docx,7.6.3.4,Test Description
+38.521-1,38521-1-k00_s0700.docx,7.6.3.5,Test Requirement
+38.521-1,38521-1-k00_s0700.docx,7.6.4,Narrow band blocking
+38.521-1,38521-1-k00_s0700.docx,7.6.4.1,Test Purpose
+38.521-1,38521-1-k00_s0700.docx,7.6.4.2,Test Applicability
+38.521-1,38521-1-k00_s0700.docx,7.6.4.3,Minimum Conformance Requirements
+38.521-1,38521-1-k00_s0700.docx,7.6.4.4,Test Description
+38.521-1,38521-1-k00_s0700.docx,7.6.4.5,Test Requirement
+38.521-1,38521-1-k00_s0700.docx,7.7,Spurious response
+38.521-1,38521-1-k00_s0700.docx,7.7.1,Test Purpose
+38.521-1,38521-1-k00_s0700.docx,7.7.2,Test Applicability
+38.521-1,38521-1-k00_s0700.docx,7.7.3,Minimum Conformance Requirements
+38.521-1,38521-1-k00_s0700.docx,7.7.4,Test Description
+38.521-1,38521-1-k00_s0700.docx,7.7.4.1,Initial Conditions
+38.521-1,38521-1-k00_s0700.docx,7.7.4.2,Test Procedure
+38.521-1,38521-1-k00_s0700.docx,7.7.4.3,Message Contents
+38.521-1,38521-1-k00_s0700.docx,7.7.5,Test Requirement
+38.521-1,38521-1-k00_s0700.docx,7.8,Intermodulation characteristics
+38.521-1,38521-1-k00_s0700.docx,7.8.1,General
+38.521-1,38521-1-k00_s0700.docx,7.8.2,Wide band Intermodulation
+38.521-1,38521-1-k00_s0700.docx,7.8.2.1,Test purpose
+38.521-1,38521-1-k00_s0700.docx,7.8.2.2,Test applicability
+38.521-1,38521-1-k00_s0700.docx,7.8.2.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0700.docx,7.8.2.4,Test description
+38.521-1,38521-1-k00_s0700.docx,7.8.2.5,Test requirement
+38.521-1,38521-1-k00_s0700.docx,7.9,Spurious emissions
+38.521-1,38521-1-k00_s0700.docx,7.9.1,Test purpose
+38.521-1,38521-1-k00_s0700.docx,7.9.2,Test applicability
+38.521-1,38521-1-k00_s0700.docx,7.9.3,Minimum conformance requirements
+38.521-1,38521-1-k00_s0700.docx,7.9.4,Test description
+38.521-1,38521-1-k00_s0700.docx,7.9.4.1,Initial conditions
+38.521-1,38521-1-k00_s0700.docx,7.9.4.2,Test procedure
+38.521-1,38521-1-k00_s0700.docx,7.9.4.3,Message contents
+38.521-1,38521-1-k00_s0700.docx,7.9.5,Test requirement
+38.521-1,38521-1-k00_sAnnexes.docx,Annex A,(normative): Measurement channels
+38.521-1,38521-1-k00_sAnnexes.docx,A.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,A.2,UL reference measurement channels
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2,Reference measurement channels for FDD
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.1,DFT-s-OFDM Pi/2-BPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.2,DFT-s-OFDM QPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.3,DFT-s-OFDM 16QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.4,DFT-s-OFDM 64QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.5,DFT-s-OFDM 256QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.6,CP-OFDM QPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.7,CP-OFDM 16QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.8,CP-OFDM 64QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.2.9,CP-OFDM 256QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3,Reference measurement channels for TDD
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.1,DFT-s-OFDM Pi/2-BPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.2,DFT-s-OFDM QPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.3,DFT-s-OFDM 16QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.4,DFT-s-OFDM 64QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.5,DFT-s-OFDM 256QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.6,CP-OFDM QPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.7,CP-OFDM 16QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.8,CP-OFDM 64QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.2.3.9,CP-OFDM 256QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.3,DL reference measurement channels
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.2,DL reference measurement channels for FDD
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.2.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.2.2,FRC for receiver requirements for QPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.2.3,FRC for maximum input level for 64QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.2.4,FRC for maximum input level for 256 QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.2.5,FRC for maximum input level for 1024 QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.3,DL reference measurement channels for TDD
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.3.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.3.2,FRC for receiver requirements for QPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.3.3,FRC for maximum input level for 64QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.3.4,FRC for maximum input level for 256 QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.3.3.5,FRC for maximum input level for 1024 QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.4,CSI reference measurement channels
+38.521-1,38521-1-k00_sAnnexes.docx,A.5,OFDMA Channel Noise Generator (OCNG)
+38.521-1,38521-1-k00_sAnnexes.docx,A.5.1,OCNG Patterns for FDD
+38.521-1,38521-1-k00_sAnnexes.docx,A.5.1.1,OCNG FDD pattern 1: Generic OCNG FDD Pattern for all unused REs
+38.521-1,38521-1-k00_sAnnexes.docx,A.5.2,OCNG Patterns for TDD
+38.521-1,38521-1-k00_sAnnexes.docx,A.5.2.1,OCNG TDD pattern 1: Generic OCNG TDD Pattern for all unused REs
+38.521-1,38521-1-k00_sAnnexes.docx,A.7,V2X reference measurement channels
+38.521-1,38521-1-k00_sAnnexes.docx,A.7.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,A.7.2,FRC for V2X receiver requirements for QPSK
+38.521-1,38521-1-k00_sAnnexes.docx,A.7.3,FRC for maximum input level for 64QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.7.4,FRC for maximum input level for 256QAM
+38.521-1,38521-1-k00_sAnnexes.docx,A.7.5,FRC for transmitter requirements
+38.521-1,38521-1-k00_sAnnexes.docx,A.8,Reference measurement channels for low NR band carrier aggregation via switching
+38.521-1,38521-1-k00_sAnnexes.docx,A.8.1,DL reference measurement channels for low NR band carrier aggregation via switching
+38.521-1,38521-1-k00_sAnnexes.docx,B.0,No interference
+38.521-1,38521-1-k00_sAnnexes.docx,C.0,Downlink signal levels
+38.521-1,38521-1-k00_sAnnexes.docx,C.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,C.2,Setup
+38.521-1,38521-1-k00_sAnnexes.docx,C.3,Connection
+38.521-1,38521-1-k00_sAnnexes.docx,C.3.0,Measurement of Transmitter Characteristics
+38.521-1,38521-1-k00_sAnnexes.docx,C.3.1,Measurement of Receiver Characteristics
+38.521-1,38521-1-k00_sAnnexes.docx,D.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,E.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,E.2,Signals and results
+38.521-1,38521-1-k00_sAnnexes.docx,E.2.1,Basic principle
+38.521-1,38521-1-k00_sAnnexes.docx,E.2.2,Output signal of the TX under test
+38.521-1,38521-1-k00_sAnnexes.docx,E.2.3,Reference signal
+38.521-1,38521-1-k00_sAnnexes.docx,E.2.4,Measurement results
+38.521-1,38521-1-k00_sAnnexes.docx,E.2.5,Measurement points
+38.521-1,38521-1-k00_sAnnexes.docx,E.3,Signal processing
+38.521-1,38521-1-k00_sAnnexes.docx,E.3.1,Pre FFT minimization process
+38.521-1,38521-1-k00_sAnnexes.docx,E.3.2,Timing of the FFT window
+38.521-1,38521-1-k00_sAnnexes.docx,E.3.3,Post FFT equalisation
+38.521-1,38521-1-k00_sAnnexes.docx,E.4,Derivation of the results
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.1,EVM
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.2,Averaged EVM
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.3,In-band emissions measurement
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.4,EVM equalizer
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.4.1,EVM equalizer spectrum flatness
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.4.2,EVM equalizer spectral shaping filter
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.5,Frequency error and Carrier leakage
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.6,EVM of Demodulation reference symbols (EVMDMRS)
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.6.1,1st average for EVM DMRS
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.6.2,Final average for EVM DMRS
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.7,Modified signal under test
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.8,EVM measurement for multiple Tx
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.9,Phase offset measurement for DMRS bundling
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.9.1,Measurement point
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.9.2,Symbols used
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.9.3,Modified test signal
+38.521-1,38521-1-k00_sAnnexes.docx,E.4.9.4,Phase offset measurement
+38.521-1,38521-1-k00_sAnnexes.docx,E.5,EVM and inband emissions for PUCCH
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.1,Basic principle
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.2,Output signal of the TX under test
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.3,Reference signal
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.4,Measurement results
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.5,Measurement points
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.6,Pre FFT minimization process
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.7,Timing of the FFT window
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.8,Post FFT equalisation
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.9,Derivation of the results
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.9.1,EVMPUCCH
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.9.2,Averaged EVMPUCCH
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.9.3,In-band emissions measurement
+38.521-1,38521-1-k00_sAnnexes.docx,E.5.9.4,EVM measurement for multiple Tx
+38.521-1,38521-1-k00_sAnnexes.docx,E.6,EVM for PRACH
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.1,Basic principle
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.2,Output signal of the TX under test
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.3,Reference signal
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.4,Measurement results
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.5,Measurement points
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.6,Pre FFT minimization process
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.7,Timing of the FFT window
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.8,Post FFT equalisation
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.9,Derivation of the results
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.9.1,EVMPRACH
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.9.2,Averaged EVMPRACH
+38.521-1,38521-1-k00_sAnnexes.docx,E.6.9.3,EVM measurement for multiple Tx
+38.521-1,38521-1-k00_sAnnexes.docx,E.7,reserved
+38.521-1,38521-1-k00_sAnnexes.docx,E.8,EVM for UL MIMO
+38.521-1,38521-1-k00_sAnnexes.docx,E.8.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,E.8.2,MIMO Equalization
+38.521-1,38521-1-k00_sAnnexes.docx,E.8.3,Layer processing
+38.521-1,38521-1-k00_sAnnexes.docx,E.9,EVM for V2X
+38.521-1,38521-1-k00_sAnnexes.docx,E.9.1,EVM for PSSCH and PSCCH
+38.521-1,38521-1-k00_sAnnexes.docx,F.1,Acceptable uncertainty of Test System (normative)
+38.521-1,38521-1-k00_sAnnexes.docx,F.1.0,General
+38.521-1,38521-1-k00_sAnnexes.docx,F.1.1,Measurement of test environments
+38.521-1,38521-1-k00_sAnnexes.docx,F.1.2,Measurement of transmitter
+38.521-1,38521-1-k00_sAnnexes.docx,F.1.3,Measurement of receiver
+38.521-1,38521-1-k00_sAnnexes.docx,F.2,Interpretation of measurement results (normative)
+38.521-1,38521-1-k00_sAnnexes.docx,F.3.1,Measurement of test environments
+38.521-1,38521-1-k00_sAnnexes.docx,F.3.2,Measurement of transmitter
+38.521-1,38521-1-k00_sAnnexes.docx,F.3.3,Measurement of receiver
+38.521-1,38521-1-k00_sAnnexes.docx,F.4,Uplink power window
+38.521-1,38521-1-k00_sAnnexes.docx,F.4.1,Introduction
+38.521-1,38521-1-k00_sAnnexes.docx,F.4.2,Setting the power window above a requirement
+38.521-1,38521-1-k00_sAnnexes.docx,F.4.2.1,NR FR1
+38.521-1,38521-1-k00_sAnnexes.docx,F.4.3,Setting the power window below a requirement
+38.521-1,38521-1-k00_sAnnexes.docx,F.4.3.1,NR FR1
+38.521-1,38521-1-k00_sAnnexes.docx,F.4.4,Setting the power window centred on a target value
+38.521-1,38521-1-k00_sAnnexes.docx,F.4.4.1,NR FR1
+38.521-1,38521-1-k00_sAnnexes.docx,G.0,Uplink Signal Levels
+38.521-1,38521-1-k00_sAnnexes.docx,G.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,G.2,Set-up
+38.521-1,38521-1-k00_sAnnexes.docx,G.3,Connection
+38.521-1,38521-1-k00_sAnnexes.docx,G.3.0,Measurement of Transmitter Characteristics
+38.521-1,38521-1-k00_sAnnexes.docx,G.3.1,Measurement of Receiver Characteristics
+38.521-1,38521-1-k00_sAnnexes.docx,G.3.2,Measurement of Performance Requirements
+38.521-1,38521-1-k00_sAnnexes.docx,H.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,H.2,Statistical testing of receiver characteristics
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.2,Mapping throughput to error ratio
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.3,Design of the test
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.4,Numerical definition of the pass fail limits
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.5,Pass fail decision rules
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.6.1,Numerical definition of the pass-fail limits
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.6.2,Simulation to derive the pass-fail limits for testing 95% throughput
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.1,applies.
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.2,applies for each component carrier.
+38.521-1,38521-1-k00_sAnnexes.docx,Annex I,(normative): ModifiedMPR-Behaviour
+38.521-1,38521-1-k00_sAnnexes.docx,I.1,Indication of ModifiedMPR-Behaviour
+38.521-1,38521-1-k00_sAnnexes.docx,Annex J,(normative):
+38.521-1,38521-1-k00_sAnnexes.docx,J.0,General
+38.521-1,38521-1-k00_sAnnexes.docx,J.1,Measurement Point
+38.521-1,38521-1-k00_sAnnexes.docx,J.2,Relative Phase Error Measurement
+38.521-1,38521-1-k00_sAnnexes.docx,J.2.1,Symbols and subcarriers used
+38.521-1,38521-1-k00_sAnnexes.docx,J.2.2,CFO (carrier frequency offset) correction
+38.521-1,38521-1-k00_sAnnexes.docx,J.2.3,Steps of the measurement method
+38.521-1,38521-1-k00_sAnnexes.docx,Annex K,(normative):	LP-WUS/WUR test method
+38.521-1,38521-1-k00_sAnnexes.docx,K.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,K.2,Measurement of the miss detection rate
+38.521-1,38521-1-k00_sAnnexes.docx,K.3,Side conditions on the Main Radio channels carrying the UE response
+38.521-1,38521-1-k00_sAnnexes.docx,K.4,Test configuration
+38.521-1,38521-1-k00_sAnnexes.docx,K.5,RRC state for verification
+38.521-1,38521-1-k00_sAnnexes.docx,K.6,LP-WUS waveform

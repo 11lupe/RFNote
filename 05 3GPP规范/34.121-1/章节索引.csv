@@ -1,0 +1,879 @@
+﻿规范,文件,条款,标题
+34.121-1,34121-1-g20_s00-s06.docx,1,Scope
+34.121-1,34121-1-g20_s00-s06.docx,2,References
+34.121-1,34121-1-g20_s00-s06.docx,3,"Definitions, symbols, abbreviations and equations"
+34.121-1,34121-1-g20_s00-s06.docx,3.1,Definitions
+34.121-1,34121-1-g20_s00-s06.docx,3.2,Symbols
+34.121-1,34121-1-g20_s00-s06.docx,3.3,Abbreviations
+34.121-1,34121-1-g20_s00-s06.docx,3.4,Equations
+34.121-1,34121-1-g20_s00-s06.docx,4,Frequency bands and channel arrangement
+34.121-1,34121-1-g20_s00-s06.docx,4.1,General
+34.121-1,34121-1-g20_s00-s06.docx,4.2,Frequency bands
+34.121-1,34121-1-g20_s00-s06.docx,4.3,TX-RX frequency separation
+34.121-1,34121-1-g20_s00-s06.docx,4.4,Channel arrangement
+34.121-1,34121-1-g20_s00-s06.docx,4.4.1,Channel spacing
+34.121-1,34121-1-g20_s00-s06.docx,4.4.2,Channel raster
+34.121-1,34121-1-g20_s00-s06.docx,4.4.3,Channel number
+34.121-1,34121-1-g20_s00-s06.docx,4.4.4,UARFCN
+34.121-1,34121-1-g20_s00-s06.docx,5,Transmitter Characteristics
+34.121-1,34121-1-g20_s00-s06.docx,5.1,General
+34.121-1,34121-1-g20_s00-s06.docx,5.2,Maximum Output Power
+34.121-1,34121-1-g20_s00-s06.docx,5.2.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.2.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.2.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.2.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.2.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.2.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.2.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.3,Frequency Error
+34.121-1,34121-1-g20_s00-s06.docx,5.3.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.3.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.3.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.3.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.3.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.3.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.3.5,Test Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4,Output Power Dynamics in the Uplink
+34.121-1,34121-1-g20_s00-s06.docx,5.4.1,Open Loop Power Control in the Uplink
+34.121-1,34121-1-g20_s00-s06.docx,5.4.1.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.4.1.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.1.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.4.1.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.4.1.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.2,Inner Loop Power Control in the Uplink
+34.121-1,34121-1-g20_s00-s06.docx,5.4.2.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.4.2.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.2.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.4.2.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.4.2.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.3,Minimum Output Power
+34.121-1,34121-1-g20_s00-s06.docx,5.4.3.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.4.3.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.3.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.4.3.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.4.3.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.4,Out-of-synchronisation handling of output power
+34.121-1,34121-1-g20_s00-s06.docx,5.4.4.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.4.4.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.4.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.4.4.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.4.4.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.5,Out of quality handling of TPI for UL CLTD activation state 1
+34.121-1,34121-1-g20_s00-s06.docx,5.4.5.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.4.5.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.4.5.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.4.5.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.4.5.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.5,Transmit ON/OFF Power
+34.121-1,34121-1-g20_s00-s06.docx,5.5.1,Transmit OFF Power
+34.121-1,34121-1-g20_s00-s06.docx,5.5.1.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.5.1.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.5.1.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.5.1.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.5.1.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.5.2,Transmit ON/OFF Time mask
+34.121-1,34121-1-g20_s00-s06.docx,5.5.2.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.5.2.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.5.2.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.5.2.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.5.2.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.6,Change of TFC
+34.121-1,34121-1-g20_s00-s06.docx,5.6.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.6.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.6.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.6.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.6.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.6.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.6.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.7,Power setting in uplink compressed mode
+34.121-1,34121-1-g20_s00-s06.docx,5.7.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.7.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.7.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.7.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.7.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.7.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.7.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.8,Occupied Bandwidth (OBW)
+34.121-1,34121-1-g20_s00-s06.docx,5.8.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.8.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.8.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.8.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.8.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.8.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.8.5,Test Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.9,Spectrum emission mask
+34.121-1,34121-1-g20_s00-s06.docx,5.9.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.9.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.9.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.9.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.9.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.9.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.9.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.10,Adjacent Channel Leakage Power Ratio (ACLR)
+34.121-1,34121-1-g20_s00-s06.docx,5.10.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.10.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.10.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.10.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.10.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.10.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.10.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.11,Spurious Emissions
+34.121-1,34121-1-g20_s00-s06.docx,5.11.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.11.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.11.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.11.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.11.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.11.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.11.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.12,Transmit Intermodulation
+34.121-1,34121-1-g20_s00-s06.docx,5.12.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.12.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.12.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.12.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.12.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,5.12.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,5.12.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13,Transmit Modulation
+34.121-1,34121-1-g20_s00-s06.docx,5.13.1,Error Vector Magnitude (EVM)
+34.121-1,34121-1-g20_s00-s06.docx,5.13.1.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.13.1.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.1.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.13.1.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.13.1.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.2,Peak code domain error
+34.121-1,34121-1-g20_s00-s06.docx,5.13.2.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.13.2.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.2.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.13.2.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.13.2.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.3,UE phase discontinuity
+34.121-1,34121-1-g20_s00-s06.docx,5.13.3.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.13.3.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.3.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.13.3.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.13.3.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.4,PRACH preamble quality
+34.121-1,34121-1-g20_s00-s06.docx,5.13.4.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.13.4.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.4.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.13.4.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.13.4.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.5,In-band emission for DC-HSUPA
+34.121-1,34121-1-g20_s00-s06.docx,5.13.5.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,5.13.5.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,5.13.5.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,5.13.5.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,5.13.5.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,6,Receiver Characteristics
+34.121-1,34121-1-g20_s00-s06.docx,6.1,General
+34.121-1,34121-1-g20_s00-s06.docx,6.2,Reference Sensitivity Level
+34.121-1,34121-1-g20_s00-s06.docx,6.2.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,6.2.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.2.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,6.2.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,6.2.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,6.2.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,6.2.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.3,Maximum Input Level
+34.121-1,34121-1-g20_s00-s06.docx,6.3.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,6.3.2,Minimum requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.3.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,6.3.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,6.3.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,6.3.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,6.3.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.4,Adjacent Channel Selectivity (ACS) (Rel-99 and Rel-4)
+34.121-1,34121-1-g20_s00-s06.docx,6.4.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,6.4.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.4.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,6.4.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,6.4.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,6.4.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,6.4.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.5,Blocking Characteristics
+34.121-1,34121-1-g20_s00-s06.docx,6.5.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,6.5.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.5.2.1,Minimum Requirements (In-band blocking)
+34.121-1,34121-1-g20_s00-s06.docx,6.5.2.2,Minimum requirements (Out of-band blocking)
+34.121-1,34121-1-g20_s00-s06.docx,6.5.2.3,Minimum requirements (Narrow band blocking)
+34.121-1,34121-1-g20_s00-s06.docx,6.5.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,6.5.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,6.5.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,6.5.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,6.5.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.6,Spurious Response
+34.121-1,34121-1-g20_s00-s06.docx,6.6.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,6.6.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.6.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,6.6.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,6.6.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,6.6.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,6.6.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.7,Intermodulation Characteristics
+34.121-1,34121-1-g20_s00-s06.docx,6.7.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,6.7.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.7.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,6.7.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,6.7.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,6.7.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,6.7.5,Test requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.8,Spurious Emissions
+34.121-1,34121-1-g20_s00-s06.docx,6.8.1,Definition and applicability
+34.121-1,34121-1-g20_s00-s06.docx,6.8.2,Minimum Requirements
+34.121-1,34121-1-g20_s00-s06.docx,6.8.3,Test purpose
+34.121-1,34121-1-g20_s00-s06.docx,6.8.4,Method of test
+34.121-1,34121-1-g20_s00-s06.docx,6.8.4.1,Initial conditions
+34.121-1,34121-1-g20_s00-s06.docx,6.8.4.2,Procedure
+34.121-1,34121-1-g20_s00-s06.docx,6.8.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7,Performance requirements
+34.121-1,34121-1-g20_s07.docx,7.1,General
+34.121-1,34121-1-g20_s07.docx,7.1.1,Measurement Configurations
+34.121-1,34121-1-g20_s07.docx,7.1.2,Definition of Additive White Gaussian Noise (AWGN) Interferer
+34.121-1,34121-1-g20_s07.docx,7.2,Demodulation in Static Propagation conditions
+34.121-1,34121-1-g20_s07.docx,7.2.1,Demodulation of Dedicated Channel (DCH)
+34.121-1,34121-1-g20_s07.docx,7.2.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.2.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.2.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.2.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.2.1.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.2.2,Demodulation of Dedicated Channel (DCH) when (DL_DCH_FET_Config) is configured by higher layers
+34.121-1,34121-1-g20_s07.docx,7.2.2.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.2.2.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.2.2.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.2.2.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.2.2.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.3,Demodulation of DCH in Multi-path Fading Propagation conditions
+34.121-1,34121-1-g20_s07.docx,7.3.1,Single Link Performance
+34.121-1,34121-1-g20_s07.docx,7.3.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.3.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.3.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.3.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.3.1.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.3.2,Single Link Performance when (DL_DCH_FET_Config) is configured by higher layers
+34.121-1,34121-1-g20_s07.docx,7.3.2.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.3.2.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.3.2.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.3.2.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.3.2.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.4,Demodulation of DCH in Moving Propagation conditions
+34.121-1,34121-1-g20_s07.docx,7.4.1,Single Link Performance
+34.121-1,34121-1-g20_s07.docx,7.4.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.4.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.4.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.4.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.4.1.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.5,Demodulation of DCH in Birth-Death Propagation conditions
+34.121-1,34121-1-g20_s07.docx,7.5.1,Single Link Performance
+34.121-1,34121-1-g20_s07.docx,7.5.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.5.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.5.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.5.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.5.1.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.6,Demodulation of DCH in downlink Transmit diversity modes
+34.121-1,34121-1-g20_s07.docx,7.6.1,Demodulation of DCH in open-loop transmit diversity mode
+34.121-1,34121-1-g20_s07.docx,7.6.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.6.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.6.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.6.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.6.1.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.6.2,Demodulation of DCH in closed loop transmit diversity mode
+34.121-1,34121-1-g20_s07.docx,7.6.2.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.6.2.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.6.2.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.6.2.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.6.2.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.6.3,Demodulation of DCH in Site Selection Diversity Transmission Power Control mode
+34.121-1,34121-1-g20_s07.docx,7.6.3.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.6.3.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.6.3.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.6.3.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.6.3.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.7,Demodulation in Handover conditions
+34.121-1,34121-1-g20_s07.docx,7.7.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.7.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.7.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.7.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.7.1.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.7.2,Combining of TPC commands from radio links of different radio link sets
+34.121-1,34121-1-g20_s07.docx,7.7.2.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.7.2.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.7.2.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.7.2.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.7.2.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.7.3,Combining of reliable TPC commands from radio links of different radio link sets
+34.121-1,34121-1-g20_s07.docx,7.7.3.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.7.3.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.7.3.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.7.3.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.7.3.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.8,Power control in downlink
+34.121-1,34121-1-g20_s07.docx,7.8.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.8.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.8.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.8.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.8.1.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.8.2,"Power control in the downlink, initial convergence"
+34.121-1,34121-1-g20_s07.docx,7.8.2.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.8.2.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.8.2.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.8.2.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.8.2.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.8.3.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.8.3.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.8.3.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.8.3.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.8.3.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.8.4,"Power control in the downlink, different transport formats"
+34.121-1,34121-1-g20_s07.docx,7.8.4.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.8.4.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.8.4.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.8.4.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.8.4.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.8.5,Power control in the downlink for F-DPCH
+34.121-1,34121-1-g20_s07.docx,7.8.5.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.8.5.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.8.5.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.8.5.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.8.5.5,Test Requirements
+34.121-1,34121-1-g20_s07.docx,7.9,Downlink compressed mode
+34.121-1,34121-1-g20_s07.docx,7.9.1.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.9.1.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.9.1.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.9.1.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.9.1.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.10,Blind transport format detection
+34.121-1,34121-1-g20_s07.docx,7.10.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.10.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.10.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.10.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.10.4.2,Procedure
+34.121-1,34121-1-g20_s07.docx,7.10.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.11,Demodulation of Paging Channel (PCH)
+34.121-1,34121-1-g20_s07.docx,7.11.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.11.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.11.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.11.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.11.4.1,Initial conditions
+34.121-1,34121-1-g20_s07.docx,7.11.4.2,Procedure
+34.121-1,34121-1-g20_s07.docx,7.11.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.12,Detection of Acquisition Indicator (AI)
+34.121-1,34121-1-g20_s07.docx,7.12.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.12.2,Minimum requirements
+34.121-1,34121-1-g20_s07.docx,7.12.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.12.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.12.4.1,Initial conditions
+34.121-1,34121-1-g20_s07.docx,7.12.4.2,Procedure
+34.121-1,34121-1-g20_s07.docx,7.12.5,Test requirements
+34.121-1,34121-1-g20_s07.docx,7.13,UE UL power control operation with discontinuous UL DPCCH transmission operation
+34.121-1,34121-1-g20_s07.docx,7.13.1,Definition and applicability
+34.121-1,34121-1-g20_s07.docx,7.13.2,Minimum requirement
+34.121-1,34121-1-g20_s07.docx,7.13.3,Test purpose
+34.121-1,34121-1-g20_s07.docx,7.13.4,Method of test
+34.121-1,34121-1-g20_s07.docx,7.13.4.1,Initial conditions
+34.121-1,34121-1-g20_s07.docx,7.13.4.2,Procedure
+34.121-1,34121-1-g20_s08a-s08f.docx,8,Requirements for support of RRM
+34.121-1,34121-1-g20_s08a-s08f.docx,8.1,General
+34.121-1,34121-1-g20_s08a-s08f.docx,8.1.1,Definition of Additive White Gaussian Noise (AWGN) Interferer
+34.121-1,34121-1-g20_s08a-s08f.docx,8.1.2,Groups of E-UTRA bands
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2,Idle Mode Tasks
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.1,Cell Selection
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.2,Cell Re-Selection
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.2.1,Scenario 1: Single carrier case
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.2.2,Scenario 2: Multi carrier case
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.3,UTRAN to GSM Cell Re-Selection
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.3.1,Scenario 1: Both UTRA and GSM level changed
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.3.2,Scenario 2: Only UTRA level changed
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.3.3,Scenario 3: HCS with only UTRA level changed
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.4,FDD/TDD Cell Re-selection
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.4.1,Definition and applicability
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.4.2,Minimum requirement
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.4.3,Test purpose
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.4.4,Method of test
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.4.5,Test requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.5,UTRAN to E-UTRA Cell Re-Selection
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.5.1,E-UTRA is of higher priority
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.5.2,E-UTRA is of lower priority
+34.121-1,34121-1-g20_s08a-s08f.docx,8.2.5.3,RSRQ based reselection when E-UTRA FDD is of higher priority
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3,UTRAN Connected Mode Mobility
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.1,FDD/FDD Soft Handover
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.1.1,Definition and applicability
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.1.2,Minimum requirement
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.1.3,Test purpose
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.1.4,Method of test
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.1.5,Test requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.2,FDD/FDD Hard Handover
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.2.1,FDD/FDD Hard Handover to intra-frequency cell
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.2.2,FDD/FDD Hard Handover to inter-frequency cell
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.3,FDD/TDD Handover
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.3.1,Definition and applicability
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.3.2,Minimum requirement
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.3.3,Test purpose
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.3.4,Method of test
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.3.5,Test requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.4,Inter-system Handover from UTRAN FDD to GSM
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.4.1,Definition and applicability
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.4.2,Minimum requirement
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.4.3,Test purpose
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.4.4,Method of test
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.4.5,Test requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.5,Cell Re-selection in CELL_FACH
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.5.1,One frequency present in neighbour lis and FACH measurement occasions configured
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.5.2,Two frequencies present in the neighbour list and FACH measurement occasions configured
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.5.3,Cell Reselection to GSM
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.5.4,"Cell Reselection during an MBMS session, two frequencies present in neighbour list"
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.5.5,UTRAN to E-UTRA Cell Reselection
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.6,Cell Re-selection in CELL_PCH
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.6.1,One frequency present in the neighbour list
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.6.2,Two frequencies present in the neighbour list
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.7,Cell Re-selection in URA_PCH
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.7.1,One frequency present in the neighbour list
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.7.2,Two frequencies present in the neighbour list
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.8,Serving HS-DSCH cell change
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.8.1,Definition and applicability
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.8.2,Minimum requirement
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.8.3,Test purpose
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.8.4,Method of test
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.8.5,Test requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.9,Enhanced Serving HS-DSCH cell change
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.9.1,Definition and applicability
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.9.2,Minimum requirement
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.9.3,Test purpose
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.9.4,Method of test
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.9.5,Test requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.10,System information acquisition for CSG cell
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.10.1,Intrafrequency System information acquisition for CSG cell
+34.121-1,34121-1-g20_s08a-s08f.docx,8.3.10.2,Inter frequency System information acquisition for CSG cell
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4,RRC Connection Control
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.1,RRC Re-establishment delay
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.1.1,Test 1
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.1.2,Test 2
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.2,Random Access
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.2.2,Correct behaviour when receiving an NACK
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.2.3,Correct behaviour at Time-out
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.2.4,Correct behaviour when reaching maximum transmit power
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.3,Transport format combination selection in UE
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.3.1,"Interactive or Background, PS, UL: 64 kbps"
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.4,E-TFC restriction in UE
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.4.1,10ms TTI E-DCH E-TFC restriction
+34.121-1,34121-1-g20_s08a-s08f.docx,8.4.4.2,2ms TTI E-DCH E-TFC restriction
+34.121-1,34121-1-g20_s08a-s08f.docx,8.5,Timing and Signalling Characteristics
+34.121-1,34121-1-g20_s08a-s08f.docx,8.5.1,UE Transmit Timing
+34.121-1,34121-1-g20_s08a-s08f.docx,8.5.1.1,Definition and applicability
+34.121-1,34121-1-g20_s08a-s08f.docx,8.5.1.2,Minimum requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.5.1.3,Test purpose
+34.121-1,34121-1-g20_s08a-s08f.docx,8.5.1.4,Method of test
+34.121-1,34121-1-g20_s08a-s08f.docx,8.5.1.5,Test requirements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6,UE Measurements Procedures
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.1,FDD intra frequency measurements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.1.1,Event triggered reporting in AWGN propagation conditions (R99)
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.1.2,Event triggered reporting of multiple neighbours in AWGN propagation condition (R99)
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.1.3,Event triggered reporting of two detectable neighbours in AWGN propagation condition (R99)
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.1.5,Event triggered reporting of multiple neighbour cells in Case 1 fading condition
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.1.6,Event triggered reporting of multiple neighbour cells in Case 3 fading condition
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.2,FDD inter frequency measurements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.2.3,Correct reporting of neighbours in fading propagation condition using TGL1=14
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.3,TDD measurements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.3.1,Correct reporting of TDD neighbours in AWGN propagation condition
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.4,GSM measurements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.4.1,Correct reporting of GSM neighbours in AWGN propagation condition
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.5,Combined inter frequency and GSM measurements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.5.1,Correct reporting of neighbours in AWGN propagation condition
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.6,E-UTRAN Measurement
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.6.1,Correct reporting of E-UTRAN FDD neighbour in fading propagation condition in CELL_DCH
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.6.2,Correct reporting of E-UTRAN TDD neighbour in fading propagation condition in CELL_DCH
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.7,Combined Inter-frequency and E-UTRAN measurements
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.7.1,Correct reporting of E-UTRA FDD neighbours in fading propagation condition
+34.121-1,34121-1-g20_s08a-s08f.docx,8.6.7.2,Correct reporting of E-UTRA TDD neighbours in Fading propagation condition
+34.121-1,34121-1-g20_s08g.docx,8.7,Measurements Performance Requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.1,CPICH RSCP
+34.121-1,34121-1-g20_s08g.docx,8.7.1.1,Intra frequency measurements accuracy
+34.121-1,34121-1-g20_s08g.docx,8.7.1.2,Inter frequency measurement accuracy
+34.121-1,34121-1-g20_s08g.docx,8.7.2,CPICH Ec/Io
+34.121-1,34121-1-g20_s08g.docx,8.7.2.1,Intra frequency measurements accuracy
+34.121-1,34121-1-g20_s08g.docx,8.7.2.2,Inter frequency measurement accuracy
+34.121-1,34121-1-g20_s08g.docx,8.7.3,UTRA Carrier RSSI
+34.121-1,34121-1-g20_s08g.docx,8.7.3.1,Absolute measurement accuracy requirement
+34.121-1,34121-1-g20_s08g.docx,8.7.3.2,Relative measurement accuracy requirement
+34.121-1,34121-1-g20_s08g.docx,8.7.4,SFN-CFN observed time difference
+34.121-1,34121-1-g20_s08g.docx,8.7.4.1,Intra frequency measurement requirement
+34.121-1,34121-1-g20_s08g.docx,8.7.4.2,Inter frequency measurement requirement
+34.121-1,34121-1-g20_s08g.docx,8.7.5,SFN-SFN observed time difference
+34.121-1,34121-1-g20_s08g.docx,8.7.5.1,SFN-SFN observed time difference type 1
+34.121-1,34121-1-g20_s08g.docx,8.7.5.2,SFN-SFN observed time difference type 2 without IPDL period active
+34.121-1,34121-1-g20_s08g.docx,8.7.5.3,SFN-SFN observed time difference type 2 with IPDL period active
+34.121-1,34121-1-g20_s08g.docx,8.7.6,UE Rx-Tx time difference
+34.121-1,34121-1-g20_s08g.docx,8.7.6.2,UE Rx-Tx time difference type 2
+34.121-1,34121-1-g20_s08g.docx,8.7.7,Observed time difference to GSM cell (R99 and Rel-4 only)
+34.121-1,34121-1-g20_s08g.docx,8.7.8,P-CCPCH RSCP
+34.121-1,34121-1-g20_s08g.docx,8.7.8.1,Absolute measurement accuracy
+34.121-1,34121-1-g20_s08g.docx,8.7.9,UE Transmission Power Headroom
+34.121-1,34121-1-g20_s08g.docx,8.7.9.1,Definition and applicability
+34.121-1,34121-1-g20_s08g.docx,8.7.9.2,Minimum Requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.9.3,Test purpose
+34.121-1,34121-1-g20_s08g.docx,8.7.9.4,Method of test
+34.121-1,34121-1-g20_s08g.docx,8.7.9.5,Test requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.10,E-UTRAN FDD RSRP absolute accuracy (CELL_DCH)
+34.121-1,34121-1-g20_s08g.docx,8.7.10.1,Definition and applicability
+34.121-1,34121-1-g20_s08g.docx,8.7.10.2,Minimum Requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.10.3,Test purpose
+34.121-1,34121-1-g20_s08g.docx,8.7.10.4,Method of test
+34.121-1,34121-1-g20_s08g.docx,8.7.10.5,Test requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.11,E-UTRAN TDD RSRP absolute accuracy (CELL_DCH)
+34.121-1,34121-1-g20_s08g.docx,8.7.11.1,Definition and applicability
+34.121-1,34121-1-g20_s08g.docx,8.7.11.2,Minimum Requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.11.3,Test purpose
+34.121-1,34121-1-g20_s08g.docx,8.7.11.4,Method of test
+34.121-1,34121-1-g20_s08g.docx,8.7.11.5,Test requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.12,E-UTRAN FDD RSRQ absolute accuracy (CELL_DCH)
+34.121-1,34121-1-g20_s08g.docx,8.7.12.1,Definition and applicability
+34.121-1,34121-1-g20_s08g.docx,8.7.12.2,Minimum Requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.12.3,Test purpose
+34.121-1,34121-1-g20_s08g.docx,8.7.12.4,Method of test
+34.121-1,34121-1-g20_s08g.docx,8.7.12.5,Test requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.13,E-UTRAN TDD RSRQ absolute accuracy (CELL_DCH)
+34.121-1,34121-1-g20_s08g.docx,8.7.13.1,Definition and applicability
+34.121-1,34121-1-g20_s08g.docx,8.7.13.2,Minimum Requirements
+34.121-1,34121-1-g20_s08g.docx,8.7.13.3,Test purpose
+34.121-1,34121-1-g20_s08g.docx,8.7.13.4,Method of test
+34.121-1,34121-1-g20_s08g.docx,8.7.13.5,Test requirements
+34.121-1,34121-1-g20_s09.docx,9,Performance requirements for HSDPA
+34.121-1,34121-1-g20_s09.docx,9.1,General
+34.121-1,34121-1-g20_s09.docx,9.2,Demodulation of HS-DSCH (Fixed Reference Channel)
+34.121-1,34121-1-g20_s09.docx,9.2.1,Single Link Performance
+34.121-1,34121-1-g20_s09.docx,9.2.2,Open Loop Diversity Performance
+34.121-1,34121-1-g20_s09.docx,9.2.3,Closed Loop Diversity Performance
+34.121-1,34121-1-g20_s09.docx,9.2.4,MIMO Performance
+34.121-1,34121-1-g20_s09.docx,9.3,Reporting of Channel Quality Indicator
+34.121-1,34121-1-g20_s09.docx,9.3.1,Single Link Performance - AWGN Propagation Conditions
+34.121-1,34121-1-g20_s09.docx,9.3.1.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.3.1.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.3.1.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.3.1.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.3.1.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.3.2,Single Link Performance - Fading Propagation Conditions
+34.121-1,34121-1-g20_s09.docx,9.3.2.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.3.2.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.3.2.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.3.2.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.3.2.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.3.3,Open Loop Diversity Performance - AWGN Propagation Conditions
+34.121-1,34121-1-g20_s09.docx,9.3.3.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.3.3.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.3.3.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.3.3.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.3.3.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.3.4,Open Loop Diversity Performance - Fading Propagation Conditions
+34.121-1,34121-1-g20_s09.docx,9.3.4.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.3.4.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.3.4.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.3.4.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.3.4.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.3.5,Closed Loop Diversity Performance - AWGN Propagation Conditions
+34.121-1,34121-1-g20_s09.docx,9.3.5.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.3.5.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.3.5.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.3.5.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.3.5.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.3.6,Closed Loop Diversity Performance - Fading Propagation Conditions
+34.121-1,34121-1-g20_s09.docx,9.3.6.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.3.6.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.3.6.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.3.6.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.3.6.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.3.7,MIMO Performance - Reporting of Channel Quality Indicator
+34.121-1,34121-1-g20_s09.docx,9.4,HS-SCCH Detection Performance
+34.121-1,34121-1-g20_s09.docx,9.4.1,Single Link Performance
+34.121-1,34121-1-g20_s09.docx,9.4.1.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.4.1.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.4.1.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.4.1.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.4.1.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.4.2,Open Loop Diversity Performance
+34.121-1,34121-1-g20_s09.docx,9.4.2.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.4.2.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.4.2.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.4.2.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.4.2.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.4.3,HS-SCCH Type 3 Performance
+34.121-1,34121-1-g20_s09.docx,9.4.3.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.4.3.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.4.3.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.4.3.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.4.3.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.4.4,HS-SCCH Type 3 Performance for MIMO only with single-stream restriction
+34.121-1,34121-1-g20_s09.docx,9.4.4.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.4.4.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.4.4.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.4.4.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.4.4.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.5,HS-SCCH-less demodulation of HS-DSCH (Fixed Reference Channel)
+34.121-1,34121-1-g20_s09.docx,9.5.1,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 7"
+34.121-1,34121-1-g20_s09.docx,9.5.1.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.5.1.2,Minimum requirements
+34.121-1,34121-1-g20_s09.docx,9.5.1.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.5.1.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.5.1.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.6,HS-DSCH and HS-SCCH reception in CELL-FACH state
+34.121-1,34121-1-g20_s09.docx,9.6.1,Single link HS-DSCH Demodulation performance in CELL_FACH state
+34.121-1,34121-1-g20_s09.docx,9.6.1.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.6.1.2,"Minimum requirement QPSK, Fixed Reference Channel (FRC) H-Set 3"
+34.121-1,34121-1-g20_s09.docx,9.6.1.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.6.1.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.6.1.5,Test Requirements
+34.121-1,34121-1-g20_s09.docx,9.6.2,Single link HS-SCCH Detection performance in CELL_FACH state
+34.121-1,34121-1-g20_s09.docx,9.6.2.1,Definition and applicability
+34.121-1,34121-1-g20_s09.docx,9.6.2.2,Minimum requirement
+34.121-1,34121-1-g20_s09.docx,9.6.2.3,Test purpose
+34.121-1,34121-1-g20_s09.docx,9.6.2.4,Method of test
+34.121-1,34121-1-g20_s09.docx,9.6.2.5,Test Requirements
+34.121-1,34121-1-g20_s10-s11.docx,10,Performance requirement (E-DCH)
+34.121-1,34121-1-g20_s10-s11.docx,10.1,General
+34.121-1,34121-1-g20_s10-s11.docx,10.2,Detection of E-DCH HARQ ACK Indicator Channel (E-HICH)
+34.121-1,34121-1-g20_s10-s11.docx,10.2.1,Single link performance
+34.121-1,34121-1-g20_s10-s11.docx,10.2.1.1,Single link performance (10ms TTI)
+34.121-1,34121-1-g20_s10-s11.docx,10.2.1.2,Single link performance (2ms TTI)
+34.121-1,34121-1-g20_s10-s11.docx,10.2.2,Detection in Inter-Cell Handover conditions
+34.121-1,34121-1-g20_s10-s11.docx,10.2.2.1,RLS not containing the Serving E-DCH cell
+34.121-1,34121-1-g20_s10-s11.docx,10.2.2.2,RLS containing the Serving E-DCH cell
+34.121-1,34121-1-g20_s10-s11.docx,10.3,Detection of E-DCH Relative Grant Channel (E-RGCH)
+34.121-1,34121-1-g20_s10-s11.docx,10.3.1,Single link performance
+34.121-1,34121-1-g20_s10-s11.docx,10.3.1.1,Single link performance (10ms TTI)
+34.121-1,34121-1-g20_s10-s11.docx,10.3.1.2,Single link performance (2ms TTI)
+34.121-1,34121-1-g20_s10-s11.docx,10.3.2,Detection in Inter-Cell Handover conditions
+34.121-1,34121-1-g20_s10-s11.docx,10.3.2.1,Definition and applicability
+34.121-1,34121-1-g20_s10-s11.docx,10.3.2.2,Minimum requirement for Non-serving E-DCH RL
+34.121-1,34121-1-g20_s10-s11.docx,10.3.2.3,Test Purpose
+34.121-1,34121-1-g20_s10-s11.docx,10.3.2.4,Method of test
+34.121-1,34121-1-g20_s10-s11.docx,10.3.2.5,Test Requirements
+34.121-1,34121-1-g20_s10-s11.docx,10.4,Demodulation of E-DCH Absolute Grant Channel (E-AGCH)
+34.121-1,34121-1-g20_s10-s11.docx,10.4.1,Single link performance
+34.121-1,34121-1-g20_s10-s11.docx,10.4.1.1,Definition and applicability
+34.121-1,34121-1-g20_s10-s11.docx,10.4.1.2,Minimum requirement
+34.121-1,34121-1-g20_s10-s11.docx,10.4.1.3,Test Purpose
+34.121-1,34121-1-g20_s10-s11.docx,10.4.1.4,Method of test
+34.121-1,34121-1-g20_s10-s11.docx,10.4.1.5,Test Requirements
+34.121-1,34121-1-g20_s10-s11.docx,11,Performance requirement (MBMS)
+34.121-1,34121-1-g20_s10-s11.docx,11.1,General
+34.121-1,34121-1-g20_s10-s11.docx,11.2,Demodulation of MTCH
+34.121-1,34121-1-g20_s10-s11.docx,11.2.1,Definition and applicability
+34.121-1,34121-1-g20_s10-s11.docx,11.2.2,Minimum requirement
+34.121-1,34121-1-g20_s10-s11.docx,11.2.3,Test Purpose
+34.121-1,34121-1-g20_s10-s11.docx,11.2.4,Method of test
+34.121-1,34121-1-g20_s10-s11.docx,11.2.4.1,Initial conditions
+34.121-1,34121-1-g20_s10-s11.docx,11.2.4.2,Procedure
+34.121-1,34121-1-g20_s10-s11.docx,11.2.5,Test Requirements
+34.121-1,34121-1-g20_s10-s11.docx,11.3,Demodulation of MTCH and cell identification
+34.121-1,34121-1-g20_s10-s11.docx,11.3.1,Definition and applicability
+34.121-1,34121-1-g20_s10-s11.docx,11.3.2,Minimum requirements
+34.121-1,34121-1-g20_s10-s11.docx,11.3.3,Test purpose
+34.121-1,34121-1-g20_s10-s11.docx,11.3.4,Method of test
+34.121-1,34121-1-g20_s10-s11.docx,11.3.4.1,Initial conditions
+34.121-1,34121-1-g20_s10-s11.docx,11.3.4.2,Procedures
+34.121-1,34121-1-g20_s10-s11.docx,11.3.5,Test requirements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.1,General
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2,Definition of the process
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.1,Basic principle
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.2,Output signal of the TX under test
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.3,Reference signal
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.5,Classification of measurement results
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.6,"Process definition to achieve results f, t, , g1, g2, and O"
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.6.1,Decision Point Power
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.6.2,Measured total power of all active codes
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.6.3,Code-Domain Power
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.6.4,Code-Domain Power of the varied reference signal
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.7,"Process definition to achieve results EVM, PCDE, RCDE"
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.7.1,Error Vector Magnitude (EVM)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.7.2,Code Domain Error Power
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.7.3,Relative Code Domain Error (RCDE)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.3,Notes
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.1,General
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2,UL reference measurement channel
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.1,"UL reference measurement channel (12,2 kbps)"
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.2,UL reference measurement channel (64 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.3,UL reference measurement channel (144 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.4,UL reference measurement channel (384 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.5,UL reference measurement channel (768 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.6,UL E-DCH reference measurement channel for DC-HSUPA using BPSK modulation
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.7,UL E-DCH reference measurement channel for DC-HSUPA using 16QAM modulation
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.8,Combinations of UL E-DCH reference measurement channel for DC-HSUPA tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.3,DL reference measurement channel
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.3.1,DL reference measurement channel (12.2 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.3.2,DL reference measurement channel (64 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.3.3,DL reference measurement channel (144 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.3.4,DL reference measurement channel (384 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.3.5,DL reference measurement channel 2 (64 kbps)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.4,Reference measurement channel for BTFD performance requirements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.4.1,UL reference measurement channel for BTFD performance requirements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.4.2,DL reference measurement channel for BTFD performance requirements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.4.3,Reference parameters for discontinuous UL DPCCH transmission
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.5,DL reference compressed mode parameters
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.6,Auxiliary measurement channels
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.6.1,Introduction
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.6.2,Channel combinations for BLER measurements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.6.3,"UL auxiliary reference measurement channel (TM, 12.2 kbps, no CRC)"
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.6.7,UL AUXMC AM 12.2 kbps
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.6.8,UL AUXMC AM 12.2 kbps(DCCH with TB size of 148bit)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.7,DL reference parameters for PCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8,DL reference channel parameters for HSDPA tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1,Fixed Reference Channel (FRC)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.1,Fixed Reference Channel Definition H-Set 1/1A/1B/1C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.2,Fixed Reference Channel Definition H-Set 2
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.3,Fixed Reference Channel Definition H-Set 3/3A/3B/3C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.4,Fixed Reference Channel Definition H-Set 4
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.5,Fixed Reference Channel Definition H-Set 5
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.6,Fixed Reference Channel Definition H-Set 6/6A/6B/6C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.7,Fixed Reference Channel Definition H-Set 7
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.8,Fixed Reference Channel Definition H-Set 8/8A/8B/8C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.9,Fixed Reference Channel Definition H-Set 9/9A/9B/9C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.10,Fixed Reference Channel Definition H-Set 10/10A/10B/10C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.11,Fixed Reference Channel Definition H-Set 11/11A/11B/11C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.12,Fixed Reference Channel Definition H-Set 12
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.9,Downlink reference channel dummy DCCH transmission on DCH
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10,UL reference channel parameters for HSDPA tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10.1,UL reference measurement channel for HSDPA tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10.2,UL reference measurement channel for HSDPA tests with UL OLTD/CLTD
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11,Reference channel parameters for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.1,UL reference measurement channel for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.2,DL reference measurement channel for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.3,RLC SDU size for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12,DL reference parameters for MBMS tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12.1,MTCH
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12.2,Combined MTCH demodulation and cell identification
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.1,General
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.1.1,Definition of Additive White Gaussian Noise (AWGN) Interferer
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2,Propagation Conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.1,Static propagation condition
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.2,Multi-path fading propagation conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.3,Moving propagation conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.4,Birth-Death propagation conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.5,Conditions for HSDPA enhanced performance requirements type 1 with UE receiver diversity
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.6,Conditions for HSDPA enhanced performance requirements type 3 with UE receiver diversity
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.7,Conditions for open and closed loop diversity performance
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.8,Conditions for MBMS enhanced performance requirements type 1 with UE receiver diversity
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.9,MIMO propagation conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.9.1,MIMO Single Stream Fading Conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.9.2,MIMO Dual Stream Fading Conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2.9.3,MIMO Dual Stream Static Orthogonal Conditions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.1,General
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.2,Connection Set-up for non-HSDPA test cases
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.2.1,Measurement without dedicated connection
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.3,During connection for non-HSDPA test cases
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.3.1,Measurement of Tx Characteristics
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.3.2,Measurement of Rx Characteristics
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.3.3,Measurement of Performance requirements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.3.4,Connection with open-loop transmit diversity mode
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.3.5,Connection with closed loop transmit diversity mode
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.3.6,OCNS Definition
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.4,W-CDMA Modulated Interferer for non-HSDPA test cases
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.5,HSDPA DL Physical channels
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.5.0,Downlink Physical Channels for connection set-up
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.5.1,Downlink Physical Channels for measurement
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.5.2,HSDPA OCNS Definition
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.5.3,Downlink Physical Channels for measurement including test tolerances
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.5.4,Downlink Physical Channels for Transmitter Characteristics with HS-DPCCH
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.6.1,Downlink Physical Channels Code Allocation for non-HSDPA test cases
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.6.2,Downlink Physical Channels Code Allocation for HSDPA test cases
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.6.3,Downlink Physical Channels Code Allocation for E-DCH test cases
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,E.6.4,Downlink Physical Channels Code Allocation for MBMS test cases
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1,Acceptable uncertainty of Test System
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.1,Measurement of test environments
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.2,Measurement of transmitter
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.3,Measurement of receiver
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.4,Performance requirement
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.5,Requirements for support of RRM
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.6,Performance requirement (HSDPA)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.7,Performance requirement (E-DCH)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.1.8,Performance requirement (MBMS)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.2.1,Transmitter
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.2.2,Receiver
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.2.3,Performance requirements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.2.4,Requirements for support of RRM
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.2.5,Performance requirements (HSDPA)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.2.6,Performance requirements (E-DCH)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.2.7,Performance requirements (MBMS)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.3,Interpretation of measurement results
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.4.1,Transmitter
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.4.2,Receiver
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.4.3,Performance requirements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.4.4,Requirements for support of RRM
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.4.5,Performance requirements (HSDPA)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.4.6,Performance requirements (E-DCH)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.4.7,Performance requirements (MBMS)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.5.1,Transmitter measurements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.5.2,Receiver measurements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.5.3,Performance measurements
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.5.4,Requirements for support of RRM
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.5.5,Performance measurements (HSDPA)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.5.6,Performance measurements (E-DCH)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.5.7,Performance measurements (MBMS)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6,General rules for statistical testing
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1,Statistical testing of receiver BER/BLER performance
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.1,Error Definition
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.2,Test Method
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.3,Test Criteria
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4,Calculation assumptions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4.1,Statistical independence
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4.2,Applied formulas
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,0.5,"* qchisq(D,2*ne). This is applicable for experiment (1) and (2)."
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4.3,Approximation of the distribution
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.5,Definition of good pass fail decision.
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.6,Good balance between test time and statistical significance
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.7,Pass fail decision rules
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.8,"Test conditions for BER, BLER, RLC SDU Error Rate tests"
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10,Dual limit BLER tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.1,Description of the parameters for dual limit BLER tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,1,(black horizontal line in the centre): this is the normalised origin BLER
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,1.3,(red horizontal line): this is the specified upper limit of the range (BLER +30%) (upper test requirement)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.2,Pass fail decision rules
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.3,Test conditions for dual limit BLER tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.4,Test conditions for dual limit TPC Command Error Rate tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2,Statistical testing of RRM delay performance
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.1,Test Method
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.2,Bad Delay Ratio (ER)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.3,Test Criteria
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4,Calculation assumptions
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4.1,Statistical independence
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4.2,Applied formulas
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,0.5,"* qchisq(D,2*ne) for experiment (1) and (2)"
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4.3,Approximation of the distribution
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.5,Definition of good pass fail decision
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.6,Good balance between test-time and statistical significance
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.7,Pass fail decision rules
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.3,Statistical Testing of HSDPA Receiver Performance
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.3.1,Definition
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.3.2,Mapping throughput to block error ratio
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.3.3,Bad DUT factor
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.3.3.1,"Bad DUT factor, range of applicability"
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.3.4,Minimum Test time
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.3.5,Test conditions for HSDPA Receiver Performance
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.4,Statistical testing of performance requirement (E-DCH and MBMS)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.4.1,Test Method
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.4.2,Bad Result Ratio (ER)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.4.3,Mapping of E-DCH and MBMS tests to RRM tests (F.6.2) and HSDPA tests (F.6.3)
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.4.4,Test conditions for E-DCH tests and MBMS
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,G.1,General
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,G.2,Environmental requirements
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,G.2.1,Temperature
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,G.2.2,Voltage
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,G.2.3,Vibration
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,G.2.4,Specified frequency range
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,J.1,Japan
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.1,Conditions for Idle mode tasks
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.1.1,Conditions for measurements of inter-RAT E-UTRA cells
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.2,Conditions for UE Measurements Procedures
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.2.1,Conditions for E-UTRAN measurements
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3,Conditions for Measurement Performance for UE
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.1,Conditions for intra frequency CPICH RSCP measurements accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.2,Conditions for intra frequency CPICH RSCP relative measurements accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.3,Conditions for inter frequency CPICH RSCP relative measurements accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.4,Conditions for intra frequency CPICH Ec/Io measurements accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.5,Conditions for intra frequency CPICH Ec/Io relative measurements  accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.6,Conditions for inter frequency CPICH Ec/Io measurements accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.7,Conditions for inter frequency CPICH Ec/Io relative measurements accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.8,Conditions for intra frequency SFN-SFN observed time difference
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.9,Conditions for inter frequency SFN-SFN observed time difference
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.10,Conditions for SFN-SFN observed time difference type 1
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.11,Conditions for intra frequency SFN-SFN observed time difference type 2 without or with IPDL period active
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.12,Conditions for inter frequency SFN-SFN observed time difference type 2
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.4,Conditions for UTRAN Connected mode mobility
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.4.1,Conditions for identification of a new CGI of inter-RAT E-UTRA cell with autonomous gaps

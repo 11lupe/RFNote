@@ -1,0 +1,542 @@
+﻿规范,文件,条款,标题
+38.508-1,38508-1-k00_s00-s040311.docx,1,Scope
+38.508-1,38508-1-k00_s00-s040311.docx,2,References
+38.508-1,38508-1-k00_s00-s040311.docx,3,"Definitions, symbols and abbreviations"
+38.508-1,38508-1-k00_s00-s040311.docx,3.1,Definitions
+38.508-1,38508-1-k00_s00-s040311.docx,3.2,Symbols
+38.508-1,38508-1-k00_s00-s040311.docx,3.3,Abbreviations
+38.508-1,38508-1-k00_s00-s040311.docx,4,Common test environments
+38.508-1,38508-1-k00_s00-s040311.docx,4.1,Environmental conditions
+38.508-1,38508-1-k00_s00-s040311.docx,4.1.1,Temperature
+38.508-1,38508-1-k00_s00-s040311.docx,4.1.2,Voltage
+38.508-1,38508-1-k00_s00-s040311.docx,4.2,Common requirements of test equipment
+38.508-1,38508-1-k00_s00-s040311.docx,4.2.1,General functional requirements
+38.508-1,38508-1-k00_s00-s040311.docx,4.2.2,Minimum functional requirements
+38.508-1,38508-1-k00_s00-s040311.docx,4.2.2.1,Supported Cell Configuration
+38.508-1,38508-1-k00_s00-s040311.docx,4.3,Reference test conditions
+38.508-1,38508-1-k00_s00-s040311.docx,4.3.1,Test frequencies
+38.508-1,38508-1-k00_s00-s040311.docx,4.3.1.0,General
+38.508-1,38508-1-k00_s00-s040311.docx,4.3.1.1,Test frequencies for NR operating bands in FR1
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.1.2,Test frequencies for NR operating bands in FR2
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.1.3,Test frequencies for NR band combinations between FR1 and FR2
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.1.4,Test frequencies for EN-DC band combinations within FR1
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.1.5,Test frequencies for EN-DC band combinations including FR2
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.1.6,Test frequencies for EN-DC band combinations including FR1 and FR2
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.1.8,Test frequencies for NR Sidelink operating bands
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.1.9,Test frequencies for NR NTN operating bands
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.2,Radio conditions
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.2.1,"FR1, normal propagation condition for connected"
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.2.2,"FR2, condition for OTA"
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.3,Physical channel allocations
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.3.1,E-UTRA
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.3.2,NR
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.4,Signal levels
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.4.1,Signal levels for conducted testing
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.4.2,Signal levels for OTA testing
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.5,Standard test signals
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.6,Physical layer parameters
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.6.1,Downlink physical layer parameters
+38.508-1,38508-1-k00_s040312-s0405.docx,4.3.6.2,Sidelink physical layer parameters
+38.508-1,38508-1-k00_s040312-s0405.docx,4.4,Reference system configurations
+38.508-1,38508-1-k00_s040312-s0405.docx,4.4.1,Simulated network scenarios
+38.508-1,38508-1-k00_s040312-s0405.docx,4.4.1.1,Standalone cell network scenarios
+38.508-1,38508-1-k00_s040312-s0405.docx,4.4.1.2,Non-standalone cell network scenarios
+38.508-1,38508-1-k00_s040312-s0405.docx,4.4.2,Simulated cells
+38.508-1,38508-1-k00_s040312-s0405.docx,4.4.3,Common parameters for simulated NR cells
+38.508-1,38508-1-k00_s040312-s0405.docx,4.4.3.1,Common configurations of system information blocks
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5,Generic procedures
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.1,General
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.2,RRC_IDLE
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.2.1,Initiation
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.2.2,Procedures
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.2.3,Specific message contents
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.3,RRC_INACTIVE
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.3.1,Initiation
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.3.2,Procedures
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.4,RRC_CONNECTED
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.4.1,Initiation
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.4.2,Procedures
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.4.3,Specific message contents
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.5,SWITCHED_OFF
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.5.1,Initiation
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.5.2,Procedures
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.5.3,Specific message contents
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.7,Out of Coverage
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.7.1,Initiation
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.7.2,Procedures
+38.508-1,38508-1-k00_s040312-s0405.docx,4.5.7.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6,Default NG-RAN RRC message and information elements contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.0,General
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.0.1,Global conditions
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.0.2,ASN.1 extension groups
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.0.3,Interpretation of IE presence and values
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.1,Contents of RRC messages
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.2,System information blocks
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.3,Radio resource control information elements
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.4,UE capability information elements
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.5,Other information elements
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.6,Sidelink information elements
+38.508-1,38508-1-k00_s0406-s0414.docx,4.6.7,MBS information elements
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7,Default 5GC NAS message and information elements contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.0,General
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.0.1,Interpretation of IE presence and values
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.0.2,Security protected 5GS NAS messages
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.1,Contents of 5GMM messages
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.2,Contents of 5GSM messages
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.3,Contents of EAP-AKA' messages
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.3.1,EAP-AKA' message attributes
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.3.2,EAP-AKA' messages
+38.508-1,38508-1-k00_s0406-s0414.docx,4.7.6,Contents of UE Policy Delivery messages
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8,Reference configurations
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.1,Radio configurations
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.2,5GC configurations
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.2.1,Reference QoS rules
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.2.2,Reference packet filters
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.2.3,Reference QoS flow descriptions
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.3,Common test UICC and USIM parameters
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.3.1,General
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.3.2,Default parameters for the test USIM and ISIM
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.3.3,Default settings for the Elementary Files (EFs)
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.4,DNN/APN configurations
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.5,URSP configurations
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.5.1,General
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.5.2,UE Route Selection Policy Rules
+38.508-1,38508-1-k00_s0406-s0414.docx,4.8.5.3,Route Selection Descriptors
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9,Test procedures
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.1,Test procedure to check user plane connectivity on DRB#n
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.2,Test procedure to activate UE Beamlock Test Function (UBF)
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.2.1,Initiation
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.2.2,Procedure
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.2.3,Specific Message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.3,Test procedure to deactivate UE Beamlock Test Function (UBF)
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.3.1,Initiation
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.3.2,Procedure
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.3.3,Specific Message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.4,Test procedure to check that UE is in state 5GC RRC_IDLE on a certain NR/NGC cell
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.4.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.4.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.5,Test procedure to check that UE is camped on a new NR/NGC cell belonging to a new TA
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.5.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.5.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.6,Test procedures for Switch off / Power off UE
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.6.1,Switch off / Power off procedure in RRC_IDLE
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.6.2,Switch off / Power off procedure in RRC_INACTIVE
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.6.3,Switch off / Power off procedure in RRC_CONNECTED
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.6.4,Switch off / Power off procedure in State DEREGISTERED
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.6.5,Switch off / Power off procedure in WLAN Ipsec_SA_Established
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.6.6,Switch off / Power off procedure in MA PDU session Established on NR and WLAN
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.7.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.7.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.8,Test procedure for Registration Reject
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.8.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.8.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.9.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.9.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.10,Test procedure to check that the UE is in RRC_CONNECTED state
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.10.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.10.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.11,Test procedure for IMS Emergency call or eCall over IMS establishment in 5GC with IMS emergency registration
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.11.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.11.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.12,Test procedure for IMS Emergency call establishment in 5GC without IMS emergency registration
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.12.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.12.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.13,Test procedure for no response to paging
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.13.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.13.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.13.3,Specific Message content
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.15,Test procedure for IMS MO speech call establishment in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.15.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.15.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.15.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.16,Test procedure for IMS MT speech call establishment in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.16.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.16.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.16.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.17.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.17.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.18.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.18.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.19,Test procedure for IMS MO SMS in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.19.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.19.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.19.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.20,Test procedure for IMS MT SMS in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.20.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.20.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.20.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.21.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.21.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.21.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.22,Test procedure for establishing unicast mode NR sidelink communication / Initiating UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.22.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.22.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.22.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.23,Test procedure for establishing unicast mode NR sidelink communication / Peer UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.23.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.23.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.23.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.24,Test procedure for IMS MO Video call establishment in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.24.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.24.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.24.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.25,Test procedure for UE Configuration Update for transparent UE Policy delivery
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.25.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.25.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.25.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.26,Test procedure for IMS MT video call establishment in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.26.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.26.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.26.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.27,Test procedure for adding video to a speech call in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.27.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.27.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.27.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.28,Test procedure for removing video from an ongoing call in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.28.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.28.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.28.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.29,Test Procedure for eCall over IMS establishment in 5GS: eCall Only Support
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.29.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.29.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.30,Test procedure for releasing unicast mode NR sidelink communication
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.30.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.30.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.30.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.31,Test procedure to check user plane connectivity on established sidelink DRB
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.31.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.31.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.31.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.32,Test procedure to activate UE Power Limit Function (UPLF)
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.32.1,Initiation
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.32.2,Procedure
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.32.3,Specific Message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.33,Test procedure to deactivate UE Power Limit Function (UPLF)
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.33.1,Initiation
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.33.2,Procedure
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.33.3,Specific Message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.34,Test procedure for MBS Multicast session join and session establishment
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.34.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.34.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.34.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.35,"Test procedure for deleting configured S-NSSAI, default configured S-NSSAI and allowed S-NSSAI"
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.35.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.35.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.35.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.36,Test procedure for registration of a MUSIM UE
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.36.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.36.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.36.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.37.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.37.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.37.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.38,Test procedure to check TMGI and associated MRB reception in a multicast MBS session
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.38.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.38.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.38.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.39,Test procedure for establishing unicast mode ProSe Direct communication / Initiating UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.39.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.39.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.39.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.40,Test procedure for establishing unicast mode ProSe Direct communication / Peer UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.40.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.40.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.40.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.41,Test procedure for 5G ProSe Layer-2 U2N Relay initial access / Relay UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.41.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.41.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.41.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.42,Test procedure for 5G ProSe Layer-2 U2N Relay initial access / Remote UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.42.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.42.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.42.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.43,Test procedure for 5G ProSe U2N Relay Discovery
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.43.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.43.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.43.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.44,Test procedure for UUAA-MM
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.44.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.44.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.44.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.45.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.45.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.45.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.46,Test procedure for adding RTT to a speech call in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.46.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.46.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.46.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.47,Test procedure for IMS Emergency call and RTT
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.47.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.47.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.48,Test procedure for removing RTT from an ongoing call in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.48.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.48.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.48.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.49,Test procedure for IMS bootstrap data channel establishment in 5GC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.49.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.49.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.49.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.50,Test procedure for 5G ProSe U2U Relay Discovery
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.50.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.50.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.50.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.51,Test procedure for 5G ProSe Layer-2 U2U Relay initial access / Relay UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.51.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.51.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.51.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.52,Test procedure for 5G ProSe Layer-2 U2U Relay initial access / Source remote UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.52.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.52.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.52.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.53,Test procedure for 5G ProSe Layer-2 U2U Relay initial access / Target remote UE side
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.53.1,Scope
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.53.2,Procedure description
+38.508-1,38508-1-k00_s0406-s0414.docx,4.9.53.3,Specific message contents
+38.508-1,38508-1-k00_s0406-s0414.docx,4.10,Reference configuration for Sidelink
+38.508-1,38508-1-k00_s0406-s0414.docx,4.10.1,Pre-configuration for Sidelink
+38.508-1,38508-1-k00_s0406-s0414.docx,4.11,GNSS Requirements for NR sidelink
+38.508-1,38508-1-k00_s0406-s0414.docx,4.11.1,General
+38.508-1,38508-1-k00_s0406-s0414.docx,4.11.2,GNSS Scenarios
+38.508-1,38508-1-k00_s0406-s0414.docx,4.12,Radio Information Related to Discovery Message
+38.508-1,38508-1-k00_s0406-s0414.docx,4.12.1,Access Information for sidelink relay
+38.508-1,38508-1-k00_s0406-s0414.docx,4.13,Reference Configuration for IDC
+38.508-1,38508-1-k00_s0406-s0414.docx,4.14,Configuration for application layer measurements
+38.508-1,38508-1-k00_s05-s07.docx,5,Test environments for RF test
+38.508-1,38508-1-k00_s05-s07.docx,5.0,General
+38.508-1,38508-1-k00_s05-s07.docx,5.0.1,Single PDU configuration for RF testing
+38.508-1,38508-1-k00_s05-s07.docx,5.1,Requirements of test equipment
+38.508-1,38508-1-k00_s05-s07.docx,5.1.1,Requirements for transmission and reception tests
+38.508-1,38508-1-k00_s05-s07.docx,5.1.1.1,Requirements common for conducted and OTA tests
+38.508-1,38508-1-k00_s05-s07.docx,5.1.1.2,Requirements for conducted tests
+38.508-1,38508-1-k00_s05-s07.docx,5.1.1.3,Requirements for OTA tests
+38.508-1,38508-1-k00_s05-s07.docx,5.1.2,Requirements for performance tests
+38.508-1,38508-1-k00_s05-s07.docx,5.1.2.3,Requirements for OTA test method
+38.508-1,38508-1-k00_s05-s07.docx,5.2,Reference test conditions
+38.508-1,38508-1-k00_s05-s07.docx,5.2.1,Signal levels
+38.508-1,38508-1-k00_s05-s07.docx,5.2.1.1,Signal Levels for conducted testing
+38.508-1,38508-1-k00_s05-s07.docx,5.2.1.2,Signal Levels for OTA testing
+38.508-1,38508-1-k00_s05-s07.docx,5.2.2,Test Frequencies
+38.508-1,38508-1-k00_s05-s07.docx,5.2.2.1,NR operating bands in FR1
+38.508-1,38508-1-k00_s05-s07.docx,5.2.2.2,NR operating bands in FR2
+38.508-1,38508-1-k00_s05-s07.docx,5.2.2.3,NR NTN operating bands
+38.508-1,38508-1-k00_s05-s07.docx,5.2.2.4,Test frequencies for EN-DC band combinations within FR1
+38.508-1,38508-1-k00_s05-s07.docx,5.4,Default NG-RAN RRC message and information elements contents
+38.508-1,38508-1-k00_s05-s07.docx,5.4.1,Radio resource control information elements
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2,Radio resource control information elements for Demodulation Performance and CSI reporting tests
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2.0,Parameters common to all Demod and CSI tests
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2.1,Message contents for PDSCH Demodulation requirements
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2.2,Message contents for PDCCH Demodulation requirements
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2.3,Message contents for Sustained downlink data rate requirements
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2.4,Message contents for CQI reporting requirements
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2.5,Message contents for PMI reporting requirements
+38.508-1,38508-1-k00_s05-s07.docx,5.4.2.6,Message contents for RI reporting requirements
+38.508-1,38508-1-k00_s05-s07.docx,5.4.3,Sidelink information elements for Demodulation Performance tests
+38.508-1,38508-1-k00_s05-s07.docx,5.5,Common procedures for RF testing
+38.508-1,38508-1-k00_s05-s07.docx,5.5.1,Procedure to configure SCC for NR RF CA testing
+38.508-1,38508-1-k00_s05-s07.docx,5.5.1.1,Scope
+38.508-1,38508-1-k00_s05-s07.docx,5.5.1.2,Procedure description
+38.508-1,38508-1-k00_s05-s07.docx,5.5.2,Procedure to configure SCC for EN-DC RF CA testing
+38.508-1,38508-1-k00_s05-s07.docx,5.5.2.1,Scope
+38.508-1,38508-1-k00_s05-s07.docx,5.5.2.2,Procedure description
+38.508-1,38508-1-k00_s05-s07.docx,5.6,Test environment for NTN testing
+38.508-1,38508-1-k00_s05-s07.docx,5.6.1,UE location
+38.508-1,38508-1-k00_s05-s07.docx,5.6.2,Ephemeris Information
+38.508-1,38508-1-k00_s05-s07.docx,5.6.2.0,Assumptions for Ephemeris generation
+38.508-1,38508-1-k00_s05-s07.docx,5.6.2.1,Ephemeris for zero Doppler conditions
+38.508-1,38508-1-k00_s05-s07.docx,5.6.2.2,Ephemeris for non-zero Doppler conditions
+38.508-1,38508-1-k00_s05-s07.docx,5.6.3,"NR NTN message contents for RF Tx/Rx, Demodulation tests"
+38.508-1,38508-1-k00_s05-s07.docx,5.6.3.1,SIB19 IE values
+38.508-1,38508-1-k00_s05-s07.docx,5.6.4,FFS
+38.508-1,38508-1-k00_s05-s07.docx,5.7,Test environment for ATG testing
+38.508-1,38508-1-k00_s05-s07.docx,5.7.1,"NR ATG message contents for RF Tx/Rx, Demodulation tests"
+38.508-1,38508-1-k00_s05-s07.docx,5.7.1.1,atg-Config-r18 values in SIB22
+38.508-1,38508-1-k00_s05-s07.docx,5.7.2,UE location
+38.508-1,38508-1-k00_s05-s07.docx,6,Test environments for Signalling test
+38.508-1,38508-1-k00_s05-s07.docx,6.1,Requirements of test equipment
+38.508-1,38508-1-k00_s05-s07.docx,6.1.1,Requirements common for conducted and OTA tests
+38.508-1,38508-1-k00_s05-s07.docx,6.1.2,Requirements for conducted test method
+38.508-1,38508-1-k00_s05-s07.docx,6.1.3,Requirements for OTA test method
+38.508-1,38508-1-k00_s05-s07.docx,6.1.3.1,General
+38.508-1,38508-1-k00_s05-s07.docx,6.1.3.2,Sample OTA Measurement Test Setup
+38.508-1,38508-1-k00_s05-s07.docx,6.1.3.3,Procedure for selecting UE Orientation and for calibration
+38.508-1,38508-1-k00_s05-s07.docx,6.1.3.4,Handling of Thresholds
+38.508-1,38508-1-k00_s05-s07.docx,6.1.4,Requirements for timer tolerances
+38.508-1,38508-1-k00_s05-s07.docx,6.2,Reference test conditions
+38.508-1,38508-1-k00_s05-s07.docx,6.2.1,Physical Channel Allocations
+38.508-1,38508-1-k00_s05-s07.docx,6.2.1.1,Antennas
+38.508-1,38508-1-k00_s05-s07.docx,6.2.1.2,Downlink physical channels and physical signals
+38.508-1,38508-1-k00_s05-s07.docx,6.2.1.3,Sidelink physical channels and physical signals
+38.508-1,38508-1-k00_s05-s07.docx,6.2.2,Signal levels
+38.508-1,38508-1-k00_s05-s07.docx,6.2.2.1,Signal Levels for conducted testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.2.2,Signal Levels for OTA testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3,Default test frequencies
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.1,Test frequencies for NR standalone signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.2,Test frequencies for EN-DC band combinations for signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.3,Test frequencies for NR and E-UTRA Inter-RAT signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.4,Test frequencies for NR CA configurations for signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.5,Test frequencies for MFBI signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.6,Test frequencies for NR DC configurations for signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.7,Test frequencies for NR sidelink configurations for signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.2.3.8,Test frequencies for NR NTN configurations for signalling testing
+38.508-1,38508-1-k00_s05-s07.docx,6.3,Reference system configurations
+38.508-1,38508-1-k00_s05-s07.docx,6.3.1,Default System Information configurations
+38.508-1,38508-1-k00_s05-s07.docx,6.3.1.1,Intra-frequency neighbouring cell list in SIB3 for NR cells
+38.508-1,38508-1-k00_s05-s07.docx,6.3.1.2,Inter-frequency carrier frequency list in SIB4 for NR cells
+38.508-1,38508-1-k00_s05-s07.docx,6.3.1.3,E-UTRA carrier frequency list in SIB5 for NR cells
+38.508-1,38508-1-k00_s05-s07.docx,6.3.2,Default configurations for NAS test cases
+38.508-1,38508-1-k00_s05-s07.docx,6.3.2.1,Simulated network scenarios for NAS test cases
+38.508-1,38508-1-k00_s05-s07.docx,6.3.2.2,Simulated NAS cells
+38.508-1,38508-1-k00_s05-s07.docx,6.3.3,Cell configuration types
+38.508-1,38508-1-k00_s05-s07.docx,6.3.3.1,Introduction
+38.508-1,38508-1-k00_s05-s07.docx,6.3.3.2,SCell types
+38.508-1,38508-1-k00_s05-s07.docx,6.3.4,Satellite assistance information for NTN
+38.508-1,38508-1-k00_s05-s07.docx,6.3.4.1,GSO scenario
+38.508-1,38508-1-k00_s05-s07.docx,6.3.4.2,NGSO scenario
+38.508-1,38508-1-k00_s05-s07.docx,6.4,Signalling Test Case specific USIM Configurations
+38.508-1,38508-1-k00_s05-s07.docx,6.4.1,General
+38.508-1,38508-1-k00_s05-s07.docx,6.4.2,USIM Configurations for 5G ProSe
+38.508-1,38508-1-k00_s05-s07.docx,7,Test environments for RRM tests
+38.508-1,38508-1-k00_s05-s07.docx,7.0,General
+38.508-1,38508-1-k00_s05-s07.docx,7.0.1,Single PDU configuration for RRM testing
+38.508-1,38508-1-k00_s05-s07.docx,7.1,Test equipment requirements
+38.508-1,38508-1-k00_s05-s07.docx,7.1.3,Requirements for OTA test method
+38.508-1,38508-1-k00_s05-s07.docx,7.1.3.1,General
+38.508-1,38508-1-k00_s05-s07.docx,7.1.3.2,RRM baseline setup
+38.508-1,38508-1-k00_s05-s07.docx,7.2,Reference test conditions
+38.508-1,38508-1-k00_s05-s07.docx,7.2.1,Signal levels
+38.508-1,38508-1-k00_s05-s07.docx,7.2.2,Physical layer parameters
+38.508-1,38508-1-k00_s05-s07.docx,7.2.2.1,Downlink physical layer parameters
+38.508-1,38508-1-k00_s05-s07.docx,7.2.3,Default test frequencies
+38.508-1,38508-1-k00_s05-s07.docx,7.2.3.1,Default test frequencies FR1 NR operating bands
+38.508-1,38508-1-k00_s05-s07.docx,7.2.3.2,Default test frequencies FR2 operating bands
+38.508-1,38508-1-k00_s05-s07.docx,7.2.3.3,NR inter-band CA configurations in FR2
+38.508-1,38508-1-k00_s05-s07.docx,7.2.3.4,NR intra-band contiguous CA configurations in FR2
+38.508-1,38508-1-k00_s05-s07.docx,7.2.3.5,NR intra-band non-contiguous CA configurations in FR2
+38.508-1,38508-1-k00_s05-s07.docx,7.3,Default NG-RAN RRC message and information elements contents for RRM
+38.508-1,38508-1-k00_s05-s07.docx,7.3.0,General definitions
+38.508-1,38508-1-k00_s05-s07.docx,7.3.1,Radio resource control information elements for RRM
+38.508-1,38508-1-k00_s05-s07.docx,7.3.2,Sidelink information elements for RRM
+38.508-1,38508-1-k00_s05-s07.docx,7.4,FFS
+38.508-1,38508-1-k00_s05-s07.docx,7.5,Common procedures for RRM testing
+38.508-1,38508-1-k00_s05-s07.docx,7.5.1,Procedure to configure SCC(s) for NR RRM CA testing
+38.508-1,38508-1-k00_s05-s07.docx,7.5.2,Procedure to configure SCC(s) for EN-DC RRM CA testing
+38.508-1,38508-1-k00_s05-s07.docx,7.6,Test environment for NTN testing
+38.508-1,38508-1-k00_s05-s07.docx,7.6.1,UE location
+38.508-1,38508-1-k00_s05-s07.docx,7.6.2,Ephemeris Information
+38.508-1,38508-1-k00_s05-s07.docx,7.6.2.0,Assumptions for Ephemeris generation
+38.508-1,38508-1-k00_s05-s07.docx,7.6.2.1,Ephemeris for elevation angle 30º
+38.508-1,38508-1-k00_s05-s07.docx,7.6.2.2,Ephemeris for NR NTN RRM UL timing accuracy test cases
+38.508-1,38508-1-k00_s05-s07.docx,7.6.3,NR NTN message contents for RRM tests
+38.508-1,38508-1-k00_s05-s07.docx,7.6.3.1,SIB19 IE values
+38.508-1,38508-1-k00_s05-s07.docx,7.7,Test environment for ATG testing
+38.508-1,38508-1-k00_s05-s07.docx,7.7.1,NR ATG message contents for RRM tests
+38.508-1,38508-1-k00_s05-s07.docx,7.7.1.1,atg-Config-r18 values in SIB22
+38.508-1,38508-1-k00_s05-s07.docx,7.7.1.2,atg-NeighCellConfigList-r18 values in SIB22
+38.508-1,38508-1-k00_s05-s07.docx,7.7.2,UE location
+38.508-1,38508-1-k00_sAnnexes.docx,A.1,Definition of Terms
+38.508-1,38508-1-k00_sAnnexes.docx,A.2,General Considerations on Connections Diagram
+38.508-1,38508-1-k00_sAnnexes.docx,A.3,Setup Diagrams
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1,Test Equipment Parts for Conducted Measurements
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.1,Basic Transmitter/Receiver tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.2,Transmitter tests using Spectrum Analyser
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.3,Transmitter tests using Spectrum Analyser and Signal Generator
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.4,Receiver tests using Signal Generator
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.5,Receiver tests using Spectrum Analyser
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.6,Receiver Performance tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.7,Demodulation Performance and CSI reporting tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.8,RRM tests with more than one NR cell
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.1.9,Test Equipment supporting NR Sidelink
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2,User Equipment Parts for Conducted Measurements
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2.2,One Antenna Connector
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2.3,Two Antenna Connectors
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2.4,Three Antenna Connectors
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2.5,Four Antenna Connectors
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2.6,Over Four Antenna Connectors
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.2.7,User Equipment supporting NR Sidelink
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.3,Test Equipment Parts for Radiated Measurements
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.3.1,Transmitter/Receiver tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.3.2,Demodulation and CSI tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.3.3,RRM tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.4,User Equipment Parts for Radiated Measurements
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.4.1,Basic Transmitter/Receiver tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.4.2,Demodulation and CSI tests
+38.508-1,38508-1-k00_sAnnexes.docx,A.3.4.3,RRM tests
+38.508-1,38508-1-k00_sAnnexes.docx,B.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,B.2,Permitted Test Methods
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.2,Direct far field (DFF)
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.2.1,Description
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.2.2,Quiet zone dimension
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.2.3,Quality of the quiet zone
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.2.4,Measurement Distance
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.3,Direct far field (DFF) setup simplification for centre of beam measurements
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.3.1,Description
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.3.2,Quiet zone dimension
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.3.3,Quality of the quiet zone
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.3.4,Measurement Distance
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.4,Indirect far field (IFF): Compact Antenna Test Range (CATR)
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.4.1,Description
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.4.2,Quiet zone dimension
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.4.3,Quality of the quiet zone
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.4.4,Measurement Distance
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.5,Near field to far field transform (NFTF)
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.5.1,Description
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.5.2,Quiet zone dimension
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.5.3,Quality of the quiet zone
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.5.4,Measurement Distance
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.6,Enhanced IFF
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.6.1,Description
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.6.2,Quiet zone dimension
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.6.3,Quality of the quiet zone
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.6.4,Measurement Distance
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.7,IFF+DFF
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.7.1,Description
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.7.2,Quiet zone dimension
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.7.3,Quality of the quiet zone
+38.508-1,38508-1-k00_sAnnexes.docx,B.2.7.4,Measurement Distance
+38.508-1,38508-1-k00_sAnnexes.docx,C.0,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.1,Definitions and Parameters
+38.508-1,38508-1-k00_sAnnexes.docx,C.2,Determination of test frequencies
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.0,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.1.1,"Determination of test frequencies for Low-, Mid- and High-Range"
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.1.2,Determination test frequencies for of Mid-Low and Mid-High-Range for signalling tests
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.3,Determination of test frequencies for asymmetric uplink and downlink channel bandwidth combinations
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.3.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.3.2,"Determination of Low-, Mid- and High-Range for asymmetric uplink and downlink bandwidth combinations"
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.3.3,Determination of test frequencies for a Mid range adjacent inter-frequency cell for FR2 RRM multicell testing
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4,Frequency determination for NR CA and NR DC configurations
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.1,Determination of test frequencies for NR Inter-band CA and NR DC
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.2,Determination of test frequencies for NR Intra-band Contiguous CA
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.2.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.2.2,"Determination of test frequencies for Low-, Mid- and High-Range"
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.3,Determination of test frequencies for NR Intra-band Non-Contiguous CA
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.3.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.3.2,Determination of test frequencies for a sub-block combination
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.3.4,Determination of CBW combinations to add in initial test frequency tables
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.4.4,Determination of CBW combinations to add in initial test frequency tables for Intra band CA
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.5,Frequency determination for supplemental uplink
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.5.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.5.2,"Determination of Low-, Mid- and High-Range for supplemental uplink bands"
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.6,Frequency determination for EN-DC configurations
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.6.1,Determination of test frequencies for EN-DC Inter-band
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.6.2,Determination of test frequencies for EN_DC Intra-band Contiguous CA
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.6.2.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.6.2.2,"Determination of test frequencies for Low-, Mid- and High-Range with NR at band edges"
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.6.2.3,"Determination of test frequencies for Low-, Mid- and High-Range with E-UTRA at band edges"
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.6.3,Determination of test frequencies for EN-DC Intra-band non-contiguous
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.7,Determination of test frequencies for enhanced channel raster
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.7.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.2.7.2,Determination of test frequencies for Low- and High-Range for enhanced channel raster
+38.508-1,38508-1-k00_sAnnexes.docx,C.3,Determination of SSB and CORESET#0
+38.508-1,38508-1-k00_sAnnexes.docx,C.3.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.3.2,"Determination of SSB, CORESET#0 and signalling parameters for a PCell"
+38.508-1,38508-1-k00_sAnnexes.docx,C.3.3,Determination of SSB and signalling parameters for a carrier without CORESET#0
+38.508-1,38508-1-k00_sAnnexes.docx,C.4,Determination of SSB and CORESET#0 for RRM testing with SSB SCS 120 kHz and 240 kHz
+38.508-1,38508-1-k00_sAnnexes.docx,C.4.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.4.2,"Determination of SSB, CORESET#0 and signalling parameters"
+38.508-1,38508-1-k00_sAnnexes.docx,C.4.3,"Determination of SSB, CORESET#0 and signalling parameters for NR Intra-band Contiguous CA for PCell"
+38.508-1,38508-1-k00_sAnnexes.docx,C.4.4,"Determination of SSB, CORESET#0 and signalling parameters for NR Intra-band Contiguous CA for SCell"
+38.508-1,38508-1-k00_sAnnexes.docx,C.5,Determination of test frequencies and S-SSB for V2X bands
+38.508-1,38508-1-k00_sAnnexes.docx,C.5.1,General
+38.508-1,38508-1-k00_sAnnexes.docx,C.5.2,Determination of test frequencies and S-SSB for V2X bands

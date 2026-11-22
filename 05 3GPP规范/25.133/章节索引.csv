@@ -1,0 +1,536 @@
+﻿规范,文件,条款,标题
+25.133,25133-j00.docx,1,Scope
+25.133,25133-j00.docx,2,References
+25.133,25133-j00.docx,3,"Definitions, symbols and abbreviations"
+25.133,25133-j00.docx,3.1,Definitions
+25.133,25133-j00.docx,3.2,Symbols
+25.133,25133-j00.docx,3.3,Abbreviations
+25.133,25133-j00.docx,3.4,Test tolerances
+25.133,25133-j00.docx,3.5,Additional notation
+25.133,25133-j00.docx,3.5.1,Groups of E-UTRA bands
+25.133,25133-j00.docx,4,Idle Mode Tasks
+25.133,25133-j00.docx,4.1,Cell Selection
+25.133,25133-j00.docx,4.1.1,Introduction
+25.133,25133-j00.docx,4.2,Cell Re-selection
+25.133,25133-j00.docx,4.2.1,Introduction
+25.133,25133-j00.docx,4.2.2,Requirements
+25.133,25133-j00.docx,4.2.2.1,Measurement and evaluation of cell selection criteria S of serving cell
+25.133,25133-j00.docx,4.2.2.2,Measurements of intra-frequency cells
+25.133,25133-j00.docx,4.2.2.3,Measurements of inter-frequency FDD cells
+25.133,25133-j00.docx,4.2.2.4,Measurements of inter-frequency TDD cells
+25.133,25133-j00.docx,4.2.2.5,Measurements of inter-RAT GSM cells
+25.133,25133-j00.docx,4.2.2.6,Evaluation of cell re-selection criteria
+25.133,25133-j00.docx,4.2.2.7,Maximum interruption in paging reception
+25.133,25133-j00.docx,4.2.2.8,Number of cells in cell lists
+25.133,25133-j00.docx,4.2.2.9,Additional requirements for measurement of inter-frequency and inter-RAT cells when MBMS reception is active
+25.133,25133-j00.docx,4.2.2.10,MTCH Interruption time
+25.133,25133-j00.docx,4.2.2.11,Reselection to CSG cells
+25.133,25133-j00.docx,4.3,MBSFN cluster selection
+25.133,25133-j00.docx,4.3.1,Introduction
+25.133,25133-j00.docx,4.4,MBSFN cluster reselection
+25.133,25133-j00.docx,4.4.1,Introduction
+25.133,25133-j00.docx,4.5,Minimization of Drive Tests (MDT)
+25.133,25133-j00.docx,4.5.1,Introduction
+25.133,25133-j00.docx,4.5.2,Measurements
+25.133,25133-j00.docx,4.5.2.1,Requirements
+25.133,25133-j00.docx,4.5.3,Relative Time Stamp Accuracy
+25.133,25133-j00.docx,4.5.3.1,Requirements
+25.133,25133-j00.docx,4.5.4,Relative Time Stamp Accuracy for RRC Connection Establishment Failure Log Reporting
+25.133,25133-j00.docx,4.5.4.1,Requirements
+25.133,25133-j00.docx,5,UTRAN Connected mode mobility
+25.133,25133-j00.docx,5.1,FDD/FDD Soft Handover
+25.133,25133-j00.docx,5.1.1,Introduction
+25.133,25133-j00.docx,5.1.2,Requirements
+25.133,25133-j00.docx,5.1.2.1,Active set dimension
+25.133,25133-j00.docx,5.1.2.2,Active set update delay
+25.133,25133-j00.docx,5.1.2.3,Interruption Time
+25.133,25133-j00.docx,5.2,FDD/FDD Hard Handover
+25.133,25133-j00.docx,5.2.1,Introduction
+25.133,25133-j00.docx,5.2.2,Requirements
+25.133,25133-j00.docx,5.2.2.1,Hard handover delay
+25.133,25133-j00.docx,5.2.2.2,Interruption time
+25.133,25133-j00.docx,5.3,FDD/TDD Handover
+25.133,25133-j00.docx,5.3.1,Introduction
+25.133,25133-j00.docx,5.3.2,Requirements
+25.133,25133-j00.docx,5.3.2.1,FDD/TDD handover delay
+25.133,25133-j00.docx,5.3.2.2,Interruption time
+25.133,25133-j00.docx,5.4,FDD/GSM Handover
+25.133,25133-j00.docx,5.4.1,Introduction
+25.133,25133-j00.docx,5.4.2,Requirements
+25.133,25133-j00.docx,5.4.2.1,Handover delay
+25.133,25133-j00.docx,5.4.2.2,Interruption time
+25.133,25133-j00.docx,5.5,Cell Re-selection in CELL_FACH
+25.133,25133-j00.docx,5.5.1,Introduction
+25.133,25133-j00.docx,5.5.2,Requirements
+25.133,25133-j00.docx,5.5.2.1,Cell re-selection delay
+25.133,25133-j00.docx,5.5.2.2,Interruption time
+25.133,25133-j00.docx,5.5.2.3,Measurement and evaluation of cell selection criteria S of serving cell
+25.133,25133-j00.docx,5.6,Cell Re-selection in CELL_PCH
+25.133,25133-j00.docx,5.6.1,Introduction
+25.133,25133-j00.docx,5.6.2,Requirements
+25.133,25133-j00.docx,5.7,Cell Re-selection in URA_PCH
+25.133,25133-j00.docx,5.7.1,Introduction
+25.133,25133-j00.docx,5.7.2,Requirements
+25.133,25133-j00.docx,5.8,RACH reporting
+25.133,25133-j00.docx,5.8.1,Introduction
+25.133,25133-j00.docx,5.8.2,Requirements
+25.133,25133-j00.docx,5.9,Inter-RAT cell change order from UTRAN in CELL_DCH and CELL_FACH
+25.133,25133-j00.docx,5.9.1,Introduction
+25.133,25133-j00.docx,5.9.2,Requirements
+25.133,25133-j00.docx,5.9.2.1,Delay
+25.133,25133-j00.docx,5.9.2.2,Interruption time
+25.133,25133-j00.docx,5.10,Serving HS-DSCH cell change
+25.133,25133-j00.docx,5.10.3,Introduction
+25.133,25133-j00.docx,5.10.2,Requirements
+25.133,25133-j00.docx,5.10.2.1,Serving HS-DSCH cell change delay
+25.133,25133-j00.docx,5.10.2.2,Interruption time
+25.133,25133-j00.docx,5.11,Enhanced Serving HS-DSCH cell change
+25.133,25133-j00.docx,5.11.1,Introduction
+25.133,25133-j00.docx,5.11.2,Requirements
+25.133,25133-j00.docx,5.12,Interruption on Primary Uplink Frequency in DC-HSUPA
+25.133,25133-j00.docx,5.12.1,Introduction
+25.133,25133-j00.docx,5.12.2,Requirements
+25.133,25133-j00.docx,5.13,System information acquisition for CSG cell
+25.133,25133-j00.docx,5.13.1,Introduction
+25.133,25133-j00.docx,5.13.2,CSG SI acquisition delay
+25.133,25133-j00.docx,5.13.3,Interfrequency CSG decoding interruption
+25.133,25133-j00.docx,5.13.4,CSG reporting delay
+25.133,25133-j00.docx,5.14,System information acquisition for inter-RAT E-UTRA cell
+25.133,25133-j00.docx,5.14.1,Identification of a new CGI of inter-RAT E-UTRA FDD cell with autonomous gaps
+25.133,25133-j00.docx,5.14.2,Identification of a new CGI of inter-RAT E-UTRA TDD cell with autonomous gaps
+25.133,25133-j00.docx,5.14.3,ECGI reporting delay
+25.133,25133-j00.docx,5.15,Packet Loss Rate on Serving HS-DSCH Cells in Multi-Carrier HSDPA
+25.133,25133-j00.docx,5.15.1,Introduction
+25.133,25133-j00.docx,5.15.2,Requirements
+25.133,25133-j00.docx,6,RRC Connection Control
+25.133,25133-j00.docx,6.1,RRC Re-establishment
+25.133,25133-j00.docx,6.1.1,Introduction
+25.133,25133-j00.docx,6.1.2,Requirements
+25.133,25133-j00.docx,6.1.2.1,UE Re-establishment delay requirement
+25.133,25133-j00.docx,6.3,Random Access
+25.133,25133-j00.docx,6.3.1,Introduction
+25.133,25133-j00.docx,6.3.2,Requirements
+25.133,25133-j00.docx,6.3.2.1,Correct behaviour when receiving an ACK
+25.133,25133-j00.docx,6.3.2.2,Correct behaviour when receiving an NACK
+25.133,25133-j00.docx,6.3.2.3,Correct behaviour at Time-out
+25.133,25133-j00.docx,6.3.2.4,Correct behaviour when reaching maximum transmit power
+25.133,25133-j00.docx,6.3.2.5,Correct behaviour when selecting 2 or 10msec TTI length for Enhanced Uplink in CELL_FACH state and idle mode
+25.133,25133-j00.docx,6.4,Transport format combination selection in UE
+25.133,25133-j00.docx,6.4.1,Introduction
+25.133,25133-j00.docx,6.4.2,Requirements
+25.133,25133-j00.docx,6.5,Maximum allowed UL TX Power
+25.133,25133-j00.docx,6.7,CSG Proximity Indication for E-UTRAN and UTRAN
+25.133,25133-j00.docx,6.7.1,Introduction
+25.133,25133-j00.docx,6.7.2,Requirements
+25.133,25133-j00.docx,6.8,10ms Mode/20ms Mode switching in DCH
+25.133,25133-j00.docx,6.8.1,Introduction
+25.133,25133-j00.docx,6.8.2,Requirements
+25.133,25133-j00.docx,7,Timing and Signalling characteristics
+25.133,25133-j00.docx,7.1,UE Transmit Timing
+25.133,25133-j00.docx,7.1.1,Introduction
+25.133,25133-j00.docx,7.1.2,Requirements
+25.133,25133-j00.docx,7.2,UE Receive - Transmit Time Difference
+25.133,25133-j00.docx,7.2.1,Introduction
+25.133,25133-j00.docx,7.2.2,Requirements
+25.133,25133-j00.docx,7.3,UE timer accuracy
+25.133,25133-j00.docx,7.3.1,Introduction
+25.133,25133-j00.docx,7.3.2,Requirements
+25.133,25133-j00.docx,7.4,PRACH Burst timing accuracy
+25.133,25133-j00.docx,7.4.1,Introduction
+25.133,25133-j00.docx,7.4.2,Requirements
+25.133,25133-j00.docx,8,UE Measurements Procedures
+25.133,25133-j00.docx,8.1,General Measurement Requirements in CELL_DCH State
+25.133,25133-j00.docx,8.1.1,Introduction
+25.133,25133-j00.docx,8.1.2,Requirements
+25.133,25133-j00.docx,8.1.2.1,UE Measurement Capability
+25.133,25133-j00.docx,8.1.2.2,FDD intra frequency measurements
+25.133,25133-j00.docx,8.1.2.3,FDD inter frequency measurements
+25.133,25133-j00.docx,8.1.2.4,TDD measurements
+25.133,25133-j00.docx,8.1.2.5,GSM measurements
+25.133,25133-j00.docx,8.1.2.6,E-UTRAN measurements
+25.133,25133-j00.docx,8.2,Measurements in CELL_DCH State with special requirements
+25.133,25133-j00.docx,8.2.1,Introduction
+25.133,25133-j00.docx,8.2.2,Requirements
+25.133,25133-j00.docx,8.3,Capabilities for Support of Event Triggering and Reporting Criteria in CELL_DCH state
+25.133,25133-j00.docx,8.3.1,Introduction
+25.133,25133-j00.docx,8.3.2,Requirements
+25.133,25133-j00.docx,8.4,Measurements in CELL_FACH State when HS-DSCH discontinuous reception is not ongoing
+25.133,25133-j00.docx,8.4.1,Introduction
+25.133,25133-j00.docx,8.4.2,Requirements
+25.133,25133-j00.docx,8.4.2.1,UE Measurement Capability when HS-DSCH discontinuous reception is not ongoing
+25.133,25133-j00.docx,8.4.2.2,FDD intra frequency measurements when HS-DSCH discontinuous reception is not ongoing
+25.133,25133-j00.docx,8.4.2.3,FDD inter frequency measurements when HS-DSCH discontinuous reception is not ongoing
+25.133,25133-j00.docx,8.4.2.4,TDD measurements when HS-DSCH discontinuous reception is not ongoing
+25.133,25133-j00.docx,8.4.2.5,GSM measurements when HS-DSCH discontinuous reception is not ongoing
+25.133,25133-j00.docx,8.4.2.6,E-UTRAN measurements when HS-DSCH discontinuous reception is not ongoing
+25.133,25133-j00.docx,8.5,Capabilities for Support of Event Triggering and Reporting Criteria in CELL_FACH state
+25.133,25133-j00.docx,8.5.1,Introduction
+25.133,25133-j00.docx,8.5.2,Requirements
+25.133,25133-j00.docx,9,Measurements Performance Requirements
+25.133,25133-j00.docx,9.1,Measurement Performance for UE
+25.133,25133-j00.docx,9.1.1,CPICH RSCP
+25.133,25133-j00.docx,9.1.1.1,Intra frequency measurements accuracy
+25.133,25133-j00.docx,9.1.1.2,Inter frequency measurement accuracy
+25.133,25133-j00.docx,9.1.1.3,CPICH RSCP measurement report mapping
+25.133,25133-j00.docx,9.1.2,CPICH Ec/Io
+25.133,25133-j00.docx,9.1.2.1,Intra frequency measurements accuracy
+25.133,25133-j00.docx,9.1.2.2,Inter frequency measurement accuracy
+25.133,25133-j00.docx,9.1.2.3,CPICH Ec/Io measurement report mapping
+25.133,25133-j00.docx,9.1.3,UTRA Carrier RSSI
+25.133,25133-j00.docx,9.1.3.1,Absolute accuracy requirement
+25.133,25133-j00.docx,9.1.3.2,Relative accuracy requirement
+25.133,25133-j00.docx,9.1.3.3,UTRA Carrier RSSI measurement report mapping
+25.133,25133-j00.docx,9.1.4,GSM carrier RSSI
+25.133,25133-j00.docx,9.1.5,Transport channel BLER
+25.133,25133-j00.docx,9.1.5.1,BLER measurement requirement
+25.133,25133-j00.docx,9.1.5.2,Transport channel BLER measurement report mapping
+25.133,25133-j00.docx,9.1.6,UE transmitted power
+25.133,25133-j00.docx,9.1.6.1,Accuracy requirement
+25.133,25133-j00.docx,9.1.6.2,UE transmitted power measurement report mapping
+25.133,25133-j00.docx,9.1.7,SFN-CFN observed time difference
+25.133,25133-j00.docx,9.1.7.1,Intra frequency measurement requirement
+25.133,25133-j00.docx,9.1.7.2,Inter frequency measurement requirement
+25.133,25133-j00.docx,9.1.7.3,SFN-CFN observed time difference measurement report mapping
+25.133,25133-j00.docx,9.1.8,SFN-SFN observed time difference
+25.133,25133-j00.docx,9.1.8.1,SFN-SFN observed time difference type 1
+25.133,25133-j00.docx,9.1.8.2,SFN-SFN observed time difference type 2
+25.133,25133-j00.docx,9.1.9,UE Rx-Tx time difference
+25.133,25133-j00.docx,9.1.9.1,UE Rx-Tx time difference type 1
+25.133,25133-j00.docx,9.1.9.2,UE Rx-Tx time difference type 2
+25.133,25133-j00.docx,9.1.11,P-CCPCH RSCP
+25.133,25133-j00.docx,9.1.11.1,Absolute accuracy requirements
+25.133,25133-j00.docx,9.1.11.2,P-CCPCH RSCP measurement report mapping
+25.133,25133-j00.docx,9.1.12,UE GPS Timing of Cell Frames for UE positioning
+25.133,25133-j00.docx,9.1.12.1,UE GPS timing of Cell Frames for UE positioning measurement report mapping
+25.133,25133-j00.docx,9.1.13,UE transmission power headroom
+25.133,25133-j00.docx,9.1.13.1,Delay requirement
+25.133,25133-j00.docx,9.1.13.2,Measurement period requirement
+25.133,25133-j00.docx,9.1.13.3,UE transmission power headroom measurement report mapping
+25.133,25133-j00.docx,9.1.13.4,UE transmission power headroom measurement report accuracy
+25.133,25133-j00.docx,9.1.14,IEEE 802.11 Measurements
+25.133,25133-j00.docx,9.1.14.1,Introduction
+25.133,25133-j00.docx,9.1.14.2,IEEE 802.11 Beacon RSSI
+25.133,25133-j00.docx,9.2,Measurements Performance for UTRAN
+25.133,25133-j00.docx,9.2.1,Received total wideband power
+25.133,25133-j00.docx,9.2.1.1,Absolute accuracy requirement
+25.133,25133-j00.docx,9.2.1.2,Relative accuracy requirement
+25.133,25133-j00.docx,9.2.1.3,Received total wideband power measurement report mapping
+25.133,25133-j00.docx,9.2.2,SIR
+25.133,25133-j00.docx,9.2.2.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.2.2,SIR measurement report mapping
+25.133,25133-j00.docx,9.2.3,SIRerror
+25.133,25133-j00.docx,9.2.3.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.3.2,SIRerror measurement report mapping
+25.133,25133-j00.docx,9.2.4,Transmitted carrier power
+25.133,25133-j00.docx,9.2.4.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.4.2,Transmitted carrier power measurement report mapping
+25.133,25133-j00.docx,9.2.5,Transmitted code power
+25.133,25133-j00.docx,9.2.5.1,Absolute accuracy requirement
+25.133,25133-j00.docx,9.2.5.2,Relative accuracy requirement
+25.133,25133-j00.docx,9.2.5.3,Transmitted code power measurement report mapping
+25.133,25133-j00.docx,9.2.7,Physical channel BER
+25.133,25133-j00.docx,9.2.7.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.7.2,Physical channel BER measurement report mapping
+25.133,25133-j00.docx,9.2.8,Round trip time
+25.133,25133-j00.docx,9.2.8.1,Absolute accuracy requirement
+25.133,25133-j00.docx,9.2.8.2,Round trip time measurement report mapping
+25.133,25133-j00.docx,9.2.9,Transport Channel BER
+25.133,25133-j00.docx,9.2.9.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.9.2,Transport channel BER measurement report mapping
+25.133,25133-j00.docx,9.2.10,UTRAN GPS Timing of Cell Frames for UE positioning
+25.133,25133-j00.docx,9.2.10.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.10.2,UTRAN GPS timing of Cell Frames for UE positioning measurement report mapping
+25.133,25133-j00.docx,9.2.11,PRACH Propagation delay
+25.133,25133-j00.docx,9.2.11.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.11.2,PRACH Propagation delay measurement report mapping
+25.133,25133-j00.docx,9.2.12,Acknowledged PRACH preambles
+25.133,25133-j00.docx,9.2.12.1,Acknowledged PRACH preambles measurement report mapping
+25.133,25133-j00.docx,9.2.15,SFN-SFN observed time difference
+25.133,25133-j00.docx,9.2.15.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.15.2,SFN-SFN observed time difference measurement report mapping
+25.133,25133-j00.docx,9.2.16,"Transmitted carrier power of all codes not used for HS-PDSCH, HS-SCCH, E-AGCH, E-RGCH or E-HICH transmission"
+25.133,25133-j00.docx,9.2.16.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.17,DL Transmission Branch Load
+25.133,25133-j00.docx,9.2.17.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.17.2,DL Transmission Branch Load measurement report mapping
+25.133,25133-j00.docx,9.2.18,Received scheduled E-DCH power share (RSEPS)
+25.133,25133-j00.docx,9.2.18.1,Accuracy requirement
+25.133,25133-j00.docx,9.2.18.2,Received scheduled E-DCH power share measurement report mapping
+25.133,25133-j00.docx,Annex A,(normative):	Test Cases
+25.133,25133-j00.docx,A.1,Purpose of Annex
+25.133,25133-j00.docx,A.2,Requirement classification for statistical testing
+25.133,25133-j00.docx,A.2.1,Types of requirements in TS 25.133
+25.133,25133-j00.docx,A.3,RRM test configurations
+25.133,25133-j00.docx,A.3.1,UE with single antenna connector
+25.133,25133-j00.docx,A.3.2,UE with multiple antenna connectors
+25.133,25133-j00.docx,A.4,Idle Mode
+25.133,25133-j00.docx,A.4.2,Cell Re-Selection
+25.133,25133-j00.docx,A.4.2.1,Scenario 1: Single carrier case
+25.133,25133-j00.docx,A.4.2.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.2.1.2,Test Requirements
+25.133,25133-j00.docx,A.4.2.2,Scenario 2: Multi carrier case
+25.133,25133-j00.docx,A.4.2.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.2.2.2,Test Requirements
+25.133,25133-j00.docx,A.4.2.3,Idle mode interfrequency reselection with an increased number of carriers
+25.133,25133-j00.docx,A.4.2.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.2.3.2,Test Requirements
+25.133,25133-j00.docx,A.4.2.4,Scenario 4: Single carrier case with extended DRX
+25.133,25133-j00.docx,A.4.2.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.2.4,Scenario 5: Idle mode interfrequency reselection with extended DRX
+25.133,25133-j00.docx,A.4.3,UTRAN to GSM Cell Re-Selection
+25.133,25133-j00.docx,A.4.3.1,Scenario 1
+25.133,25133-j00.docx,A.4.3.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.3.1.2,Test Requirements
+25.133,25133-j00.docx,A.4.3.2,Scenario 2
+25.133,25133-j00.docx,A.4.3.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.3.2.2,Test Requirements
+25.133,25133-j00.docx,A.4.3.3,Scenario 3
+25.133,25133-j00.docx,A.4.3.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.3.3.2,Test Requirements
+25.133,25133-j00.docx,A.4.4,FDD/TDD Cell Re-selection
+25.133,25133-j00.docx,A.4.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.4.1.1,"3,84 Mcps TDD Option"
+25.133,25133-j00.docx,A.4.4.1.2,1.28 Mcps TDD Option
+25.133,25133-j00.docx,A.4.4.2,Test Requirements
+25.133,25133-j00.docx,A.4.5,UTRAN to E-UTRA Cell Reselection
+25.133,25133-j00.docx,A.4.5.1,E-UTRA FDD is of higher priority
+25.133,25133-j00.docx,A.4.5.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.5.1.2,Test Requirements
+25.133,25133-j00.docx,A.4.5.2,E-UTRA FDD is of lower priority
+25.133,25133-j00.docx,A.4.5.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.5.2.2,Test Requirements
+25.133,25133-j00.docx,A.4.5.3,RSRQ based reselection when E-UTRA FDD is of higher priority
+25.133,25133-j00.docx,A.4.5.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.5.3.2,Test Requirements
+25.133,25133-j00.docx,A.4.5.4,E-UTRA FDD is of higher priority (Increased UE carrier monitoring)
+25.133,25133-j00.docx,A.4.5.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.4.5.4.2,Test Requirements
+25.133,25133-j00.docx,A.5,UTRAN Connected Mode Mobility
+25.133,25133-j00.docx,A.5.1,FDD/FDD Soft Handover
+25.133,25133-j00.docx,A.5.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.1.1.1,Test procedure
+25.133,25133-j00.docx,A.5.1.2,Test Requirements
+25.133,25133-j00.docx,A.5.2,FDD/FDD Hard Handover
+25.133,25133-j00.docx,A.5.2.1,Handover to intra-frequency cell
+25.133,25133-j00.docx,A.5.2.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.2.1.2,Test Requirements
+25.133,25133-j00.docx,A.5.2.2,Handover to inter-frequency cell
+25.133,25133-j00.docx,A.5.2.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.2.2.2,Test Requirements
+25.133,25133-j00.docx,A.5.4,Inter-system Handover from UTRAN FDD to GSM
+25.133,25133-j00.docx,A.5.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.4.2,Test Requirements
+25.133,25133-j00.docx,A.5.5,Cell Re-selection in CELL_FACH
+25.133,25133-j00.docx,A.5.5.1,One frequency present in neighbour list and FACH measurement occasions configured
+25.133,25133-j00.docx,A.5.5.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.5.1.2,Test Requirements
+25.133,25133-j00.docx,A.5.5.2,Two frequencies present in the neighbour list and FACH measurement occasions configured
+25.133,25133-j00.docx,A.5.5.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.5.2.2,Test Requirements
+25.133,25133-j00.docx,A.5.5.3,Cell Reselection to GSM
+25.133,25133-j00.docx,A.5.5.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.5.3.2,Test Requirements
+25.133,25133-j00.docx,A.5.5.4,"Cell Reselection during an MBMS session, two frequencies present in neighbour list"
+25.133,25133-j00.docx,A.5.5.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.5.4.2,Test Requirements
+25.133,25133-j00.docx,A.5.5.5,UTRAN to E-UTRA Cell Reselection
+25.133,25133-j00.docx,A.5.5.5.1,Reselection to E-UTRA FDD when HS-DSCH DRX is configured (E-UTRA has higher priority)
+25.133,25133-j00.docx,A.5.5.5.2,Reselection to E-UTRA FDD when HS-DSCH DRX is configured (E-UTRA has lower priority)
+25.133,25133-j00.docx,A.5.5.5,2.1	Test Purpose and Environment
+25.133,25133-j00.docx,A.5.5.5.3,Reselection to E-UTRA FDD when HS-DSCH 2nd DRX is configured (E-UTRA has higher priority)
+25.133,25133-j00.docx,A.5.5.5.4,Reselection to E-UTRA TDD when HS-DSCH DRX is configured (E-UTRA has higher priority)
+25.133,25133-j00.docx,A.5.5.5.5,Reselection to E-UTRA TDD when HS-DSCH DRX is configured (E-UTRA has lower priority)
+25.133,25133-j00.docx,A.5.5.5.7,Reselection to E-UTRA FDD with FACH measurement occasions configured
+25.133,25133-j00.docx,A.5.5.5.8,Reselection to E-UTRA TDD with FACH measurement occasions configured
+25.133,25133-j00.docx,A.5.6,Cell Re-selection in CELL_PCH
+25.133,25133-j00.docx,A.5.6.1,One frequency present in the neighbour list
+25.133,25133-j00.docx,A.5.6.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.6.1.2,Test Requirements
+25.133,25133-j00.docx,A.5.6.2,Two frequencies present in the neighbour list
+25.133,25133-j00.docx,A.5.6.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.6.2.2,Test Requirements
+25.133,25133-j00.docx,A.5.6.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.6.3.2,Test Requirements
+25.133,25133-j00.docx,A.5.7,Cell Re-selection in URA_PCH
+25.133,25133-j00.docx,A.5.7.1,One frequency present in the neighbour list
+25.133,25133-j00.docx,A.5.7.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.7.1.2,Test Requirements
+25.133,25133-j00.docx,A.5.7.2,Two frequencies present in the neighbour list
+25.133,25133-j00.docx,A.5.7.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.7.2.2,Test Requirements
+25.133,25133-j00.docx,A.5.8,Serving HS-DSCH cell change
+25.133,25133-j00.docx,A.5.8.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.8.1.1,Test procedure
+25.133,25133-j00.docx,A.5.8.2,Test Requirements
+25.133,25133-j00.docx,A.5.9,Enhanced Serving HS-DSCH cell change
+25.133,25133-j00.docx,A.5.9.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.9.1.1,Test procedure
+25.133,25133-j00.docx,A.5.9.2,Test Requirements
+25.133,25133-j00.docx,A.5.10,Intrafrequency System information acquisition for CSG cell
+25.133,25133-j00.docx,A.5.10.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.10.2,Test Requirements
+25.133,25133-j00.docx,A.5.11,Interfrequency System information acquisition for CSG cell
+25.133,25133-j00.docx,A.5.11.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.11.2,Test Requirements
+25.133,25133-j00.docx,A.6,RRC Connection Control
+25.133,25133-j00.docx,A.6.1,RRC Re-establishment delay
+25.133,25133-j00.docx,A.6.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.6.1.1.1,TEST 1
+25.133,25133-j00.docx,A.6.1.1.2,TEST 2
+25.133,25133-j00.docx,A.6.1.2,Test Requirements
+25.133,25133-j00.docx,A.6.1.2.1,Test 1
+25.133,25133-j00.docx,A.6.1.2.2,Test 2
+25.133,25133-j00.docx,A.6.2,Random Access
+25.133,25133-j00.docx,A.6.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.6.2.2,Test Requirements
+25.133,25133-j00.docx,A.6.2.2.1,Correct behaviour when receiving an ACK
+25.133,25133-j00.docx,A.6.2.2.2,Correct behaviour when receiving an NACK
+25.133,25133-j00.docx,A.6.2.2.3,Correct behaviour at Time-out
+25.133,25133-j00.docx,A.6.2.2.4,Correct behaviour when reaching maximum transmit power
+25.133,25133-j00.docx,A.6.2.2.5,Correct behaviour when selecting 2 or 10msec TTI length for Enhanced Uplink in CELL_FACH state and idle mode
+25.133,25133-j00.docx,A.6.4,Transport format combination selection in UE
+25.133,25133-j00.docx,A.6.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.6.4.1.1,"Interactive or Background, PS, UL: 64 kbps"
+25.133,25133-j00.docx,A.6.4.1.2,"Interactive or Background, PS, UL: 64 kbps + Conversational / speech, CS, UL: 12.2kbps"
+25.133,25133-j00.docx,A.6.4.2,Test Requirements
+25.133,25133-j00.docx,A.6.4.2.1,"Interactive or Background, PS, UL: 64 kbps"
+25.133,25133-j00.docx,A.6.4.2.2,"Interactive or Background, PS, UL: 64 kbps + Conversational / speech, CS, UL: 12.2kbps"
+25.133,25133-j00.docx,A.6.6,E-TFC restriction in UE
+25.133,25133-j00.docx,A.6.6.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.6.6.1.1,10ms TTI E-DCH E-TFC restriction testcase
+25.133,25133-j00.docx,A.6.6.1.2,2ms TTI E-DCH E-TFC restriction testcase
+25.133,25133-j00.docx,A.7,Timing and Signalling Characteristics
+25.133,25133-j00.docx,A.7.1,UE Transmit Timing
+25.133,25133-j00.docx,A.7.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.7.1.2,Test Requirements
+25.133,25133-j00.docx,A.8,UE Measurements Procedures
+25.133,25133-j00.docx,A.8.1,FDD intra frequency measurements
+25.133,25133-j00.docx,A.8.1.1,Event triggered reporting in AWGN propagation conditions
+25.133,25133-j00.docx,A.8.1.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.1.1.2,Test Requirements
+25.133,25133-j00.docx,A.8.1.2,Event triggered reporting of multiple neighbours in AWGN propagation condition
+25.133,25133-j00.docx,A.8.1.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.1.2.2,Test Requirements
+25.133,25133-j00.docx,A.8.1.3,Event triggered reporting of two detectable neighbours in AWGN propagation condition
+25.133,25133-j00.docx,A.8.1.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.1.3.2,Test Requirements
+25.133,25133-j00.docx,A.8.1.4,Correct reporting of neighbours in fading propagation condition
+25.133,25133-j00.docx,A.8.1.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.1.4.2,Test Requirements
+25.133,25133-j00.docx,A.8.1.5,Event triggered reporting of multiple neighbour cells in Case 1 fading condition
+25.133,25133-j00.docx,A.8.1.5.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.1.5.2,Test Requirements
+25.133,25133-j00.docx,A.8.1.6,Event triggered reporting of multiple neighbour cells in Case 3 fading condition
+25.133,25133-j00.docx,A.8.1.6.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.1.6.2,Test Requirements
+25.133,25133-j00.docx,A.8.1.7,Event triggered reporting in AWGN propagation conditions
+25.133,25133-j00.docx,A.8.1.7.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.1.7.2,Test Requirements
+25.133,25133-j00.docx,A.8.2,FDD inter frequency measurements
+25.133,25133-j00.docx,A.8.2.1,Correct reporting of neighbours in AWGN propagation condition
+25.133,25133-j00.docx,A.8.2.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.2.1.2,Test Requirements
+25.133,25133-j00.docx,A.8.2.2,Correct reporting of neighbours in Fading propagation condition
+25.133,25133-j00.docx,A.8.2.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.2.2.2,Test Requirements
+25.133,25133-j00.docx,A.8.2.3,Correct reporting of neighbours in fading propagation condition using TGL1=14
+25.133,25133-j00.docx,A.8.2.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.2.3.2,Test Requirements
+25.133,25133-j00.docx,A.8.4,GSM measurements
+25.133,25133-j00.docx,A.8.4.1,Correct reporting of GSM neighbours in AWGN propagation condition
+25.133,25133-j00.docx,A.8.4.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.4.1.2,Test Requirements
+25.133,25133-j00.docx,A.8.5,Combined Interfrequency and GSM measurements
+25.133,25133-j00.docx,A.8.5.1,Correct reporting of neighbours in AWGN propagation condition
+25.133,25133-j00.docx,A.8.5.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.5.1.2,Test Requirements
+25.133,25133-j00.docx,A.8.6,E-UTRAN Measurements
+25.133,25133-j00.docx,A.8.6.1,Correct reporting of E-UTRAN FDD neighbours in fading propagation condition in CELL_DCH
+25.133,25133-j00.docx,A.8.6.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.6.1.2,Test Requirements
+25.133,25133-j00.docx,A.8.6.2,Correct reporting of E-UTRAN TDD neighbours in fading propagation condition in CELL_DCH
+25.133,25133-j00.docx,A.8.6.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.6.2.2,Test Requirements
+25.133,25133-j00.docx,A.8.6.3,Correct reporting of E-UTRAN FDD neighbours in fading propagation condition in CELL_FACH
+25.133,25133-j00.docx,A.8.6.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.6.3.2,Test Requirements
+25.133,25133-j00.docx,A.8.6.4,Correct reporting of E-UTRAN TDD neighbours in fading propagation condition
+25.133,25133-j00.docx,A.8.6.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.6.4.2,Test Requirements
+25.133,25133-j00.docx,A.8.6.5.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.6.5.2,Test Requirements
+25.133,25133-j00.docx,A.8.6.6.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.6.6.2,Test Requirements
+25.133,25133-j00.docx,A.8.7,Combined Interfrequency and E-UTRAN measurements
+25.133,25133-j00.docx,A.8.7.1,Correct reporting of E-UTRA FDD neighbours in fading propagation condition
+25.133,25133-j00.docx,A.8.7.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.7.1.2,Test Requirements
+25.133,25133-j00.docx,A.8.7.2,Correct reporting of E-UTRA TDD neighbours in fading propagation condition
+25.133,25133-j00.docx,A.8.7.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.8.7.2.2,Test Requirements
+25.133,25133-j00.docx,A.9,Measurement Performance Requirements
+25.133,25133-j00.docx,A.9.1,Measurement Performance for UE
+25.133,25133-j00.docx,A.9.1.1,CPICH RSCP
+25.133,25133-j00.docx,A.9.1.1.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.1.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.2,CPICH Ec/Io
+25.133,25133-j00.docx,A.9.1.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.2.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.3,UTRA Carrier RSSI
+25.133,25133-j00.docx,A.9.1.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.3.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.4,SFN-CFN observed time difference
+25.133,25133-j00.docx,A.9.1.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.4.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.5,SFN-SFN observed time difference
+25.133,25133-j00.docx,A.9.1.5.1,SFN-SFN observed time difference type 1
+25.133,25133-j00.docx,A.9.1.5.2,SFN-SFN observed time difference type 2 without IPDL period active
+25.133,25133-j00.docx,A.9.1.5.3,SFN-SFN observed time difference type 2 with IPDL period active
+25.133,25133-j00.docx,A.9.1.6,UE Rx-Tx time difference
+25.133,25133-j00.docx,A.9.1.6.1,UE Rx-Tx time difference type 1
+25.133,25133-j00.docx,A.9.1.6.2,UE Rx-Tx time difference type 2
+25.133,25133-j00.docx,A.9.1.9,UE Transmission Power Headroom
+25.133,25133-j00.docx,A.9.1.9.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.9.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.10,E-UTRAN FDD RSRP absolute accuracy (CELL_DCH)
+25.133,25133-j00.docx,A.9.1.10.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.10.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.11,E-UTRAN TDD RSRP Absolute Accuracy (CELL_DCH)
+25.133,25133-j00.docx,A.9.1.11.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.11.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.12,E-UTRA FDD RSRQ absolute accuracy (CELL_DCH)
+25.133,25133-j00.docx,A.9.1.12.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.12.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.13,E-UTRAN TDD RSRQ Absolute Accuracy (CELL_DCH)
+25.133,25133-j00.docx,A.9.1.13.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.13.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.14,E-UTRAN FDD RSRP Absolute Accuracy for 5 MHz Bandwidth
+25.133,25133-j00.docx,A.9.1.14.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.14.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.15,E-UTRA FDD RSRQ Absolute Accuracy for 5 MHz Bandwidth
+25.133,25133-j00.docx,A.9.1.15.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.15.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.16,E-UTRAN FDD RSRP absolute accuracy (CELL_FACH)
+25.133,25133-j00.docx,A.9.1.16.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.16.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.17,E-UTRAN TDD RSRP Absolute Accuracy (CELL_FACH)
+25.133,25133-j00.docx,A.9.1.17.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.17.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.18,E-UTRA FDD RSRQ absolute accuracy (CELL_FACH)
+25.133,25133-j00.docx,A.9.1.18.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.18.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.19,E-UTRAN TDD RSRQ Absolute Accuracy (CELL_FACH)
+25.133,25133-j00.docx,A.9.1.19.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.19.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.20,E-UTRA FDD WB-RSRQ Absolute Accuracy (CELL_DCH)
+25.133,25133-j00.docx,A.9.1.20.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.20.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.21,E-UTRA TDD WB-RSRQ Absolute Accuracy (CELL_DCH)
+25.133,25133-j00.docx,A.9.1.21.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.21.2,Test Requirements
+25.133,25133-j00.docx,Annex B,(normative):	Conditions for RRM requirements applicability for operating bands
+25.133,25133-j00.docx,80,"inter-frequency cells, including"
+25.133,25133-j00.docx,14.08,"s when Nnorm, inter=2 for reselections to normal performance group, allow 14.1s in the test case."
+25.133,25133-j00.docx,116.48,"s when Nnorm, reducced=3 for reselections to reduced performance group, allow 116.5s in the test case."
+25.133,25133-j00.docx,78.08,"s when Knorm, EUTRA=4 for reselections to E-UTRA FDD normal performance group, allow 78.1s in the test case."
+25.133,25133-j00.docx,Annex B,(normative): Conditions for RRM requirements applicability for operating bands

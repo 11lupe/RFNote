@@ -1,0 +1,365 @@
+﻿规范,文件,条款,标题
+36.508,36508-j31_s00-s04.docx,1,Scope
+36.508,36508-j31_s00-s04.docx,2,References
+36.508,36508-j31_s00-s04.docx,3,"Definitions, symbols and abbreviations"
+36.508,36508-j31_s00-s04.docx,3.1,Definitions
+36.508,36508-j31_s00-s04.docx,3.2,Symbols
+36.508,36508-j31_s00-s04.docx,3.3,Abbreviations
+36.508,36508-j31_s00-s04.docx,4,Common test environment
+36.508,36508-j31_s00-s04.docx,4.1,Environmental conditions
+36.508,36508-j31_s00-s04.docx,4.1.1,Temperature
+36.508,36508-j31_s00-s04.docx,4.1.2,Voltage
+36.508,36508-j31_s00-s04.docx,4.2,Common requirements of test equipment
+36.508,36508-j31_s00-s04.docx,4.2.1,General functional requirements
+36.508,36508-j31_s00-s04.docx,4.2.2,Minimum functional requirements
+36.508,36508-j31_s00-s04.docx,4.2.2.1,Supported Cell Configuration
+36.508,36508-j31_s00-s04.docx,4.2.2.2,Support of Tcell timing offset
+36.508,36508-j31_s00-s04.docx,4.2.2.3,Supported Sidelink Configuration
+36.508,36508-j31_s00-s04.docx,4.3,Reference test conditions
+36.508,36508-j31_s00-s04.docx,4.3.1,Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.1.1,FDD Mode Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.1.2,TDD Mode Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.1.3,HRPD Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.1.4,1xRTT Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.1.5,MFBI Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.1.6,WLAN Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.1.7,Bluetooth Test frequencies
+36.508,36508-j31_s00-s04.docx,4.3.2,Radio conditions
+36.508,36508-j31_s00-s04.docx,4.3.2.1,Normal propagation condition
+36.508,36508-j31_s00-s04.docx,4.3.3,Physical channel allocations
+36.508,36508-j31_s00-s04.docx,4.3.3.1,Antennas
+36.508,36508-j31_s00-s04.docx,4.3.3.2,Downlink physical channels and physical signals
+36.508,36508-j31_s00-s04.docx,4.3.3.3,Mapping of downlink physical channels and signals to physical resources
+36.508,36508-j31_s00-s04.docx,4.3.3.4,Uplink physical channels and physical signals
+36.508,36508-j31_s00-s04.docx,4.3.3.5,Mapping of uplink physical channels and signals to physical resources
+36.508,36508-j31_s00-s04.docx,4.3.4,Signal levels
+36.508,36508-j31_s00-s04.docx,4.3.4.1,Downlink signal levels
+36.508,36508-j31_s00-s04.docx,4.3.4.2,Uplink signal levels
+36.508,36508-j31_s00-s04.docx,4.3.5,Standard test signals
+36.508,36508-j31_s00-s04.docx,4.3.5.1,Downlink test signals
+36.508,36508-j31_s00-s04.docx,4.3.5.2,Uplink test signals
+36.508,36508-j31_s00-s04.docx,4.3.6,Physical layer parameters
+36.508,36508-j31_s00-s04.docx,4.3.6.1,Downlink physical layer parameters
+36.508,36508-j31_s00-s04.docx,4.4,Reference system configurations
+36.508,36508-j31_s00-s04.docx,4.4.1,Simulated network scenarios
+36.508,36508-j31_s00-s04.docx,4.4.1.1,Single cell network scenarios
+36.508,36508-j31_s00-s04.docx,4.4.1.2,E-UTRA single mode multi cell network scenarios
+36.508,36508-j31_s00-s04.docx,4.4.1.3,E-UTRA dual mode multi cell network scenarios
+36.508,36508-j31_s00-s04.docx,4.4.1.6,WLAN Inter-RAT network scenarios
+36.508,36508-j31_s00-s04.docx,4.4.1.7,Bluetooth Inter-RAT network scenarios
+36.508,36508-j31_s00-s04.docx,4.4.2,Simulated cells
+36.508,36508-j31_s00-s04.docx,4.4.3,Common parameters for simulated E-UTRA cells
+36.508,36508-j31_s00-s04.docx,4.4.3.1,Common configurations of system information blocks
+36.508,36508-j31_s00-s04.docx,4.4.3.2,Common contents of system information messages
+36.508,36508-j31_s00-s04.docx,4.4.3.3,Common contents of system information blocks
+36.508,36508-j31_s00-s04.docx,4.4.3.4,Channel-bandwidth-dependent parameters in system information blocks
+36.508,36508-j31_s00-s04.docx,4.4.4,Common parameters for simulated UTRA cells
+36.508,36508-j31_s00-s04.docx,4.4.4.1,Common contents of system information blocks for UTRA cells
+36.508,36508-j31_s00-s04.docx,4.4.4.2,UTRA SIB scheduling for inter EUTRA - UTRA test
+36.508,36508-j31_s00-s04.docx,4.4.4.3,UTRA SIB scheduling for inter EUTRA – UTRA - GERAN test
+36.508,36508-j31_s00-s04.docx,4.4.5,Common parameters for simulated GERAN cells
+36.508,36508-j31_s00-s04.docx,4.4.6,Common parameters for simulated CDMA2000 cells
+36.508,36508-j31_s00-s04.docx,4.4.7,Default parameters specific for simulated cells
+36.508,36508-j31_s00-s04.docx,4.4.7.1,Common contents of HRPD Overhead messages
+36.508,36508-j31_s00-s04.docx,4.4.7.2,Common contents of 1XRTT Overhead messages
+36.508,36508-j31_s00-s04.docx,4.4.8,Common parameters for simulated WLAN AP’s
+36.508,36508-j31_s00-s04.docx,4.4.9,Common parameters for simulated Bluetooth beacon’s
+36.508,36508-j31_s00-s04.docx,4.5,Generic procedures
+36.508,36508-j31_s00-s04.docx,4.5.1,UE test states
+36.508,36508-j31_s00-s04.docx,4.5.2,UE Registration (State 2)
+36.508,36508-j31_s00-s04.docx,4.5.2.0,General
+36.508,36508-j31_s00-s04.docx,4.5.2.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.2.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.2.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.2.4,Specific message contents
+36.508,36508-j31_s00-s04.docx,4.5.3,Generic Radio Bearer Establishment (State 3)
+36.508,36508-j31_s00-s04.docx,4.5.3.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.3.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.3.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.3.4,Specific message contents
+36.508,36508-j31_s00-s04.docx,4.5.4,Loopback Activation (State 4)
+36.508,36508-j31_s00-s04.docx,4.5.4.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.4.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.4.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.4.4,Specific message contents
+36.508,36508-j31_s00-s04.docx,4.5.5,HRPD registration (State H2)
+36.508,36508-j31_s00-s04.docx,4.5.5.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.5.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.5.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.5.4,Specific message contents
+36.508,36508-j31_s00-s04.docx,4.5.6,HRPD session establishment (State H3)
+36.508,36508-j31_s00-s04.docx,4.5.6.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.6.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.6.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.6.4,Specific message contents
+36.508,36508-j31_s00-s04.docx,4.5.7,Out of Coverage (State 5)
+36.508,36508-j31_s00-s04.docx,4.5.7.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.7.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.7.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.8,"Out of Coverage, V2X setup (State 5-V2X)"
+36.508,36508-j31_s00-s04.docx,4.5.8.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.8.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.8.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.9,"Out of Coverage, Test Loopback Activation, V2X setup (State 5A-V2X)"
+36.508,36508-j31_s00-s04.docx,4.5.9.1,Initial conditions
+36.508,36508-j31_s00-s04.docx,4.5.9.2,Definition of system information messages
+36.508,36508-j31_s00-s04.docx,4.5.9.3,Procedure
+36.508,36508-j31_s00-s04.docx,4.5.9.4,Specific message contents
+36.508,36508-j31_s00-s04.docx,4.6,Default  message and information elements contents
+36.508,36508-j31_s00-s04.docx,4.6.1,Contents of  messages
+36.508,36508-j31_s00-s04.docx,4.6.2,System information blocks
+36.508,36508-j31_s00-s04.docx,4.6.3,Radio resource control information elements
+36.508,36508-j31_s00-s04.docx,4.6.4,Security control information elements
+36.508,36508-j31_s00-s04.docx,4.6.5,Mobility control information elements
+36.508,36508-j31_s00-s04.docx,4.6.6,Measurement information elements
+36.508,36508-j31_s00-s04.docx,4.6.7,Other information elements
+36.508,36508-j31_s00-s04.docx,4.6.8,Channel-bandwidth-dependent parameters
+36.508,36508-j31_s00-s04.docx,4.7,Default NAS message and information element contents
+36.508,36508-j31_s00-s04.docx,4.7.1,Security protected NAS messages
+36.508,36508-j31_s00-s04.docx,4.7.2,Contents of EMM messages
+36.508,36508-j31_s00-s04.docx,4.7.3,Contents of ESM messages
+36.508,36508-j31_s00-s04.docx,4.8,Reference radio bearer configurations
+36.508,36508-j31_s00-s04.docx,4.8.1,General
+36.508,36508-j31_s00-s04.docx,4.8.2,SRB and DRB parameters and combinations
+36.508,36508-j31_s00-s04.docx,4.8.2.1,SRB and DRB parameters
+36.508,36508-j31_s00-s04.docx,4.8.2.2,SRB and DRB combinations
+36.508,36508-j31_s00-s04.docx,4.8.3,UTRA reference radio parameters and combinations
+36.508,36508-j31_s00-s04.docx,4.8.4,GERAN reference PDP context parameters
+36.508,36508-j31_s00-s04.docx,4.9,"Common test USIM, CSIM and ISIM parameters"
+36.508,36508-j31_s00-s04.docx,4.9.1,General
+36.508,36508-j31_s00-s04.docx,4.9.1.1,Definitions
+36.508,36508-j31_s00-s04.docx,4.9.1.2,Definition of the test algorithm for authentication
+36.508,36508-j31_s00-s04.docx,4.9.2,"Default parameters for the test USIM, CSIM and ISIM"
+36.508,36508-j31_s00-s04.docx,4.9.3,Default settings for the Elementary Files (EFs)
+36.508,36508-j31_s00-s04.docx,4.9.3.1,Modified contents of the USIM Elementary Files and additional USIM Elements files at the DF ProSe level
+36.508,36508-j31_s00-s04.docx,4.9.3.2,Modified contents of the CSIM Elementary Files
+36.508,36508-j31_s00-s04.docx,08,03 08 01 C0
+36.508,36508-j31_s00-s04.docx,76,69 64 65 72 20 4E 61 6D 65 FF FF FF
+36.508,36508-j31_s00-s04.docx,4.9.3.3,Modified contents of the USIM Elementary Files and additional USIM Elements files at the MCPTT level
+36.508,36508-j31_s00-s04.docx,4.9.3.4,Modified contents of the USIM Elementary Files and additional USIM Elements files at the DFV2X level
+36.508,36508-j31_s00-s04.docx,4.9.3.5,Modified contents of the Elementary Files for eCall over IMS
+36.508,36508-j31_s00-s04.docx,4.9.3.6,Modified contents of the Elementary Files for MPS when access to EPC/5GC is WLAN
+36.508,36508-j31_s00-s04.docx,4.10,V2X reference configuration
+36.508,36508-j31_s00-s04.docx,4.10.1,Reference configuration for V2X Sidelink Communication
+36.508,36508-j31_s00-s04.docx,4.10.1.1,V2X Sidelink Communication Preconfiguration for out-of-network coverage operation
+36.508,36508-j31_s00-s04.docx,4.10.2,V2X management data object configuration
+36.508,36508-j31_s00-s04.docx,4.11,GNSS Requirements for V2X and MCS testing
+36.508,36508-j31_s00-s04.docx,4.11.1,General
+36.508,36508-j31_s00-s04.docx,4.11.2,GNSS Scenarios
+36.508,36508-j31_s00-s04.docx,4.12,GNSS Requirements for aerial testing
+36.508,36508-j31_s00-s04.docx,4.12.1,General
+36.508,36508-j31_s00-s04.docx,4.12.2,GNSS Scenarios
+36.508,36508-j31_s00-s04.docx,4.13,UE position requirements for NTN testing
+36.508,36508-j31_s00-s04.docx,4.14,Common test environment for Vertical UEs
+36.508,36508-j31_s00-s04.docx,4.14.1,eMTC NTN
+36.508,36508-j31_s05-s08.docx,5,Test environment for RF test
+36.508,36508-j31_s05-s08.docx,5.1,Requirements of test equipment
+36.508,36508-j31_s05-s08.docx,5.2,RF Reference system configurations
+36.508,36508-j31_s05-s08.docx,5.2.1,Common parameters for simulated E-UTRA cells
+36.508,36508-j31_s05-s08.docx,5.2.1.1,Combinations of system information blocks
+36.508,36508-j31_s05-s08.docx,5.2.1.2,Scheduling of system information blocks
+36.508,36508-j31_s05-s08.docx,5.2.1.3,Common contents of system information messages
+36.508,36508-j31_s05-s08.docx,5.2,A.41.	Specific message contents
+36.508,36508-j31_s05-s08.docx,5.3,Default RRC message and information elements contents
+36.508,36508-j31_s05-s08.docx,5.3.1,Radio resource control information elements
+36.508,36508-j31_s05-s08.docx,5.3.2,Measurement information elements
+36.508,36508-j31_s05-s08.docx,5.4,Default NAS message and information elements contents
+36.508,36508-j31_s05-s08.docx,5.5,Reference radio bearer configurations
+36.508,36508-j31_s05-s08.docx,5.5.1,SRB and DRB parameters
+36.508,36508-j31_s05-s08.docx,5.5.1.1,configurations
+36.508,36508-j31_s05-s08.docx,5.5.1.2,Physical Layer configurations
+36.508,36508-j31_s05-s08.docx,5.5.1.3,SRB and DRB combinations
+36.508,36508-j31_s05-s08.docx,5.6,Test environment for NTN testing
+36.508,36508-j31_s05-s08.docx,5.6.1,UE location
+36.508,36508-j31_s05-s08.docx,5.6.2,Ephemeris Information
+36.508,36508-j31_s05-s08.docx,5.6.2.0,Assumptions for Ephemeris generation
+36.508,36508-j31_s05-s08.docx,5.6.2.1,Ephemeris for zero Doppler conditions
+36.508,36508-j31_s05-s08.docx,5.6.3,"eMTC NTN message contents for RF Tx/Rx, Demodulation tests"
+36.508,36508-j31_s05-s08.docx,5.6.3.1,ServingSatelliteInfo-r17 values in SIB31
+36.508,36508-j31_s05-s08.docx,6,Test environment for Signalling test
+36.508,36508-j31_s05-s08.docx,6.1,Requirements of test equipment
+36.508,36508-j31_s05-s08.docx,6.2,Reference test conditions
+36.508,36508-j31_s05-s08.docx,6.2.1,Physical channel allocations
+36.508,36508-j31_s05-s08.docx,6.2.1.1,Antennas
+36.508,36508-j31_s05-s08.docx,6.2.1.2,Downlink physical channels and physical signals
+36.508,36508-j31_s05-s08.docx,6.2.1.3,Mapping of downlink physical channels and signals to physical resources
+36.508,36508-j31_s05-s08.docx,6.2.1.4,Uplink physical channels and physical signals
+36.508,36508-j31_s05-s08.docx,6.2.1.5,Mapping of uplink physical channels and signals to physical resources
+36.508,36508-j31_s05-s08.docx,6.2.2,Signal levels
+36.508,36508-j31_s05-s08.docx,6.2.2.1,Downlink signal levels
+36.508,36508-j31_s05-s08.docx,6.2.2.2,Measurement accuracy and side conditions
+36.508,36508-j31_s05-s08.docx,6.2.2.3,Uplink signal levels
+36.508,36508-j31_s05-s08.docx,6.2.3,Default test frequencies
+36.508,36508-j31_s05-s08.docx,6.2.3.1,Test frequencies for signalling test
+36.508,36508-j31_s05-s08.docx,6.2.3.2,Test frequencies for CA signalling test
+36.508,36508-j31_s05-s08.docx,6.2.3.3,Test frequencies for ProSe signalling test
+36.508,36508-j31_s05-s08.docx,6.2.3.4,Test frequencies for MFBI frequency band priority adjustment signalling test
+36.508,36508-j31_s05-s08.docx,6.2.3.5,Test frequencies for V2X Communication
+36.508,36508-j31_s05-s08.docx,6.3,Reference system configurations
+36.508,36508-j31_s05-s08.docx,6.3.1,Default parameter specific for simulated cells
+36.508,36508-j31_s05-s08.docx,6.3.1.1,Intra-frequency neighbouring cell list in SIB4 for E-UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.1.2,Inter-frequency carrier frequency list in SIB5 for E-UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.1.3,UTRA carrier frequency list in SIB6 for E-UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.1.4,GERAN carrier frequency group list in SIB7 for E-UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.1.5,CDMA2000 HRPD carrier frequency list in SIB8 for E-UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.1.6,CDMA2000 1xRTT carrier frequency list in SIB8 for E-UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.1.7,E-UTRA carrier frequency list in SIB19 for UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.1.8,NR carrier frequency list in SIB24 for E-UTRA cells
+36.508,36508-j31_s05-s08.docx,6.3.2,Default configurations for NAS test cases
+36.508,36508-j31_s05-s08.docx,6.3.2.1,Simulated network scenarios for NAS test cases
+36.508,36508-j31_s05-s08.docx,6.3.2.2,Simulated NAS cells
+36.508,36508-j31_s05-s08.docx,6.3.2.3,Broadcast system information
+36.508,36508-j31_s05-s08.docx,6.3.3,Cell configurations
+36.508,36508-j31_s05-s08.docx,6.3.3.1,Full cell configuration
+36.508,36508-j31_s05-s08.docx,6.3.3.2,Minimum uplink cell configuration
+36.508,36508-j31_s05-s08.docx,6.3.3.3,Broadcast only cell configuration
+36.508,36508-j31_s05-s08.docx,6.3.3.4,Application of different cell configurations
+36.508,36508-j31_s05-s08.docx,6.3.4,SCell configurations
+36.508,36508-j31_s05-s08.docx,6.3.5,Satellite ephemeris information for NTN
+36.508,36508-j31_s05-s08.docx,6.3.5.1,GSO scenario
+36.508,36508-j31_s05-s08.docx,6.3.5.2,NGSO scenario
+36.508,36508-j31_s05-s08.docx,6.3.6,Signalling test environment for Vertical UEs
+36.508,36508-j31_s05-s08.docx,6.3.6.1,eMTC NTN
+36.508,36508-j31_s05-s08.docx,6.4,Generic procedures
+36.508,36508-j31_s05-s08.docx,6.4.1,Initial UE states and setup procedures
+36.508,36508-j31_s05-s08.docx,6.4.1.1,Initial UE states and setup procedures
+36.508,36508-j31_s05-s08.docx,6.4.1.2,Dedicated Bearer Establishment (to state 5)
+36.508,36508-j31_s05-s08.docx,6.4.1.3,Loopback Activation (to state 6)
+36.508,36508-j31_s05-s08.docx,6.4.2,Test procedures
+36.508,36508-j31_s05-s08.docx,6.4.2.1,Introduction
+36.508,36508-j31_s05-s08.docx,6.4.2.2,Test procedure to check RRC_IDLE state
+36.508,36508-j31_s05-s08.docx,6.4.2.3,Test procedure to check RRC_CONNECTED state
+36.508,36508-j31_s05-s08.docx,6.4.2.4,Test procedure Paging (for NAS testing)
+36.508,36508-j31_s05-s08.docx,6.4.2.5,Test procedure for no response to paging (for NAS testing)
+36.508,36508-j31_s05-s08.docx,6.4.2.6,Test procedure to check that a dedicated EPS bearer context is active (for NAS testing)
+36.508,36508-j31_s05-s08.docx,6.4.2.7,Test procedure to check that UE is camped on a new E-UTRAN cell
+36.508,36508-j31_s05-s08.docx,6.4.2.8,Test procedure to check that UE is camped on a new UTRAN cell
+36.508,36508-j31_s05-s08.docx,6.4.2.9,Test procedure to check that UE is camped on a new GERAN cell
+36.508,36508-j31_s05-s08.docx,6.4.3,Reference test procedures for TTCN development
+36.508,36508-j31_s05-s08.docx,6.4.3.1,UE triggered establishment of a dedicated EPS bearer context
+36.508,36508-j31_s05-s08.docx,6.4.3.2,UE triggered establishment of a default EPS bearer context associated with an additional PDN
+36.508,36508-j31_s05-s08.docx,6.4.3.3,UE triggered modification of an EPS bearer context
+36.508,36508-j31_s05-s08.docx,6.4.3.4,UE triggered deletion of an EPS bearer context
+36.508,36508-j31_s05-s08.docx,6.4.3.5,UE triggered CS call
+36.508,36508-j31_s05-s08.docx,6.4.3.6,UE triggered MO SMS over SGs
+36.508,36508-j31_s05-s08.docx,6.4.3.9,SRVCC Handover to UTRA
+36.508,36508-j31_s05-s08.docx,6.4.3.10,Offload to WLAN
+36.508,36508-j31_s05-s08.docx,6.4.3.11,Offload from WLAN
+36.508,36508-j31_s05-s08.docx,6.4.3.12,Check UE does not offload to WLAN
+36.508,36508-j31_s05-s08.docx,6.4.3.13,Check UE does not Offload to E-UTRAN
+36.508,36508-j31_s05-s08.docx,6.4.3.14,Procedure for UE initiated detach at non-switch-off
+36.508,36508-j31_s05-s08.docx,6.5,Default RRC message and information element contents
+36.508,36508-j31_s05-s08.docx,6.5.1,Measurement information elements
+36.508,36508-j31_s05-s08.docx,6.6,Default NAS message and information element contents
+36.508,36508-j31_s05-s08.docx,6.6.1,Reference default EPS bearer contexts
+36.508,36508-j31_s05-s08.docx,6.6.2,Reference dedicated EPS bearer contexts
+36.508,36508-j31_s05-s08.docx,6.7,Timer Tolerances
+36.508,36508-j31_s05-s08.docx,6.8,SideLink reference configuration
+36.508,36508-j31_s05-s08.docx,6.8.1,Reference configuration for Direct Communication
+36.508,36508-j31_s05-s08.docx,6.8.1.1,ProSe Direct Communication Preconfiguration for out-of-network coverage operation
+36.508,36508-j31_s05-s08.docx,6.8.2,Reference configuration for V2X Sidelink Communication
+36.508,36508-j31_s05-s08.docx,6.8.2.1,V2X Sidelink Communication Preconfiguration for out-of-network coverage operation
+36.508,36508-j31_s05-s08.docx,7,Test environment for RRM tests
+36.508,36508-j31_s05-s08.docx,7.1,Requirements of test equipment
+36.508,36508-j31_s05-s08.docx,7.2,RRM Reference system configurations
+36.508,36508-j31_s05-s08.docx,7.2.1,Common parameters for simulated E-UTRA cells
+36.508,36508-j31_s05-s08.docx,7.2.1.1,Combinations of system information blocks
+36.508,36508-j31_s05-s08.docx,7.2.1.2,Scheduling of system information blocks
+36.508,36508-j31_s05-s08.docx,7.2.1.3,Common contents of system information messages
+36.508,36508-j31_s05-s08.docx,7.2.2,Common parameters for simulated GERAN cells
+36.508,36508-j31_s05-s08.docx,7.2.2.1,Mapping of GERAN cells
+36.508,36508-j31_s05-s08.docx,7.3,Default RRC message and information elements contents
+36.508,36508-j31_s05-s08.docx,7.3.1,Contents of  messages
+36.508,36508-j31_s05-s08.docx,7.3.2,Radio resource control information elements
+36.508,36508-j31_s05-s08.docx,7.3.3,Measurement information elements
+36.508,36508-j31_s05-s08.docx,7.4,Default NAS message and information elements contents
+36.508,36508-j31_s05-s08.docx,7.5,Reference radio bearer configurations
+36.508,36508-j31_s05-s08.docx,7.5.1,SRB and DRB parameters
+36.508,36508-j31_s05-s08.docx,7.5.1.1,configurations
+36.508,36508-j31_s05-s08.docx,7.6,Test environment for NTN testing
+36.508,36508-j31_s05-s08.docx,7.6.1,UE location
+36.508,36508-j31_s05-s08.docx,7.6.2,Ephemeris Information
+36.508,36508-j31_s05-s08.docx,7.6.2.0,Assumptions for Ephemeris generation
+36.508,36508-j31_s05-s08.docx,7.6.2.1,Ephemeris for elevation angle 30º
+36.508,36508-j31_s05-s08.docx,7.6.2.2,Ephemeris for eMTC NTN RRM UL timing accuracy test cases
+36.508,36508-j31_s05-s08.docx,7.6.3,eMTC NTN message contents for RRM tests
+36.508,36508-j31_s05-s08.docx,7.6.3.1,ServingSatelliteInfo-r17 values in SIB31
+36.508,36508-j31_s05-s08.docx,7.6.3.2,SystemInformationBlockType33
+36.508,36508-j31_s05-s08.docx,8,NB-IoT test environment
+36.508,36508-j31_s05-s08.docx,8.1,NB-IoT Common test environment
+36.508,36508-j31_s05-s08.docx,8.1.1,NB-IoT Environmental conditions
+36.508,36508-j31_s05-s08.docx,8.1.2,NB-IoT Common requirements of test equipment
+36.508,36508-j31_s05-s08.docx,8.1.3,NB-IoT Reference test conditions
+36.508,36508-j31_s05-s08.docx,8.1.3.1,NB-IoT Test frequencies
+36.508,36508-j31_s05-s08.docx,8.1.3.2,NB-IoT Radio conditions
+36.508,36508-j31_s05-s08.docx,8.1.3.3,NB-IoT Physical channel allocations
+36.508,36508-j31_s05-s08.docx,8.1.3.4,NB-IoT Signal levels
+36.508,36508-j31_s05-s08.docx,8.1.3.5,NB-IoT Standard test signals
+36.508,36508-j31_s05-s08.docx,8.1.3.6,NB-IoT Physical layer parameters
+36.508,36508-j31_s05-s08.docx,8.1.4,NB-IoT Reference system configurations
+36.508,36508-j31_s05-s08.docx,8.1.4.1,NB-IoT Simulated network scenarios
+36.508,36508-j31_s05-s08.docx,8.1.4.2,NB-IoT Simulated cells
+36.508,36508-j31_s05-s08.docx,8.1.4.3,NB-IoT Common parameters for simulated cells
+36.508,36508-j31_s05-s08.docx,8.1.5,NB-IoT Generic procedures
+36.508,36508-j31_s05-s08.docx,8.1.5.0,General
+36.508,36508-j31_s05-s08.docx,8.1.5.1,NB-IoT UE test states
+36.508,36508-j31_s05-s08.docx,8.1.5.2,"NB-IoT UE Attach, Connected mode (State 2-NB)"
+36.508,36508-j31_s05-s08.docx,8.1.5.3,"NB-IoT UE Registered, Idle Mode (State 3-NB)"
+36.508,36508-j31_s05-s08.docx,8.1.6,NB-IoT Default  message and information elements contents
+36.508,36508-j31_s05-s08.docx,8.1.6.1,NB-IoT Contents of  messages
+36.508,36508-j31_s05-s08.docx,8.1.6.2,NB-IoT System information blocks
+36.508,36508-j31_s05-s08.docx,8.1.6.3,NB-IoT Radio resource control information elements
+36.508,36508-j31_s05-s08.docx,8.1.6.4,NB-IoT Security control information elements
+36.508,36508-j31_s05-s08.docx,8.1.6.5,NB-IoT Other information elements
+36.508,36508-j31_s05-s08.docx,8.1.7,NB-IoT Default NAS message and information element contents
+36.508,36508-j31_s05-s08.docx,8.1.8,NB-IoT Reference radio bearer configurations
+36.508,36508-j31_s05-s08.docx,8.1.8.1,General
+36.508,36508-j31_s05-s08.docx,8.1.8.2,NB-IoT SRB and DRB parameters and combinations
+36.508,36508-j31_s05-s08.docx,8.1.9,NB-IoT Common test USIM parameters
+36.508,36508-j31_s05-s08.docx,8.1.9.1,General
+36.508,36508-j31_s05-s08.docx,8.2,NB-IoT Test environment for RF test
+36.508,36508-j31_s05-s08.docx,8.2.1,NB-IoT Requirements of test equipment
+36.508,36508-j31_s05-s08.docx,8.2.2,NB-IoT RF Reference system configurations
+36.508,36508-j31_s05-s08.docx,8.2.2.1,NB-IoT Common parameters for simulated E-UTRA cells
+36.508,36508-j31_s05-s08.docx,8.2.3,NB-IoT Default RRC message and information elements contents
+36.508,36508-j31_s05-s08.docx,8.2.3.1,NB-IoT Radio resource control information elements
+36.508,36508-j31_s05-s08.docx,8.2.4,NB-IoT Default NAS message and information elements contents
+36.508,36508-j31_s05-s08.docx,8.2.5,NB-IoT Reference radio bearer configurations
+36.508,36508-j31_s05-s08.docx,8.2.5.1,NB-IoT SRB and DRB parameters
+36.508,36508-j31_s05-s08.docx,8.2.6,Test environment for NB-IoT NTN RF/Demod testing
+36.508,36508-j31_s05-s08.docx,8.2.6.1,UE location
+36.508,36508-j31_s05-s08.docx,8.2.6.2,Ephemeris Information
+36.508,36508-j31_s05-s08.docx,8.2.6.3,"NB-IoT NTN message contents for RF Tx/Rx, Demodulation tests"
+36.508,36508-j31_s05-s08.docx,8.3,NB-IoT Test environment for Signalling test
+36.508,36508-j31_s05-s08.docx,8.3.1,NB-IoT Requirements of test equipment
+36.508,36508-j31_s05-s08.docx,8.3.2,NB-IoT Reference test conditions
+36.508,36508-j31_s05-s08.docx,8.3.2.1,NB-IoT Physical channel allocations
+36.508,36508-j31_s05-s08.docx,8.3.2.2,NB-IoT Signal levels
+36.508,36508-j31_s05-s08.docx,8.3.2.3,NB-IoT Default test frequencies
+36.508,36508-j31_s05-s08.docx,8.3.3,NB-IoT Reference system configurations
+36.508,36508-j31_s05-s08.docx,8.3.3.1,NB-IoT Default parameters specific for simulated cells
+36.508,36508-j31_s05-s08.docx,8.3.3.2,NB-IoT Default configurations for NAS test cases
+36.508,36508-j31_s05-s08.docx,8.3.3.3,NB-IoT Cell configurations
+36.508,36508-j31_s05-s08.docx,8.3.4,NB-IoT Generic signalling procedures
+36.508,36508-j31_s05-s08.docx,8.3.4.1,NB-IoT Initial UE states and setup procedures
+36.508,36508-j31_s05-s08.docx,8.3.4.2,NB-IoT Reference procedures and test procedures for TTCN development
+36.508,36508-j31_s05-s08.docx,8.3.4.3,NB-IoT Test case postambles for TTCN development
+36.508,36508-j31_s05-s08.docx,8.3.5,NB-IoT Default RRC message and information element contents
+36.508,36508-j31_s05-s08.docx,8.3.6,NB-IoT Default NAS message and information element contents
+36.508,36508-j31_s05-s08.docx,8.3.7,NB-IoT Timer tolerances
+36.508,36508-j31_s05-s08.docx,8.3.8,Signalling test environment for Vertical UEs
+36.508,36508-j31_s05-s08.docx,8.3.8.1,NB-IoT NTN
+36.508,36508-j31_s05-s08.docx,8.4,NB-IOT Test environment for RRM tests
+36.508,36508-j31_s05-s08.docx,8.4.1,NB-IoT Requirements of test equipment
+36.508,36508-j31_s05-s08.docx,8.4.2,NB-IoT RRM Reference system configurations
+36.508,36508-j31_s05-s08.docx,8.4.2.1,NB-IoT Common parameters for simulated NB-IoT cells
+36.508,36508-j31_s05-s08.docx,8.4.3,NB-IoT Default RRC message and information elements contents
+36.508,36508-j31_s05-s08.docx,8.4.3.1,NB-IoT Radio resource control information elements
+36.508,36508-j31_s05-s08.docx,8.4.4,NB-IoT Default NAS message and information elements contents
+36.508,36508-j31_s05-s08.docx,8.4.5,NB-IoT Reference radio bearer configurations
+36.508,36508-j31_s05-s08.docx,8.4.5.1,NB-IoT SRB and DRB parameters
+36.508,36508-j31_s05-s08.docx,8.4.6,Test environment for NB-IoT NTN RRM testing
+36.508,36508-j31_s05-s08.docx,8.4.6.1,UE location
+36.508,36508-j31_s05-s08.docx,8.4.6.2,Ephemeris Information
+36.508,36508-j31_s05-s08.docx,8.4.6.3,NB-IoT NTN message contents for RRM tests
+36.508,36508-j31_sAnnexes.docx,4,"SS shall configure Rx1, Rx2, Rx3, Rx4 based on UE capability."

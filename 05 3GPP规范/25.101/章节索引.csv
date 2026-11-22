@@ -1,0 +1,346 @@
+﻿规范,文件,条款,标题
+25.101,25101-j00.docx,1,Scope
+25.101,25101-j00.docx,2,References
+25.101,25101-j00.docx,3,"Definitions, symbols and abbreviations"
+25.101,25101-j00.docx,3.1,Definitions
+25.101,25101-j00.docx,3.2,Abbreviations
+25.101,25101-j00.docx,4,General
+25.101,25101-j00.docx,4.1,Relationship between Minimum Requirements and Test Requirements
+25.101,25101-j00.docx,4.2,Power Classes
+25.101,25101-j00.docx,4.3,Control and monitoring functions
+25.101,25101-j00.docx,4.3.1,Minimum requirement
+25.101,25101-j00.docx,5,Frequency bands and channel arrangement
+25.101,25101-j00.docx,5.1,General
+25.101,25101-j00.docx,5.2,Frequency bands
+25.101,25101-j00.docx,5.3,TX-RX frequency separation
+25.101,25101-j00.docx,5.4,Channel arrangement
+25.101,25101-j00.docx,5.4.1,Channel spacing
+25.101,25101-j00.docx,5.4.2,Channel raster
+25.101,25101-j00.docx,5.4.3,Channel number
+25.101,25101-j00.docx,5.4.4,UARFCN
+25.101,25101-j00.docx,6,Transmitter characteristics
+25.101,25101-j00.docx,6.1,General
+25.101,25101-j00.docx,6.2,Transmit power
+25.101,25101-j00.docx,6.2.1,UE maximum output power
+25.101,25101-j00.docx,6.2.2,"UE maximum output, power with HS-DPCCH and E-DCH"
+25.101,25101-j00.docx,6.2.3,UE Relative code domain power accuracy
+25.101,25101-j00.docx,6.3,Frequency Error
+25.101,25101-j00.docx,6.4,Output power dynamics
+25.101,25101-j00.docx,6.4.1,Open loop power control
+25.101,25101-j00.docx,6.4.1.1,Minimum requirement
+25.101,25101-j00.docx,6.4.2,Inner loop power control in the uplink
+25.101,25101-j00.docx,6.4.2.1,Power control steps
+25.101,25101-j00.docx,6.4.3,Minimum output power
+25.101,25101-j00.docx,6.4.3.1,Minimum requirement
+25.101,25101-j00.docx,6.4.4,Out-of-synchronization handling of output power
+25.101,25101-j00.docx,6.4.4.1,Minimum requirement
+25.101,25101-j00.docx,6.4.4.2,Test case
+25.101,25101-j00.docx,6.5,Transmit ON/OFF power
+25.101,25101-j00.docx,6.5.1,Transmit OFF power
+25.101,25101-j00.docx,6.5.1.1,Minimum requirement
+25.101,25101-j00.docx,6.5.2,Transmit ON/OFF Time mask
+25.101,25101-j00.docx,6.5.2.1,Minimum requirement
+25.101,25101-j00.docx,6.5.3,Change of TFC
+25.101,25101-j00.docx,6.5.3.1,Minimum requirement
+25.101,25101-j00.docx,6.5.4,Power setting in uplink compressed mode
+25.101,25101-j00.docx,6.5.4.1,Minimum requirement
+25.101,25101-j00.docx,6.5.5,HS-DPCCH
+25.101,25101-j00.docx,6.5.5.1,Minimum requirement
+25.101,25101-j00.docx,6.6,Output RF spectrum emissions
+25.101,25101-j00.docx,6.6.1,Occupied bandwidth
+25.101,25101-j00.docx,6.6.2,Out of band emission
+25.101,25101-j00.docx,6.6.2.1,Spectrum emission mask
+25.101,25101-j00.docx,6.6.2.2,Adjacent Channel Leakage power Ratio (ACLR)
+25.101,25101-j00.docx,6.6.3,Spurious emissions
+25.101,25101-j00.docx,6.6.3.1,Minimum requirement
+25.101,25101-j00.docx,6.7,Transmit intermodulation
+25.101,25101-j00.docx,6.7.1,Minimum requirement
+25.101,25101-j00.docx,6.8,Transmit modulation
+25.101,25101-j00.docx,6.8.1,Transmit pulse shape filter
+25.101,25101-j00.docx,6.8.2,Error Vector Magnitude
+25.101,25101-j00.docx,6.8.2.1,Minimum requirement
+25.101,25101-j00.docx,6.8.3,Peak code domain error
+25.101,25101-j00.docx,6.8.3.1,Minimum requirement
+25.101,25101-j00.docx,6.8.4,Phase discontinuity for uplink DPCH
+25.101,25101-j00.docx,6.8.4.1,Minimum requirement
+25.101,25101-j00.docx,6.8.5,Phase discontinuity for HS-DPCCH
+25.101,25101-j00.docx,6.8.5.1,Minimum requirement
+25.101,25101-j00.docx,6.8.6,Phase discontinuity for E-DCH
+25.101,25101-j00.docx,6.8.6.1,Minimum requirement
+25.101,25101-j00.docx,6.8.7,Time alignment error for DC-HSUPA
+25.101,25101-j00.docx,6.8.7.1,Minimum requirement
+25.101,25101-j00.docx,7,Receiver characteristics
+25.101,25101-j00.docx,7.1,General
+25.101,25101-j00.docx,7.2,Diversity characteristics
+25.101,25101-j00.docx,7.3,Reference sensitivity level
+25.101,25101-j00.docx,7.3.1,Minimum requirement
+25.101,25101-j00.docx,7.3.2,Additional requirement for DC-HSDPA
+25.101,25101-j00.docx,7.3.3,Additional requirement for DB-DC-HSDPA
+25.101,25101-j00.docx,7.3.4,Additional requirement for single band 4C-HSDPA
+25.101,25101-j00.docx,7.3.5,Additional requirement for dual band 4C-HSDPA
+25.101,25101-j00.docx,7.3.6,Additional requirement for single band 8C-HSDPA
+25.101,25101-j00.docx,7.3.7,Additional requirement for single band NC-4C-HSDPA
+25.101,25101-j00.docx,7.4,Maximum input level
+25.101,25101-j00.docx,7.4.1,Minimum requirement for DPCH reception
+25.101,25101-j00.docx,7.4.2,Minimum requirement for HS-PDSCH reception
+25.101,25101-j00.docx,7.4.2.1,Minimum requirement for 16QAM
+25.101,25101-j00.docx,7.4.2.2,Minimum requirement for 64QAM
+25.101,25101-j00.docx,7.4.3,Additional requirement for DC-HSDPA and DB-DC-HSDPA
+25.101,25101-j00.docx,7.4.3.1,Additional requirement for 16QAM
+25.101,25101-j00.docx,7.4.3.2,Additional requirement for 64QAM
+25.101,25101-j00.docx,7.4.4,Additional requirement for single band/dual band 4C-HSDPA or single band 8C-HSDPA and single band NC-4C-HSDPA
+25.101,25101-j00.docx,7.4.4.1,Additional requirement for 16QAM
+25.101,25101-j00.docx,7.4.4.2,Additional requirement for 64QAM
+25.101,25101-j00.docx,7.5,Adjacent Channel Selectivity (ACS)
+25.101,25101-j00.docx,7.5.1,Minimum requirement
+25.101,25101-j00.docx,7.5.2,Additional requirement for DC-HSDPA and DB-DC-HSDPA
+25.101,25101-j00.docx,7.5.3,Additional requirement for single band/dual band 4C-HSDPA
+25.101,25101-j00.docx,7.5.4,Additional requirement for single band 8C-HSDPA
+25.101,25101-j00.docx,7.5.5,Additional requirement for single band NC-4C-HSDPA
+25.101,25101-j00.docx,7.6,Blocking characteristics
+25.101,25101-j00.docx,7.6.1,Minimum requirement (In-band blocking)
+25.101,25101-j00.docx,7.6.2,Minimum requirement (Out-of-band blocking)
+25.101,25101-j00.docx,7.6.3,Minimum requirement (Narrow band blocking)
+25.101,25101-j00.docx,7.7,Spurious response
+25.101,25101-j00.docx,7.7.1,Minimum requirement
+25.101,25101-j00.docx,7.8,Intermodulation characteristics
+25.101,25101-j00.docx,7.8.1,Minimum requirement
+25.101,25101-j00.docx,7.8.2,Minimum requirement (Narrow band)
+25.101,25101-j00.docx,7.9,Spurious emissions
+25.101,25101-j00.docx,7.9.1,Minimum requirement
+25.101,25101-j00.docx,7.10,Reference input power adjustment for a dual band device
+25.101,25101-j00.docx,8,Performance requirement
+25.101,25101-j00.docx,8.1,General
+25.101,25101-j00.docx,8.2,Demodulation in static propagation conditions
+25.101,25101-j00.docx,8.2.3,Demodulation of Dedicated Channel (DCH)
+25.101,25101-j00.docx,8.2.3.1,Minimum requirement
+25.101,25101-j00.docx,8.2.4,Demodulation of Dedicated Channel (DCH) when DL_DCH_FET_Config [10] is configured by higher layers
+25.101,25101-j00.docx,8.2.4.1,Minimum requirement
+25.101,25101-j00.docx,8.3,Demodulation of DCH in multi-path fading propagation conditions
+25.101,25101-j00.docx,8.3.1,Single Link Performance
+25.101,25101-j00.docx,8.3.1.1,Minimum requirement
+25.101,25101-j00.docx,8.3.2,Single Link Performance when DL_DCH_FET_Config [10] is configured by higher layers
+25.101,25101-j00.docx,8.3.2.1,Minimum requirement
+25.101,25101-j00.docx,8.4,Demodulation of DCH in moving propagation conditions
+25.101,25101-j00.docx,8.4.1,Single link performance
+25.101,25101-j00.docx,8.4.1.1,Minimum requirement
+25.101,25101-j00.docx,8.5,Demodulation of DCH in birth-death propagation conditions
+25.101,25101-j00.docx,8.5.1,Single link performance
+25.101,25101-j00.docx,8.5.1.1,Minimum requirement
+25.101,25101-j00.docx,8.6,Demodulation of DCH in downlink Transmit diversity modes
+25.101,25101-j00.docx,8.6.1,Demodulation of DCH in open-loop transmit diversity mode
+25.101,25101-j00.docx,8.6.1.1,Minimum requirement
+25.101,25101-j00.docx,8.6.2,Demodulation of DCH in closed loop transmit diversity mode
+25.101,25101-j00.docx,8.6.2.1,Minimum requirement
+25.101,25101-j00.docx,8.7,Demodulation in Handover conditions
+25.101,25101-j00.docx,8.7.1,Demodulation of DCH in Inter-Cell Soft Handover
+25.101,25101-j00.docx,8.7.1.1,Minimum requirement
+25.101,25101-j00.docx,8.7.2,Combining of TPC commands from radio links of different radio link sets
+25.101,25101-j00.docx,8.7.2.1,Minimum requirement
+25.101,25101-j00.docx,8.7.3,Combining of reliable TPC commands from radio links of different radio link sets
+25.101,25101-j00.docx,8.7.3.1,Minimum requirement
+25.101,25101-j00.docx,8.7.4.1,Minimum requirement
+25.101,25101-j00.docx,8.8,Power control in downlink
+25.101,25101-j00.docx,8.8.1,"Power control in the downlink, constant BLER target"
+25.101,25101-j00.docx,8.8.1.1,Minimum requirements
+25.101,25101-j00.docx,8.8.2,"Power control in the downlink, initial convergence"
+25.101,25101-j00.docx,8.8.2.1,Minimum requirements
+25.101,25101-j00.docx,8.8.3,"Power control in downlink, wind up effects"
+25.101,25101-j00.docx,8.8.3.1,Minimum requirements
+25.101,25101-j00.docx,8.8.4,"Power control in the downlink, different transport formats"
+25.101,25101-j00.docx,8.8.4.1,Minimum requirements
+25.101,25101-j00.docx,8.8.5,Power control in the downlink for F-DPCH
+25.101,25101-j00.docx,8.8.5.1,Minimum requirements
+25.101,25101-j00.docx,8.9,Downlink compressed mode
+25.101,25101-j00.docx,8.9.1,Single link performance
+25.101,25101-j00.docx,8.9.1.1,Minimum requirements
+25.101,25101-j00.docx,8.10,Blind transport format detection
+25.101,25101-j00.docx,8.10.1,Minimum requirement
+25.101,25101-j00.docx,8.11,Detection of Broadcast channel (BCH)
+25.101,25101-j00.docx,8.11.1,Minimum requirement without transmit diversity
+25.101,25101-j00.docx,8.11.2,Minimum requirement with open loop transmit diversity
+25.101,25101-j00.docx,8.12,Demodulation of Paging Channel (PCH)
+25.101,25101-j00.docx,8.12.1,Minimum requirement
+25.101,25101-j00.docx,8.13,Detection of Acquisition Indicator (AI)
+25.101,25101-j00.docx,8.13.1,Minimum requirement
+25.101,25101-j00.docx,8.14,UE UL power control operation with discontinuous UL DPCCH transmission operation
+25.101,25101-j00.docx,8.14.1,Minimum requirement
+25.101,25101-j00.docx,8.17,UE UL power control operation with Algorithm 3
+25.101,25101-j00.docx,8.17.1,Minimum requirement
+25.101,25101-j00.docx,9,Performance requirement (HSDPA)
+25.101,25101-j00.docx,9.2,Demodulation of HS-DSCH (Fixed Reference Channel)
+25.101,25101-j00.docx,9.2.1,Single Link performance
+25.101,25101-j00.docx,9.2.1.1,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 1/2/3/3A/3B/3C/3E"
+25.101,25101-j00.docx,9.2.1.2,"Requirement 16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3"
+25.101,25101-j00.docx,9.2.1.3,"Minimum requirement QPSK, Fixed Reference Channel (FRC) H-Set 4/5"
+25.101,25101-j00.docx,9.2.1.4,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 6/6A/6B/6C/6E"
+25.101,25101-j00.docx,9.2.1.5,"Requirement 16QAM, Fixed Reference Channel (FRC) H-Set 6/6A/6B/6C/6E"
+25.101,25101-j00.docx,9.2.1.6,"Requirement 64QAM, Fixed Reference Channel (FRC) H-Set 8/8A/8B/8C/8E"
+25.101,25101-j00.docx,9.2.1.7,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 10/10A/10B/10C/10E"
+25.101,25101-j00.docx,9.2.1.8,"Requirement 16QAM, Fixed Reference Channel (FRC) H-Set 10/10A/10B/10C/10E"
+25.101,25101-j00.docx,9.2.2,Open Loop Diversity performance
+25.101,25101-j00.docx,9.2.2.1,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 1/2/3/3A/3B/3C/3E"
+25.101,25101-j00.docx,9.2.2.2,"Requirement 16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3/3A/3B/3C/3E"
+25.101,25101-j00.docx,9.2.2.3,"Minimum requirement QPSK, Fixed Reference Channel (FRC) H-Set 4/5"
+25.101,25101-j00.docx,9.2.3,Closed Loop Diversity Performance
+25.101,25101-j00.docx,9.2.3.1,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 1/2/3"
+25.101,25101-j00.docx,9.2.3.2,"Requirement 16QAM, Fixed Reference Channel (FRC) H-Set 1/2/3"
+25.101,25101-j00.docx,9.2.3.3,"Minimum requirement QPSK, Fixed Reference Channel (FRC) H-Set 4/5"
+25.101,25101-j00.docx,9.2.3.4,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 6"
+25.101,25101-j00.docx,9.2.3.5,"Requirement 16QAM, Fixed Reference Channel (FRC) H-Set 6"
+25.101,25101-j00.docx,9.2.4,MIMO Performance
+25.101,25101-j00.docx,9.2.4.1,Requirement Fixed Reference Channel (FRC) H-Set 9/9A/9B/9C/9E
+25.101,25101-j00.docx,9.2.4.2,Requirement Fixed Reference Channel (FRC) H-Set 11/11A/11B/11C/11E
+25.101,25101-j00.docx,9.2.5,Multiflow HSDPA performance
+25.101,25101-j00.docx,9.2.5.1,Requirement Fixed Reference Channel (FRC) H-Set 6 16QAM/QPSK
+25.101,25101-j00.docx,9.3,Reporting of Channel Quality Indicator
+25.101,25101-j00.docx,9.3.1,Single Link Performance
+25.101,25101-j00.docx,9.3.1.1,AWGN propagation conditions
+25.101,25101-j00.docx,9.3.1.2,Fading propagation conditions
+25.101,25101-j00.docx,9.3.1.3,Periodically varying radio conditions.
+25.101,25101-j00.docx,9.3.2,Open Loop Diversity Performance
+25.101,25101-j00.docx,9.3.2.1,AWGN propagation conditions
+25.101,25101-j00.docx,9.3.2.2,Fading propagation conditions
+25.101,25101-j00.docx,9.3.2.3,Periodically varying radio conditions.
+25.101,25101-j00.docx,9.3.3,Closed Loop Diversity Performance
+25.101,25101-j00.docx,9.3.3.1,AWGN propagation conditions
+25.101,25101-j00.docx,9.3.3.2,Fading propagation conditions
+25.101,25101-j00.docx,9.3.3.3,Periodically varying radio conditions.
+25.101,25101-j00.docx,9.3.4,MIMO Performance
+25.101,25101-j00.docx,9.3.4.1,MIMO Single Stream Fading Conditions
+25.101,25101-j00.docx,9.3.4.2,MIMO Dual Stream Fading Conditions
+25.101,25101-j00.docx,9.3.4.3,MIMO Dual Stream Static Orthogonal Conditions
+25.101,25101-j00.docx,9.3.5,MIMO only with single-stream restriction Performance
+25.101,25101-j00.docx,9.3.5.1,MIMO only with single-stream restriction Fading Conditions
+25.101,25101-j00.docx,9.3.6,Multiflow HSDPA performance
+25.101,25101-j00.docx,9.3.6.1,Fading propagation conditions
+25.101,25101-j00.docx,9.3.7,MIMO Performance with four transmit antennas
+25.101,25101-j00.docx,9.3.7.1,Four Streams Static Orthogonal Conditions
+25.101,25101-j00.docx,9.3.8,MIMO with Four Transmit Antennas only with Dual-Stream Restriction Performance
+25.101,25101-j00.docx,9.3.8.1,MIMO with four transmit antennas only with dual-stream restriction fading conditions
+25.101,25101-j00.docx,9.4,HS-SCCH Detection Performance
+25.101,25101-j00.docx,9.4.1,HS-SCCH Type 1 Single Link Performance
+25.101,25101-j00.docx,9.4.2,HS-SCCH Type 1 Open Loop Diversity Performance
+25.101,25101-j00.docx,9.4.3,HS-SCCH Type 3 Performance
+25.101,25101-j00.docx,9.4.4,HS-SCCH Type 3 Performance for MIMO only with single-stream restriction
+25.101,25101-j00.docx,9.4.5,HS-SCCH Type 4 Performance
+25.101,25101-j00.docx,9.4.6,HS-SCCH Type 4 Performance for MIMO mode with Four Transmit Antennas Only with Dual-stream Restriction
+25.101,25101-j00.docx,9.5,HS-SCCH-less demodulation of HS-DSCH (Fixed Reference Channel)
+25.101,25101-j00.docx,9.5.1,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 7"
+25.101,25101-j00.docx,9.6,Requirements for HS-DSCH and HS-SCCH reception in CELL_FACH state
+25.101,25101-j00.docx,9.6.1,HS-DSCH demodulation requirements (Single Link)
+25.101,25101-j00.docx,9.6.1.1,"Requirement QPSK, Fixed Reference Channel (FRC) H-Set 3"
+25.101,25101-j00.docx,9.6.2,HS-SCCH Detection Performance
+25.101,25101-j00.docx,9.6.2.1,HS-SCCH Type 1 Single Link Performance
+25.101,25101-j00.docx,10,Performance requirement (E-DCH)
+25.101,25101-j00.docx,10.1,General
+25.101,25101-j00.docx,10.2,Detection of E-DCH HARQ ACK Indicator Channel (E-HICH)
+25.101,25101-j00.docx,10.2.1,Single link performance
+25.101,25101-j00.docx,10.2.1.1,Performance requirement
+25.101,25101-j00.docx,10.2.2,Detection in Inter-Cell Handover conditions
+25.101,25101-j00.docx,10.2.2.1,Performance requirement for RLS not containing the Serving E-DCH cell
+25.101,25101-j00.docx,10.2.2.2,Performance requirement for RLS containing the serving E-DCH cell
+25.101,25101-j00.docx,10.3,Detection of E-DCH Relative Grant Channel (E-RGCH)
+25.101,25101-j00.docx,10.3.1,Single link performance
+25.101,25101-j00.docx,10.3.1.1,Performance requirement
+25.101,25101-j00.docx,10.3.2,Detection in Inter-Cell Handover conditions
+25.101,25101-j00.docx,10.3.2.1,Performance requirement for Non-serving E-DCH RL
+25.101,25101-j00.docx,10.4,Demodulation of E-DCH Absolute Grant Channel (E-AGCH)
+25.101,25101-j00.docx,10.4.1,Single link performance
+25.101,25101-j00.docx,10.4.1.1,Performance requirement
+25.101,25101-j00.docx,11,Performance requirement (MBMS)
+25.101,25101-j00.docx,11.1,Demodulation of MCCH
+25.101,25101-j00.docx,11.1.1,Minimum requirement
+25.101,25101-j00.docx,11.1.2,Minimum requirement for MBSFN
+25.101,25101-j00.docx,11.2,Demodulation of MTCH
+25.101,25101-j00.docx,11.2.1,Minimum requirement
+25.101,25101-j00.docx,11.2.2,Minimum requirement for MBSFN
+25.101,25101-j00.docx,11.3,Demodulation of MTCH and cell identification
+25.101,25101-j00.docx,11.3.1,Minimum requirement
+25.101,25101-j00.docx,Annex A,(normative):	Measurement channels
+25.101,25101-j00.docx,A.1,General
+25.101,25101-j00.docx,A.2,UL reference measurement channel
+25.101,25101-j00.docx,A.2.1,UL reference measurement channel (12.2 kbps)
+25.101,25101-j00.docx,A.2.2,UL reference measurement channel (64 kbps)
+25.101,25101-j00.docx,A.2.3,UL reference measurement channel (144 kbps)
+25.101,25101-j00.docx,A.2.4,UL reference measurement channel (384 kbps)
+25.101,25101-j00.docx,A.2.5,UL reference measurement channel (768 kbps)
+25.101,25101-j00.docx,A.2.6,UL E-DCH reference measurement channel for DC-HSUPA using BPSK modulation
+25.101,25101-j00.docx,A.2.7,UL E-DCH reference measurement channel for DC-HSUPA using 16QAM modulation
+25.101,25101-j00.docx,A.2.8,Combinations of UL E-DCH reference measurement channel for DC-HSUPA tests
+25.101,25101-j00.docx,A.3,DL reference measurement channel
+25.101,25101-j00.docx,A.3.0,DL reference measurement channel (0 kbps)
+25.101,25101-j00.docx,A.3.1,DL reference measurement channel (12.2 kbps)
+25.101,25101-j00.docx,A.3.2,DL reference measurement channel (64 kbps)
+25.101,25101-j00.docx,A.3.3,DL reference measurement channel (144 kbps)
+25.101,25101-j00.docx,A.3.4,DL reference measurement channel (384 kbps)
+25.101,25101-j00.docx,A.3.5,DL reference measurement channel 2 (64 kbps)
+25.101,25101-j00.docx,A.4,DL reference measurement channel for BTFD performance requirements
+25.101,25101-j00.docx,A.5,DL reference compressed mode parameters
+25.101,25101-j00.docx,A.6,DL reference parameters for PCH tests
+25.101,25101-j00.docx,A.7,DL reference channel parameters for HSDPA tests
+25.101,25101-j00.docx,A.7.1,Fixed Reference Channel (FRC)
+25.101,25101-j00.docx,A.7.1.1,Fixed Reference Channel Definition H-Set 1/1A/1B/1C/1E
+25.101,25101-j00.docx,A.7.1.2,Fixed Reference Channel Definition H-Set 2
+25.101,25101-j00.docx,A.7.1.3,Fixed Reference Channel Definition H-Set 3/3A/3B/3C/3E
+25.101,25101-j00.docx,A.7.1.4,Fixed Reference Channel Definition H-Set 4
+25.101,25101-j00.docx,A.7.1.5,Fixed Reference Channel Definition H-Set 5
+25.101,25101-j00.docx,A.7.1.6,Fixed Reference Channel Definition H-Set 6/6A/6B/6C/6E
+25.101,25101-j00.docx,A.7.1.7,Fixed Reference Channel Definition H-Set 7
+25.101,25101-j00.docx,A.7.1.8,Fixed Reference Channel Definition H-Set 8/8A/8B/8C/8E
+25.101,25101-j00.docx,A.7.1.9,Fixed Reference Channel Definition H-Set 9/9A/9B/9C/9E
+25.101,25101-j00.docx,A.7.1.10,Fixed Reference Channel Definition H-Set 10/10A/10B/10C/10E
+25.101,25101-j00.docx,A.7.1.11,Fixed Reference Channel Definition H-Set 11/11A/11B/11C/11E
+25.101,25101-j00.docx,A.7.1.12,Fixed Reference Channel Definition H-Set 12
+25.101,25101-j00.docx,A.7.1.13,Fixed Reference Channel Definition H-Set 13/13A/13C
+25.101,25101-j00.docx,A.7.1.14,Fixed Reference Channel Definition H-Set 14/14A/14C
+25.101,25101-j00.docx,A.8,DL reference parameters for MBMS tests
+25.101,25101-j00.docx,A.8.1,MCCH
+25.101,25101-j00.docx,A.8.1,MTCH
+25.101,25101-j00.docx,A.9,DL reference parameters for combined MTCH demodulation and cell identification
+25.101,25101-j00.docx,Annex B,(normative) :	Propagation conditions
+25.101,25101-j00.docx,B.2,Propagation Conditions
+25.101,25101-j00.docx,B.2.1,Static propagation condition
+25.101,25101-j00.docx,B.2.2,Multi-path fading propagation conditions
+25.101,25101-j00.docx,B.2.3,Moving propagation conditions
+25.101,25101-j00.docx,B.2.4,Birth-Death propagation conditions
+25.101,25101-j00.docx,B.2.5,High speed train condition
+25.101,25101-j00.docx,B.2.6,MIMO propagation conditions
+25.101,25101-j00.docx,B.2.6.1,MIMO Single Stream Fading Conditions
+25.101,25101-j00.docx,B.2.6.2,MIMO Dual Stream Fading Conditions
+25.101,25101-j00.docx,B.2.6.3,MIMO Dual Stream Static Orthogonal Conditions
+25.101,25101-j00.docx,B.2.7,Propagation conditions for MIMO with four transmit antennas
+25.101,25101-j00.docx,B.2.7.1,MIMO with Four Transmit Antennas and Four Streams Static Orthogonal Conditions
+25.101,25101-j00.docx,B.2.7.2,MIMO with Four Transmit Antennas Only With Dual Stream Fading Conditions
+25.101,25101-j00.docx,Annex C,(normative):	Downlink Physical Channels
+25.101,25101-j00.docx,C.1,General
+25.101,25101-j00.docx,C.2,Connection Set-up
+25.101,25101-j00.docx,C.3,During connection
+25.101,25101-j00.docx,C.3.1,Measurement of Rx Characteristics
+25.101,25101-j00.docx,C.3.2,Measurement of Performance requirements
+25.101,25101-j00.docx,C.3.3,Connection with open-loop transmit diversity mode
+25.101,25101-j00.docx,C.3.4,Connection with closed loop transmit diversity mode
+25.101,25101-j00.docx,C.4,W-CDMA Modulated Interferer
+25.101,25101-j00.docx,C.5,HSDPA DL Physical channels
+25.101,25101-j00.docx,C.5.1,Downlink Physical Channels connection set-up
+25.101,25101-j00.docx,C.5.2,OCNS Definition
+25.101,25101-j00.docx,C.5.3,Test Definition for Enhanced Performance Type 3i
+25.101,25101-j00.docx,C.5.3.1,Transmitted code and power characteristics for serving cell
+25.101,25101-j00.docx,C.5.3.2,Transmitted code and power characteristics for interfering cells
+25.101,25101-j00.docx,C.5.3.3,Model for power control sequence generation
+25.101,25101-j00.docx,C.5.4,Simplified Multi Carrier HSDPA testing method
+25.101,25101-j00.docx,C.5.5,Test Definition for Multiflow HSDPA
+25.101,25101-j00.docx,C.5.5.1,Test configuration when 2 cells are configured in Multiflow mode
+25.101,25101-j00.docx,C.5.5.2,Test configuration when 3 cells are configured in Multiflow mode
+25.101,25101-j00.docx,C.5.5.3,Test configuration when 4 cells are configured in Multiflow mode
+25.101,25101-j00.docx,C.6,MBMS DL Physical channels
+25.101,25101-j00.docx,C.6.1,Downlink Physical Channels connection set-up
+25.101,25101-j00.docx,C.6.2,Downlink Physical Channels connection set-up for MBSFN
+25.101,25101-j00.docx,Annex D,(normative) :	Environmental conditions
+25.101,25101-j00.docx,D.1,General
+25.101,25101-j00.docx,D.2,Environmental requirements
+25.101,25101-j00.docx,D.2.1,Temperature
+25.101,25101-j00.docx,D.2.2,Voltage
+25.101,25101-j00.docx,D.2.3,Vibration
+25.101,25101-j00.docx,E.1,General
+25.101,25101-j00.docx,E.2,List of UARFCN used for UTRA FDD bands

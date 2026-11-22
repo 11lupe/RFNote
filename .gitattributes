@@ -1,0 +1,18 @@
+* text=auto eol=lf
+
+# 规范原文与转换件：二进制，禁止行尾转换
+*.zip   binary
+*.doc   binary
+*.docx  binary
+*.xlsm  binary
+*.xlsx  binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+
+# 表格与脚本按文本处理
+*.csv   text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf

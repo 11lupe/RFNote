@@ -1,0 +1,798 @@
+﻿规范,文件,条款,标题
+36.101,36101-k10_s00-07.docx,1,Scope
+36.101,36101-k10_s00-07.docx,2,References
+36.101,36101-k10_s00-07.docx,3,"Definitions, symbols and abbreviations"
+36.101,36101-k10_s00-07.docx,3.1,Definitions
+36.101,36101-k10_s00-07.docx,3.2,Symbols
+36.101,36101-k10_s00-07.docx,3.3,Abbreviations
+36.101,36101-k10_s00-07.docx,4,General
+36.101,36101-k10_s00-07.docx,4.1,Relationship between minimum requirements and test requirements
+36.101,36101-k10_s00-07.docx,4.2,Applicability of minimum requirements
+36.101,36101-k10_s00-07.docx,5,Operating bands and channel arrangement
+36.101,36101-k10_s00-07.docx,5.1,General
+36.101,36101-k10_s00-07.docx,5.5,Operating bands
+36.101,36101-k10_s00-07.docx,5.6,Channel bandwidth
+36.101,36101-k10_s00-07.docx,5.6.1,Channel bandwidths per operating band
+36.101,36101-k10_s00-07.docx,5.7,Channel arrangement
+36.101,36101-k10_s00-07.docx,5.7.1,Channel spacing
+36.101,36101-k10_s00-07.docx,5.7.2,Channel raster
+36.101,36101-k10_s00-07.docx,5.7.3,Carrier frequency and EARFCN
+36.101,36101-k10_s00-07.docx,5.7.4,TX–RX frequency separation
+36.101,36101-k10_s00-07.docx,6,Transmitter characteristics
+36.101,36101-k10_s00-07.docx,6.1,General
+36.101,36101-k10_s00-07.docx,6.2,Transmit power
+36.101,36101-k10_s00-07.docx,6.2.2,UE maximum output power
+36.101,36101-k10_s00-07.docx,6.2.3,UE maximum output power for modulation / channel bandwidth
+36.101,36101-k10_s00-07.docx,5.67,- 3.07A		; 0.33< A ≤0.77
+36.101,36101-k10_s00-07.docx,3.31,; 0.77< A ≤1.00
+36.101,36101-k10_s00-07.docx,5.50,; 0.25< A < 1.00
+36.101,36101-k10_s00-07.docx,9.2,- 40A 			; 0.025	≤ A < 0.05
+36.101,36101-k10_s00-07.docx,8,– 16A				; 0.05	≤ A < 0.25
+36.101,36101-k10_s00-07.docx,4.83,"– 3.33A			; 0.25 ≤ A ≤ 0.4,"
+36.101,36101-k10_s00-07.docx,3.83,"– 0.83A			; 0.4 ≤ A ≤ 1,"
+36.101,36101-k10_s00-07.docx,9.2,- 40A				; 0.025 ≤ A < 0.05
+36.101,36101-k10_s00-07.docx,8,– 16A				; 0.05 ≤ A < 0.16
+36.101,36101-k10_s00-07.docx,5.5,; 0.16 ≤ A < 1
+36.101,36101-k10_s00-07.docx,6.0,; 1.5 * BWChannel_CA ≤ IM5 <  BWChannel_CA/2 + FOOB
+36.101,36101-k10_s00-07.docx,9.2,- 40A 				; 0.04 ≤ A < 0.075
+36.101,36101-k10_s00-07.docx,8,– 16A				; 0.075 ≤ A < 0.25
+36.101,36101-k10_s00-07.docx,8.5,– 7.5A 			; 0.2 ≤ A < 0.6
+36.101,36101-k10_s00-07.docx,5.5,– 2.5A 			; 0.6 ≤ A ≤ 1
+36.101,36101-k10_s00-07.docx,8.5,– 7.5A 			; 0.2 ≤ A < 0.4
+36.101,36101-k10_s00-07.docx,5.5,; 0.4 ≤ A ≤ 1
+36.101,36101-k10_s00-07.docx,9.2,- 40A 			; 0.025	 ≤ A < 0.05
+36.101,36101-k10_s00-07.docx,4.0,; 0.25 ≤ A < 1
+36.101,36101-k10_s00-07.docx,9.2,- 40A			; 0.025 ≤ A < 0.05
+36.101,36101-k10_s00-07.docx,8,– 16A			; 0.05 ≤ A < 0.16
+36.101,36101-k10_s00-07.docx,5.5,–5.833A		; 0.2< A ≤0.6
+36.101,36101-k10_s00-07.docx,2.0,; 0.6< A ≤1.00
+36.101,36101-k10_s00-07.docx,8,- 15A 			; 0.1 ≤ A < 0.2
+36.101,36101-k10_s00-07.docx,5.75,– 3.75A		; 0.2 ≤ A < 0.6
+36.101,36101-k10_s00-07.docx,8.5,- 20A 			; 0.1 ≤ A < 0.2
+36.101,36101-k10_s00-07.docx,5.25,– 2.5A		; 0.2 ≤ A < 0.6
+36.101,36101-k10_s00-07.docx,3.5,; 0.6≤ A ≤ 1
+36.101,36101-k10_s00-07.docx,8.5,– 20.0A		; 0.2< A ≤0.3
+36.101,36101-k10_s00-07.docx,2.5,; 0.3< A ≤1.00
+36.101,36101-k10_s00-07.docx,12.0,– 30.0A		; 0.1< A ≤0.3
+36.101,36101-k10_s00-07.docx,3.0,; 0.3< A ≤1.00
+36.101,36101-k10_s00-07.docx,6.2.4,UE maximum output power with additional requirements
+36.101,36101-k10_s00-07.docx,23,– 120A			; 0.025 ≤ A < 0.05
+36.101,36101-k10_s00-07.docx,17.53,– 10.59A		; 0.05 ≤ A ≤ 0.9
+36.101,36101-k10_s00-07.docx,8,; 0.9 ≤ A ≤ 1
+36.101,36101-k10_s00-07.docx,18.50,- 20.00 A;			0.05 ≤ A < 0.2
+36.101,36101-k10_s00-07.docx,15.50,- 5.00 A;			0.2 ≤ A < 1
+36.101,36101-k10_s00-07.docx,10.88,- 5.88 A;			0.15 ≤ A < 1
+36.101,36101-k10_s00-07.docx,13.78,- 9.78 A; 		0.08 < A <= 1.00
+36.101,36101-k10_s00-07.docx,14.13,-14.06 A; 		0.08 < A <= 0.40
+36.101,36101-k10_s00-07.docx,9.17,– 1.67 A;		0.40 < A <= 1.00
+36.101,36101-k10_s00-07.docx,6.2.5,Configured transmitted power
+36.101,36101-k10_s00-07.docx,6.3,Output power dynamics
+36.101,36101-k10_s00-07.docx,6.3.2,Minimum output power
+36.101,36101-k10_s00-07.docx,6.3.2.1,Minimum requirement
+36.101,36101-k10_s00-07.docx,6.3.3,Transmit OFF power
+36.101,36101-k10_s00-07.docx,6.3.4,ON/OFF time mask
+36.101,36101-k10_s00-07.docx,6.3.4.1,General ON/OFF time mask
+36.101,36101-k10_s00-07.docx,6.3.4.2,PRACH and SRS time mask
+36.101,36101-k10_s00-07.docx,6.3.4.3,Slot / Sub frame boundary time mask for subframe TTI
+36.101,36101-k10_s00-07.docx,6.3.4.4,PUCCH / PUSCH / SRS time mask for subframe TTI
+36.101,36101-k10_s00-07.docx,6.3.4.5,Symbol / Subslot boundary time mask for subslot TTI
+36.101,36101-k10_s00-07.docx,6.3.4.6,Subslot PUCCH / subslot PUSCH / SRS time mask for subslot TTI
+36.101,36101-k10_s00-07.docx,6.3.4.7,Symbol / Slot boundary time mask for slot TTI
+36.101,36101-k10_s00-07.docx,6.3.4.8,Slot PUCCH / slot PUSCH / SRS time mask for slot TTI
+36.101,36101-k10_s00-07.docx,6.3.4.9,Consecutive subslot and slot TTI or consecutive subslot and subframe TTI  time mask
+36.101,36101-k10_s00-07.docx,6.3.4.10,Consecutive subframe and subslot TTI or consecutive slot and subslot TTI time mask
+36.101,36101-k10_s00-07.docx,6.3.4.11,Consecutive TTI and slot TTI or consecutive slot TTI and TTI time mask
+36.101,36101-k10_s00-07.docx,6.3.5,Power Control
+36.101,36101-k10_s00-07.docx,6.3.5.1,Absolute power tolerance
+36.101,36101-k10_s00-07.docx,6.3.5.2,Relative Power tolerance
+36.101,36101-k10_s00-07.docx,6.3.5.3,Aggregate power control tolerance
+36.101,36101-k10_s00-07.docx,6.5,Transmit signal quality
+36.101,36101-k10_s00-07.docx,6.5.1,Frequency error
+36.101,36101-k10_s00-07.docx,6.5.2,Transmit modulation quality
+36.101,36101-k10_s00-07.docx,6.5.2.1,Error Vector Magnitude
+36.101,36101-k10_s00-07.docx,6.5.2.2,Carrier leakage
+36.101,36101-k10_s00-07.docx,6.5.2.3,In-band emissions
+36.101,36101-k10_s00-07.docx,6.5.2.4,EVM equalizer spectrum flatness
+36.101,36101-k10_s00-07.docx,6.6,Output RF spectrum emissions
+36.101,36101-k10_s00-07.docx,6.6.1,Occupied bandwidth
+36.101,36101-k10_s00-07.docx,6.6.1.1,Additional minimum requirement for E-UTRA (network signalled value “NS_29”)
+36.101,36101-k10_s00-07.docx,6.6.2,Out of band emission
+36.101,36101-k10_s00-07.docx,6.6.2.1,Spectrum emission mask
+36.101,36101-k10_s00-07.docx,6.6.2.2,Additional spectrum emission mask
+36.101,36101-k10_s00-07.docx,6.6.2.3,Adjacent Channel Leakage Ratio
+36.101,36101-k10_s00-07.docx,6.6.3,Spurious emissions
+36.101,36101-k10_s00-07.docx,6.6.3.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,6.6.3.2,Spurious emission band UE co-existence
+36.101,36101-k10_s00-07.docx,6.6.3.3,Additional spurious emissions
+36.101,36101-k10_s00-07.docx,6.7,Transmit intermodulation
+36.101,36101-k10_s00-07.docx,6.7.1,Minimum requirement
+36.101,36101-k10_s00-07.docx,7,Receiver characteristics
+36.101,36101-k10_s00-07.docx,7.1,General
+36.101,36101-k10_s00-07.docx,7.2,Diversity characteristics
+36.101,36101-k10_s00-07.docx,7.3,Reference sensitivity power level
+36.101,36101-k10_s00-07.docx,7.3.1,Minimum requirements (QPSK)
+36.101,36101-k10_s00-07.docx,7.4,Maximum input level
+36.101,36101-k10_s00-07.docx,7.4.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.5,Adjacent Channel Selectivity (ACS)
+36.101,36101-k10_s00-07.docx,7.5.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.6,Blocking characteristics
+36.101,36101-k10_s00-07.docx,7.6.1,In-band blocking
+36.101,36101-k10_s00-07.docx,7.6.1.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.6.2,Out-of-band blocking
+36.101,36101-k10_s00-07.docx,7.6.2.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.6.3,Narrow band blocking
+36.101,36101-k10_s00-07.docx,7.6.3.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.7,Spurious response
+36.101,36101-k10_s00-07.docx,7.7.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.8,Intermodulation characteristics
+36.101,36101-k10_s00-07.docx,7.8.1,Wide band intermodulation
+36.101,36101-k10_s00-07.docx,7.8.1.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.9,Spurious emissions
+36.101,36101-k10_s00-07.docx,7.9.1,Minimum requirements
+36.101,36101-k10_s00-07.docx,7.10,Receiver image
+36.101,36101-k10_s08-XX.docx,8,Performance requirement
+36.101,36101-k10_s08-XX.docx,8.1,General
+36.101,36101-k10_s08-XX.docx,8.1.1,Receiver antenna capability
+36.101,36101-k10_s08-XX.docx,8.1.1.1,Simultaneous unicast and MBMS operations
+36.101,36101-k10_s08-XX.docx,8.1.1.2,Dual-antenna receiver capability in idle mode
+36.101,36101-k10_s08-XX.docx,8.1.2,Applicability of requirements
+36.101,36101-k10_s08-XX.docx,8.1.2.1,Applicability of requirements for different channel bandwidths
+36.101,36101-k10_s08-XX.docx,8.1.2.2,Definition of CA capability
+36.101,36101-k10_s08-XX.docx,8.1.2.3,Applicability and test rules for different CA configurations and bandwidth combination sets
+36.101,36101-k10_s08-XX.docx,8.1.2.4,Test coverage for different number of component carriers
+36.101,36101-k10_s08-XX.docx,8.1.2.5,Applicability of performance requirements for Type B receiver
+36.101,36101-k10_s08-XX.docx,8.1.2.6,Applicability of performance requirements for 4Rx capable UEs
+36.101,36101-k10_s08-XX.docx,8.1.2.7,Applicability of Enhanced Downlink Control Channel Performance Requirements
+36.101,36101-k10_s08-XX.docx,8.1.2.9,Applicability of SDR requirements for CA and LAA
+36.101,36101-k10_s08-XX.docx,8.1.2.10,Applicability of performance requirements for Multi-user Superposed Transmission
+36.101,36101-k10_s08-XX.docx,8.1.2.11,Applicability CRS interference mitigation receivers performance requirements
+36.101,36101-k10_s08-XX.docx,8.1.2.12,Applicability of performance requirements for 8Rx capable UEs
+36.101,36101-k10_s08-XX.docx,8.1.3,UE category and UE DL category
+36.101,36101-k10_s08-XX.docx,8.2,Demodulation of PDSCH (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.2.1,FDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.2.1.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.2.1.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.2.1.3,Open-loop spatial multiplexing performance
+36.101,36101-k10_s08-XX.docx,8.2.1.4,Closed-loop spatial multiplexing performance
+36.101,36101-k10_s08-XX.docx,8.2.1.5,MU-MIMO
+36.101,36101-k10_s08-XX.docx,8.2.1.6,[Control channel performance: D-BCH and PCH]
+36.101,36101-k10_s08-XX.docx,8.2.1.7,Carrier aggregation with power imbalance
+36.101,36101-k10_s08-XX.docx,8.2.1.8,Intra-band non-contiguous carrier aggregation with timing offset
+36.101,36101-k10_s08-XX.docx,8.2.1.9,HST-SFN performance
+36.101,36101-k10_s08-XX.docx,8.2.1.10,Intra-band contiguous carrier aggregation with minimum channel spacing
+36.101,36101-k10_s08-XX.docx,8.2.2,TDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.2.2.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.2.2.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.2.2.3,Open-loop spatial multiplexing performance
+36.101,36101-k10_s08-XX.docx,8.2.2.4,Closed-loop spatial multiplexing performance
+36.101,36101-k10_s08-XX.docx,8.2.2.5,MU-MIMO
+36.101,36101-k10_s08-XX.docx,8.2.2.6,[Control channel performance: D-BCH and PCH]
+36.101,36101-k10_s08-XX.docx,8.2.2.7,Carrier aggregation with power imbalance
+36.101,36101-k10_s08-XX.docx,8.2.2.8,Intra-band contiguous carrier aggregation with minimum channel spacing
+36.101,36101-k10_s08-XX.docx,8.2.2.9,HST-SFN performance
+36.101,36101-k10_s08-XX.docx,8.2.3,TDD FDD CA (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.2.3.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.2.3.2,Open-loop spatial multiplexing performance 2Tx Antenna port
+36.101,36101-k10_s08-XX.docx,8.2.3.3,Closed-loop spatial multiplexing performance 4Tx Antenna Port
+36.101,36101-k10_s08-XX.docx,8.2.3.4,Minimum Requirement for Closed-loop spatial multiplexing performance 4Tx Antenna Port for dual connectivity
+36.101,36101-k10_s08-XX.docx,8.2.3.5,HST-SFN performance
+36.101,36101-k10_s08-XX.docx,8.2.4,LAA
+36.101,36101-k10_s08-XX.docx,8.2.4.1,Closed-loop spatial multiplexing performance 4Tx Antenna Port
+36.101,36101-k10_s08-XX.docx,8.3,Demodulation of PDSCH (User-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.3.1,FDD
+36.101,36101-k10_s08-XX.docx,8.3.1.1,Single-layer Spatial Multiplexing
+36.101,36101-k10_s08-XX.docx,8.3.1.2,Dual-Layer Spatial Multiplexing
+36.101,36101-k10_s08-XX.docx,8.3.1.3,Performance requirements for DCI format 2D and non Quasi Co-located Antenna Ports
+36.101,36101-k10_s08-XX.docx,8.3.1.4,Performance Requirements for semiOpenLoop transmission
+36.101,36101-k10_s08-XX.docx,8.3.2,TDD
+36.101,36101-k10_s08-XX.docx,8.3.2.1,Single-layer Spatial Multiplexing
+36.101,36101-k10_s08-XX.docx,8.3.2.2,Dual-Layer Spatial Multiplexing
+36.101,36101-k10_s08-XX.docx,8.3.2.3,Dual-Layer Spatial Multiplexing (with multiple CSI-RS configurations)
+36.101,36101-k10_s08-XX.docx,8.3.2.4,Performance requirements for DCI format 2D and non Quasi Co-located Antenna Ports
+36.101,36101-k10_s08-XX.docx,8.3.2.5,Performance Requirements for semiOpenLoop transmission
+36.101,36101-k10_s08-XX.docx,8.3.3,LAA
+36.101,36101-k10_s08-XX.docx,8.3.3.1,Dual-Layer Spatial Multiplexing with DM-RS
+36.101,36101-k10_s08-XX.docx,8.4,Demodulation of PDCCH/PCFICH
+36.101,36101-k10_s08-XX.docx,8.4.1,FDD
+36.101,36101-k10_s08-XX.docx,8.4.1.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.4.1.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.4.2,TDD
+36.101,36101-k10_s08-XX.docx,8.4.2.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.4.2.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.4.3,LAA
+36.101,36101-k10_s08-XX.docx,8.4.3.1,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.5,Demodulation of PHICH
+36.101,36101-k10_s08-XX.docx,8.5.1,FDD
+36.101,36101-k10_s08-XX.docx,8.5.1.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.5.1.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.5.2,TDD
+36.101,36101-k10_s08-XX.docx,8.5.2.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.5.2.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.6,Demodulation of PBCH
+36.101,36101-k10_s08-XX.docx,8.6.1,FDD
+36.101,36101-k10_s08-XX.docx,8.6.1.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.6.1.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.6.2,TDD
+36.101,36101-k10_s08-XX.docx,8.6.2.1,Single-antenna port performance
+36.101,36101-k10_s08-XX.docx,8.6.2.2,Transmit diversity performance
+36.101,36101-k10_s08-XX.docx,8.7,Sustained downlink data rate provided by lower layers
+36.101,36101-k10_s08-XX.docx,8.7.1,FDD (single carrier and CA)
+36.101,36101-k10_s08-XX.docx,8.7.2,TDD (single carrier and CA)
+36.101,36101-k10_s08-XX.docx,8.7.3,FDD (EPDCCH scheduling)
+36.101,36101-k10_s08-XX.docx,8.7.4,TDD (EPDCCH scheduling)
+36.101,36101-k10_s08-XX.docx,8.7.5,TDD FDD CA
+36.101,36101-k10_s08-XX.docx,8.7.5.1,Minimum Requirement FDD PCell
+36.101,36101-k10_s08-XX.docx,8.7.5.2,Minimum Requirement TDD PCell
+36.101,36101-k10_s08-XX.docx,8.7.6,FDD (DC)
+36.101,36101-k10_s08-XX.docx,8.7.7,TDD (DC)
+36.101,36101-k10_s08-XX.docx,8.7.8,TDD FDD (DC)
+36.101,36101-k10_s08-XX.docx,8.7.9,FDD (4 Rx)
+36.101,36101-k10_s08-XX.docx,8.7.10,TDD (4 Rx)
+36.101,36101-k10_s08-XX.docx,8.7.11,TDD FDD CA (4 Rx)
+36.101,36101-k10_s08-XX.docx,8.7.12,LAA
+36.101,36101-k10_s08-XX.docx,8.7.12.1,FDD CA in licensed bands
+36.101,36101-k10_s08-XX.docx,8.7.12.2,TDD CA in licensed bands
+36.101,36101-k10_s08-XX.docx,8.7.12.3,TDD-FDD CA in licensed bands
+36.101,36101-k10_s08-XX.docx,8.7.13,FDD DC (4 Rx)
+36.101,36101-k10_s08-XX.docx,8.7.14,TDD DC (4 Rx)
+36.101,36101-k10_s08-XX.docx,8.7.15,TDD FDD DC (4 Rx)
+36.101,36101-k10_s08-XX.docx,8.7.16,FDD (1024QAM and up to 4Rx supported)
+36.101,36101-k10_s08-XX.docx,8.7.17,TDD (1024QAM and up to 4 Rx supported)
+36.101,36101-k10_s08-XX.docx,8.7.18,TDD FDD CA (1024QAM and up to 4 Rx supported)
+36.101,36101-k10_s08-XX.docx,8.7.19,TDD (8 Rx)
+36.101,36101-k10_s08-XX.docx,8.8,Demodulation of EPDCCH
+36.101,36101-k10_s08-XX.docx,8.8.1,Distributed Transmission
+36.101,36101-k10_s08-XX.docx,8.8.1.1,FDD
+36.101,36101-k10_s08-XX.docx,8.8.1.2,TDD
+36.101,36101-k10_s08-XX.docx,8.8.2,Localized Transmission with TM9
+36.101,36101-k10_s08-XX.docx,8.8.2.1,FDD
+36.101,36101-k10_s08-XX.docx,8.8.2.2,TDD
+36.101,36101-k10_s08-XX.docx,8.8.3,Localized transmission with TM10 Type B quasi co-location type
+36.101,36101-k10_s08-XX.docx,8.8.3.1,FDD
+36.101,36101-k10_s08-XX.docx,8.8.3.2,TDD
+36.101,36101-k10_s08-XX.docx,8.8.4.1,FDD
+36.101,36101-k10_s08-XX.docx,8.8.4.2,TDD
+36.101,36101-k10_s08-XX.docx,8.8.5.1,TDD
+36.101,36101-k10_s08-XX.docx,8.8.6.1,FDD
+36.101,36101-k10_s08-XX.docx,8.9,Demodulation (single receiver antenna)
+36.101,36101-k10_s08-XX.docx,8.9.1,PDSCH
+36.101,36101-k10_s08-XX.docx,8.9.1.1,FDD and half-duplex FDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.9.1.2,TDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.9.2,PHICH
+36.101,36101-k10_s08-XX.docx,8.9.2.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,8.9.2.2,TDD
+36.101,36101-k10_s08-XX.docx,8.9.3,PBCH
+36.101,36101-k10_s08-XX.docx,8.9.3.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,8.9.3.2,TDD
+36.101,36101-k10_s08-XX.docx,8.9.4,PDCCH/PCFICH
+36.101,36101-k10_s08-XX.docx,8.9.4.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,8.9.4.2,TDD
+36.101,36101-k10_s08-XX.docx,8.10,Demodulation (4 receiver antenna ports)
+36.101,36101-k10_s08-XX.docx,8.10.1,PDSCH
+36.101,36101-k10_s08-XX.docx,8.10.1.1,FDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.10.1.2,TDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.10.2,PDCCH/PCFICH
+36.101,36101-k10_s08-XX.docx,8.10.2.1,FDD
+36.101,36101-k10_s08-XX.docx,8.10.2.2,TDD
+36.101,36101-k10_s08-XX.docx,8.10.3,PHICH
+36.101,36101-k10_s08-XX.docx,8.10.3.1,FDD
+36.101,36101-k10_s08-XX.docx,8.10.3.2,TDD
+36.101,36101-k10_s08-XX.docx,8.10.4,ePDCCH
+36.101,36101-k10_s08-XX.docx,8.10.4.1,Distributed Transmission with 4Rx
+36.101,36101-k10_s08-XX.docx,8.10.4.2,Localized Transmission with TM9 and 4Rx
+36.101,36101-k10_s08-XX.docx,8.11,Demodulation (UE supporting coverage enhancement)
+36.101,36101-k10_s08-XX.docx,8.11.1,PDSCH
+36.101,36101-k10_s08-XX.docx,8.11.1.1,FDD and half-duplex FDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.11.1.2,TDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.11.2,MPDCCH
+36.101,36101-k10_s08-XX.docx,8.11.2.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,8.11.2.2,TDD
+36.101,36101-k10_s08-XX.docx,8.11.3,PBCH
+36.101,36101-k10_s08-XX.docx,8.11.3.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,8.11.3.2,TDD
+36.101,36101-k10_s08-XX.docx,8.12,Demodulation of Narrowband IoT
+36.101,36101-k10_s08-XX.docx,8.12.1,NPDSCH
+36.101,36101-k10_s08-XX.docx,8.12.1.2,TDD
+36.101,36101-k10_s08-XX.docx,8.12.2,NPDCCH
+36.101,36101-k10_s08-XX.docx,8.12.2.1,Half-duplex FDD
+36.101,36101-k10_s08-XX.docx,8.12.2.2,TDD
+36.101,36101-k10_s08-XX.docx,8.12.3,Demodulation of NPBCH
+36.101,36101-k10_s08-XX.docx,8.12.3.1,HD-FDD
+36.101,36101-k10_s08-XX.docx,8.12.3.2,TDD
+36.101,36101-k10_s08-XX.docx,8.13,Demodulation of PDSCH CA and DC(4 receiver antenna ports)
+36.101,36101-k10_s08-XX.docx,8.13.1,FDD (CA and DC)
+36.101,36101-k10_s08-XX.docx,8.13.1.1,Closed-loop spatial multiplexing performance
+36.101,36101-k10_s08-XX.docx,8.13.1.2,Dual-Layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.13.1.3,Enhanced Performance Requirements Type A Closed-loop spatial multiplexing
+36.101,36101-k10_s08-XX.docx,8.13.1.4,Enhanced Performance Requirement Type A - Single-layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.13.2,TDD (CA and DC)
+36.101,36101-k10_s08-XX.docx,8.13.2.1,Closed-loop spatial multiplexing performance
+36.101,36101-k10_s08-XX.docx,8.13.2.2,Dual-Layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.13.2.3,Enhanced Performance Requirements Type A Closed-loop spatial multiplexing
+36.101,36101-k10_s08-XX.docx,8.13.2.4,Enhanced Performance Requirement Type A - Single-layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.13.3,TDD-FDD (CA and DC)
+36.101,36101-k10_s08-XX.docx,8.13.3.1,Closed-loop spatial multiplexing performance 4Tx Antenna Port
+36.101,36101-k10_s08-XX.docx,8.13.3.2,Dual-Layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.13.3.3,Enhanced Performance Requirements Type A Closed-loop spatial multiplexing
+36.101,36101-k10_s08-XX.docx,8.13.3.4,Enhanced Performance Requirement Type A - Single-layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,8.13.3.5,Closed-loop spatial multiplexing performance 4Tx Antenna Port for DC
+36.101,36101-k10_s08-XX.docx,8.13.3.6,Closed-loop spatial multiplexing performance 4Tx Antenna Port with 256QAM
+36.101,36101-k10_s08-XX.docx,8.13.3.7,Closed-loop spatial multiplexing performance 4Tx Antenna Port with Four layers
+36.101,36101-k10_s08-XX.docx,8.14,Demodulation (UE supporting Short TTI)
+36.101,36101-k10_s08-XX.docx,8.14.1,Slot-PDSCH and Subslot-PDSCH
+36.101,36101-k10_s08-XX.docx,8.14.1.1,FDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.14.1.2,TDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.14.2,SPDCCH
+36.101,36101-k10_s08-XX.docx,8.14.2.1,FDD
+36.101,36101-k10_s08-XX.docx,8.14.2.2,TDD
+36.101,36101-k10_s08-XX.docx,8.15,Demodulation (8 receiver antenna ports)
+36.101,36101-k10_s08-XX.docx,8.15.1,PDSCH
+36.101,36101-k10_s08-XX.docx,8.15.1.2,TDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,8.15.2,CA
+36.101,36101-k10_s08-XX.docx,8.15.2.2,TDD
+36.101,36101-k10_s08-XX.docx,9,Reporting of Channel State Information
+36.101,36101-k10_s08-XX.docx,9.1,General
+36.101,36101-k10_s08-XX.docx,9.1.1,Applicability of requirements
+36.101,36101-k10_s08-XX.docx,9.1.1.1,Applicability of requirements for different channel bandwidths
+36.101,36101-k10_s08-XX.docx,9.1.1.2,Applicability and test rules for different CA configurations and bandwidth combination sets
+36.101,36101-k10_s08-XX.docx,9.1.1.3,Test coverage for different number of componenet carriers
+36.101,36101-k10_s08-XX.docx,9.1.1.4,Applicability of performance requirements for 4Rx capable UEs
+36.101,36101-k10_s08-XX.docx,9.1.1.5,Applicability of requirements for UEs supporting coverage enhancement
+36.101,36101-k10_s08-XX.docx,9.2,CQI reporting definition under AWGN conditions
+36.101,36101-k10_s08-XX.docx,9.2.1,Minimum requirement PUCCH 1-0 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.2.1.1,FDD
+36.101,36101-k10_s08-XX.docx,9.2.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.2.1.3,FDD (CSI measurements in case two CSI subframe sets are configured)
+36.101,36101-k10_s08-XX.docx,9.2.1.4,TDD (CSI measurements in case two CSI subframe sets are configured)
+36.101,36101-k10_s08-XX.docx,9.2.1.5,FDD (CSI measurements in case two CSI subframe sets are configured and with CRS assistance information)
+36.101,36101-k10_s08-XX.docx,9.2.1.6,TDD (CSI measurements in case two CSI subframe sets are configured and with CRS assistance information)
+36.101,36101-k10_s08-XX.docx,9.2.1.7,FDD (Modulation and TBS index Table 2 and 4-bit CQI Table 2 are used)
+36.101,36101-k10_s08-XX.docx,9.2.1.8,TDD (Modulation and TBS index Table 2 and 4-bit CQI Table 2 are used)
+36.101,36101-k10_s08-XX.docx,9.2.1.9,FDD (Modulation and TBS index Table 3 and 4-bit CQI Table 4 are used)
+36.101,36101-k10_s08-XX.docx,9.2.1.10,TDD (Modulation and TBS index Table 3 and 4-bit CQI Table 4 are used)
+36.101,36101-k10_s08-XX.docx,9.2.2,Minimum requirement PUCCH 1-1 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.2.2.1,FDD
+36.101,36101-k10_s08-XX.docx,9.2.2.2,TDD
+36.101,36101-k10_s08-XX.docx,9.2.3,Minimum requirement PUCCH 1-1 (CSI Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.2.3.1,FDD
+36.101,36101-k10_s08-XX.docx,9.2.3.2,TDD
+36.101,36101-k10_s08-XX.docx,9.2.4,Minimum requirement PUCCH 1-1 (With Single CSI Process)
+36.101,36101-k10_s08-XX.docx,9.2.4.1,FDD
+36.101,36101-k10_s08-XX.docx,9.2.4.2,TDD
+36.101,36101-k10_s08-XX.docx,9.2.5,Minimum requirement PUCCH 1-1 (when csi-SubframeSet –r12 and EIMTA-MainConfigServCell-r12 are configured)
+36.101,36101-k10_s08-XX.docx,9.2.6,Minimum requirement PUSCH 3-0 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.2.6.1,Frame structure type 3 with FDD Pcell
+36.101,36101-k10_s08-XX.docx,9.2.6.2,Frame structure type 3 with TDD Pcell
+36.101,36101-k10_s08-XX.docx,9.2.7,Minimum requirement PUSCH 3-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.2.7.1,Frame structure type 3 wth FDD Pcell
+36.101,36101-k10_s08-XX.docx,9.2.7.2,Frame structure type 3 wth TDD Pcell
+36.101,36101-k10_s08-XX.docx,9.3,CQI reporting under fading conditions
+36.101,36101-k10_s08-XX.docx,9.3.1,Frequency-selective scheduling mode
+36.101,36101-k10_s08-XX.docx,9.3.1.1,Minimum requirement PUSCH 3-0 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.3.1.2,Minimum requirement PUSCH 3-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.3.2,Frequency non-selective scheduling mode
+36.101,36101-k10_s08-XX.docx,9.3.2.1,Minimum requirement PUCCH 1-0 (Cell-Specific Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.3.2.2,Minimum requirement PUCCH 1-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.3.3,Frequency-selective interference
+36.101,36101-k10_s08-XX.docx,9.3.3.1,Minimum requirement PUSCH 3-0 (Cell-Specific Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.3.4,UE-selected subband CQI
+36.101,36101-k10_s08-XX.docx,9.3.4.1,Minimum requirement PUSCH 2-0 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.3.4.2,Minimum requirement PUCCH 2-0 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.3.5,Additional requirements for enhanced receiver Type A
+36.101,36101-k10_s08-XX.docx,9.3.5.1,Minimum requirement PUCCH 1-0 (Cell-Specific Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.3.5.2,Minimum requirement PUCCH 1-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.3.6,Minimum requirement (With multiple CSI processes)
+36.101,36101-k10_s08-XX.docx,9.3.6.2,TDD
+36.101,36101-k10_s08-XX.docx,9.3.7,Minimum requirement PUSCH 3-2
+36.101,36101-k10_s08-XX.docx,9.3.7.1,FDD
+36.101,36101-k10_s08-XX.docx,9.3.7.2,TDD
+36.101,36101-k10_s08-XX.docx,9.3.8,Additional requirements for enhanced receiver Type B
+36.101,36101-k10_s08-XX.docx,9.3.8.1,Minimum requirement PUCCH 1-1 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.3.8.2,Minimum requirement PUCCH 1-1 (CSI Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.3.8.3,Minimum requirement with CSI process
+36.101,36101-k10_s08-XX.docx,9.4,Reporting of Precoding Matrix Indicator (PMI)
+36.101,36101-k10_s08-XX.docx,9.4.1,Single PMI
+36.101,36101-k10_s08-XX.docx,9.4.1.1,Minimum requirement PUSCH 3-1 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.4.1.2,Minimum requirement PUCCH 2-1 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.4.1.3,Minimum requirement PUSCH 3-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.4.1.4,Minimum requirement PUCCH 1-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.4.2,Multiple PMI
+36.101,36101-k10_s08-XX.docx,9.4.2.1,Minimum requirement PUSCH 1-2 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.4.2.2,Minimum requirement PUSCH 2-2 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.4.2.3,Minimum requirement PUSCH 1-2 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.5,Reporting of Rank Indicator (RI)
+36.101,36101-k10_s08-XX.docx,9.5.1,Minimum requirement (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.5.1.1,FDD
+36.101,36101-k10_s08-XX.docx,9.5.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.5.2,Minimum requirement (CSI Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.5.2.1,FDD
+36.101,36101-k10_s08-XX.docx,9.5.2.2,TDD
+36.101,36101-k10_s08-XX.docx,9.5.3,Minimum requirement (CSI measurements in case two CSI subframe sets are configured)
+36.101,36101-k10_s08-XX.docx,9.5.3.1,FDD
+36.101,36101-k10_s08-XX.docx,9.5.3.2,TDD
+36.101,36101-k10_s08-XX.docx,9.5.4.1,FDD
+36.101,36101-k10_s08-XX.docx,9.5.4.2,TDD
+36.101,36101-k10_s08-XX.docx,9.5.5,Minimum requirement (with CSI process)
+36.101,36101-k10_s08-XX.docx,9.5.5.1,FDD
+36.101,36101-k10_s08-XX.docx,9.5.5.2,TDD
+36.101,36101-k10_s08-XX.docx,9.6,Additional requirements for carrier aggregation
+36.101,36101-k10_s08-XX.docx,9.6.1,Periodic reporting on multiple cells (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.6.1.1,FDD
+36.101,36101-k10_s08-XX.docx,9.6.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.6.1.3,TDD-FDD CA with FDD PCell
+36.101,36101-k10_s08-XX.docx,9.6.1.4,TDD-FDD CA with TDD PCell
+36.101,36101-k10_s08-XX.docx,9.7,CSI reporting (Single receiver antenna)
+36.101,36101-k10_s08-XX.docx,9.7.1,CQI reporting definition under AWGN conditions
+36.101,36101-k10_s08-XX.docx,9.7.1.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,9.7.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.7.1.3,FDD (Category 1bis UE)
+36.101,36101-k10_s08-XX.docx,9.7.1.4,TDD (Category 1bis UE)
+36.101,36101-k10_s08-XX.docx,9.7.2,CQI reporting under fading conditions
+36.101,36101-k10_s08-XX.docx,9.7.2.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,9.7.2.2,TDD
+36.101,36101-k10_s08-XX.docx,9.7.2.3,FDD (Category 1bis UE)
+36.101,36101-k10_s08-XX.docx,9.7.2.4,TDD (Category 1bis UE)
+36.101,36101-k10_s08-XX.docx,9.8,CSI reporting (UE supporting coverage enhancement)
+36.101,36101-k10_s08-XX.docx,9.8.1,CQI reporting definition under AWGN conditions
+36.101,36101-k10_s08-XX.docx,9.8.1.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,9.8.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.8.2,UE-selected subband CQI
+36.101,36101-k10_s08-XX.docx,9.8.2.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,9.8.2.2,TDD
+36.101,36101-k10_s08-XX.docx,9.8.3,CQI reporting definition for UE supporting 64QAM under AWGN
+36.101,36101-k10_s08-XX.docx,9.8.3.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,9.8.3.2,TDD
+36.101,36101-k10_s08-XX.docx,9.8.4,CQI reporting definition for UE supporting alternative table under AWGN
+36.101,36101-k10_s08-XX.docx,9.8.4.1,FDD and half-duplex FDD
+36.101,36101-k10_s08-XX.docx,9.8.4.2,TDD
+36.101,36101-k10_s08-XX.docx,9.8.5,PMI reporting with PUCCH 1-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.8.5.1,FDD
+36.101,36101-k10_s08-XX.docx,9.8.5.2,TDD
+36.101,36101-k10_s08-XX.docx,9.9,CSI reporting for 4Rx UE
+36.101,36101-k10_s08-XX.docx,9.9.1,CQI reporting definition under AWGN conditions
+36.101,36101-k10_s08-XX.docx,9.9.1.1,Minimum requirement PUCCH 1-0 with Rank 1 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.9.1.2,Minimum requirement PUCCH 1-1 with Rank 2 (CSI Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.9.1.3,Minimum requirement PUCCH 1-1 with Rank 4 (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.9.1.4,Minimum requirement PUCCH 1-1 with Rank 3 (CSI Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.9.2,CQI reporting definition under fading conditions
+36.101,36101-k10_s08-XX.docx,9.9.2.1,Minimum requirement PUCCH 1-0 (Cell-Specific Reference Symbol) for enhanced receiver Type A
+36.101,36101-k10_s08-XX.docx,9.9.2.2,Minimum requirement PUCCH 1-1 (CSI Reference Symbol) for enhanced receiver Type A
+36.101,36101-k10_s08-XX.docx,9.9.3,Reporting of Precoding Matrix Indicator (PMI) for 4Rx UE
+36.101,36101-k10_s08-XX.docx,9.9.3.1,Minimum requirement PUSCH 3-1 (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.9.4,Reporting of Rank Indicator (RI)
+36.101,36101-k10_s08-XX.docx,9.9.4.1,Minimum requirement (Cell-Specific Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.9.4.2,Minimum requirement (CSI Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.10,Reporting of CSI-RS Resource Indicator (CRI)
+36.101,36101-k10_s08-XX.docx,9.10.1,Minimum requirement (PUSCH 3-1)
+36.101,36101-k10_s08-XX.docx,9.10.1.1,FDD
+36.101,36101-k10_s08-XX.docx,9.10.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.10.2,"Minimum requirement (PUSCH 3-1, QCL Type C)"
+36.101,36101-k10_s08-XX.docx,9.10.2.1,FDD
+36.101,36101-k10_s08-XX.docx,9.10.2.2,TDD
+36.101,36101-k10_s08-XX.docx,9.11,Reporting of Hybrid Channel state information
+36.101,36101-k10_s08-XX.docx,9.11.1.1,FDD
+36.101,36101-k10_s08-XX.docx,9.11.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.12,CSI reporting (UE supporting Short TTI)
+36.101,36101-k10_s08-XX.docx,9.12.1,CQI reporting under fading conditions (Cell-Specific Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.12.1.1,FDD
+36.101,36101-k10_s08-XX.docx,9.12.1.2,TDD
+36.101,36101-k10_s08-XX.docx,9.12.2,CQI reporting under fading conditions (CSI Reference Symbol)
+36.101,36101-k10_s08-XX.docx,9.12.2.1,FDD
+36.101,36101-k10_s08-XX.docx,9.12.2.2,TDD
+36.101,36101-k10_s08-XX.docx,9.13,CSI reporting for 8Rx UE
+36.101,36101-k10_s08-XX.docx,9.13.1,CQI reporting definition under AWGN conditions
+36.101,36101-k10_s08-XX.docx,9.13.1.1,Minimum requirement PUCCH 1-1 with Rank 4 (CSI Reference Symbols)
+36.101,36101-k10_s08-XX.docx,9.14,CSI reporting of Narrowband IoT
+36.101,36101-k10_s08-XX.docx,9.14.1,CQI reporting definition under AWGN conditions
+36.101,36101-k10_s08-XX.docx,9.14.1.1,Half-duplex FDD
+36.101,36101-k10_s08-XX.docx,9.14.1.2,TDD
+36.101,36101-k10_s08-XX.docx,10,Performance requirement (MBMS)
+36.101,36101-k10_s08-XX.docx,10.1,FDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,10.1.1,Minimum requirement
+36.101,36101-k10_s08-XX.docx,10.2,TDD (Fixed Reference Channel)
+36.101,36101-k10_s08-XX.docx,10.2.1,Minimum requirement
+36.101,36101-k10_s08-XX.docx,10.3,FDD (Fixed Reference Channel) with FeMBMS
+36.101,36101-k10_s08-XX.docx,10.3.1,Minimum requirement for FeMBMS Unicast-mixed Cell under CA
+36.101,36101-k10_s08-XX.docx,10.3.1.1,Minimum requirement with 1.25kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.3.1.2,Minimum requirement with 7.5kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.3.2,Minimum requirement for FeMBMS Unicast-mixed Cell as Non-Serving Cell
+36.101,36101-k10_s08-XX.docx,10.3.2.1,Minimum requirement with 1.25kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.3.2.2,Minimum requirement with 7.5kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.3.3,Minimum requirement for MBMS Dedicated cell
+36.101,36101-k10_s08-XX.docx,10.3.3.1,Minimum requirement with 1.25kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.3.3.2,Minimum requirement with 7.5kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.3.3.3,Minimum requirement with 15kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.4,FDD with LTE based 5G terrestrial broadcast
+36.101,36101-k10_s08-XX.docx,10.4.1,Minimum requirement for PMCH decoding
+36.101,36101-k10_s08-XX.docx,10.4.1.1,Minimum requirement with 0.37kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.4.1.2,Minimum requirement with 2.5kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.4.1.3,Minimum requirement with 1.25kHz subcarrier spacing
+36.101,36101-k10_s08-XX.docx,10.4.2,Minimum requirement for CAS detection
+36.101,36101-k10_s08-XX.docx,10.4.2.1,Minimum requirement for PBCH detection
+36.101,36101-k10_s08-XX.docx,11,Performance requirement (ProSe Direct Discovery)
+36.101,36101-k10_s08-XX.docx,11.1,General
+36.101,36101-k10_s08-XX.docx,11.1.1,Applicability of requirements
+36.101,36101-k10_s08-XX.docx,11.1.2,Reference DRX configuration
+36.101,36101-k10_s08-XX.docx,11.2,Demodulation of PSDCH (single link performance)
+36.101,36101-k10_s08-XX.docx,11.2.1,FDD (in-coverage)
+36.101,36101-k10_s08-XX.docx,11.2.2,TDD (in-coverage)
+36.101,36101-k10_s08-XX.docx,11.2.3,FDD (out-of-coverage)
+36.101,36101-k10_s08-XX.docx,11.3,Power imbalance performance with two links
+36.101,36101-k10_s08-XX.docx,11.3.1,FDD
+36.101,36101-k10_s08-XX.docx,11.3.2,TDD
+36.101,36101-k10_s08-XX.docx,11.4,Multiple timing reference test
+36.101,36101-k10_s08-XX.docx,11.4.1,FDD
+36.101,36101-k10_s08-XX.docx,11.5,Maximum Sidelink processes test
+36.101,36101-k10_s08-XX.docx,11.5.1,FDD
+36.101,36101-k10_s08-XX.docx,11.5.2,TDD
+36.101,36101-k10_s08-XX.docx,12,Performance requirement (ProSe Direct Communication)
+36.101,36101-k10_s08-XX.docx,12.1,General
+36.101,36101-k10_s08-XX.docx,12.1.1,Applicability of requirements
+36.101,36101-k10_s08-XX.docx,12.1.1.1,Applicability of requirements for different channel bandwidths
+36.101,36101-k10_s08-XX.docx,12.1.1.2,Test coverage for different number of component carriers
+36.101,36101-k10_s08-XX.docx,12.1.1.3,Applicability and test rules for different CA configurations and bandwidth combination sets
+36.101,36101-k10_s08-XX.docx,12.1.2,Reference DRX configuration
+36.101,36101-k10_s08-XX.docx,12.2,Demodulation of PSSCH
+36.101,36101-k10_s08-XX.docx,12.2.1,FDD
+36.101,36101-k10_s08-XX.docx,12.3,Demodulation of PSCCH
+36.101,36101-k10_s08-XX.docx,12.3.1,FDD
+36.101,36101-k10_s08-XX.docx,12.4,Demodulation of PSBCH
+36.101,36101-k10_s08-XX.docx,12.4.1,FDD
+36.101,36101-k10_s08-XX.docx,12.5,Power imbalance performance with two links
+36.101,36101-k10_s08-XX.docx,12.5.1,FDD
+36.101,36101-k10_s08-XX.docx,12.6,Multiple timing reference test
+36.101,36101-k10_s08-XX.docx,12.6.1,FDD
+36.101,36101-k10_s08-XX.docx,12.7,Maximum Sidelink processes test
+36.101,36101-k10_s08-XX.docx,12.7.1,FDD
+36.101,36101-k10_s08-XX.docx,12.8,Sustained downlink data rate with active Sidelink
+36.101,36101-k10_s08-XX.docx,14,Performance requirement (V2X Sidelink Communication)
+36.101,36101-k10_s08-XX.docx,14.1,General
+36.101,36101-k10_s08-XX.docx,14.1.1,Applicability of requirements
+36.101,36101-k10_s08-XX.docx,14.2,Demodulation of PSSCH
+36.101,36101-k10_s08-XX.docx,14.3,Demodulation of PSCCH
+36.101,36101-k10_s08-XX.docx,14.4,Power imbalance performance with two links
+36.101,36101-k10_s08-XX.docx,14.5,Demodulation of PSBCH
+36.101,36101-k10_s08-XX.docx,14.6,Demodulation of PSSCH with eNB based synchronization
+36.101,36101-k10_s08-XX.docx,14.7,Soft buffer test
+36.101,36101-k10_s08-XX.docx,14.8,PSCCH/PSSCH decoding capability test
+36.101,36101-k10_s08-XX.docx,14.9,Sustained downlink data rate with active sidelink
+36.101,36101-k10_s08-XX.docx,14.10,Soft buffer test (CA)
+36.101,36101-k10_s08-XX.docx,14.11,PSCCH/PSSCH decoding capability test (CA)
+36.101,36101-k10_sAnnexes.docx,A.1,General
+36.101,36101-k10_sAnnexes.docx,A.2,UL reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.2.1,General
+36.101,36101-k10_sAnnexes.docx,A.2.1.1,Applicability and common parameters
+36.101,36101-k10_sAnnexes.docx,A.2.1.2,Determination of payload size
+36.101,36101-k10_sAnnexes.docx,A.2.1.3,Overview of UL reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.2.2,Reference measurement channels for FDD
+36.101,36101-k10_sAnnexes.docx,A.2.2.1,Full RB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.2.1.1,QPSK
+36.101,36101-k10_sAnnexes.docx,A.2.2.1.2,16-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.2.1.3,64-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.2.1.4,256 QAM
+36.101,36101-k10_sAnnexes.docx,A.2.2.2,Partial RB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.2.2.1,QPSK
+36.101,36101-k10_sAnnexes.docx,A.2.2.2.2,16-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.2.2.3,64-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.2.2.4,256 QAM
+36.101,36101-k10_sAnnexes.docx,A.2.2.4,subPRB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.3,Reference measurement channels for TDD
+36.101,36101-k10_sAnnexes.docx,A.2.3.1,Full RB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.3.1.1,QPSK
+36.101,36101-k10_sAnnexes.docx,A.2.3.1.2,16-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.3.1.3,64-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.3.1.4,256 QAM
+36.101,36101-k10_sAnnexes.docx,A.2.3.2,Partial RB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.3.2.1,QPSK
+36.101,36101-k10_sAnnexes.docx,A.2.3.2.2,16-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.3.2.3,64-QAM
+36.101,36101-k10_sAnnexes.docx,A.2.3.2.4,256 QAM
+36.101,36101-k10_sAnnexes.docx,A.2.3.4,subPRB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.4,Reference measurement channels for UE category NB1
+36.101,36101-k10_sAnnexes.docx,A.2.5,Reference measurement channels for LAA
+36.101,36101-k10_sAnnexes.docx,A.2.5.1,Full RB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.5.1.1,QPSK
+36.101,36101-k10_sAnnexes.docx,A.2.5.1.2,16QAM
+36.101,36101-k10_sAnnexes.docx,A.2.5.1.3,64QAM
+36.101,36101-k10_sAnnexes.docx,A.2.5.2,Partial RB allocation
+36.101,36101-k10_sAnnexes.docx,A.2.5.2.1,QPSK
+36.101,36101-k10_sAnnexes.docx,A.2.5.2.2,16QAM
+36.101,36101-k10_sAnnexes.docx,A.2.5.2.3,64QAM
+36.101,36101-k10_sAnnexes.docx,A.3,DL reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.3.1,General
+36.101,36101-k10_sAnnexes.docx,A.3.1.1,Overview of DL reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.3.2,Reference measurement channel for receiver characteristics
+36.101,36101-k10_sAnnexes.docx,A.3.3,Reference measurement channels for PDSCH performance requirements (FDD)
+36.101,36101-k10_sAnnexes.docx,A.3.3.1,Single-antenna transmission (Common Reference Symbols)
+36.101,36101-k10_sAnnexes.docx,A.3.3.2,Multi-antenna transmission (Common Reference Symbols)
+36.101,36101-k10_sAnnexes.docx,A.3.3.2.1,Two antenna ports
+36.101,36101-k10_sAnnexes.docx,A.3.3.2.2,Four antenna ports
+36.101,36101-k10_sAnnexes.docx,A.3.3.3,Reference Measurement Channel for UE-Specific Reference Symbols
+36.101,36101-k10_sAnnexes.docx,A.3.3.3.0,Two antenna ports (no CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.3.3.1,Two antenna port (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.3.3.2,Four antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.3.3.3,Twelve antenna port (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.3.3.4,Sixteen antenna port (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.3.3.5,Twenty-four antenna port (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.3.3.6,Thirty-two antenna port (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.4,Reference measurement channels for PDSCH performance requirements (TDD)
+36.101,36101-k10_sAnnexes.docx,A.3.4.1,Single-antenna transmission (Common Reference Symbols)
+36.101,36101-k10_sAnnexes.docx,A.3.4.2,Multi-antenna transmission (Common Reference Signals)
+36.101,36101-k10_sAnnexes.docx,A.3.4.2.1,Two antenna ports
+36.101,36101-k10_sAnnexes.docx,A.3.4.2.2,Four antenna ports
+36.101,36101-k10_sAnnexes.docx,A.3.4.3,Reference Measurement Channels for UE-Specific Reference Symbols
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.1,Single antenna port (Cell Specific)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.2,Two antenna ports (Cell Specific)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.3,Two antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.4,Four antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.5,Eight antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.6,Twelve antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.7,Sixteen antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.8,Twenty-four antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.4.3.9,Thirty-two antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.5,Reference measurement channels for PDCCH/PCFICH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.5.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.3.5.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.5.3,LAA
+36.101,36101-k10_sAnnexes.docx,A.3.6,Reference measurement channels for PHICH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.7,Reference measurement channels for PBCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.8,Reference measurement channels for MBMS performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.8.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.3.8.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.9,Reference measurement channels for sustained downlink data rate provided by lower layers
+36.101,36101-k10_sAnnexes.docx,A.3.9.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.3.9.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.9.3,FDD (EPDCCH scheduling)
+36.101,36101-k10_sAnnexes.docx,A.3.9.4,TDD (EPDCCH scheduling)
+36.101,36101-k10_sAnnexes.docx,A.3.9.5,LAA
+36.101,36101-k10_sAnnexes.docx,A.3.10,Reference Measurement Channels for EPDCCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.10.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.3.10.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.11,Reference Measurement Channels for MPDCCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.11.1,FDD and half-duplex FDD
+36.101,36101-k10_sAnnexes.docx,A.3.11.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.12,Reference measurement channels for NPDSCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.12.1,In-band
+36.101,36101-k10_sAnnexes.docx,A.3.12.1.2,Two-antenna transmission
+36.101,36101-k10_sAnnexes.docx,A.3.12.2,Standalone/Guard-band
+36.101,36101-k10_sAnnexes.docx,A.3.12.2.1,Single-antenna transmission
+36.101,36101-k10_sAnnexes.docx,A.3.13,Reference measurement channels for NPDCCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.13.1,Half-duplex FDD
+36.101,36101-k10_sAnnexes.docx,A.3.13.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.14,Reference measurement channels for NPBCH performance requirements for Cat NB1 UEs
+36.101,36101-k10_sAnnexes.docx,A.3.15,Reference Measurement Channels for LAA SCell with frame structure Type-3
+36.101,36101-k10_sAnnexes.docx,A.3.15.1,Multi-antenna transmission (Common Reference Symbols)
+36.101,36101-k10_sAnnexes.docx,A.3.15.1.1,Four antenna ports
+36.101,36101-k10_sAnnexes.docx,A.3.15.2,Reference Measurement Channel for UE-Specific Reference Symbols
+36.101,36101-k10_sAnnexes.docx,A.3.15.2.1,Two antenna ports (CSI-RS)
+36.101,36101-k10_sAnnexes.docx,A.3.16,Reference measurement channels for Slot-PDSCH and Subslot-PDSCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.16.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.3.16.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.17,Reference measurement channels for SPDCCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.3.17.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.3.17.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.3.18,Reference Measurement Channels for LTE based 5G broadcast PMCH receiver requirements
+36.101,36101-k10_sAnnexes.docx,A.3.18.1,SDO
+36.101,36101-k10_sAnnexes.docx,A.4,CSI reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.5,OFDMA Channel Noise Generator (OCNG)
+36.101,36101-k10_sAnnexes.docx,A.5.1,OCNG Patterns for FDD
+36.101,36101-k10_sAnnexes.docx,A.5.1.1,OCNG FDD pattern 1: One sided dynamic OCNG FDD pattern
+36.101,36101-k10_sAnnexes.docx,A.5.1.2,OCNG FDD pattern 2: Two sided dynamic OCNG FDD pattern
+36.101,36101-k10_sAnnexes.docx,A.5.1.3,OCNG FDD pattern 3: 49 RB OCNG allocation with MBSFN in 10 MHz
+36.101,36101-k10_sAnnexes.docx,A.5.1.4,OCNG FDD pattern 4: One sided dynamic OCNG FDD pattern for MBMS transmission
+36.101,36101-k10_sAnnexes.docx,A.5.1.5,OCNG FDD pattern 5: One sided dynamic 16QAM modulated OCNG FDD pattern
+36.101,36101-k10_sAnnexes.docx,A.5.1.6,OCNG FDD pattern 6: dynamic OCNG FDD pattern when user data is in 2 non-contiguous blocks
+36.101,36101-k10_sAnnexes.docx,A.5.1.7,OCNG FDD pattern 7: dynamic OCNG FDD pattern when user data is in multiple non-contiguous blocks
+36.101,36101-k10_sAnnexes.docx,A.5.1.8,OCNG FDD pattern 8: Dynamic OCNG FDD pattern for TM10 transmission
+36.101,36101-k10_sAnnexes.docx,A.5.2,OCNG Patterns for TDD
+36.101,36101-k10_sAnnexes.docx,A.5.2.1,OCNG TDD pattern 1: One sided dynamic OCNG TDD pattern
+36.101,36101-k10_sAnnexes.docx,A.5.2.2,OCNG TDD pattern 2: Two sided dynamic OCNG TDD pattern
+36.101,36101-k10_sAnnexes.docx,A.5.2.3,OCNG TDD pattern 3: 49 RB OCNG allocation with MBSFN in 10 MHz
+36.101,36101-k10_sAnnexes.docx,A.5.2.4,OCNG TDD pattern 4: One sided dynamic OCNG TDD pattern for MBMS transmission
+36.101,36101-k10_sAnnexes.docx,A.5.2.5,OCNG TDD pattern 5: One sided dynamic 16QAM modulated OCNG TDD pattern
+36.101,36101-k10_sAnnexes.docx,A.5.2.6,OCNG TDD pattern 6: dynamic OCNG TDD pattern when user data is in 2 non-contiguous blocks
+36.101,36101-k10_sAnnexes.docx,A.5.2.7,OCNG TDD pattern 7: dynamic OCNG TDD pattern when user data is in multiple non-contiguous blocks
+36.101,36101-k10_sAnnexes.docx,A.5.2.8,OCNG TDD pattern 8: Dynamic OCNG TDD pattern for TM10 transmission
+36.101,36101-k10_sAnnexes.docx,A.5.3,OCNG Patterns for Narrowband IoT
+36.101,36101-k10_sAnnexes.docx,A.5.3.1,Narrowband IoT OCNG pattern 1
+36.101,36101-k10_sAnnexes.docx,A.5.4,OCNG Patterns for frame structure type 3
+36.101,36101-k10_sAnnexes.docx,A.5.4.1,OCNG FS3 pattern 1: One sided dynamic OCNG frame structure type 3 pattern
+36.101,36101-k10_sAnnexes.docx,A.5.4.2,OCNG FS3 pattern 2: Two sided dynamic OCNG frame structure 3 pattern
+36.101,36101-k10_sAnnexes.docx,A.6,Sidelink reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.6.1,General
+36.101,36101-k10_sAnnexes.docx,A.6.1.1,Overview of ProSe reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.6.2,Reference measurement channel for receiver characteristics
+36.101,36101-k10_sAnnexes.docx,A.6.3,Reference measurement channels for PSDCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.6.4,Reference measurement channels for PSCCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.6.5,Reference measurement channels for PSSCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.6.6,Reference measurement channels for PSBCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.7,Sidelink reference resource pool configurations
+36.101,36101-k10_sAnnexes.docx,A.7.1,Reference resource pool configurations for ProSe Direct Discovery demodulation tests
+36.101,36101-k10_sAnnexes.docx,A.7.1.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.7.1.2,TDD
+36.101,36101-k10_sAnnexes.docx,A.7.2,Reference resource pool configurations for ProSe Direct Communication demodulation tests
+36.101,36101-k10_sAnnexes.docx,A.7.2.1,FDD
+36.101,36101-k10_sAnnexes.docx,A.8,V2X reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.8.1,General
+36.101,36101-k10_sAnnexes.docx,A.8.1.1,Overview of V2X reference measurement channels
+36.101,36101-k10_sAnnexes.docx,A.8.2,Reference measurement channel for receiver characteristics
+36.101,36101-k10_sAnnexes.docx,A.8.3,Reference measurement channel for transmitter characteristics
+36.101,36101-k10_sAnnexes.docx,A.8.4,Reference measurement for PSCCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.8.5,Reference measurement for PSSCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.8.6,Reference measurement for PSBCH performance requirements
+36.101,36101-k10_sAnnexes.docx,A.9,V2X reference resource pool configurations
+36.101,36101-k10_sAnnexes.docx,B.1,Static propagation condition
+36.101,36101-k10_sAnnexes.docx,B.1.1,UE Receiver with 2Rx
+36.101,36101-k10_sAnnexes.docx,B.1.2,UE Receiver with 4Rx
+36.101,36101-k10_sAnnexes.docx,B.1.3,UE Receiver with 8Rx
+36.101,36101-k10_sAnnexes.docx,B.2,Multi-path fading propagation conditions
+36.101,36101-k10_sAnnexes.docx,B.2.1,Delay profiles
+36.101,36101-k10_sAnnexes.docx,B.2.2,Combinations of channel model parameters
+36.101,36101-k10_sAnnexes.docx,B.2.3,MIMO Channel Correlation Matrices
+36.101,36101-k10_sAnnexes.docx,B.2.3.1,Definition of MIMO Correlation Matrices
+36.101,36101-k10_sAnnexes.docx,B.2.3.2,"MIMO Correlation Matrices at High, Medium and Low Level"
+36.101,36101-k10_sAnnexes.docx,B.2.4,Propagation conditions for CQI tests
+36.101,36101-k10_sAnnexes.docx,B.2.4.1,Propagation conditions for CQI tests with multiple CSI processes
+36.101,36101-k10_sAnnexes.docx,B.2.6,MBSFN Propagation Channel Profile
+36.101,36101-k10_sAnnexes.docx,B.2.6.1,Subcarrier spacing 15kHz or 7.5kHz
+36.101,36101-k10_sAnnexes.docx,B.2.6.2,Subcarrier spacing 1.25kHz
+36.101,36101-k10_sAnnexes.docx,B.2.6.3,Subcarrier spacing 0.37kHz
+36.101,36101-k10_sAnnexes.docx,B.2.6.4,Subcarrier spacing 2.5kHz
+36.101,36101-k10_sAnnexes.docx,B.3,High speed train scenario
+36.101,36101-k10_sAnnexes.docx,B.4,Beamforming Model
+36.101,36101-k10_sAnnexes.docx,B.4.1,"Single-layer random beamforming (Antenna port 5, 7, or 8)"
+36.101,36101-k10_sAnnexes.docx,B.4.2,Dual-layer random beamforming (antenna ports 7 and 8)
+36.101,36101-k10_sAnnexes.docx,B.4.3,Generic beamforming model (antenna ports 7-14)
+36.101,36101-k10_sAnnexes.docx,B.4.4,Random beamforming for EPDCCH distributed transmission (Antenna port 107 and 109)
+36.101,36101-k10_sAnnexes.docx,B.4.5,"Random beamforming for EPDCCH localized transmission (Antenna port 107, 108, 109 or 110)"
+36.101,36101-k10_sAnnexes.docx,B.4.6,Beamforming model for CRI test
+36.101,36101-k10_sAnnexes.docx,B.5,Interference models for enhanced performance requirements Type-A
+36.101,36101-k10_sAnnexes.docx,B.5.1,Dominant interferer proportion
+36.101,36101-k10_sAnnexes.docx,B.5.2,Transmission mode 3 interference model
+36.101,36101-k10_sAnnexes.docx,B.5.3,Transmission mode 4 interference model
+36.101,36101-k10_sAnnexes.docx,B.5.4,Transmission mode 9 interference model
+36.101,36101-k10_sAnnexes.docx,B.6,Interference models for enhanced performance requirements Type-B
+36.101,36101-k10_sAnnexes.docx,B.6.1,Transmission mode 2 interference model
+36.101,36101-k10_sAnnexes.docx,B.6.2,Transmission mode 3 interference model
+36.101,36101-k10_sAnnexes.docx,B.6.3,Transmission mode 4 interference model
+36.101,36101-k10_sAnnexes.docx,B.6.4,Transmission mode 9 interference model
+36.101,36101-k10_sAnnexes.docx,B.6.5,CRS interference model
+36.101,36101-k10_sAnnexes.docx,B.6.6,Random interference model
+36.101,36101-k10_sAnnexes.docx,B.7,Interference models for enhanced downlink control channel performance requirements Type A and B
+36.101,36101-k10_sAnnexes.docx,B.7.1,"PDCCH, PCFICH and PHICH interference model"
+36.101,36101-k10_sAnnexes.docx,B.8,Burst transmission models for Frame structure type 3
+36.101,36101-k10_sAnnexes.docx,B.8.1,Burst transmission model for one LAA SCell
+36.101,36101-k10_sAnnexes.docx,B.8.2,Burst transmission model for multiple LAA SCell(s)
+36.101,36101-k10_sAnnexes.docx,C.1,General
+36.101,36101-k10_sAnnexes.docx,C.2,Set-up
+36.101,36101-k10_sAnnexes.docx,C.3,Connection
+36.101,36101-k10_sAnnexes.docx,C.3.1,Measurement of Receiver Characteristics
+36.101,36101-k10_sAnnexes.docx,C.3.2,Measurement of Performance requirements
+36.101,36101-k10_sAnnexes.docx,C.3.3,Aggressor cell power allocation for Measurement of Performance Requirements when ABS is Configured
+36.101,36101-k10_sAnnexes.docx,C.3.4,Power Allocation for Measurement of Performance Requirements when Quasi Co-location Type B: same Cell ID
+36.101,36101-k10_sAnnexes.docx,C.3.5,Simplified CA testing method
+36.101,36101-k10_sAnnexes.docx,C.3.6,Measurement of Receiver Characteristics for Narrowband IoT
+36.101,36101-k10_sAnnexes.docx,D.1,General
+36.101,36101-k10_sAnnexes.docx,D.2,Interference signals
+36.101,36101-k10_sAnnexes.docx,E.1,General
+36.101,36101-k10_sAnnexes.docx,E.2,Environmental
+36.101,36101-k10_sAnnexes.docx,E.2.1,Temperature
+36.101,36101-k10_sAnnexes.docx,E.2.2,Voltage
+36.101,36101-k10_sAnnexes.docx,E.2.3,Vibration
+36.101,36101-k10_sAnnexes.docx,F.1,Measurement Point
+36.101,36101-k10_sAnnexes.docx,F.2,Basic Error Vector Magnitude measurement
+36.101,36101-k10_sAnnexes.docx,F.3,Basic in-band emissions measurement
+36.101,36101-k10_sAnnexes.docx,F.4,Modified signal under test
+36.101,36101-k10_sAnnexes.docx,F.5,Window length
+36.101,36101-k10_sAnnexes.docx,F.5.1,Timing offset
+36.101,36101-k10_sAnnexes.docx,F.5.2,Window length
+36.101,36101-k10_sAnnexes.docx,F.5.3,Window length for normal CP
+36.101,36101-k10_sAnnexes.docx,F.5.4,Window length for Extended CP
+36.101,36101-k10_sAnnexes.docx,F.5.5,Window length for PRACH
+36.101,36101-k10_sAnnexes.docx,F.6,Averaged EVM
+36.101,36101-k10_sAnnexes.docx,F.7,Spectrum Flatness
+36.101,36101-k10_sAnnexes.docx,G.1,General
+36.101,36101-k10_sAnnexes.docx,G.2,Typical receiver sensitivity performance (QPSK)
+36.101,36101-k10_sAnnexes.docx,G.3,Reference measurement channel for REFSENSE in lower SNR
+36.101,36101-k10_sAnnexes.docx,H.1,Indication of modified MPR behavior
+36.101,36101-k10_sAnnexes.docx,I.1,Declared Supported Post Antenna Gain for UE

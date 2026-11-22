@@ -1,0 +1,37 @@
+﻿规范,文件,条款,标题
+36.521-2,36521-2-j30.docx,1,Scope
+36.521-2,36521-2-j30.docx,2,References
+36.521-2,36521-2-j30.docx,3,"Definitions, symbols and abbreviations"
+36.521-2,36521-2-j30.docx,3.1,Definitions
+36.521-2,36521-2-j30.docx,3.2,Symbols
+36.521-2,36521-2-j30.docx,3.3,Abbreviations
+36.521-2,36521-2-j30.docx,4,Recommended test case applicability
+36.521-2,36521-2-j30.docx,4.1,RF conformance test cases
+36.521-2,36521-2-j30.docx,4.2,RRM conformance test cases
+36.521-2,36521-2-j30.docx,4.3,RF and RRM conformance test cases for NB-IoT/eMTC NTN
+36.521-2,36521-2-j30.docx,4.3.1,RF conformance test cases for NB-IoT/eMTC NTN
+36.521-2,36521-2-j30.docx,4.3.2,Performance conformance test cases for NB-IoT/eMTC NTN
+36.521-2,36521-2-j30.docx,4.3.3,RRM conformance test cases for NB-IoT/eMTC NTN
+36.521-2,36521-2-j30.docx,Annex A,(normative):ICS proforma for E-UTRA User Equipment
+36.521-2,36521-2-j30.docx,A.1,Guidance for completing the ICS proforma
+36.521-2,36521-2-j30.docx,A.1.1,Purposes and structure
+36.521-2,36521-2-j30.docx,A.1.2,Abbreviations and conventions
+36.521-2,36521-2-j30.docx,A.1.3,Instructions for completing the ICS proforma
+36.521-2,36521-2-j30.docx,A.2,Identification of the User Equipment
+36.521-2,36521-2-j30.docx,A.2.1,Date of the statement
+36.521-2,36521-2-j30.docx,A.2.2,User Equipment Under Test (UEUT) identification
+36.521-2,36521-2-j30.docx,A.2.3,Product supplier
+36.521-2,36521-2-j30.docx,A.2.4,Client
+36.521-2,36521-2-j30.docx,A.2.5,ICS contact person
+36.521-2,36521-2-j30.docx,A.3,Identification of the protocol
+36.521-2,36521-2-j30.docx,A.4,ICS proforma tables
+36.521-2,36521-2-j30.docx,A.4.1,UE Implementation Types
+36.521-2,36521-2-j30.docx,A.4.2,UE Service Capabilities
+36.521-2,36521-2-j30.docx,A.4.3,Baseline Implementation Capabilities
+36.521-2,36521-2-j30.docx,A.4.4,Feature group indicators
+36.521-2,36521-2-j30.docx,A.4.5,Additional information
+36.521-2,36521-2-j30.docx,A.4.6,CA Physical Layer Baseline Implementation Capabilities
+36.521-2,36521-2-j30.docx,A.4.6.1,Intra-band contiguous CA Physical Layer Baseline Implementation Capabilities
+36.521-2,36521-2-j30.docx,A.4.6.2,Intra-band non-contiguous CA Physical Layer Baseline Implementation Capabilities
+36.521-2,36521-2-j30.docx,A.4.6.3,Inter-band CA Physical Layer Baseline Implementation Capabilities
+36.521-2,36521-2-j30.docx,A.4.7,Category M1 UE Centre Frequency Implementation

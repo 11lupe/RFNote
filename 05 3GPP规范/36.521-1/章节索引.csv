@@ -1,0 +1,1177 @@
+﻿规范,文件,条款,标题
+36.521-1,36521-1-j30_s00-s05.docx,1,Scope
+36.521-1,36521-1-j30_s00-s05.docx,2,References
+36.521-1,36521-1-j30_s00-s05.docx,3,"Definitions, symbols and abbreviations"
+36.521-1,36521-1-j30_s00-s05.docx,3.1,Definitions
+36.521-1,36521-1-j30_s00-s05.docx,3.2,Symbols
+36.521-1,36521-1-j30_s00-s05.docx,3.3,Abbreviations
+36.521-1,36521-1-j30_s00-s05.docx,4,General
+36.521-1,36521-1-j30_s00-s05.docx,5,Frequency bands and channel arrangement
+36.521-1,36521-1-j30_s00-s05.docx,5.1,General
+36.521-1,36521-1-j30_s00-s05.docx,5.2,Operating bands
+36.521-1,36521-1-j30_s00-s05.docx,5.3,TX–RX frequency separation
+36.521-1,36521-1-j30_s00-s05.docx,5.4,Channel arrangement
+36.521-1,36521-1-j30_s00-s05.docx,5.4.1,Channel spacing
+36.521-1,36521-1-j30_s00-s05.docx,5.4.2,Channel bandwidth
+36.521-1,36521-1-j30_s00-s05.docx,5.4.2.1,Channel bandwidths per operating band
+36.521-1,36521-1-j30_s00-s05.docx,5.4.3,Channel raster
+36.521-1,36521-1-j30_s00-s05.docx,5.4.4,Carrier frequency and EARFCN
+36.521-1,36521-1-j30_s06a-s06b4.docx,6,Transmitter Characteristics
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.1,General
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2,Transmit power
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.2,UE Maximum Output Power
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.2.1,Test purpose
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.2.2,Test applicability
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.2.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.2.4,Test description
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.2.5,Test requirements
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.1,Test purpose
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.2,Test applicability
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.4,Test description
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.4.1,Initial condition
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.4.2,Test procedure
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.4.3,Message contents
+36.521-1,36521-1-j30_s06a-s06b4.docx,B.5,Test requirements
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.3,Maximum Power Reduction (MPR)
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.3.1,Test purpose
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.3.2,Test applicability
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.3.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.3.4,Test description
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.3.5,Test requirements
+36.521-1,36521-1-j30_s06a-s06b4.docx,5.67,- 3.07A; 0.33< A ≤0.77
+36.521-1,36521-1-j30_s06a-s06b4.docx,5.67,- 3.07A		; 0.33< A ≤0.77
+36.521-1,36521-1-j30_s06a-s06b4.docx,3.31,; 0.77< A ≤1.00
+36.521-1,36521-1-j30_s06a-s06b4.docx,5.50,; 0.25< A < 1.00
+36.521-1,36521-1-j30_s06a-s06b4.docx,9.2,- 40A; 		0.025 ≤ A < 0.05
+36.521-1,36521-1-j30_s06a-s06b4.docx,8,- 16A; 			0.05 ≤ A < 0.25
+36.521-1,36521-1-j30_s06a-s06b4.docx,4.83,- 3.33A; 		0.25 ≤ A ≤ 0.4
+36.521-1,36521-1-j30_s06a-s06b4.docx,3.83,- 0.83A; 		0.4 ≤ A ≤ 1
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.0,; 1.5 * BWChannel_CA ≤ IM5 < BWChannel_CA/2 + FOOB
+36.521-1,36521-1-j30_s06a-s06b4.docx,8.5,– 7.5A 			; 0.2 ≤ A < 0.6
+36.521-1,36521-1-j30_s06a-s06b4.docx,5.5,– 2.5A 			; 0.6 ≤ A ≤ 1
+36.521-1,36521-1-j30_s06a-s06b4.docx,9.2,- 40A 		; 0.025	≤ A < 0.05
+36.521-1,36521-1-j30_s06a-s06b4.docx,8,- 16A		; 0.05	≤ A < 0.25
+36.521-1,36521-1-j30_s06a-s06b4.docx,4.83,"- 3.33A	; 0.25 ≤ A ≤ 0.4,"
+36.521-1,36521-1-j30_s06a-s06b4.docx,3.83,"- 0.83A	; 0.4 ≤ A ≤ 1,"
+36.521-1,36521-1-j30_s06a-s06b4.docx,9.2,- 40A			; 0.04 ≤ A < 0.075
+36.521-1,36521-1-j30_s06a-s06b4.docx,8,– 16A			; 0.075 ≤ A < 0.25
+36.521-1,36521-1-j30_s06a-s06b4.docx,4.83,"– 3.33A			; 0.25 ≤ A ≤ 0.4,"
+36.521-1,36521-1-j30_s06a-s06b4.docx,3.83,"– 0.83A			; 0.4 ≤ A ≤ 1,"
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.0,; 1.5 * BWChannel_CA ≤ IM5 <  BWChannel_CA/2 + FOOB
+36.521-1,36521-1-j30_s06a-s06b4.docx,9.2,- 40A 			; 0.025	 ≤ A < 0.05
+36.521-1,36521-1-j30_s06a-s06b4.docx,8,– 16A				; 0.05	≤ A < 0.25
+36.521-1,36521-1-j30_s06a-s06b4.docx,4.0,; 0.25 ≤ A < 1
+36.521-1,36521-1-j30_s06a-s06b4.docx,9.2,- 40A			; 0.025 ≤ A < 0.05
+36.521-1,36521-1-j30_s06a-s06b4.docx,8,– 16A			; 0.05 ≤ A < 0.16
+36.521-1,36521-1-j30_s06a-s06b4.docx,5.5,; 0.16 ≤ A < 1
+36.521-1,36521-1-j30_s06a-s06b4.docx,5.5,–5.833A		; 0.2< A ≤0.6
+36.521-1,36521-1-j30_s06a-s06b4.docx,2.0,; 0.6< A ≤1.00
+36.521-1,36521-1-j30_s06a-s06b4.docx,8.5,– 20.0A		; 0.2< A ≤0.3
+36.521-1,36521-1-j30_s06a-s06b4.docx,2.5,; 0.3< A ≤1.00
+36.521-1,36521-1-j30_s06a-s06b4.docx,12.0,– 30.0A		; 0.1< A ≤0.3
+36.521-1,36521-1-j30_s06a-s06b4.docx,3.0,; 0.3< A ≤1.00
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.4,Additional Maximum Power Reduction (A-MPR)
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.4.1,Test purpose
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.4.4,Test description
+36.521-1,36521-1-j30_s06a-s06b4.docx,6.2.4.5,Test requirements
+36.521-1,36521-1-j30_s06a-s06b4.docx,18.50,- 20.00 A;			0.05 ≤ A < 0.2
+36.521-1,36521-1-j30_s06a-s06b4.docx,15.50,- 5.00 A;			0.2 ≤ A < 1
+36.521-1,36521-1-j30_s06a-s06b4.docx,10.88,- 5.88 A;			0.15 ≤ A < 1
+36.521-1,36521-1-j30_s06a-s06b4.docx,13.78,- 9.78 A; 		0.08 < A <= 1.00
+36.521-1,36521-1-j30_s06a-s06b4.docx,14.13,-14.06 A; 		0.08 < A <= 0.40
+36.521-1,36521-1-j30_s06a-s06b4.docx,9.17,– 1.67 A;		0.40 < A <= 1.00
+36.521-1,36521-1-j30_s06a-s06b4.docx,23,– 120A			; 0.025 ≤ A < 0.05
+36.521-1,36521-1-j30_s06a-s06b4.docx,17.53,– 10.59A		; 0.05 ≤ A ≤ 0.9
+36.521-1,36521-1-j30_s06a-s06b4.docx,8,; 0.9 ≤ A ≤ 1
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.2.5,Configured UE transmitted Output Power
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.2.5.1,Test purpose
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.2.5.2,Test applicability
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.2.5.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.2.5.4,Test description
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.2.5.5,Test requirement
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1,Test purpose
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.2,Test applicability
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.4,Test description
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.4.1,Initial conditions
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.4.2,Test procedure
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.4.3,Message contents
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.5,Test requirement
+36.521-1,36521-1-j30_s06b5-s06d.docx,G.1.4,Test description
+36.521-1,36521-1-j30_s06b5-s06d.docx,G.1.4.1,Initial conditions
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3,Output Power Dynamics
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.2,Minimum Output Power
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.2.1,Test purpose
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.2.2,Test applicability
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.2.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.2.4,Test description
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.2.5,Test requirement
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.3,Transmit OFF power
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.3.1,Test purpose
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.3.2,Test applicability
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.3.3,Minimum conformance requirement
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.3.4,Test description
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.3.5,Test requirement
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.4,ON/OFF time mask
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.4.1,General ON/OFF time mask
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.4.2,PRACH and SRS time mask
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.5,Power Control
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.5.1,Power Control Absolute power tolerance
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.5.2,Power Control Relative power tolerance
+36.521-1,36521-1-j30_s06b5-s06d.docx,6.3.5.3,Aggregate power control tolerance
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1,Power Control Absolute Power Tolerance for UL- MIMO
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1.1,Test purpose
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1.2,Test applicability
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1.4.1,Initial conditions
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1.4.2,Test procedure
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1.4.3,Message contents
+36.521-1,36521-1-j30_s06b5-s06d.docx,B.1.5,Test requirement
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5,Transmit signal quality
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.1,Frequency Error
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.1.1,Test purpose
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.1.2,Test applicability
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.1.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.1.4,Test description
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.1.5,Test requirement
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.2,Transmit modulation
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.2.1,Error Vector Magnitude (EVM)
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.3,Measure the EVM and  using Global In-Channel Tx-Test (Annex E).
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.5,Measure the EVM and  using Global In-Channel Tx-Test (Annex E).
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.1,PUCCH are set according to Table 6.5.2.1.4.1-2.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.3,SS send appropriate  commands for PUCCH to the UE until the UE transmit PUCCH at PUMAX level.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.4,Measure PUCCH EVM using Global In-Channel Tx-Test (Annex E).
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.6,Measure PUCCH EVM using Global In-Channel Tx-Test (Annex E).
+36.521-1,36521-1-j30_s06e-s06f2.docx,3.1,The SS shall set RS EPRE according to Table 6.5.2.1.4.1-3.
+36.521-1,36521-1-j30_s06e-s06f2.docx,3.2,PRACH is set according to Table 6.5.2.1.4.1-3.
+36.521-1,36521-1-j30_s06e-s06f2.docx,3.4,The UE shall send the signalled preamble to the SS.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.1,PUCCH are set according to Table 6.5.2.1EA.4.1-2.
+36.521-1,36521-1-j30_s06e-s06f2.docx,3.1,The SS shall set RS EPRE according to Table 6.5.2.1EA.4.1-3.
+36.521-1,36521-1-j30_s06e-s06f2.docx,3.2,PRACH is set according to Table 6.5.2.1EA.4.1-3.
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.2,Configure the UE to transmit at PUMAX level.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.1,The SS shall set RS EPRE according to Table 6.5.2.1F.1.4.1-2.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.2,NPRACH is set according to Table 6.5.2.1F.1.4.1-2.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.3,The UE shall send a preamble to the SS.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.2,Configure the UE to transmit at PUMAX level.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.6,The UE starts to perform the V2X PSBCH/SLSS transmission according to SL-V2X-Configuration every 40 subframes.
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.2.2,Carrier leakage
+36.521-1,36521-1-j30_s06e-s06f2.docx,3,Measure the carrier leakage using Global In-Channel Tx-Test (Annex E).
+36.521-1,36521-1-j30_s06e-s06f2.docx,6,Measure the carrier leakage using Global In-Channel Tx-Test (Annex E).
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.2.3,In-band emissions for non allocated RB
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.3,Measure In-band emission using Global In-Channel Tx-Test (Annex E)
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.5,Measure In-band emission using Global In-Channel Tx-Test (Annex E)
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.3,Measure In-band emission using Global In-Channel Tx-Test (Annex E)
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.5,Measure In-band emission using Global In-Channel Tx-Test (Annex E)
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.7,Measure In-band emission using Global In-Channel Tx-Test (Annex E)
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.9,Measure In-band emission using Global In-Channel Tx-Test (Annex E)
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.5.2.4,EVM equalizer spectrum flatness
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1,Error Vector Magnitude (EVM) for UL- MIMO
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.1,Test Purpose
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.2,Test applicability
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.4,Test description
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.4.1,Initial conditions
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.4.2,Test procedure
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.3,Measure the EVM and  using Global In-Channel Tx-Test (Annex E) for each of transmit antenna of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.5,Measure the EVM and  using Global In-Channel Tx-Test (Annex E) for each of transmit antenna of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.1,PUCCH is set according to Table B.1.4.1-2.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.4,Measure PUCCH EVM using Global In-Channel Tx-Test (Annex E) for each of transmit antenna of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.6,Measure PUCCH EVM using Global In-Channel Tx-Test (Annex E) for each of transmit antenna of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.4.3,Message contents
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.1.5,Test requirement
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2,Carrier leakage for UL-MIMO
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2.1,Test Purpose
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2.2,Test applicability
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2.4,Test description
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2.4.1,Initial conditions
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2.4.2,Test procedure
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.2.5,Test requirement
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.3.1,Test Purpose
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.3.2,Test applicability
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.3.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.3.4,Test description
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.3.4.1,Initial conditions
+36.521-1,36521-1-j30_s06e-s06f2.docx,1.3,Measure In-band emission using Global In-Channel Tx-Test (Annex E) for each of transmit antennas of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.3,Measure In-band emission using Global In-Channel Tx-Test (Annex E) for each of transmit antennas of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.5,Measure In-band emission using Global In-Channel Tx-Test (Annex E) for each of transmit antennas of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,2.7,Measure In-band emission using Global In-Channel Tx-Test (Annex E) for each of transmit antennas of the UE.
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.3.5,Test requirement
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.4,EVM equalizer spectrum flatness for UL-MIMO
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.4.1,Test Purpose
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.4.2,Test applicability
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.4.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.4.4,Test description
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.4.4.1,Initial conditions
+36.521-1,36521-1-j30_s06e-s06f2.docx,B.4.5,Test requirement
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6,Output RF spectrum emissions
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.1,Occupied bandwidth
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.1.1,Test purpose
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.1.2,Test applicability
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.1.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.1.4,Test description
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.1.5,Test requirement
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.2,Out of band emission
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.2.1,Spectrum Emission Mask
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.2.2,Additional Spectrum Emission Mask
+36.521-1,36521-1-j30_s06e-s06f2.docx,6.6.2.3,Adjacent Channel Leakage power Ratio
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.6.3,Spurious emissions
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.6.3.1,Transmitter Spurious emissions
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.6.3.2,Spurious emission band UE co-existence
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.6.3.3,Additional spurious emissions
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7,Transmit intermodulation
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.1,Test purpose
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.2,Test applicability
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.4,Test description
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.4.1,Initial conditions
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.4.3,Test procedure
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.4.3,Message contents
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.7.5,Test requirement
+36.521-1,36521-1-j30_s06f3-s06h.docx,6.8,Time alignment
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7,Receiver Characteristics
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.1,General
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.2,Diversity characteristics
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3,Reference sensitivity level
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.1,Test purpose
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.2,Test applicability
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.4,Test description
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.4.1,Initial conditions
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.4.2,Test procedure
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.4.3,Message contents
+36.521-1,36521-1-j30_s07a-s07ca8.docx,7.3.5,Test requirement
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4,Maximum input level
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.1,Test purpose
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.2,Test applicability
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.4,Test description
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.4.1,Initial conditions
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.4.2,Test procedure
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.4.3,Message contents
+36.521-1,36521-1-j30_s07ca9-s07d.docx,7.4.5,Test requirement
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5,Adjacent Channel Selectivity (ACS)
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.1,Test purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.2,Test applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.4,Test description
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.4.1,Initial conditions
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.4.2,Test procedure
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.4.3,Message contents
+36.521-1,36521-1-j30_s07e-s07j.docx,7.5.5,Test requirement
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6,Blocking characteristics
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.1,In-band blocking
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.1.1,Test Purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.1.2,Test Applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.1.4,Test Description
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.1.5,Test Requirement
+36.521-1,36521-1-j30_s07e-s07j.docx,B.1,Test Purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,B.2,Test Applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,B.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,B.4,Test Description
+36.521-1,36521-1-j30_s07e-s07j.docx,B.4.1,Initial Conditions
+36.521-1,36521-1-j30_s07e-s07j.docx,B.4.2,Test Procedure
+36.521-1,36521-1-j30_s07e-s07j.docx,B.5,Test Requirement
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.2,Out-of-band blocking
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.2.1,Test Purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.2.2,Test Applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.2.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.2.4,Test Description
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.2.5,Test Requirement
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.3,Narrow band blocking
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.3.1,Test Purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.3.2,Test Applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.3.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.3.4,Test Description
+36.521-1,36521-1-j30_s07e-s07j.docx,7.6.3.5,Test Requirement
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7,Spurious response
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.1,Test Purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.2,Test Applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.4,Test Description
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.4.1,Initial Conditions
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.4.2,Test Procedure
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.4.3,Message Contents
+36.521-1,36521-1-j30_s07e-s07j.docx,7.7.5,Test Requirement
+36.521-1,36521-1-j30_s07e-s07j.docx,7.8,Intermodulation characteristics
+36.521-1,36521-1-j30_s07e-s07j.docx,7.8.1,Wide band Intermodulation
+36.521-1,36521-1-j30_s07e-s07j.docx,7.8.1.1,Test purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,7.8.1.2,Test applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,7.8.1.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.8.1.4,Test description
+36.521-1,36521-1-j30_s07e-s07j.docx,7.8.1.5,Test requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,B.1,Test purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,B.2,Test applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,B.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,B.4,Test description
+36.521-1,36521-1-j30_s07e-s07j.docx,B.4.1,Initial condition
+36.521-1,36521-1-j30_s07e-s07j.docx,B.4.2,Test procedure
+36.521-1,36521-1-j30_s07e-s07j.docx,B.4.3,Message contents
+36.521-1,36521-1-j30_s07e-s07j.docx,B.5,Test requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9,Spurious emissions
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.1,Test Purpose
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.2,Test Applicability
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.4,Test Description
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.4.1,Initial Conditions
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.4.2,Test Procedure
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.4.3,Message Contents
+36.521-1,36521-1-j30_s07e-s07j.docx,7.9.5,Test Requirement
+36.521-1,36521-1-j30_s08a-s08g.docx,8,Performance Requirement
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1,General
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.1,Receiver antenna capability
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.1.1,Simultaneous unicast and MBMS operations
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.1.2,Dual-antenna receiver capability in idle mode
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.2,Applicability of requirements
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.2.1,Applicability of requirements for different channel bandwidths
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.2.2,Definition of CA capability
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.2.3,Applicability and test rules for different CA configurations and bandwidth combination sets
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.2.4,Test coverage for different number of component carriers
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.2.6,Applicability of performance requirements for 4Rx capable UEs
+36.521-1,36521-1-j30_s08a-s08g.docx,8.1.2.7,Applicability of Enhanced Downlink Control Channel Performance Requirements
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2,Demodulation of PDSCH (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1,FDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.1,FDD PDSCH Single Antenna Port Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.2,FDD PDSCH Transmit Diversity Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.3,FDD PDSCH Open Loop Spatial Multiplexing Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,1,"Configure SCC according to Annex C.0, C.1 and Annex C.3.2 for all downlink physical channels."
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.4,FDD PDSCH Closed Loop Spatial Multiplexing Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.7,Carrier aggregation with power imbalance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.8,FFS
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.9,FDD PDSCH performance in HST-SFN scenario
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.1.10,Intra-band contiguous carrier aggregation with minimum channel spacing (3DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2,TDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2.1,TDD PDSCH Single Antenna Port Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2.2,TDD PDSCH Transmit Diversity Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2.3,TDD PDSCH Open Loop Spatial Multiplexing Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2.4,TDD PDSCH Closed Loop Spatial Multiplexing Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2.7,Carrier aggregation with power imbalance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2.8,Intra-band contiguous carrier aggregation with minimum channel spacing
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.2.9,TDD PDSCH HST-SFN performance in HST-SFN scenario
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.3,TDD FDD CA (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.3.1,TDD FDD CA PDSCH Single Antenna Port Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.3.2,TDD FDD CA PDSCH Open Loop Spatial Multiplexing Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.3.3,TDD FDD CA PDSCH Closed Loop Spatial Multiplexing Performance (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.4,LAA
+36.521-1,36521-1-j30_s08a-s08g.docx,8.2.4.1,LAA PDSCH CA Closed-Loop Spatial Multiplexing Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3,Demodulation of PDSCH (User-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.1,FDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.1.1,FDD PDSCH Single-layer Spatial Multiplexing Performance (UE-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.1.2,FDD PDSCH Dual-layer Spatial Multiplexing Performance (UE-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.1.3,FDD PDSCH Performance with DCI format 2D and non Quasi Co-located Antenna Ports
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.2,TDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.2.1,TDD PDSCH Single-layer Spatial Multiplexing Performance (UE-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.2.2,TDD PDSCH Dual-layer Spatial Multiplexing Performance (UE-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.2.3,Dual-Layer Spatial Multiplexing (with multiple CSI-RS configurations)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.2.4,TDD PDSCH Performance with DCI format 2D and non Quasi Co-located Antenna Ports
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.3,LAA
+36.521-1,36521-1-j30_s08a-s08g.docx,8.3.3.1,Dual-Layer Spatial Multiplexing with DM-RS
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4,Demodulation of PCFICH/PDCCH
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.1,FDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.1.1,FDD PCFICH/PDCCH Single-antenna Port Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.1.2,FDD PCFICH/PDCCH Transmit Diversity Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.2,TDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.2.1,TDD PCFICH/PDCCH Single-antenna Port Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.2.2,TDD PCFICH/PDCCH Transmit Diversity Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.3,LAA
+36.521-1,36521-1-j30_s08a-s08g.docx,8.4.3.1,Transmit Diversity Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.5,Demodulation of PHICH
+36.521-1,36521-1-j30_s08a-s08g.docx,8.5.1,FDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.5.1.1,FDD PHICH Single-antenna Port Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.5.1.2,FDD PHICH Transmit Diversity Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.5.2,TDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.5.2.1,TDD PHICH Single-antenna Port Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.5.2.2,TDD PHICH Transmit Diversity Performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.6,Demodulation of PBCH
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7,Sustained downlink data rate provided by lower layers
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.1,FDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.1.1,FDD sustained data rate performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.2,TDD
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.2.1,TDD sustained data rate performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.3,FDD (EPDCCH scheduling)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.3.1,FDD sustained data rate performance for EPDCCH scheduling
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.4,TDD (EPDCCH scheduling)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.4.1,TDD sustained data rate performance for EPDCCH scheduling
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.5,TDD FDD CA Sustained data rate performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.5.1,TDD FDD CA Sustained data rate performance for FDD PCell
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.5.2,TDD FDD CA Sustained data rate performance for TDD PCell
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.6,FDD (Dual Connectivity)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.6.1,FDD sustained data rate performance for Dual Connectivity 64QAM
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.6.2,FDD sustained data rate performance for Dual Connectivity 256QAM
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.7,TDD (Dual Connectivity)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.7.1,TDD sustained data rate performance for Dual Connectivity 64QAM
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.7.2,TDD sustained data rate performance for Dual Connectivity 256QAM
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.9,FDD sustained data rate performance (4 layer MIMO)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.9.1,Minimum conformance requirements
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.9.2,FDD sustained data rate performance for 4 layer MIMO (single carrier)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.9.3,FDD sustained data rate performance for 4 layer MIMO (2DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.9.4,FDD sustained data rate performance for 4 layer MIMO (3DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.9.5,FDD sustained data rate performance for 4 layer MIMO (4DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.9.6,FDD sustained data rate performance for 4 layer MIMO (5DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.10,TDD sustained data rate performance (4 layer MIMO)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.10.1,Minimum conformance requirements
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.10.2,TDD sustained data rate performance for 4 layer MIMO (single carrier)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.10.3,TDD sustained data rate performance for 4 layer MIMO (2DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.10.4,TDD sustained data rate performance for 4 layer MIMO (3DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.10.5,TDD sustained data rate performance for 4 layer MIMO (4DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.10.6,TDD sustained data rate performance for 4 layer MIMO (5DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.11,TDD FDD CA Sustained data rate performance (4 layer MIMO)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.11.1,Minimum conformance requirements
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.11.2,TDD FDD CA sustained data rate performance for 4 layer MIMO (2DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.11.3,TDD FDD CA sustained data rate performance for 4 layer MIMO (3DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.11.4,TDD FDD CA sustained data rate performance for 4 layer MIMO (4DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.11.5,TDD FDD CA sustained data rate performance for 4 layer MIMO (5DL CA)
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.12,LAA Sustained data rate performance
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.12.1,FDD CA in unlicensed bands
+36.521-1,36521-1-j30_s08a-s08g.docx,8.7.12.2,TDD CA in unlicensed bands
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8,Demodulation of EPDCCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.1,Distributed Transmission
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.1.1,FDD distributed EPDCCH performance
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.1.2,TDD distributed EPDCCH performance
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.2,Localized Transmission with TM9
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.2.1,FDD localized EPDCCH performance with TM9
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.2.2,TDD localized EPDCCH performance with TM9
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.3,Localized transmission with TM10 Type B quasi co-location type
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.3.1,FDD localized EPDCCH transmission with TM10 Type B quasi co-location type
+36.521-1,36521-1-j30_s08h-s08n.docx,8.8.3.2,TDD localized EPDCCH transmission with TM10 Type B quasi co-location type
+36.521-1,36521-1-j30_s08h-s08n.docx,8.9,Demodulation (Single receiver antenna)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.9.1,PDSCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.9.1.1,FDD and half-duplex FDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.9.1.2,TDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.9.2,PHICH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.9.2.1,FDD and half-duplex FDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10,Demodulation (4 receiver antenna ports)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.1,PDSCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.1.1,FDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.1.2,TDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.2,PCFICH/PDCCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.2.1,FDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.2.2,TDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.3,PHICH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.3.1,FDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.3.2,TDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.4,ePDCCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.4.1,Distributed Transmission with 4Rx
+36.521-1,36521-1-j30_s08h-s08n.docx,8.10.4.2,Localized Transmission with TM9 2x4
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11,Demodulation (UE supporting coverage enhancement)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11.1,PDSCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11.1.1,FDD and half-duplex FDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11.1.2,TDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11.2,MPDCCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11.2.1,FDD and HD-FDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11.2.2,TDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.11.3,Demodulation of PBCH (enhanced coverage)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.12,Demodulation of Narrowband IoT
+36.521-1,36521-1-j30_s08h-s08n.docx,8.12.1,NPDSCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.12.1.1,Half-duplex FDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.12.2,NPDCCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.12.2.1,Half-duplex FDD
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13,Demodulation of PDSCH CA and DC (4 receiver antenna ports)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.1,FDD (CA and DC)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.1.1,Closed Loop Multi Layer Spatial Multiplexing
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.1.2,Dual-Layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.1.3,Enhanced Performance Requirements Type A Closed-loop spatial multiplexing
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.1.4,Enhanced Performance Requirement Type A - Single-layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.2,TDD (CA and DC)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.2.1,Closed Loop Multi Layer Spatial Multiplexing
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.2.2,Dual-Layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.2.3,Enhanced Performance Requirements Type A Closed-loop spatial multiplexing
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.2.4,Enhanced Performance Requirement Type A - Single-layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.3,TDD-FDD (CA and DC)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.3.1,Closed Loop Multi Layer Spatial Multiplexing
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.3.2,Dual-Layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.3.3,Enhanced Performance Requirements Type A Closed-loop spatial multiplexing
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.3.4,Enhanced Performance Requirements Type A – Single-layer Spatial Multiplexing (User-Specific Reference Symbols)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.3.6,Closed-loop spatial multiplexing performance 4Tx Antenna Port with 256QAM
+36.521-1,36521-1-j30_s08h-s08n.docx,8.13.3.7,Closed-loop spatial multiplexing performance 4Tx Antenna Port with Four layers
+36.521-1,36521-1-j30_s08h-s08n.docx,8.14,Demodulation (UE supporting Short TTI)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.14.1,Slot-PDSCH and Subslot-PDSCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.14.1.1,FDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.14.1.2,TDD (Fixed Reference Channel)
+36.521-1,36521-1-j30_s08h-s08n.docx,8.14.2,SPDCCH
+36.521-1,36521-1-j30_s08h-s08n.docx,8.14.2.1,FDD SPDCCH Transmit diversity performance
+36.521-1,36521-1-j30_s08h-s08n.docx,8.14.2.2,TDD SPDCCH Transmit diversity performance
+36.521-1,36521-1-j30_s09-s14.docx,9,Reporting of Channel State Information
+36.521-1,36521-1-j30_s09-s14.docx,9.1,General
+36.521-1,36521-1-j30_s09-s14.docx,9.1.1,Applicability of requirements
+36.521-1,36521-1-j30_s09-s14.docx,9.1.1.1,Applicability of requirements for different channel bandwidths
+36.521-1,36521-1-j30_s09-s14.docx,9.1.1.2,Applicability and test rules for different CA configurations and bandwidth combination sets
+36.521-1,36521-1-j30_s09-s14.docx,9.1.1.3,Test coverage for different number of component carriers
+36.521-1,36521-1-j30_s09-s14.docx,9.1.1.4,Applicability of performance requirements for 4Rx capable UEs
+36.521-1,36521-1-j30_s09-s14.docx,9.1.1.5,Applicability of requirements for UEs supporting coverage enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.2,CQI Reporting under AWGN conditions
+36.521-1,36521-1-j30_s09-s14.docx,9.2.1,CQI Reporting under AWGN conditions - PUCCH 1-0 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.2.1.1,FDD CQI Reporting under AWGN conditions – PUCCH 1-0
+36.521-1,36521-1-j30_s09-s14.docx,9.2.1.2,TDD CQI Reporting under AWGN conditions – PUCCH 1-0
+36.521-1,36521-1-j30_s09-s14.docx,9.2.1.7,FDD CQI Reporting under AWGN conditions – PUCCH 1-0 for 256QAM in DL
+36.521-1,36521-1-j30_s09-s14.docx,9.2.1.8,TDD CQI Reporting under AWGN conditions – PUCCH 1-0 for 256QAM in DL
+36.521-1,36521-1-j30_s09-s14.docx,9.2.2,CQI Reporting under AWGN conditions - PUCCH 1-1 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.2.2.1,FDD CQI Reporting under AWGN conditions – PUCCH 1-1
+36.521-1,36521-1-j30_s09-s14.docx,9.2.2.2,TDD CQI Reporting under AWGN conditions – PUCCH 1-1
+36.521-1,36521-1-j30_s09-s14.docx,9.2.3,CQI Reporting under AWGN conditions - PUCCH 1-1 (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.2.4,CQI Reporting under AWGN conditions - Single CSI Process
+36.521-1,36521-1-j30_s09-s14.docx,9.2.5.1,Test purpose
+36.521-1,36521-1-j30_s09-s14.docx,9.2.5.2,Test applicability
+36.521-1,36521-1-j30_s09-s14.docx,9.2.5.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s09-s14.docx,9.2.5.4,Test description
+36.521-1,36521-1-j30_s09-s14.docx,9.2.5.5,Test requirement
+36.521-1,36521-1-j30_s09-s14.docx,9.2.6,CQI Reporting under AWGN Conditions-PUSCH 3-0 – LAA (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.2.6.1,LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with FDD as Pcell (PUSCH 3-0)
+36.521-1,36521-1-j30_s09-s14.docx,9.2.6.2,LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with TDD as Pcell (PUSCH 3-0)
+36.521-1,36521-1-j30_s09-s14.docx,9.2.7,CQI Reporting under AWGN Conditions-PUSCH 3-1 - LAA
+36.521-1,36521-1-j30_s09-s14.docx,9.2.7.1,LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with FDD as Pcell (PUSCH 3-1)
+36.521-1,36521-1-j30_s09-s14.docx,9.2.7.2,LAA CQI Reporting under AWGN Conditions with Frame Structure Type 3 with TDD as Pcell (PUSCH 3-1)
+36.521-1,36521-1-j30_s09-s14.docx,9.3,CQI Reporting under fading conditions
+36.521-1,36521-1-j30_s09-s14.docx,9.3.1,Frequency-selective scheduling mode
+36.521-1,36521-1-j30_s09-s14.docx,9.3.1.1,CQI Reporting under fading conditions – PUSCH 3-0 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.1.2,CQI Reporting under fading conditions – PUSCH 3-1 (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.1.3,CQI Reporting under fading conditions – PUSCH 3-0 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.2,Frequency non-selective scheduling mode
+36.521-1,36521-1-j30_s09-s14.docx,9.3.2.1,CQI Reporting under fading conditions – PUCCH 1-0 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.2.2,CQI Reporting under fading conditions – PUCCH 1-1 (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.3,Frequency-selective interference
+36.521-1,36521-1-j30_s09-s14.docx,9.3.4,UE-selected subband CQI
+36.521-1,36521-1-j30_s09-s14.docx,9.3.4.1,CQI Reporting under fading conditions – PUSCH 2-0 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.4.2,CQI Reporting under fading conditions – PUCCH 2-0 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.5,Additional requirements for enhanced receiver Type A
+36.521-1,36521-1-j30_s09-s14.docx,9.3.5.1,PUCCH 1-0 (Cell-Specific Reference Symbol)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.5.2,PUCCH 1-1 (CSI Reference Symbol)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.6,CQI Reporting under fading conditions (With multiple CSI processes)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.7,PUSCH 3-2 for eDL MIMO Enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.3.7.1,FDD CQI Reporting under fading conditions - PUSCH 3-2 for eDL MIMO Enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.3.7.2,TDD CQI Reporting under fading conditions - PUSCH 3-2 for eDL MIMO Enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.3.8,Additional requirements for enhanced receiver Type B
+36.521-1,36521-1-j30_s09-s14.docx,9.3.8.1,PUCCH 1-1 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.8.2,PUCCH 1-1 (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.3.8.3,CSI process
+36.521-1,36521-1-j30_s09-s14.docx,9.4,Reporting of Precoding Matrix Indicator ()
+36.521-1,36521-1-j30_s09-s14.docx,9.4.1,Single PMI
+36.521-1,36521-1-j30_s09-s14.docx,9.4.1.1,PMI Reporting – PUSCH 3-1 (Single PMI) (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.4.1.2,PMI Reporting – PUCCH 2-1 (Single PMI) (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.4.1.3,PMI Reporting – PUSCH 3-1 (Single PMI) (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.4.1.4,PMI Reporting – PUCCH 1-1 (Single PMI) (CSI Reference Symbol)
+36.521-1,36521-1-j30_s09-s14.docx,9.4.2,Multiple PMI
+36.521-1,36521-1-j30_s09-s14.docx,9.4.2.1,PMI Reporting – PUSCH 1-2 (Multiple PMI) (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.4.2.2,PMI Reporting – PUSCH 2-2 (Multiple PMI) (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.4.2.3,PMI Reporting – PUSCH 1-2 (Multiple PMI) (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.5,Reporting of Rank Indicator (RI)
+36.521-1,36521-1-j30_s09-s14.docx,9.5.1,RI Reporting (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.5.1.1,FDD RI Reporting– PUCCH 1-1
+36.521-1,36521-1-j30_s09-s14.docx,9.5.1.2,TDD RI Reporting – PUSCH 3-1
+36.521-1,36521-1-j30_s09-s14.docx,9.5.2,RI Reporting (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.5.3,RI Reporting (two CSI subframe sets are configured)
+36.521-1,36521-1-j30_s09-s14.docx,9.5.4,RI Reporting (two CSI subframe sets and CRS assistance information are configured)
+36.521-1,36521-1-j30_s09-s14.docx,9.5.5,RI Reporting (with CSI processes)
+36.521-1,36521-1-j30_s09-s14.docx,9.6,Additional requirements for carrier aggregation
+36.521-1,36521-1-j30_s09-s14.docx,9.6.1,Periodic reporting on multiple cells (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.6.1.3,TDD-FDD CA for FDD PCell
+36.521-1,36521-1-j30_s09-s14.docx,9.6.1.4,TDD-FDD CA for TDD PCell
+36.521-1,36521-1-j30_s09-s14.docx,9.7,CSI reporting for UE DL category 0
+36.521-1,36521-1-j30_s09-s14.docx,9.7.1,CQI reporting definition under AWGN conditions
+36.521-1,36521-1-j30_s09-s14.docx,9.7.1.1,FDD and Half duplex FDD CQI reporting definition under AWGN conditions for UE category 0
+36.521-1,36521-1-j30_s09-s14.docx,9.7.1.2,TDD CQI reporting definition under AWGN conditions for UE category 0
+36.521-1,36521-1-j30_s09-s14.docx,9.7.2,CQI reporting under fading conditions
+36.521-1,36521-1-j30_s09-s14.docx,9.7.2.1,FDD and Half duplex FDD CQI reporting definition under fading conditions for UE category 0
+36.521-1,36521-1-j30_s09-s14.docx,9.7.2.2,TDD CQI reporting definition under fading conditions for UE category 0
+36.521-1,36521-1-j30_s09-s14.docx,9.8,CSI reporting (UE supporting coverage enhancement)
+36.521-1,36521-1-j30_s09-s14.docx,9.8.1,CQI reporting definition under AWGN conditions
+36.521-1,36521-1-j30_s09-s14.docx,9.8.1.1,FDD and Half duplex FDD CQI reporting definition under AWGN conditions for UE supporting coverage enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.8.1.2,TDD CQI reporting definition under AWGN conditions for UE supporting coverage enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.8.2,UE-selected subband CQI
+36.521-1,36521-1-j30_s09-s14.docx,9.8.2.1,FDD and half-duplex FDD UE-selected subband CQI for UE supporting coverage enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.8.2.2,TDD UE-selected subband CQI for UE supporting coverage enhancement
+36.521-1,36521-1-j30_s09-s14.docx,9.8.3,CQI reporting definition for UE supporting 64QAM under AWGN
+36.521-1,36521-1-j30_s09-s14.docx,9.8.3.2,TDD CQI reporting definition under AWGN conditions for UE supporting coverage enhancement and 64QAM
+36.521-1,36521-1-j30_s09-s14.docx,9.8.4,CQI reporting definition for UE supporting alternative table under AWGN
+36.521-1,36521-1-j30_s09-s14.docx,9.8.4.2,TDD CQI reporting definition under AWGN conditions for UE supporting coverage enhancement and alternative table
+36.521-1,36521-1-j30_s09-s14.docx,9.9,CSI reporting for 4Rx UE
+36.521-1,36521-1-j30_s09-s14.docx,9.9.1,CQI Reporting under AWGN conditions
+36.521-1,36521-1-j30_s09-s14.docx,9.9.1.1,CQI reporting under AWGN conditions - PUCCH 1-0 with Rank 1 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.9.1.2,CQI reporting under AWGN conditions - PUCCH 1-1 with Rank 2 (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.9.1.3,CQI Reporting under AWGN conditions - PUCCH 1-1 (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.9.1.4,CQI reporting under AWGN conditions - PUCCH 1-1 with Rank 3 (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.9.2,CQI Reporting under fading conditions
+36.521-1,36521-1-j30_s09-s14.docx,9.9.3,Reporting of Precoding Matrix Indicator (PMI) for 4Rx UE
+36.521-1,36521-1-j30_s09-s14.docx,9.9.3.1,PMI Reporting – PUSCH 3-1 (Single PMI) (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.9.4,Reporting of Rank Indicator (RI)
+36.521-1,36521-1-j30_s09-s14.docx,9.9.4.1,RI Reporting– PUCCH 1-1 4x4
+36.521-1,36521-1-j30_s09-s14.docx,9.9.4.2,RI Reporting- PUCCH 1-1 for eDL-MIMO 4x4
+36.521-1,36521-1-j30_s09-s14.docx,9.10,Reporting of CSI-RS Resource Indicator (CRI)
+36.521-1,36521-1-j30_s09-s14.docx,9.10.1,CSI-RS Resource Indicator Reporting (PUSCH 3-1)
+36.521-1,36521-1-j30_s09-s14.docx,9.10.1.1,FDD CSI-RS Resource Indicator Reporting – PUSCH 3-1
+36.521-1,36521-1-j30_s09-s14.docx,9.10.1.2,TDD CSI-RS Resource Indicator Reporting – PUSCH 3-1
+36.521-1,36521-1-j30_s09-s14.docx,9.12,CSI reporting (UE supporting Short TTI)
+36.521-1,36521-1-j30_s09-s14.docx,9.12.1,CQI Reporting under fading conditions (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.12.1.1,FDD CQI Reporting under fading conditions for slot/subslot TTI (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.12.1.2,TDD CQI Reporting under fading conditions for slot/subslot TTI (Cell-Specific Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.12.2,CQI Reporting under fading conditions (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.12.2.1,FDD CQI Reporting under fading conditions for slot/subslot TTI (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,9.12.2.2,TDD CQI Reporting under fading conditions for slot/subslot TTI (CSI Reference Symbols)
+36.521-1,36521-1-j30_s09-s14.docx,10,MBMS Performance
+36.521-1,36521-1-j30_s09-s14.docx,10.1,FDD MBMS performance (Fixed Reference Channel)
+36.521-1,36521-1-j30_s09-s14.docx,10.1.1,Test purpose
+36.521-1,36521-1-j30_s09-s14.docx,10.1.2,Test applicability
+36.521-1,36521-1-j30_s09-s14.docx,10.1.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s09-s14.docx,10.1.4,Test description
+36.521-1,36521-1-j30_s09-s14.docx,10.1.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,10.1.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,10.1.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,10.1.5,Test requirement
+36.521-1,36521-1-j30_s09-s14.docx,10.2,TDD MBMS performance (Fixed Reference Channel)
+36.521-1,36521-1-j30_s09-s14.docx,10.2.1,Test purpose
+36.521-1,36521-1-j30_s09-s14.docx,10.2.2,Test applicability
+36.521-1,36521-1-j30_s09-s14.docx,10.2.3,Minimum conformance requirements
+36.521-1,36521-1-j30_s09-s14.docx,10.2.4,Test description
+36.521-1,36521-1-j30_s09-s14.docx,10.2.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,10.2.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,10.2.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,10.2.5,Test requirement
+36.521-1,36521-1-j30_s09-s14.docx,10.4,FDD with 5G terrestrial broadcast
+36.521-1,36521-1-j30_s09-s14.docx,10.4.0,Applicability of requirements
+36.521-1,36521-1-j30_s09-s14.docx,10.4.1,Minimum requirement for PMCH decoding
+36.521-1,36521-1-j30_s09-s14.docx,10.4.1.1,Minimum requirement with 0.37kHz subcarrier spacing
+36.521-1,36521-1-j30_s09-s14.docx,10.4.1.2,Minimum requirement with 2.5kHz subcarrier spacing
+36.521-1,36521-1-j30_s09-s14.docx,10.4.2,Minimum requirement for CAS detection
+36.521-1,36521-1-j30_s09-s14.docx,10.4.2.1,Minimum requirement for PBCH detection
+36.521-1,36521-1-j30_s09-s14.docx,11,Performance Requirement (ProSe Direct Discovery)
+36.521-1,36521-1-j30_s09-s14.docx,11.1,General
+36.521-1,36521-1-j30_s09-s14.docx,11.1.1,Applicability of requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.1.2,Reference DRX configuration
+36.521-1,36521-1-j30_s09-s14.docx,11.2,Demodulation of PSDCH (single link performance)
+36.521-1,36521-1-j30_s09-s14.docx,11.2.1,FDD PSDCH Single Link Performance (ProSe Direct Discovery)
+36.521-1,36521-1-j30_s09-s14.docx,11.2.1.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,11.2.1.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,11.2.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.2.1.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,11.2.1.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,11.2.2,TDD PSDCH Single Link Performance (ProSe Direct Discovery)
+36.521-1,36521-1-j30_s09-s14.docx,11.2.2.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,11.2.2.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,11.2.2.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.2.2.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,11.2.2.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,11.3,Power imbalance performance with two links
+36.521-1,36521-1-j30_s09-s14.docx,11.3.1,FDD Power imbalance performance with two links
+36.521-1,36521-1-j30_s09-s14.docx,11.3.1.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,11.3.1.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,11.3.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.3.1.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,11.3.1.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,11.3.2,TDD Power imbalance performance with two links
+36.521-1,36521-1-j30_s09-s14.docx,11.3.2.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,11.3.2.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,11.3.2.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.3.2.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,11.3.2.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,11.4,Multiple timing reference test
+36.521-1,36521-1-j30_s09-s14.docx,11.4.1,FDD Multiple timing reference test
+36.521-1,36521-1-j30_s09-s14.docx,11.4.1.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,11.4.1.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,11.4.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.4.1.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,11.4.1.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,11.5,Maximum Sidelink processes test
+36.521-1,36521-1-j30_s09-s14.docx,11.5.1,FDD maximum Sidelink processes test (ProSe Direct Discovery)
+36.521-1,36521-1-j30_s09-s14.docx,11.5.1.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,11.5.1.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,11.5.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.5.1.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,11.5.1.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,11.5.2,TDD maximum Sidelink processes test (ProSe Direct Discovery)
+36.521-1,36521-1-j30_s09-s14.docx,11.5.2.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,11.5.2.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,11.5.2.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,11.5.2.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,11.5.2.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,12,Performance requirement (ProSe Direct Communication)
+36.521-1,36521-1-j30_s09-s14.docx,12.1,General
+36.521-1,36521-1-j30_s09-s14.docx,12.1.1,Applicability of requirements
+36.521-1,36521-1-j30_s09-s14.docx,12.1.2,Reference DRX configuration
+36.521-1,36521-1-j30_s09-s14.docx,12.2,Demodulation of PSSCH
+36.521-1,36521-1-j30_s09-s14.docx,12.2.1,FDD PSSCH Single Link Performance for ProSe Direct communication
+36.521-1,36521-1-j30_s09-s14.docx,12.2.1.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,12.2.1.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,12.2.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,12.2.1.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,12.2.1.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,12.3,Demodulation of PSCCH (single link performance)
+36.521-1,36521-1-j30_s09-s14.docx,12.4,Demodulation of PSBCH (single link performance)
+36.521-1,36521-1-j30_s09-s14.docx,12.5,Power imbalance performance with two links
+36.521-1,36521-1-j30_s09-s14.docx,12.5.1,FDD Power imbalance performance with two links
+36.521-1,36521-1-j30_s09-s14.docx,12.5.1.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,12.5.1.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,12.5.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,12.5.1.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,12.5.1.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,12.6,Multiple timing reference test
+36.521-1,36521-1-j30_s09-s14.docx,12.7,Maximum Sidelink processes test
+36.521-1,36521-1-j30_s09-s14.docx,12.7.1,FDD Maximum Sidelink Processes for ProSe Direct communication
+36.521-1,36521-1-j30_s09-s14.docx,12.7.1.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,12.7.1.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,12.7.1.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,12.7.1.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,12.7.1.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,13,FFS
+36.521-1,36521-1-j30_s09-s14.docx,14,Performance requirement (V2X Sidelink Communication)
+36.521-1,36521-1-j30_s09-s14.docx,14.1,General
+36.521-1,36521-1-j30_s09-s14.docx,14.1.1,Applicability of requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.2,Demodulation of PSSCH / Non-concurrent with E-UTRA uplink transmissions
+36.521-1,36521-1-j30_s09-s14.docx,14.2.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,14.2.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,14.2.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.2.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,14.2.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,14.2.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,14.2.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,14.2.5,Test Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.3,Demodulation of PSCCH / Non-concurrent with E-UTRA uplink transmissions
+36.521-1,36521-1-j30_s09-s14.docx,14.3.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,14.3.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,14.3.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.3.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,14.3.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,14.3.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,14.3.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,14.3.5,Test Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.4,Power imbalance performance with two links / Non-concurrent with E-UTRA uplink transmissions
+36.521-1,36521-1-j30_s09-s14.docx,14.4.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,14.4.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,14.4.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.4.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,14.4.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,14.4.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,14.4.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,14.4.5,Test Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.5,Demodulation of PSBCH
+36.521-1,36521-1-j30_s09-s14.docx,14.6,Demodulation of PSSCH with eNB based synchronization
+36.521-1,36521-1-j30_s09-s14.docx,14.6.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,14.6.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,14.6.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.6.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,14.6.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,14.6.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,14.6.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,14.6.5,Test Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.7,Soft buffer test
+36.521-1,36521-1-j30_s09-s14.docx,14.7.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,14.7.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,14.7.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.7.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,14.7.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,14.7.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,14.7.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,14.7.5,Test Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.8,PSCCH/PSSCH decoding capability test / Non-concurrent with E-UTRA uplink transmissions
+36.521-1,36521-1-j30_s09-s14.docx,14.8.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,14.8.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,14.8.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.8.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,14.8.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,14.8.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,14.8.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,14.8.5,Test Requirement
+36.521-1,36521-1-j30_s09-s14.docx,14.9,Sustained downlink data rate with active sidelink
+36.521-1,36521-1-j30_s09-s14.docx,14.9.1,Test Purpose
+36.521-1,36521-1-j30_s09-s14.docx,14.9.2,Test Applicability
+36.521-1,36521-1-j30_s09-s14.docx,14.9.3,Minimum Conformance Requirements
+36.521-1,36521-1-j30_s09-s14.docx,14.9.4,Test Description
+36.521-1,36521-1-j30_s09-s14.docx,14.9.4.1,Initial conditions
+36.521-1,36521-1-j30_s09-s14.docx,14.9.4.2,Test procedure
+36.521-1,36521-1-j30_s09-s14.docx,14.9.4.3,Message contents
+36.521-1,36521-1-j30_s09-s14.docx,14.9.5,Test Requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.1,General
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2,UL reference measurement channels
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.1,General
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.1.1,Applicability and common parameters
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.1.2,Determination of payload size
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.1.3,Overview of UL reference measurement channels
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2,Reference measurement channels for FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.1,Full RB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.1.1,QPSK
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.1.2,16-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.1.3,64-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.1.4,256 QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.2,Partial RB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.2.1,QPSK
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.2.2,16-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.2.3,64-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.2.4,256 QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.3,Reference measurement channels for sustained downlink data rate provided by lower layers
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.2.4,subPRB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3,Reference measurement channels for TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.1,Full RB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.1.1,QPSK
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.1.2,16-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.1.3,64-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.1.4,256 QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.2,Partial RB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.2.1,QPSK
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.2.2,16-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.2.3,64-QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.2.4,256 QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.3,Reference measurement channels for sustained downlink data rate provided by lower layers
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.3.4,subPRB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.4,Reference measurement channels for category NB1
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5,Reference measurement channels for LAA
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.1,Full RB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.1.1,QPSK
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.1.2,16QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.1.3,64QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.2,Partial RB allocation
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.2.1,QPSK
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.2.2,16QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.2.5.2.3,64QAM
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3,DL reference measurement channels
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.1,General
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.1.1,Overview of DL reference measurement channels
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.2,Reference measurement channel for receiver characteristics
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3,Reference measurement channel for PDSCH performance requirements (FDD)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.1,Single-antenna transmission (Common Reference Symbols)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.2,Multi-antenna transmission (Common Reference Symbols)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.2.1,Two antenna ports
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.2.2,Four antenna ports
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.3,Reference Measurement Channel for UE-Specific Reference Symbols
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.3.0,Two antenna ports (no CSI-RS)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.3.1,Two antenna port (CSI-RS)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.3.2,Four antenna ports (CSI-RS)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.3.3.3,Twelve antenna port (CSI-RS)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4,Reference measurement channel for PDSCH performance requirements (TDD)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4.1,Single-antenna transmission (Common Reference Symbols)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4.2,Multi-antenna transmission (Common Reference Symbols)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4.2.1,Two antenna ports
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4.2.2,Four antenna ports
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4.3,Reference Measurement Channels for UE-Specific Reference Symbols
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4.3.4,Four antenna ports (CSI-RS)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.4.3.6,Twelve antenna ports (CSI-RS)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.5,Reference measurement channels for PDCCH/PCFICH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.5.1,FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.5.2,TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.5.3,LAA
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.6,Reference measurement channels for PHICH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.7,[FFS]
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.8,Reference measurement channels for MBMS performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.8.1,FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.8.2,TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.9,Reference measurement channels for sustained downlink data rate provided by lower layers
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.9.1,FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.9.2,TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.9.3,FDD (EPDCCH scheduling)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.9.4,TDD (EPDCCH scheduling)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.10,Reference Measurement Channels for EPDCCH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.10.1,FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.10.2,TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.11,Reference Measurement Channels for MPDCCH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.11.1,FDD and half-duplex FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.11.2,TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.12,Reference measurement channels for NPDSCH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.12.1,In-band
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.12.1.2,Two-antenna transmission
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.12.2,Standalone/Guard-band
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.12.2.1,Single-antenna transmission
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.13,Reference measurement channels for NPDCCH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.13.1,Half-duplex FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.14,Reference measurement channels for NPBCH performance requirements for Cat NB1 UEs
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.15,Reference Measurement Channels for LAA SCell with frame structure Type-3
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.15.1,Multi-antenna transmission (Common Reference Symbols)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.15.1.1,Four antenna ports
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.15.2,Reference Measurement Channel for UE-Specific Reference Symbols
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.15.2.1,Two antenna ports (CSI-RS)
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.16,Reference measurement channels for Slot-PDSCH and Subslot-PDSCH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.16.1,FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.16.2,TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.17,Reference measurement channels for SPDCCH performance requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.17.1,FDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.17.2,TDD
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.18,Reference Measurement Channels for LTE based 5G broadcast PMCH receiver requirements
+36.521-1,36521-1-j30_sAnnexAa-sAnnexAc.docx,A.3.18.1,SDO
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.4,CQI reference measurement channels
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.4.1,Additional CSI reference measurement channels
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5,OFDMA Channel Noise Generator (OCNG)
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1,OCNG Patterns for FDD
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.1,OCNG FDD pattern 1: One sided dynamic OCNG FDD pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.2,OCNG FDD pattern 2: Two sided dynamic OCNG FDD pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.3,OCNG FDD pattern 3: 49 RB OCNG allocation with MBSFN in 10 MHz
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.4,OCNG FDD pattern 4: One sided dynamic OCNG FDD pattern for MBMS transmission
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.5,OCNG FDD pattern 5: One sided dynamic 16QAM modulated OCNG FDD pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.6,OCNG FDD pattern 6: dynamic OCNG FDD pattern when user data is in 2 non-contiguous blocks
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.7,OCNG FDD pattern 7: dynamic OCNG FDD pattern when user data is in multiple non-contiguous blocks
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.1.8,OCNG FDD pattern 8: One sided dynamic OCNG FDD pattern for TM10 transmission
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2,OCNG Patterns for TDD
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.1,OCNG TDD pattern 1: One sided dynamic OCNG TDD pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.2,OCNG TDD pattern 2: Two sided dynamic OCNG TDD pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.3,OCNG TDD pattern 3: 49 RB OCNG allocation with MBSFN in 10 MHz
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.4,OCNG TDD pattern 4: One sided dynamic OCNG TDD pattern for MBMS transmission
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.5,OCNG TDD pattern 5: One sided dynamic 16QAM modulated OCNG TDD pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.6,OCNG TDD pattern 6: dynamic OCNG TDD pattern when user data is in 2 non-contiguous blocks
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.7,OCNG TDD pattern 7: dynamic OCNG TDD pattern when user data is in multiple non-contiguous blocks
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.2.8,OCNG TDD pattern 8: One sided dynamic OCNG TDD pattern for TM10 transmission
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.3,OCNG Patterns for Narrowband IoT
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.3.1,Narrowband IoT OCNG pattern 1
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.4,OCNG Patterns for frame structure type
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.4.1,OCNG FS3 pattern 1: One sided dynamic OCNG frame structure type 3 pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.5.4.2,OCNG FS3 pattern 2: Two sided dynamic OCNG frame structure 3 pattern
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.6,Sidelink reference measurement channels
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.6.1,General
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.6.2,Reference measurement channel for receiver characteristics
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.6.3,Reference measurement channels for PSDCH performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.6.4,Reference measurement channels for PSCCH performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.6.5,Reference measurement channels for PSSCH performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.6.6,Reference measurement channels for PSBCH performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.7,Sidelink reference resource pool configurations
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.7.1,Reference resource pool configurations for ProSe Direct Discovery demodulation tests
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.7.1.1,FDD
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.7.1.2,TDD
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.7.2,Reference resource pool configurations for ProSe Direct Communication demodulation tests
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.7.2.1,FDD
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.8,V2X reference measurement channels
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.8.1,General
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.8.2,Reference measurement channel for receiver characteristics
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.8.3,Reference measurement channel for transmitter characteristics
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.8.4,Reference measurement for PSCCH performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.8.5,Reference measurement for PSSCH performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.8.6,Reference measurement for PSBCH performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,A.9,V2X reference resource pool configurations
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.0,No interference
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.1,Static propagation condition
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.1.1,Definition of Additive White Gaussian Noise (AWGN) Interferer
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2,Multi-path fading Propagation Conditions
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.1,Delay profiles
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.2,Combinations of channel model parameters
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.3,MIMO Channel Correlation Matrices
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.3.1,Definition of MIMO Correlation Matrices
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.3.2,"MIMO Correlation Matrices at High, Medium and Low Level"
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.4,Propagation conditions for CQI tests
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.5,FFS
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.6,MBSFN Propagation Channel Profile
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.6.2,Subcarrier spacing 1.25kHz
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.6.3,Subcarrier spacing 0.37kHz
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.2.6.4,Subcarrier spacing 2.5kHz
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.3,High speed train scenario
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.4,Beamforming Model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.4.1,"Single-layer random beamforming (Antenna port 5, 7 or 8)"
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.4.2,Dual-layer random beamforming (antenna ports 7 and 8)
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.4.3,Generic beamforming model (antenna ports 7-14)
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.4.4,Random beamforming for EPDCCH distributed transmission (Antenna port 107 and 109)
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.4.5,"Random beamforming for EPDCCH localized transmission (Antenna port 107, 108, 109 or 110)"
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.4.6,Beamforming model for CRI test
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.5,Interference models for enhanced performance requirements Type-A
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.5.1,Dominant interferer proportion
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.5.2,Transmission mode 3 interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.5.3,Transmission mode 4 interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.5.4,Transmission mode 9 interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.6,Interference models for enhanced performance requirements Type-B
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.6.1,Transmission mode 2 interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.6.2,Transmission mode 3 interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.6.3,Transmission mode 4 interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.6.4,Transmission mode 9 interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.6.5,CRS interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.6.6,Random interference model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.7,FFS
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.8,Burst transmission models for Frame structure type 3
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,B.8.1,Burst transmission model for one LAA SCell
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.0,Downlink signal levels
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.1,General
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.2,Set-up
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.3,Connection
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.3.0,Measurement of Transmitter Characteristics
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.3.1,Measurement of Receiver Characteristics
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.3.2,Measurement of Performance requirements
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.3.3,Aggressor cell power allocation for Measurement of Performance Requirements when ABS is Configured
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.3.4,Power Allocation for Measurement of Performance Requirements when Quasi Co-location Type B: same Cell ID
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,C.3.5,Simplified CA testing method
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,D.1,General
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,D.2,Interference signals
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.1,General
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.2,Signals and results
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.2.1,Basic principle
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.2.2,Output signal of the TX under test
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.2.3,Reference signal
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.2.4,Measurement results
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.2.5,Measurement points
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.3,Signal processing
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.3.1,Pre FFT minimization process
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.3.2,Timing of the FFT window
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.3.3,Post FFT equalisation
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4,Derivation of the results
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.1,EVM
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.2,Averaged EVM
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.3,In-band emissions measurement
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.4,EVM equalizer spectrum flatness
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.5,Frequency error and Carrier leakage
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.6,EVM of Demodulation reference symbols (EVMDMRS)
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,20,such results are generated per measurement sub-period.
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.6.1,1st average for EVM DMRS
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.4.6.2,Final average for EVM DMRS
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5,EVM and inband emissions for PUCCH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.1,Basic principle
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.2,Output signal of the TX under test
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.3,Reference signal
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.4,Measurement results
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.5,Measurement points
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.6,Pre FFT minimization process
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.7,Timing of the FFT window
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.8,Post FFT equalisation
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.9,Derivation of the results
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.9.1,EVMPUCCH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.9.2,Averaged EVMPUCCH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.5.9.3,In-band emissions measurement
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6,EVM for PRACH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.1,Basic principle
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.2,Output signal of the TX under test
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.3,Reference signal
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.4,Measurement results
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.5,Measurement points
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.6,Pre FFT minimization process
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.7,Timing of the FFT window
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.8,Post FFT equalisation
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.9,Derivation of the results
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.9.1,EVMPRACH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.6.9.2,Averaged EVMPRACH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.7,EVM with exclusion period
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.7.1,General
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.7.2,The model
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.7.3,Illustration
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.7.4,Formula
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.8,EVM for category NB1
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.8.1,Averaged EVM
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.8.2,EVM of Demodulation reference symbols (EVMDMRS)
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.8.3,EVM for NPRACH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.8.4,Window length for category NB1
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.9,EVM for V2X communication
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.9.1,EVM for PSSCH and PSCCH
+36.521-1,36521-1-j30_sAnnexAd-sAnnexE.docx,E.9.2,EVM for PSBCH
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.1,Acceptable uncertainty of Test System (normative)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.1.1,Measurement of test environments
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.1.2,Measurement of transmitter
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.1.3,Measurement of receiver
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.1.4,Measurement of performance requirements
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.1.5,Measurement of Channel State Information reporting
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.2,Interpretation of measurement results (normative)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.3.1,Measurement of test environments
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.3.2,Measurement of transmitter
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.3.3,Measurement of receiver
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.3.4,Measurement of performance requirements
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,F.3.5,Measurement of Channel State Information reporting
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2,Statistical testing of receiver characteristics
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.2,Mapping throughput to error ratio
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.3,Design of the test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.4,Numerical definition of the pass fail limits
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.5,Pass fail decision rules
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.6,Test conditions for receiver tests
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.1,applies.
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.3,Statistical testing of Performance Requirements with throughput
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.3.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.3.2,Mapping throughput to error ratio
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.2,applies
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.3.3,Design of the test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.3.5,Minimum Test time
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.3.6,Test conditions for receiver performance tests
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.2,applies separate for each CC
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4,Statistical testing of Performance Requirements with probability of misdetection
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4.2,Mapping the UE reaction to error ratio
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4.3,Design of the test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.3,"applies, exception:"
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4.4,Numerical definition of the pass fail limits
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4.5,Pass fail decision rules
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.2.5,applies
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4.6,Minimum Test time
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.4.7,Test conditions for receiver performance tests
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.5,Measuring throughput ratio
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.5.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.5.2,Establishing SNR
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.5.3,Measuring T-put
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.5.4,Number of samples for throughput ratios
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.6,Statistical testing of MBMS Performance
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.6.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.6.2,Mapping of MBMS Packet ratio to BLER
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.6.3,Design of the test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.6.4,Test time for MBMS performance tests
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.1,Error Ratio (ER)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.2,Test Design
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.3,Confidence level
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.4,Introduction: Supplier Risk versus Customer Risk
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.5,Supplier Risk versus Customer Risk
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.6,Introduction: Standard test versus early decision concept
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.7,Standard test versus early decision concept
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.8,Selectivity
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.9,Design of the test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.7.10,Simulation to derive the pass fail limits in Table G.2.4-1
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.8,Statistical Testing of V2V and V2X Performance Requirements – Non concurrent with E-UTRA
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.8.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.8.2,Test Method for Performance Test Cases
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.8.3,Test Time for V2V and V2X Performance Requirements with Throughput
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,G.8.4,Test Time for V2V and V2X Performance Requirements with Probability of Miss-Detection
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.0,Uplink Signal Levels
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.0.1,Uplink Signal Levels for NB1
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.1,General
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.1.1,General for NB1
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.2,Set-up
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.2.1,Set-up for NB1
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.3,Connection
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.3.0,Measurement of Transmitter Characteristics
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.3.1,Measurement of Receiver Characteristics
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.3.2,Measurement of Performance Requirements
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.4,Connection for NB1
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.4.0,Measurement of Transmitter Characteristics
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.4.1,Measurement of Receiver Characteristics
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,H.4.2,Measurement of Performance Requirements
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.1,General Considerations
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2,Concrete scenarios
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.3,Virtual test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.2,Tests for CA (Carrier aggregation)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.2.1,CA Tx tests (Chapter 6)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.2.2,CA Rx tests (Chapter 7)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.2.3,CA Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.3,Tests for UL-MIMO (Uplink Multiple Antenna Transmission)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.3.1,UL-MIMO Tx tests (Chapter 6)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.3.2,UL-MIMO Rx tests (Chapter 7)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.4,Tests for eDL-MIMO (Enhanced Downlink Multiple Antenna Transmission)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.4.1,eDL MIMO Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.4,Virtual test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.4.2,eDL MIMO CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.5,Tests for eICIC (Enhanced Intercarrier Interference Cancellation / Coordination)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.5.1,eICIC Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.5.2,eICIC CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.6,Tests for feICIC (Further Enhanced Non CA-based ICIC for LTE)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.6.1,feICIC Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.6,Virtual test
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.6.2,feICIC CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.7,Tests for DL ComP (Downlink Coordinated Multipoint Transmission)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.7.1,CoMP Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.7.2,CoMP CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.8,Tests for Further eDL-MIMO (Enhanced Downlink Multiple Antenna Transmission) Enhancement for LTE-A
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.8.1,eDL MIMO Enhancement CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.3,Virtual test for eDL-MIMO Enhancement
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.9,Tests for UE category 0
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.9.1,UE category 0 Tx tests (Chapter 6)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.9.2,UE category 0 Rx tests (Chapter 7)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.9.3,UE category 0 Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.3,Virtual test for UE category 0
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.9.4,UE category 0 CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.3,Virtual test for UE category M1
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.3,Virtual test for UE category M2
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.10,Tests for SCE-L1 (Small Cell Enhancements-Physical layer)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.10.1,SCE-L1 Receiver tests (Chapter 7)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.10.2,SCE-L1 Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.10.3,SCE-L1 CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.11,Tests for ProSe
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.11.1,ProSe Tx tests (Chapter 6)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.11.2,ProSe Rx tests (Chapter 7)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.11.3,ProSe Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.11.4,ProSe CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.12,Tests for 4 Rx antenna ports
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.12.1,4 Rx antenna ports Rx tests (Chapter 7)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,1.2.3,Virtual test (Rel8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.12.2,4 Rx antenna ports Performance tests (Chapter 8)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,I.2.12.3,4 Rx antenna ports CSI tests (Chapter 9)
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,J.1,Indication of modified MPR behaviour
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,K.1,NB-IoT Test frequencies for TRx Tests
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,K.1.1,Test frequencies selection criteria 1
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,K.1.2,Test frequencies selection criteria 2
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,K.1.3,Test frequencies selection criteria 3
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,K.2,NB-IoT Test frequencies for Demodulation Tests
+36.521-1,36521-1-j30_sAnnexF-sAnnexL.docx,K.2.1,Test frequencies selection criteria 1

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pyenv/
+
+# 编辑器 / 系统
+.obsidian/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时与下载残留
+_old_zips/
+*.part
+*.tmp
+~$*
+
+# 本地个人覆盖
+*.local.md
