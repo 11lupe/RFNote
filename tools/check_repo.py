@@ -192,6 +192,21 @@ def check_3gpp() -> None:
         if str(total) not in text:
             add(f"03 3GPP规范/00 3GPP检索索引.md: 未提到总行数 {total}")
 
+        fetch = ROOT / "tools" / "fetch_3gpp.py"
+        if fetch.exists():
+            urls = set(
+                re.findall(
+                    r'https://www\.3gpp\.org/ftp/Specs/archive/[^"\s]+\.zip',
+                    fetch.read_text(encoding="utf-8"),
+                )
+            )
+            missing_urls = sorted(url for url in urls if url not in text)
+            if missing_urls:
+                add(
+                    "03 3GPP规范/00 3GPP检索索引.md: 下载地址缺 "
+                    f"{len(missing_urls)} 条，与 tools/fetch_3gpp.py 的 ITEMS 不一致"
+                )
+
 
 def check_stale(files: list[Path]) -> None:
     for md in files:

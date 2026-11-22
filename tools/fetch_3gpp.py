@@ -79,7 +79,7 @@ def extract(zip_path: Path, docs: Path) -> None:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="下载并解压 3GPP 规范原文")
     parser.add_argument("specs", nargs="*", help="只处理这些规范号（默认全部）")
-    parser.add_argument("--list", action="store_true", help="列出清单和本地状态，不下载")
+    parser.add_argument("--list", action="store_true", help="列出清单、下载地址和本地状态，不下载")
     parser.add_argument("--no-extract", action="store_true", help="只下载，不解压")
     parser.add_argument("--root", type=Path, default=ROOT, help="规范库根目录（默认 03 3GPP规范）")
     args = parser.parse_args(argv)
@@ -98,6 +98,7 @@ def main(argv: list[str] | None = None) -> int:
         status = "已下载" if exists else "缺失"
         print(f"[{spec}] {zip_name}  {status}")
         if args.list:
+            print(f"  {url}")
             continue
 
         spec_dir.mkdir(parents=True, exist_ok=True)
