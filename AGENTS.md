@@ -4,7 +4,7 @@
 
 ## 这是什么
 
-通用射频知识库：29 篇主题笔记 + 7 个域索引 + 规范库（当前收录 3GPP 17 份规范，文档约 376 MB；原始 zip 不入库，按需下载）。个人学习计划、进度与面试材料不入库，只保留在本地 `_local/`。
+通用射频知识库：29 篇主题笔记 + 7 个域索引 + 规范库（当前收录 3GPP 17 份规范；原始 zip 不入库，按需下载）。个人学习计划、进度与面试材料不入库，只保留在本地 `_local/`。
 
 ## 目录地图
 
@@ -85,6 +85,6 @@ CI 在 `.github/workflows/repo-check.yml`，push / PR 自动跑同一条命令�
 
 ## 备注
 
-- 仓库跟踪约 376 MB（docx 为主）；规范原始 zip（约 145 MB）不入库，可按需重新下载。**不要**删 `docs/` 里的 docx；需要轻量克隆时用 README 里的 sparse-checkout。
+- 文档以 docx 为主，体积大小不写死，需要时用 `git count-objects -vH` 或 `du -sh` 自查；规范原始 zip 不入库，可按需重新下载。**不要**删 `docs/` 里的 docx；需要轻量克隆时用 README 里的 sparse-checkout。
 - `_local/` 已在 `.gitignore` 中，不要用 `git add -f` 把个人材料提交进去。
 - 改 `tools/` 脚本后至少跑一次 `--help` 与对应只读模式（`index.py --check` / `fetch.py --list`）。
