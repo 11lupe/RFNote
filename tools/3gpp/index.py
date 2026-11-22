@@ -8,9 +8,9 @@
 
 用法（在仓库根目录执行）::
 
-    python tools/index_3gpp.py           # 重建全部索引
-    python tools/index_3gpp.py --check   # 只比对，不写文件；不一致时退出码 1
-    python tools/index_3gpp.py --root "03 规范与标准/3GPP"
+    python tools/3gpp/index.py           # 重建全部索引
+    python tools/3gpp/index.py --check   # 只比对，不写文件；不一致时退出码 1
+    python tools/3gpp/index.py --root "03 规范与标准/3GPP"
 
 依赖：``python-docx``（``pip install python-docx``）。旧 ``.doc`` 需先转成
 ``docs_docx/*.docx``，本脚本只扫描转换后的文件。
@@ -28,7 +28,7 @@ try:
 except ImportError:  # pragma: no cover
     sys.exit("缺少依赖 python-docx：pip install python-docx")
 
-ROOT = Path(__file__).resolve().parents[1] / "03 规范与标准/3GPP"
+ROOT = Path(__file__).resolve().parents[2] / "03 规范与标准/3GPP"
 
 NUM_RE = re.compile(r"^(\d+(?:\.\d+){0,4})\s+(\S.{0,110})$")
 ANNEX_RE = re.compile(r"^(Annex\s+[A-Z][0-9]?)\s*(.{0,100})$")

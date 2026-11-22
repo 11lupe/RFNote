@@ -4,7 +4,7 @@
 
 用法（仓库根目录）::
 
-    python tools/check_repo.py
+    python tools/repo/check.py
 
 检查项：
 1. 所有 Markdown 相对链接可解析（跳过 http/https/mailto/锚点）。
@@ -13,7 +13,7 @@
 4. 01–02 域索引的「共 N 篇」与 README 目录表一致。
 5. 03 规范与标准/3GPP：每个规范目录有 docs / 章节索引.csv，
    各章节索引行数之和等于 ``检索总表.csv``，且与索引里的规范清单一致。
-   （原始 zip 不入库，按需用 ``tools/fetch_3gpp.py`` 下载，故不参与校验。）
+   （原始 zip 不入库，按需用 ``tools/3gpp/fetch.py`` 下载，故不参与校验。）
 6. 不再引用旧脚本名（``_fetch.py`` / ``_index.py``）和本机绝对路径。
 
 只读脚本，不修改任何文件；发现问题时退出码 1。
@@ -27,7 +27,7 @@ import urllib.parse
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 DOMAINS = ["01 基础概念", "02 测试指标", "03 规范与标准"]
 SPEC_RE = re.compile(r"^\d{2}\.\d{3}")
 EXCLUDE_DIRS = {".git", ".github", ".acl-recovery", "_local", "__pycache__", "node_modules", ".obsidian", "assets"}
@@ -192,7 +192,7 @@ def check_3gpp() -> None:
         if str(total) not in text:
             add(f"03 规范与标准/3GPP/00 3GPP检索索引.md: 未提到总行数 {total}")
 
-        fetch = ROOT / "tools" / "fetch_3gpp.py"
+        fetch = ROOT / "tools" / "3gpp" / "fetch.py"
         if fetch.exists():
             urls = set(
                 re.findall(
@@ -204,7 +204,7 @@ def check_3gpp() -> None:
             if missing_urls:
                 add(
                     "03 规范与标准/3GPP/00 3GPP检索索引.md: 下载地址缺 "
-                    f"{len(missing_urls)} 条，与 tools/fetch_3gpp.py 的 ITEMS 不一致"
+                    f"{len(missing_urls)} 条，与 tools/3gpp/fetch.py 的 ITEMS 不一致"
                 )
 
 

@@ -4,10 +4,10 @@
 
 用法（在仓库根目录执行，任意位置也可）::
 
-    python tools/fetch_3gpp.py                 # 处理 ITEMS 中所有缺失的规范
-    python tools/fetch_3gpp.py 38.521-3 25.101 # 只处理指定规范
-    python tools/fetch_3gpp.py --list          # 查看清单与本地状态
-    python tools/fetch_3gpp.py --no-extract    # 只下载，不解压
+    python tools/3gpp/fetch.py                 # 处理 ITEMS 中所有缺失的规范
+    python tools/3gpp/fetch.py 38.521-3 25.101 # 只处理指定规范
+    python tools/3gpp/fetch.py --list          # 查看清单与本地状态
+    python tools/3gpp/fetch.py --no-extract    # 只下载，不解压
 
 约定：
 - zip 已存在且大于 1 KB 时跳过下载；`docs/` 已存在时跳过解压。
@@ -24,7 +24,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1] / "03 规范与标准/3GPP"
+ROOT = Path(__file__).resolve().parents[2] / "03 规范与标准/3GPP"
 ARCHIVE = "https://www.3gpp.org/ftp/Specs/archive"
 
 # (规范号, zip 文件名, 下载地址)
@@ -132,7 +132,7 @@ def main(argv: list[str] | None = None) -> int:
         ]
         if missing:
             print(f"\n缺失 {len(missing)} 份：{', '.join(missing)}")
-            print("运行 python tools/fetch_3gpp.py 下载")
+            print("运行 python tools/3gpp/fetch.py 下载")
         else:
             print("\n全部已下载")
         return 0

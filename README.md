@@ -19,11 +19,11 @@
 
 | 脚本 | 作用 |
 | --- | --- |
-| [tools/fetch_3gpp.py](tools/fetch_3gpp.py) | 按清单下载 / 解压 3GPP 原文（`--list` 看状态） |
-| [tools/index_3gpp.py](tools/index_3gpp.py) | 重建 `检索总表.csv` 与各 `章节索引.csv` |
-| [tools/check_repo.py](tools/check_repo.py) | 链接、标签、基名、索引计数、规范库一致性自检 |
+| [tools/3gpp/fetch.py](tools/3gpp/fetch.py) | 按清单下载 / 解压 3GPP 原文（`--list` 看状态） |
+| [tools/3gpp/index.py](tools/3gpp/index.py) | 重建 `检索总表.csv` 与各 `章节索引.csv` |
+| [tools/repo/check.py](tools/repo/check.py) | 链接、标签、基名、索引计数、规范库一致性自检 |
 
-用法见 [tools/README.md](tools/README.md)；提交前跑 `python tools/check_repo.py`。
+用法见 [tools/README.md](tools/README.md)；提交前跑 `python tools/repo/check.py`。
 
 ## 阅读路径
 
@@ -39,7 +39,7 @@
 4. 新讲义按 `Dxx 主题.md` 命名，放 `02 测试指标/`；是否学习、学到哪一步不写进文档。
 5. 图片放笔记同级 `assets/`，相对路径引用，不引外部图床。
 6. 不写真实敏感信息：内网地址、账号、客户名、测试机名一律用占位符。
-7. 规范原始包（当前为 3GPP，`*.zip`）**不入库**，用 `tools/fetch_3gpp.py` 按需下载，本地副本保留；改完章节文件跑一次 `tools/index_3gpp.py` 重建索引。
+7. 规范原始包（当前为 3GPP，`*.zip`）**不入库**，用 `tools/3gpp/fetch.py` 按需下载，本地副本保留；改完章节文件跑一次 `tools/3gpp/index.py` 重建索引。
 
 ## 关于本库
 
@@ -50,4 +50,4 @@
   git clone --filter=blob:none --sparse <仓库地址> RFNote
   cd RFNote && git sparse-checkout set "01 基础概念" "02 测试指标"
   ```
-- 原始 zip（约 128 MB）不入库，下载后留在各自的规范目录即可，不会出现在 `git status` 里：见 [00 3GPP检索索引](<03 规范与标准/3GPP/00 3GPP检索索引.md>) 与 [tools/fetch_3gpp.py](tools/fetch_3gpp.py)。
+- 原始 zip（约 128 MB）不入库，下载后留在各自的规范目录即可，不会出现在 `git status` 里：见 [00 3GPP检索索引](<03 规范与标准/3GPP/00 3GPP检索索引.md>) 与 [tools/3gpp/fetch.py](tools/3gpp/fetch.py)。

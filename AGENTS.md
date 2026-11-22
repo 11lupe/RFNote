@@ -14,11 +14,13 @@ RFNote/
 ├── AGENTS.md                  # 本文件
 ├── 00 标签与命名规范.md        # 目录/标签/链接/敏感信息约定
 ├── .editorconfig              # 编码、换行、缩进
-├── .github/workflows/         # CI：跑 tools/check_repo.py
-├── tools/                     # 仓库脚本（不散落在规范目录）
-│   ├── fetch_3gpp.py          # 下载 / 解压 3GPP 原文
-│   ├── index_3gpp.py          # 重建 检索总表.csv 与各 章节索引.csv
-│   ├── check_repo.py          # 链接 / 标签 / 基名 / 索引 / 规范库自检
+├── .github/workflows/         # CI：跑 tools/repo/check.py
+├── tools/                     # 仓库脚本（按用途分目录）
+│   ├── 3gpp/                  # 3GPP 数据维护
+│   │   ├── fetch.py           # 下载 / 解压 3GPP 原文
+│   │   └── index.py           # 重建 检索总表.csv 与各 章节索引.csv
+│   ├── repo/                  # 仓库自检
+│   │   └── check.py           # 链接 / 标签 / 基名 / 索引 / 规范库自检
 │   └── README.md
 ├── 01 基础概念/                # 概念仓库（单文件追加制）
 ├── 02 测试指标/                # A 类指标深挖 + Dxx 讲义
@@ -38,9 +40,9 @@ RFNote/
 3. **链接必须相对路径 + 尖括号**：`[文本](<02 测试指标/D01 最大功率与MPR.md>)`；路径含空格时缺了尖括号 GitHub 会渲染断。基名全库唯一，改名要全库同步引用。
 4. **限值数字只作量级参考**，判定以 3GPP 原文表格 + 平台/客户配置为准；引用限值必须标规范号与节号。
 5. **不写真实敏感信息**：内网地址、账号、客户名、测试机名一律 `<占位符>`。
-6. **3GPP 原始包（`*.zip`）不入库**，用 `tools/fetch_3gpp.py` 按需下载，本地副本保留；`docs/` 里的 docx 是转换成果，不要手改，改章节内容走重新转换 + 重建索引。
-7. **脚本统一放 `tools/`**，路径从 `Path(__file__)` 推导，不写死本机绝对路径（盘符路径、用户目录）。
-8. 提交前跑 `python tools/check_repo.py`（CI 同款），不提交死链、缺标签或索引计数不一致的改动。
+6. **3GPP 原始包（`*.zip`）不入库**，用 `tools/3gpp/fetch.py` 按需下载，本地副本保留；`docs/` 里的 docx 是转换成果，不要手改，改章节内容走重新转换 + 重建索引。
+7. **脚本按用途放 `tools/<类目>/`**（3GPP 数据维护进 `3gpp/`，仓库自检进 `repo/`），路径从 `Path(__file__)` 推导，不写死本机绝对路径（盘符路径、用户目录）。
+8. 提交前跑 `python tools/repo/check.py`（CI 同款），不提交死链、缺标签或索引计数不一致的改动。
 
 ## 常见任务
 
@@ -51,24 +53,24 @@ RFNote/
 **新增标准组织**
 1. 在 `03 规范与标准/` 下建组织目录（如 `GCF/`），目录内建 `00 <组织>检索索引.md`。
 2. 在 `03 规范与标准/00 规范与标准索引.md` 的「已收录」登记，写清范围、来源与入口。
-3. 下载脚本、`.gitignore` 与 `tools/check_repo.py` 的范围按需扩展。
+3. 下载脚本、`.gitignore` 与 `tools/repo/check.py` 的范围按需扩展。
 
 **新增/更新规范**
-1. `tools/fetch_3gpp.py` 的 `ITEMS` 加条目（规范号、zip 名、归档 URL），运行下载。
-2. 转换 docx 后运行 `python tools/index_3gpp.py` 重建 `检索总表.csv` 与各 `章节索引.csv`。
+1. `tools/3gpp/fetch.py` 的 `ITEMS` 加条目（规范号、zip 名、归档 URL），运行下载。
+2. 转换 docx 后运行 `python tools/3gpp/index.py` 重建 `检索总表.csv` 与各 `章节索引.csv`。
 3. `03 规范与标准/3GPP/00 3GPP检索索引.md` 补规范清单、目录树与「指标 → 条款定位表」。
 
 **重建索引**（需 `python-docx`，在仓库根目录执行）
 ```bash
-python tools/index_3gpp.py           # 重建全部章节索引与总表
-python tools/index_3gpp.py --check   # 只比对，确认索引与 docx 没漂移
-python tools/fetch_3gpp.py --list    # 查看 14 份规范的下载状态
+python tools/3gpp/index.py           # 重建全部章节索引与总表
+python tools/3gpp/index.py --check   # 只比对，确认索引与 docx 没漂移
+python tools/3gpp/fetch.py --list    # 查看 14 份规范的下载状态
 ```
 
 ## 校验
 
 ```bash
-python tools/check_repo.py
+python tools/repo/check.py
 ```
 
 检查内容：相对链接可解析、域笔记有 `域/...` 标签、Markdown 基名唯一、
@@ -80,4 +82,4 @@ CI 在 `.github/workflows/repo-check.yml`，push / PR 自动跑同一条命令�
 
 - 仓库跟踪约 330 MB（docx 为主）；规范原始 zip（约 128 MB）不入库，可按需重新下载。**不要**删 `docs/` 里的 docx；需要轻量克隆时用 README 里的 sparse-checkout。
 - `_local/` 已在 `.gitignore` 中，不要用 `git add -f` 把个人材料提交进去。
-- 改 `tools/` 脚本后至少跑一次 `--help` 与对应只读模式（`index_3gpp.py --check` / `fetch_3gpp.py --list`）。
+- 改 `tools/` 脚本后至少跑一次 `--help` 与对应只读模式（`index.py --check` / `fetch.py --list`）。

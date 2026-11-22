@@ -17,4 +17,4 @@ jobs:
         with:
           python-version: "3.12"
       - name: 仓库自检
-        run: python tools/check_repo.py
+        run: python tools/repo/check.py
