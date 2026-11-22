@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""下载并解压 3GPP 规范原文到 ``05 3GPP规范/<规范号>/``。
+"""下载并解压 3GPP 规范原文到 ``03 3GPP规范/<规范号>/``。
 
 用法（在仓库根目录执行，任意位置也可）::
 
@@ -24,7 +24,7 @@ import urllib.request
 import zipfile
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1] / "05 3GPP规范"
+ROOT = Path(__file__).resolve().parents[1] / "03 3GPP规范"
 ARCHIVE = "https://www.3gpp.org/ftp/Specs/archive"
 
 # (规范号, zip 文件名, 下载地址)
@@ -81,7 +81,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("specs", nargs="*", help="只处理这些规范号（默认全部）")
     parser.add_argument("--list", action="store_true", help="列出清单和本地状态，不下载")
     parser.add_argument("--no-extract", action="store_true", help="只下载，不解压")
-    parser.add_argument("--root", type=Path, default=ROOT, help="规范库根目录（默认 05 3GPP规范）")
+    parser.add_argument("--root", type=Path, default=ROOT, help="规范库根目录（默认 03 3GPP规范）")
     args = parser.parse_args(argv)
 
     wanted = set(args.specs)

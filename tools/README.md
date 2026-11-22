@@ -24,6 +24,6 @@ python tools/fetch_3gpp.py 38.521-3 25.101
 ```
 
 `index_3gpp.py` 需要 `python-docx`；`fetch_3gpp.py` 需要能访问 `www.3gpp.org`。
-原始 zip 不入库（`.gitignore` 已排除 `05 3GPP规范/*/*.zip`），下载后留在本地即可；
+原始 zip 不入库（`.gitignore` 已排除 `03 3GPP规范/*/*.zip`），下载后留在本地即可；
 `docs/` 里的 docx 是转换成果，随仓库跟踪。
 `.doc` 转 `.docx` 用 LibreOffice / Office 完成，不在脚本内。

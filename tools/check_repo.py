@@ -10,8 +10,8 @@
 1. 所有 Markdown 相对链接可解析（跳过 http/https/mailto/锚点）。
 2. 域目录内每篇笔记都有 ``域/...`` 标签的 frontmatter。
 3. Markdown 基名全库唯一（Obsidian wikilink 依赖）。
-4. 01–04 域索引的「共 N 篇」与 README 目录表一致。
-5. 05 3GPP规范：每个规范目录有 docs / 章节索引.csv，
+4. 01–02 域索引的「共 N 篇」与 README 目录表一致。
+5. 03 3GPP规范：每个规范目录有 docs / 章节索引.csv，
    各章节索引行数之和等于 ``检索总表.csv``，且与索引里的规范清单一致。
    （原始 zip 不入库，按需用 ``tools/fetch_3gpp.py`` 下载，故不参与校验。）
 6. 不再引用旧脚本名（``_fetch.py`` / ``_index.py``）和本机绝对路径。
@@ -28,9 +28,9 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DOMAINS = ["01 基础概念", "02 测试指标", "03 学习路径", "04 面试", "05 3GPP规范"]
+DOMAINS = ["01 基础概念", "02 测试指标", "03 3GPP规范"]
 SPEC_RE = re.compile(r"^\d{2}\.\d{3}")
-EXCLUDE_DIRS = {".git", ".github", ".acl-recovery", "__pycache__", "node_modules", ".obsidian", "assets"}
+EXCLUDE_DIRS = {".git", ".github", ".acl-recovery", "_local", "__pycache__", "node_modules", ".obsidian", "assets"}
 LINK_RE = re.compile(r"\]\(\s*(<[^>\n]*>|[^)\s]+)")
 COUNT_RE = re.compile(r"共\s*\*\*(\d+)\*\*\s*篇")
 ABSOLUTE_RE = re.compile(r"(?:[A-Za-z]:[\\/](?:Users|Project)|/home/|/Users/)")
@@ -123,7 +123,7 @@ def check_index_counts() -> None:
         if domain:
             readme_counts[domain.group(1)] = int(cells[-1])
 
-    for name in DOMAINS[:4]:
+    for name in DOMAINS[:2]:
         domain = ROOT / name
         indices = sorted(domain.glob("00 *索引.md"))
         if len(indices) != 1:
@@ -141,7 +141,7 @@ def check_index_counts() -> None:
 
     total_notes = sum(
         len([p for p in (ROOT / name).glob("*.md") if not p.name.startswith("00 ")])
-        for name in DOMAINS[:4]
+        for name in DOMAINS[:2]
     )
     declared_total = re.search(r"规模：\*\*(\d+)\*\*\s*篇主题笔记", readme)
     if declared_total and int(declared_total.group(1)) != total_notes:
@@ -158,10 +158,10 @@ def csv_rows(path: Path) -> int:
 
 
 def check_3gpp() -> None:
-    base = ROOT / "05 3GPP规范"
+    base = ROOT / "03 3GPP规范"
     total_csv = base / "检索总表.csv"
     if not total_csv.exists():
-        add("05 3GPP规范: 缺 检索总表.csv")
+        add("03 3GPP规范: 缺 检索总表.csv")
         return
     spec_dirs = sorted(d.name for d in base.iterdir() if d.is_dir() and SPEC_RE.match(d.name))
     total = csv_rows(total_csv)
@@ -169,10 +169,10 @@ def check_3gpp() -> None:
     for spec in spec_dirs:
         spec_dir = base / spec
         if not (spec_dir / "docs").is_dir():
-            add(f"05 3GPP规范/{spec}: 缺 docs/")
+            add(f"03 3GPP规范/{spec}: 缺 docs/")
         chapter = spec_dir / "章节索引.csv"
         if not chapter.exists():
-            add(f"05 3GPP规范/{spec}: 缺 章节索引.csv")
+            add(f"03 3GPP规范/{spec}: 缺 章节索引.csv")
         else:
             counted += csv_rows(chapter)
     if counted != total:
@@ -186,11 +186,11 @@ def check_3gpp() -> None:
             missing = sorted(set(spec_dirs) - manifest)
             extra = sorted(manifest - set(spec_dirs))
             if missing:
-                add(f"05 3GPP规范/00 3GPP检索索引.md: 规范清单缺 {', '.join(missing)}")
+                add(f"03 3GPP规范/00 3GPP检索索引.md: 规范清单缺 {', '.join(missing)}")
             if extra:
-                add(f"05 3GPP规范/00 3GPP检索索引.md: 清单多出 {', '.join(extra)}")
+                add(f"03 3GPP规范/00 3GPP检索索引.md: 清单多出 {', '.join(extra)}")
         if str(total) not in text:
-            add(f"05 3GPP规范/00 3GPP检索索引.md: 未提到总行数 {total}")
+            add(f"03 3GPP规范/00 3GPP检索索引.md: 未提到总行数 {total}")
 
 
 def check_stale(files: list[Path]) -> None:

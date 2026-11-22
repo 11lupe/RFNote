@@ -23,7 +23,13 @@ _old_zips/
 
 # 3GPP 原始包不入库，按需用 tools/fetch_3gpp.py 下载
 # 只忽略规范目录顶层的 zip；docs/ 内的附件仍随文档跟踪
-05 3GPP规范/*/*.zip
 
 # 本地个人覆盖
 *.local.md
+
+# 本地个人材料（学习路径、面试准备），只保留在本机
+_local/
+
+# 3GPP 原始包按需下载，不入库
+03 3GPP规范/*/*.zip
+!03 3GPP规范/*/docs/*.zip
