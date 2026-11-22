@@ -28,7 +28,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DOMAINS = ["01 基础概念", "02 测试指标", "03 规范与标准", "04 仪表与设备", "05 测试系统与自动化"]
+DOMAINS = ["01 基础概念", "02 测试指标", "03 规范与标准", "04 仪表与设备", "05 测试系统与自动化", "06 故障定位"]
 NOTE_DOMAINS = [name for name in DOMAINS if name != "03 规范与标准"]
 SPEC_RE = re.compile(r"^\d{2}\.\d{3}")
 EXCLUDE_DIRS = {".git", ".github", ".acl-recovery", "_local", "__pycache__", "node_modules", ".obsidian", "assets"}
