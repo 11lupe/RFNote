@@ -11,7 +11,7 @@
 2. 域目录内每篇笔记都有 ``域/...`` 标签的 frontmatter。
 3. Markdown 基名全库唯一（Obsidian wikilink 依赖）。
 4. 01–02 域索引的「共 N 篇」与 README 目录表一致。
-5. 03 3GPP规范：每个规范目录有 docs / 章节索引.csv，
+5. 03 规范与标准/3GPP：每个规范目录有 docs / 章节索引.csv，
    各章节索引行数之和等于 ``检索总表.csv``，且与索引里的规范清单一致。
    （原始 zip 不入库，按需用 ``tools/fetch_3gpp.py`` 下载，故不参与校验。）
 6. 不再引用旧脚本名（``_fetch.py`` / ``_index.py``）和本机绝对路径。
@@ -28,7 +28,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DOMAINS = ["01 基础概念", "02 测试指标", "03 3GPP规范"]
+DOMAINS = ["01 基础概念", "02 测试指标", "03 规范与标准"]
 SPEC_RE = re.compile(r"^\d{2}\.\d{3}")
 EXCLUDE_DIRS = {".git", ".github", ".acl-recovery", "_local", "__pycache__", "node_modules", ".obsidian", "assets"}
 LINK_RE = re.compile(r"\]\(\s*(<[^>\n]*>|[^)\s]+)")
@@ -158,10 +158,10 @@ def csv_rows(path: Path) -> int:
 
 
 def check_3gpp() -> None:
-    base = ROOT / "03 3GPP规范"
+    base = ROOT / "03 规范与标准/3GPP"
     total_csv = base / "检索总表.csv"
     if not total_csv.exists():
-        add("03 3GPP规范: 缺 检索总表.csv")
+        add("03 规范与标准/3GPP: 缺 检索总表.csv")
         return
     spec_dirs = sorted(d.name for d in base.iterdir() if d.is_dir() and SPEC_RE.match(d.name))
     total = csv_rows(total_csv)
@@ -169,10 +169,10 @@ def check_3gpp() -> None:
     for spec in spec_dirs:
         spec_dir = base / spec
         if not (spec_dir / "docs").is_dir():
-            add(f"03 3GPP规范/{spec}: 缺 docs/")
+            add(f"03 规范与标准/3GPP/{spec}: 缺 docs/")
         chapter = spec_dir / "章节索引.csv"
         if not chapter.exists():
-            add(f"03 3GPP规范/{spec}: 缺 章节索引.csv")
+            add(f"03 规范与标准/3GPP/{spec}: 缺 章节索引.csv")
         else:
             counted += csv_rows(chapter)
     if counted != total:
@@ -186,11 +186,11 @@ def check_3gpp() -> None:
             missing = sorted(set(spec_dirs) - manifest)
             extra = sorted(manifest - set(spec_dirs))
             if missing:
-                add(f"03 3GPP规范/00 3GPP检索索引.md: 规范清单缺 {', '.join(missing)}")
+                add(f"03 规范与标准/3GPP/00 3GPP检索索引.md: 规范清单缺 {', '.join(missing)}")
             if extra:
-                add(f"03 3GPP规范/00 3GPP检索索引.md: 清单多出 {', '.join(extra)}")
+                add(f"03 规范与标准/3GPP/00 3GPP检索索引.md: 清单多出 {', '.join(extra)}")
         if str(total) not in text:
-            add(f"03 3GPP规范/00 3GPP检索索引.md: 未提到总行数 {total}")
+            add(f"03 规范与标准/3GPP/00 3GPP检索索引.md: 未提到总行数 {total}")
 
         fetch = ROOT / "tools" / "fetch_3gpp.py"
         if fetch.exists():
@@ -203,7 +203,7 @@ def check_3gpp() -> None:
             missing_urls = sorted(url for url in urls if url not in text)
             if missing_urls:
                 add(
-                    "03 3GPP规范/00 3GPP检索索引.md: 下载地址缺 "
+                    "03 规范与标准/3GPP/00 3GPP检索索引.md: 下载地址缺 "
                     f"{len(missing_urls)} 条，与 tools/fetch_3gpp.py 的 ITEMS 不一致"
                 )
 

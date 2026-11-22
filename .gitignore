@@ -31,5 +31,5 @@ _old_zips/
 _local/
 
 # 3GPP 原始包按需下载，不入库
-03 3GPP规范/*/*.zip
-!03 3GPP规范/*/docs/*.zip
+03 规范与标准/3GPP/*/*.zip
+!03 规范与标准/3GPP/*/docs/*.zip
