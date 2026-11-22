@@ -391,7 +391,6 @@
 34.108,34108-f20_s07-s08.docx,8.3.2,Contents of files at the USIM ADF (Application DF) level
 34.108,34108-f20_s07-s08.docx,8.3.2.1,EFLI (Language Indication)
 34.108,34108-f20_s07-s08.docx,8.3.2.2,EFIMSI (IMSI)
-34.108,34108-f20_s07-s08.docx,49,24 10 ** ** ** ** ** (for Band VI and Band IX)
 34.108,34108-f20_s07-s08.docx,8.3.2.3,EFKeys (Ciphering and Integrity Keys)
 34.108,34108-f20_s07-s08.docx,8.3.2.4,EFKeysPS (Ciphering and Integrity Keys for Packet Switched domain)
 34.108,34108-f20_s07-s08.docx,8.3.2.5,EFPLMNwAcT (User controlled PLMN selector with Access Technology)
@@ -441,7 +440,6 @@
 34.108,34108-f20_s07-s08.docx,8.3.2.52,EFTHRESHOLD (Maximum value of START)
 34.108,34108-f20_s07-s08.docx,8.3.2.53,EFOPLMNwACT (Operator controlled PLMN selector with Access Technology)
 34.108,34108-f20_s07-s08.docx,8.3.2.54,EFHPLMNwAcT (HPLMN selector with Access Technology)
-34.108,34108-f20_s07-s08.docx,44,F2 10 (MCC/MNC of Band VI and Band IX Test UICC’s Home 	PLMN
 34.108,34108-f20_s07-s08.docx,8.3.2.55,EFARR (Access rule reference)
 34.108,34108-f20_s07-s08.docx,8.3.2.57,EFNETPAR (Network Parameters)
 34.108,34108-f20_s07-s08.docx,8.3.2.58,EFPNN (PLMN Network Name)
@@ -521,3 +519,5 @@
 34.108,34108-f20_s10-Annexes.docx,11.2.4,MBSFN service availability
 34.108,34108-f20_s10-Annexes.docx,11.2.4.1,Non-IMB
 34.108,34108-f20_s10-Annexes.docx,11.2.4.2,IMB
+34.108,34108-f20_s07-s08.docx,44,F2 10 (MCC/MNC of Band VI and Band IX Test UICC’s Home 	PLMN
+34.108,34108-f20_s07-s08.docx,49,24 10 ** ** ** ** ** (for Band VI and Band IX)

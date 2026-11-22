@@ -1,0 +1,23 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+# 行尾两个空格是 Markdown 强制换行，保持原样
+trim_trailing_whitespace = false
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.{yml,yaml,json}]
+indent_style = space
+indent_size = 2
+
+[*.csv]
+# UTF-8 BOM 由 tools/index_3gpp.py 写入，Excel 打开中文不乱码
+insert_final_newline = true

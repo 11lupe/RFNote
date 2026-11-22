@@ -1,6 +1,8 @@
 ﻿规范,文件,条款,标题
 38.521-3,38521-3-k00.docx,1,Scope
 38.521-3,38521-3-k00.docx,2,References
+38.521-3,38521-3-k00.docx,2.1,The parameter settings for E-UTRA cell are set up according to TS 36.508 [11] clause 4.4.3.
+38.521-3,38521-3-k00.docx,2.1,The parameter settings for E-UTRA cell are set up according to TS 36.508 [11] subclause 4.4.3.
 38.521-3,38521-3-k00.docx,3,"Definitions, symbols and abbreviations"
 38.521-3,38521-3-k00.docx,3.1,Definitions
 38.521-3,38521-3-k00.docx,3.2,Symbols
@@ -22,6 +24,7 @@
 38.521-3,38521-3-k00.docx,5.3,UE Channel bandwidth
 38.521-3,38521-3-k00.docx,5.5,Configuration
 38.521-3,38521-3-k00.docx,6,Transmitter characteristics
+38.521-3,38521-3-k00.docx,6,; 2.0 ≤ B
 38.521-3,38521-3-k00.docx,6.1,General
 38.521-3,38521-3-k00.docx,6.2,Transmitter power
 38.521-3,38521-3-k00.docx,6.3,Output power dynamics
@@ -29,7 +32,18 @@
 38.521-3,38521-3-k00.docx,6.5,Output RF spectrum emissions
 38.521-3,38521-3-k00.docx,7,Receiver characteristics
 38.521-3,38521-3-k00.docx,7.1,General
-38.521-3,38521-3-k00.docx,Annex A,(normative):	Measurement Channels
+38.521-3,38521-3-k00.docx,7.6,B.2.1.4.1	Initial condition
+38.521-3,38521-3-k00.docx,8,; 1.0 ≤ B < 2.0
+38.521-3,38521-3-k00.docx,8.00,- 3.33*A;					0.30 < A ≤ 0.60
+38.521-3,38521-3-k00.docx,8.10,- 2.00*A;					0.30 < A ≤ 0.80
+38.521-3,38521-3-k00.docx,9,Message contents are defined in clause 7.3E.2.3.4.3.
+38.521-3,38521-3-k00.docx,10,; 0.5 ≤ B < 1.0
+38.521-3,38521-3-k00.docx,12,; 5.0 ≤ B
+38.521-3,38521-3-k00.docx,13,; 2.0 ≤ B < 5.0
+38.521-3,38521-3-k00.docx,14,; 1.0 ≤ B < 2.0
+38.521-3,38521-3-k00.docx,15,;	5.0 ≤ B
+38.521-3,38521-3-k00.docx,16,;	2.0 ≤ B < 5.0
+38.521-3,38521-3-k00.docx,17,;	1.0 ≤ B < 2.0
 38.521-3,38521-3-k00.docx,A.1,General
 38.521-3,38521-3-k00.docx,A.2,UL reference measurement channels for E-UTRA TDD Config 2
 38.521-3,38521-3-k00.docx,A.2.1,General
@@ -46,10 +60,24 @@
 38.521-3,38521-3-k00.docx,A.2.2.2.4,256 QAM
 38.521-3,38521-3-k00.docx,A.3,DL reference measurement channels for E-UTRA
 38.521-3,38521-3-k00.docx,A.3.1,General
+38.521-3,38521-3-k00.docx,A.3.1.1,QPSK
+38.521-3,38521-3-k00.docx,A.3.1.2,64-QAM
+38.521-3,38521-3-k00.docx,A.3.1.3,256-QAM
+38.521-3,38521-3-k00.docx,Annex A,(normative):	Measurement Channels
 38.521-3,38521-3-k00.docx,Annex B,(normative):	Propagation Conditions
+38.521-3,38521-3-k00.docx,Annex B,(normative): Propagation Conditions
 38.521-3,38521-3-k00.docx,Annex C,(normative):	Downlink Physical Channels
+38.521-3,38521-3-k00.docx,Annex C,(normative): Downlink Physical Channels
 38.521-3,38521-3-k00.docx,Annex D,(normative):	Characteristics of the Interfering Signal
+38.521-3,38521-3-k00.docx,Annex D,(normative): Characteristics of the Interfering Signal
 38.521-3,38521-3-k00.docx,Annex E,(normative):	Global In-Channel Tx Test
+38.521-3,38521-3-k00.docx,Annex E,(normative): Global In-Channel Tx Test
+38.521-3,38521-3-k00.docx,Annex G,(normative):	Uplink Physical Channels
+38.521-3,38521-3-k00.docx,Annex H,(normative):	Statistical Testing
+38.521-3,38521-3-k00.docx,Annex J,(normative):	Test applicability per permitted test method
+38.521-3,38521-3-k00.docx,Annex K,"(normative):	EIRP, TRP, and EIS measurement procedures"
+38.521-3,38521-3-k00.docx,Annex M,(normative):	Dual uplink interferer
+38.521-3,38521-3-k00.docx,Annex N,(normative):	Modified MPR behaviour
 38.521-3,38521-3-k00.docx,F.1,Acceptable uncertainty of Test System (normative)
 38.521-3,38521-3-k00.docx,F.1.0,General
 38.521-3,38521-3-k00.docx,F.1.0.1,Conducted Measurements
@@ -77,8 +105,6 @@
 38.521-3,38521-3-k00.docx,F.4.4.1,NR FR1
 38.521-3,38521-3-k00.docx,F.4.4.2,NR FR2
 38.521-3,38521-3-k00.docx,F.4.4.3,E-UTRA
-38.521-3,38521-3-k00.docx,Annex G,(normative):	Uplink Physical Channels
-38.521-3,38521-3-k00.docx,Annex H,(normative):	Statistical Testing
 38.521-3,38521-3-k00.docx,H.1,General
 38.521-3,38521-3-k00.docx,H.2,Statistical testing of receiver characteristics
 38.521-3,38521-3-k00.docx,H.2.1,General
@@ -86,29 +112,3 @@
 38.521-3,38521-3-k00.docx,H.2.3,Design of the test
 38.521-3,38521-3-k00.docx,H.2.4,Numerical definition of the pass fail limits
 38.521-3,38521-3-k00.docx,H.2.5,Pass fail decision rules
-38.521-3,38521-3-k00.docx,Annex J,(normative):	Test applicability per permitted test method
-38.521-3,38521-3-k00.docx,Annex K,"(normative):	EIRP, TRP, and EIS measurement procedures"
-38.521-3,38521-3-k00.docx,Annex M,(normative):	Dual uplink interferer
-38.521-3,38521-3-k00.docx,Annex N,(normative):	Modified MPR behaviour
-38.521-3,38521-3-k00.docx,2.1,The parameter settings for E-UTRA cell are set up according to TS 36.508 [11] clause 4.4.3.
-38.521-3,38521-3-k00.docx,17,;	1.0 ≤ B < 2.0
-38.521-3,38521-3-k00.docx,16,;	2.0 ≤ B < 5.0
-38.521-3,38521-3-k00.docx,15,;	5.0 ≤ B
-38.521-3,38521-3-k00.docx,8.10,- 2.00*A;					0.30 < A ≤ 0.80
-38.521-3,38521-3-k00.docx,8.00,- 3.33*A;					0.30 < A ≤ 0.60
-38.521-3,38521-3-k00.docx,10,; 0.5 ≤ B < 1.0
-38.521-3,38521-3-k00.docx,8,; 1.0 ≤ B < 2.0
-38.521-3,38521-3-k00.docx,6,; 2.0 ≤ B
-38.521-3,38521-3-k00.docx,14,; 1.0 ≤ B < 2.0
-38.521-3,38521-3-k00.docx,13,; 2.0 ≤ B < 5.0
-38.521-3,38521-3-k00.docx,12,; 5.0 ≤ B
-38.521-3,38521-3-k00.docx,9,Message contents are defined in clause 7.3E.2.3.4.3.
-38.521-3,38521-3-k00.docx,2.1,The parameter settings for E-UTRA cell are set up according to TS 36.508 [11] subclause 4.4.3.
-38.521-3,38521-3-k00.docx,7.6,B.2.1.4.1	Initial condition
-38.521-3,38521-3-k00.docx,A.3.1.1,QPSK
-38.521-3,38521-3-k00.docx,A.3.1.2,64-QAM
-38.521-3,38521-3-k00.docx,A.3.1.3,256-QAM
-38.521-3,38521-3-k00.docx,Annex B,(normative): Propagation Conditions
-38.521-3,38521-3-k00.docx,Annex C,(normative): Downlink Physical Channels
-38.521-3,38521-3-k00.docx,Annex D,(normative): Characteristics of the Interfering Signal
-38.521-3,38521-3-k00.docx,Annex E,(normative): Global In-Channel Tx Test

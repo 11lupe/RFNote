@@ -1,11 +1,15 @@
 ﻿规范,文件,条款,标题
+38.101-1,38101-1-k10_s06-06.docx,0,"dB reference is defined as 20log10│ãt(t,0)│."
 38.101-1,38101-1-k10_s00-05.docx,1,Scope
 38.101-1,38101-1-k10_s00-05.docx,2,References
 38.101-1,38101-1-k10_s00-05.docx,3,"Definitions, symbols and abbreviations"
+38.101-1,38101-1-k10_sAnnexes.docx,3,CFO correction on slot-by-slot basis using a common frequency correction for both antenna outputs.
 38.101-1,38101-1-k10_s00-05.docx,3.1,Definitions
 38.101-1,38101-1-k10_s00-05.docx,3.2,Symbols
 38.101-1,38101-1-k10_s00-05.docx,3.3,Abbreviations
 38.101-1,38101-1-k10_s00-05.docx,4,General
+38.101-1,38101-1-k10_s06-06.docx,4,; 	5.4 ≤ B
+38.101-1,38101-1-k10_s06-06.docx,4,; 	10.8 < B
 38.101-1,38101-1-k10_s00-05.docx,4.1,Relationship between minimum requirements and test requirements
 38.101-1,38101-1-k10_s00-05.docx,4.2,Applicability of minimum requirements
 38.101-1,38101-1-k10_s00-05.docx,4.3,Specification suffix information
@@ -31,7 +35,10 @@
 38.101-1,38101-1-k10_s00-05.docx,5.4.3.2,Synchronization raster to synchronization block resource element mapping
 38.101-1,38101-1-k10_s00-05.docx,5.4.3.3,Synchronization raster entries for each operating band
 38.101-1,38101-1-k10_s00-05.docx,5.4.4,TX–RX frequency separation
+38.101-1,38101-1-k10_s06-06.docx,5.5,; 	3.24 ≤ B < 5.4
+38.101-1,38101-1-k10_s06-06.docx,5.5,; 	5.4 ≤ B ≤ 10.8
 38.101-1,38101-1-k10_s06-06.docx,6,Transmitter characteristics
+38.101-1,38101-1-k10_s06-06.docx,6,; 	3.24 ≤ B < 5.4
 38.101-1,38101-1-k10_s06-06.docx,6.1,General
 38.101-1,38101-1-k10_s06-06.docx,6.2,Transmitter power
 38.101-1,38101-1-k10_s06-06.docx,6.2.1,UE maximum output power
@@ -73,14 +80,6 @@
 38.101-1,38101-1-k10_s06-06.docx,6.2.3.34,A-MPR for NS_26
 38.101-1,38101-1-k10_s06-06.docx,6.2.3.35,A-MPR for NS_36
 38.101-1,38101-1-k10_s06-06.docx,6.2.4,Configured transmitted power
-38.101-1,38101-1-k10_s06-06.docx,8,;	 0.54 ≤ B < 1.08
-38.101-1,38101-1-k10_s06-06.docx,7,; 	1.08 ≤ B < 2.16
-38.101-1,38101-1-k10_s06-06.docx,6.5,; 	2.16 ≤ B < 3.24
-38.101-1,38101-1-k10_s06-06.docx,5.5,; 	3.24 ≤ B < 5.4
-38.101-1,38101-1-k10_s06-06.docx,4,; 	5.4 ≤ B
-38.101-1,38101-1-k10_s06-06.docx,6,; 	3.24 ≤ B < 5.4
-38.101-1,38101-1-k10_s06-06.docx,5.5,; 	5.4 ≤ B ≤ 10.8
-38.101-1,38101-1-k10_s06-06.docx,4,; 	10.8 < B
 38.101-1,38101-1-k10_s06-06.docx,6.3,Output power dynamics
 38.101-1,38101-1-k10_s06-06.docx,6.3.1,Minimum output power
 38.101-1,38101-1-k10_s06-06.docx,6.3.2,Transmit OFF power
@@ -105,8 +104,8 @@
 38.101-1,38101-1-k10_s06-06.docx,6.4.2.2,Carrier leakage
 38.101-1,38101-1-k10_s06-06.docx,6.4.2.3,In-band emissions
 38.101-1,38101-1-k10_s06-06.docx,6.4.2.4,EVM equalizer spectrum flatness
-38.101-1,38101-1-k10_s06-06.docx,0,"dB reference is defined as 20log10│ãt(t,0)│."
 38.101-1,38101-1-k10_s06-06.docx,6.4.2.5,Phase continuity requirements for DMRS bundling
+38.101-1,38101-1-k10_s06-06.docx,6.5,; 	2.16 ≤ B < 3.24
 38.101-1,38101-1-k10_s06-06.docx,6.5,Output RF spectrum emissions
 38.101-1,38101-1-k10_s06-06.docx,6.5.1,Occupied bandwidth
 38.101-1,38101-1-k10_s06-06.docx,6.5.2,Out of band emission
@@ -120,6 +119,7 @@
 38.101-1,38101-1-k10_s06-06.docx,6.5.3.2,Spurious emissions for UE co-existence
 38.101-1,38101-1-k10_s06-06.docx,6.5.3.3,Additional spurious emissions
 38.101-1,38101-1-k10_s06-06.docx,6.5.4,Transmit intermodulation
+38.101-1,38101-1-k10_s06-06.docx,7,; 	1.08 ≤ B < 2.16
 38.101-1,38101-1-k10_s07-XX.docx,7,Receiver characteristics
 38.101-1,38101-1-k10_s07-XX.docx,7.1,General
 38.101-1,38101-1-k10_s07-XX.docx,7.2,Diversity characteristics
@@ -140,6 +140,9 @@
 38.101-1,38101-1-k10_s07-XX.docx,7.8.2,Wide band Intermodulation
 38.101-1,38101-1-k10_s07-XX.docx,7.9,Spurious emissions
 38.101-1,38101-1-k10_s07-XX.docx,7.10,Power imbalance
+38.101-1,38101-1-k10_s06-06.docx,8,;	 0.54 ≤ B < 1.08
+38.101-1,38101-1-k10_sAnnexes.docx,9,"Perform for each slot of the 20ms time window, steps 3 to 8."
+38.101-1,38101-1-k10_sAnnexes.docx,10,Calculation of the maximum value of the “difference of relative phase error”.
 38.101-1,38101-1-k10_sAnnexes.docx,A.1,General
 38.101-1,38101-1-k10_sAnnexes.docx,A.2,UL reference measurement channels
 38.101-1,38101-1-k10_sAnnexes.docx,A.2.1,General
@@ -202,6 +205,7 @@
 38.101-1,38101-1-k10_sAnnexes.docx,E.2.3,Vibration
 38.101-1,38101-1-k10_sAnnexes.docx,F.0,General
 38.101-1,38101-1-k10_sAnnexes.docx,F.1,Measurement Point
+38.101-1,38101-1-k10_sAnnexes.docx,F.10,EVM for UL MIMO
 38.101-1,38101-1-k10_sAnnexes.docx,F.2,Basic Error Vector Magnitude measurement
 38.101-1,38101-1-k10_sAnnexes.docx,F.3,Basic in-band emissions measurement
 38.101-1,38101-1-k10_sAnnexes.docx,F.4,Modified signal under test
@@ -219,16 +223,12 @@
 38.101-1,38101-1-k10_sAnnexes.docx,F.9.2,Symbols used
 38.101-1,38101-1-k10_sAnnexes.docx,F.9.3,Modified test signal
 38.101-1,38101-1-k10_sAnnexes.docx,F.9.4,Phase offset measurement
-38.101-1,38101-1-k10_sAnnexes.docx,F.10,EVM for UL MIMO
 38.101-1,38101-1-k10_sAnnexes.docx,G.0,General
 38.101-1,38101-1-k10_sAnnexes.docx,G.1,Measurement Point
 38.101-1,38101-1-k10_sAnnexes.docx,G.2,Relative Phase Error Measurement
 38.101-1,38101-1-k10_sAnnexes.docx,G.2.1,Symbols and subcarriers used
 38.101-1,38101-1-k10_sAnnexes.docx,G.2.2,CFO (carrier frequency offset) correction
 38.101-1,38101-1-k10_sAnnexes.docx,G.2.3,Steps of the measurement method
-38.101-1,38101-1-k10_sAnnexes.docx,3,CFO correction on slot-by-slot basis using a common frequency correction for both antenna outputs.
-38.101-1,38101-1-k10_sAnnexes.docx,9,"Perform for each slot of the 20ms time window, steps 3 to 8."
-38.101-1,38101-1-k10_sAnnexes.docx,10,Calculation of the maximum value of the “difference of relative phase error”.
 38.101-1,38101-1-k10_sAnnexes.docx,L.1,Indication of modified MPR behavior
 38.101-1,38101-1-k10_sAnnexes.docx,M.1,FRMCS operating bands
 38.101-1,38101-1-k10_sAnnexes.docx,N.1,General

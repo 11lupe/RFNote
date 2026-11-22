@@ -1,11 +1,22 @@
 ﻿规范,文件,条款,标题
 38.521-1,38521-1-k00_s00-s05.docx,1,Scope
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCCs according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC1, SCC2 and SCC3 according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC according to Annex C.0, C.1, C.2 for all downlink physical channels."
 38.521-1,38521-1-k00_s00-s05.docx,2,References
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCCs according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCC according to Annex C.0, C.1, C.2 for all downlink physical channels."
+38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,PUCCH is set according to Table Table 6.4.2.6.4.1-1.
 38.521-1,38521-1-k00_s00-s05.docx,3,"Definitions, symbols and abbreviations"
 38.521-1,38521-1-k00_s00-s05.docx,3.1,Definitions
+38.521-1,38521-1-k00_s0603A-s0604L.docx,3.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
 38.521-1,38521-1-k00_s00-s05.docx,3.2,Symbols
 38.521-1,38521-1-k00_s00-s05.docx,3.3,Abbreviations
 38.521-1,38521-1-k00_s00-s05.docx,4,General
+38.521-1,38521-1-k00_s06-s0602C.docx,4,;	5.4 ≤ B
+38.521-1,38521-1-k00_s06-s0602C.docx,4,; 	10.8 < B
 38.521-1,38521-1-k00_s00-s05.docx,4.1,Relationship between minimum requirements and test requirements
 38.521-1,38521-1-k00_s00-s05.docx,4.2,Applicability of minimum requirements
 38.521-1,38521-1-k00_s00-s05.docx,4.3,Specification suffix information
@@ -34,7 +45,10 @@
 38.521-1,38521-1-k00_s00-s05.docx,5.4.3.2,Synchronization raster to synchronization block resource element mapping
 38.521-1,38521-1-k00_s00-s05.docx,5.4.3.3,Synchronization raster entries for each operating band
 38.521-1,38521-1-k00_s00-s05.docx,5.4.4,TX–RX frequency separation
+38.521-1,38521-1-k00_s06-s0602C.docx,5.5,;	3.24 ≤ B < 5.4
+38.521-1,38521-1-k00_s06-s0602C.docx,5.5,; 	5.4 ≤ B ≤ 10.8
 38.521-1,38521-1-k00_s06-s0602C.docx,6,Transmitter characteristics
+38.521-1,38521-1-k00_s06-s0602C.docx,6,; 	3.24 ≤ B < 5.4
 38.521-1,38521-1-k00_s06-s0602C.docx,6.0,"General test requirements for ΔTIB,c"
 38.521-1,38521-1-k00_s06-s0602C.docx,6.1,General
 38.521-1,38521-1-k00_s06-s0602C.docx,6.2,Transmitter power
@@ -62,17 +76,6 @@
 38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.3,Minimum conformance requirements
 38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.4,Test description
 38.521-1,38521-1-k00_s06-s0602C.docx,6.2.4.5,Test requirement
-38.521-1,38521-1-k00_s06-s0602C.docx,8,;	0.54 ≤ B < 1.08
-38.521-1,38521-1-k00_s06-s0602C.docx,7,;	1.08 ≤ B < 2.16
-38.521-1,38521-1-k00_s06-s0602C.docx,6.5,;	2.16 ≤ B < 3.24
-38.521-1,38521-1-k00_s06-s0602C.docx,5.5,;	3.24 ≤ B < 5.4
-38.521-1,38521-1-k00_s06-s0602C.docx,4,;	5.4 ≤ B
-38.521-1,38521-1-k00_s06-s0602C.docx,8,;	 0.54 ≤ B < 1.08
-38.521-1,38521-1-k00_s06-s0602C.docx,7,; 	1.08 ≤ B < 2.16
-38.521-1,38521-1-k00_s06-s0602C.docx,6.5,; 	2.16 ≤ B < 3.24
-38.521-1,38521-1-k00_s06-s0602C.docx,6,; 	3.24 ≤ B < 5.4
-38.521-1,38521-1-k00_s06-s0602C.docx,5.5,; 	5.4 ≤ B ≤ 10.8
-38.521-1,38521-1-k00_s06-s0602C.docx,4,; 	10.8 < B
 38.521-1,38521-1-k00_s0602D-s060304.docx,6.3,Output power dynamics
 38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1,Minimum output power
 38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.1.1,Test purpose
@@ -99,14 +102,6 @@
 38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4.2,Absolute power tolerance
 38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4.3,Relative power tolerance
 38.521-1,38521-1-k00_s0602D-s060304.docx,6.3.4.4,Aggregate power tolerance
-38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
-38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
-38.521-1,38521-1-k00_s0603A-s0604L.docx,3.1,"Configure SCC1 and SCC2 according to Annex C.0, C.1, C.2 for all downlink physical channels."
-38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCCs according to Annex C.0, C.1, C.2 for all downlink physical channels."
-38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCCs according to Annex C.0, C.1, C.2 for all downlink physical channels."
-38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC1, SCC2 and SCC3 according to Annex C.0, C.1, C.2 for all downlink physical channels."
-38.521-1,38521-1-k00_s0603A-s0604L.docx,1.1,"Configure SCC according to Annex C.0, C.1, C.2 for all downlink physical channels."
-38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,"Configure SCC according to Annex C.0, C.1, C.2 for all downlink physical channels."
 38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4,Transmit signal quality
 38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1,Frequency error
 38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.1.1,Test purpose
@@ -121,7 +116,8 @@
 38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.4,EVM equalizer spectrum flatness
 38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.5,EVM equalizer spectrum flatness for Pi/2 BPSK
 38.521-1,38521-1-k00_s0603A-s0604L.docx,6.4.2.6,Phase continuity requirements for DMRS bundling
-38.521-1,38521-1-k00_s0603A-s0604L.docx,2.1,PUCCH is set according to Table Table 6.4.2.6.4.1-1.
+38.521-1,38521-1-k00_s06-s0602C.docx,6.5,;	2.16 ≤ B < 3.24
+38.521-1,38521-1-k00_s06-s0602C.docx,6.5,; 	2.16 ≤ B < 3.24
 38.521-1,38521-1-k00_s0605.docx,6.5,Output RF spectrum emissions
 38.521-1,38521-1-k00_s0605.docx,6.5.0,General
 38.521-1,38521-1-k00_s0605.docx,6.5.1,Occupied bandwidth
@@ -145,6 +141,8 @@
 38.521-1,38521-1-k00_s0605.docx,6.5.4.3,Minimum conformance requirements
 38.521-1,38521-1-k00_s0605.docx,6.5.4.4,Test description
 38.521-1,38521-1-k00_s0605.docx,6.5.4.5,Test requirement
+38.521-1,38521-1-k00_s06-s0602C.docx,7,;	1.08 ≤ B < 2.16
+38.521-1,38521-1-k00_s06-s0602C.docx,7,; 	1.08 ≤ B < 2.16
 38.521-1,38521-1-k00_s0700.docx,7,Receiver characteristics
 38.521-1,38521-1-k00_s0700.docx,7.1,General
 38.521-1,38521-1-k00_s0700.docx,7.2,Diversity characteristics
@@ -221,7 +219,8 @@
 38.521-1,38521-1-k00_s0700.docx,7.9.4.2,Test procedure
 38.521-1,38521-1-k00_s0700.docx,7.9.4.3,Message contents
 38.521-1,38521-1-k00_s0700.docx,7.9.5,Test requirement
-38.521-1,38521-1-k00_sAnnexes.docx,Annex A,(normative): Measurement channels
+38.521-1,38521-1-k00_s06-s0602C.docx,8,;	0.54 ≤ B < 1.08
+38.521-1,38521-1-k00_s06-s0602C.docx,8,;	 0.54 ≤ B < 1.08
 38.521-1,38521-1-k00_sAnnexes.docx,A.1,General
 38.521-1,38521-1-k00_sAnnexes.docx,A.2,UL reference measurement channels
 38.521-1,38521-1-k00_sAnnexes.docx,A.2.1,General
@@ -273,6 +272,10 @@
 38.521-1,38521-1-k00_sAnnexes.docx,A.7.5,FRC for transmitter requirements
 38.521-1,38521-1-k00_sAnnexes.docx,A.8,Reference measurement channels for low NR band carrier aggregation via switching
 38.521-1,38521-1-k00_sAnnexes.docx,A.8.1,DL reference measurement channels for low NR band carrier aggregation via switching
+38.521-1,38521-1-k00_sAnnexes.docx,Annex A,(normative): Measurement channels
+38.521-1,38521-1-k00_sAnnexes.docx,Annex I,(normative): ModifiedMPR-Behaviour
+38.521-1,38521-1-k00_sAnnexes.docx,Annex J,(normative):
+38.521-1,38521-1-k00_sAnnexes.docx,Annex K,(normative):	LP-WUS/WUR test method
 38.521-1,38521-1-k00_sAnnexes.docx,B.0,No interference
 38.521-1,38521-1-k00_sAnnexes.docx,C.0,Downlink signal levels
 38.521-1,38521-1-k00_sAnnexes.docx,C.1,General
@@ -371,24 +374,21 @@
 38.521-1,38521-1-k00_sAnnexes.docx,H.1,General
 38.521-1,38521-1-k00_sAnnexes.docx,H.2,Statistical testing of receiver characteristics
 38.521-1,38521-1-k00_sAnnexes.docx,H.2.1,General
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.1,applies.
 38.521-1,38521-1-k00_sAnnexes.docx,H.2.2,Mapping throughput to error ratio
+38.521-1,38521-1-k00_sAnnexes.docx,H.2.2,applies for each component carrier.
 38.521-1,38521-1-k00_sAnnexes.docx,H.2.3,Design of the test
 38.521-1,38521-1-k00_sAnnexes.docx,H.2.4,Numerical definition of the pass fail limits
 38.521-1,38521-1-k00_sAnnexes.docx,H.2.5,Pass fail decision rules
 38.521-1,38521-1-k00_sAnnexes.docx,H.2.6.1,Numerical definition of the pass-fail limits
 38.521-1,38521-1-k00_sAnnexes.docx,H.2.6.2,Simulation to derive the pass-fail limits for testing 95% throughput
-38.521-1,38521-1-k00_sAnnexes.docx,H.2.1,applies.
-38.521-1,38521-1-k00_sAnnexes.docx,H.2.2,applies for each component carrier.
-38.521-1,38521-1-k00_sAnnexes.docx,Annex I,(normative): ModifiedMPR-Behaviour
 38.521-1,38521-1-k00_sAnnexes.docx,I.1,Indication of ModifiedMPR-Behaviour
-38.521-1,38521-1-k00_sAnnexes.docx,Annex J,(normative):
 38.521-1,38521-1-k00_sAnnexes.docx,J.0,General
 38.521-1,38521-1-k00_sAnnexes.docx,J.1,Measurement Point
 38.521-1,38521-1-k00_sAnnexes.docx,J.2,Relative Phase Error Measurement
 38.521-1,38521-1-k00_sAnnexes.docx,J.2.1,Symbols and subcarriers used
 38.521-1,38521-1-k00_sAnnexes.docx,J.2.2,CFO (carrier frequency offset) correction
 38.521-1,38521-1-k00_sAnnexes.docx,J.2.3,Steps of the measurement method
-38.521-1,38521-1-k00_sAnnexes.docx,Annex K,(normative):	LP-WUS/WUR test method
 38.521-1,38521-1-k00_sAnnexes.docx,K.1,General
 38.521-1,38521-1-k00_sAnnexes.docx,K.2,Measurement of the miss detection rate
 38.521-1,38521-1-k00_sAnnexes.docx,K.3,Side conditions on the Main Radio channels carrying the UE response

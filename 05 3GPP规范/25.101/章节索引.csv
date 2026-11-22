@@ -257,7 +257,6 @@
 25.101,25101-j00.docx,11.2.2,Minimum requirement for MBSFN
 25.101,25101-j00.docx,11.3,Demodulation of MTCH and cell identification
 25.101,25101-j00.docx,11.3.1,Minimum requirement
-25.101,25101-j00.docx,Annex A,(normative):	Measurement channels
 25.101,25101-j00.docx,A.1,General
 25.101,25101-j00.docx,A.2,UL reference measurement channel
 25.101,25101-j00.docx,A.2.1,UL reference measurement channel (12.2 kbps)
@@ -281,6 +280,11 @@
 25.101,25101-j00.docx,A.7,DL reference channel parameters for HSDPA tests
 25.101,25101-j00.docx,A.7.1,Fixed Reference Channel (FRC)
 25.101,25101-j00.docx,A.7.1.1,Fixed Reference Channel Definition H-Set 1/1A/1B/1C/1E
+25.101,25101-j00.docx,A.7.1.10,Fixed Reference Channel Definition H-Set 10/10A/10B/10C/10E
+25.101,25101-j00.docx,A.7.1.11,Fixed Reference Channel Definition H-Set 11/11A/11B/11C/11E
+25.101,25101-j00.docx,A.7.1.12,Fixed Reference Channel Definition H-Set 12
+25.101,25101-j00.docx,A.7.1.13,Fixed Reference Channel Definition H-Set 13/13A/13C
+25.101,25101-j00.docx,A.7.1.14,Fixed Reference Channel Definition H-Set 14/14A/14C
 25.101,25101-j00.docx,A.7.1.2,Fixed Reference Channel Definition H-Set 2
 25.101,25101-j00.docx,A.7.1.3,Fixed Reference Channel Definition H-Set 3/3A/3B/3C/3E
 25.101,25101-j00.docx,A.7.1.4,Fixed Reference Channel Definition H-Set 4
@@ -289,16 +293,14 @@
 25.101,25101-j00.docx,A.7.1.7,Fixed Reference Channel Definition H-Set 7
 25.101,25101-j00.docx,A.7.1.8,Fixed Reference Channel Definition H-Set 8/8A/8B/8C/8E
 25.101,25101-j00.docx,A.7.1.9,Fixed Reference Channel Definition H-Set 9/9A/9B/9C/9E
-25.101,25101-j00.docx,A.7.1.10,Fixed Reference Channel Definition H-Set 10/10A/10B/10C/10E
-25.101,25101-j00.docx,A.7.1.11,Fixed Reference Channel Definition H-Set 11/11A/11B/11C/11E
-25.101,25101-j00.docx,A.7.1.12,Fixed Reference Channel Definition H-Set 12
-25.101,25101-j00.docx,A.7.1.13,Fixed Reference Channel Definition H-Set 13/13A/13C
-25.101,25101-j00.docx,A.7.1.14,Fixed Reference Channel Definition H-Set 14/14A/14C
 25.101,25101-j00.docx,A.8,DL reference parameters for MBMS tests
 25.101,25101-j00.docx,A.8.1,MCCH
 25.101,25101-j00.docx,A.8.1,MTCH
 25.101,25101-j00.docx,A.9,DL reference parameters for combined MTCH demodulation and cell identification
+25.101,25101-j00.docx,Annex A,(normative):	Measurement channels
 25.101,25101-j00.docx,Annex B,(normative) :	Propagation conditions
+25.101,25101-j00.docx,Annex C,(normative):	Downlink Physical Channels
+25.101,25101-j00.docx,Annex D,(normative) :	Environmental conditions
 25.101,25101-j00.docx,B.2,Propagation Conditions
 25.101,25101-j00.docx,B.2.1,Static propagation condition
 25.101,25101-j00.docx,B.2.2,Multi-path fading propagation conditions
@@ -312,7 +314,6 @@
 25.101,25101-j00.docx,B.2.7,Propagation conditions for MIMO with four transmit antennas
 25.101,25101-j00.docx,B.2.7.1,MIMO with Four Transmit Antennas and Four Streams Static Orthogonal Conditions
 25.101,25101-j00.docx,B.2.7.2,MIMO with Four Transmit Antennas Only With Dual Stream Fading Conditions
-25.101,25101-j00.docx,Annex C,(normative):	Downlink Physical Channels
 25.101,25101-j00.docx,C.1,General
 25.101,25101-j00.docx,C.2,Connection Set-up
 25.101,25101-j00.docx,C.3,During connection
@@ -336,7 +337,6 @@
 25.101,25101-j00.docx,C.6,MBMS DL Physical channels
 25.101,25101-j00.docx,C.6.1,Downlink Physical Channels connection set-up
 25.101,25101-j00.docx,C.6.2,Downlink Physical Channels connection set-up for MBSFN
-25.101,25101-j00.docx,Annex D,(normative) :	Environmental conditions
 25.101,25101-j00.docx,D.1,General
 25.101,25101-j00.docx,D.2,Environmental requirements
 25.101,25101-j00.docx,D.2.1,Temperature

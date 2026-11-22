@@ -1,5 +1,9 @@
 ﻿规范,文件,条款,标题
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,0.5,"* qchisq(D,2*ne). This is applicable for experiment (1) and (2)."
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,0.5,"* qchisq(D,2*ne) for experiment (1) and (2)"
 34.121-1,34121-1-g20_s00-s06.docx,1,Scope
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,1,(black horizontal line in the centre): this is the normalised origin BLER
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,1.3,(red horizontal line): this is the specified upper limit of the range (BLER +30%) (upper test requirement)
 34.121-1,34121-1-g20_s00-s06.docx,2,References
 34.121-1,34121-1-g20_s00-s06.docx,3,"Definitions, symbols, abbreviations and equations"
 34.121-1,34121-1-g20_s00-s06.docx,3.1,Definitions
@@ -687,6 +691,16 @@
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.2.7.3,Relative Code Domain Error (RCDE)
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,B.3,Notes
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.1,General
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10,UL reference channel parameters for HSDPA tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10.1,UL reference measurement channel for HSDPA tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10.2,UL reference measurement channel for HSDPA tests with UL OLTD/CLTD
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11,Reference channel parameters for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.1,UL reference measurement channel for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.2,DL reference measurement channel for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.3,RLC SDU size for E-DCH tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12,DL reference parameters for MBMS tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12.1,MTCH
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12.2,Combined MTCH demodulation and cell identification
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2,UL reference measurement channel
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.1,"UL reference measurement channel (12,2 kbps)"
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.2.2,UL reference measurement channel (64 kbps)
@@ -717,6 +731,9 @@
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8,DL reference channel parameters for HSDPA tests
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1,Fixed Reference Channel (FRC)
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.1,Fixed Reference Channel Definition H-Set 1/1A/1B/1C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.10,Fixed Reference Channel Definition H-Set 10/10A/10B/10C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.11,Fixed Reference Channel Definition H-Set 11/11A/11B/11C
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.12,Fixed Reference Channel Definition H-Set 12
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.2,Fixed Reference Channel Definition H-Set 2
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.3,Fixed Reference Channel Definition H-Set 3/3A/3B/3C
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.4,Fixed Reference Channel Definition H-Set 4
@@ -725,20 +742,7 @@
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.7,Fixed Reference Channel Definition H-Set 7
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.8,Fixed Reference Channel Definition H-Set 8/8A/8B/8C
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.9,Fixed Reference Channel Definition H-Set 9/9A/9B/9C
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.10,Fixed Reference Channel Definition H-Set 10/10A/10B/10C
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.11,Fixed Reference Channel Definition H-Set 11/11A/11B/11C
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.8.1.12,Fixed Reference Channel Definition H-Set 12
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.9,Downlink reference channel dummy DCCH transmission on DCH
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10,UL reference channel parameters for HSDPA tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10.1,UL reference measurement channel for HSDPA tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.10.2,UL reference measurement channel for HSDPA tests with UL OLTD/CLTD
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11,Reference channel parameters for E-DCH tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.1,UL reference measurement channel for E-DCH tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.2,DL reference measurement channel for E-DCH tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.11.3,RLC SDU size for E-DCH tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12,DL reference parameters for MBMS tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12.1,MTCH
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,C.12.2,Combined MTCH demodulation and cell identification
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.1,General
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.1.1,Definition of Additive White Gaussian Noise (AWGN) Interferer
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,D.2,Propagation Conditions
@@ -809,24 +813,21 @@
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6,General rules for statistical testing
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1,Statistical testing of receiver BER/BLER performance
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.1,Error Definition
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10,Dual limit BLER tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.1,Description of the parameters for dual limit BLER tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.2,Pass fail decision rules
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.3,Test conditions for dual limit BLER tests
+34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.4,Test conditions for dual limit TPC Command Error Rate tests
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.2,Test Method
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.3,Test Criteria
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4,Calculation assumptions
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4.1,Statistical independence
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4.2,Applied formulas
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,0.5,"* qchisq(D,2*ne). This is applicable for experiment (1) and (2)."
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.4.3,Approximation of the distribution
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.5,Definition of good pass fail decision.
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.6,Good balance between test time and statistical significance
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.7,Pass fail decision rules
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.8,"Test conditions for BER, BLER, RLC SDU Error Rate tests"
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10,Dual limit BLER tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.1,Description of the parameters for dual limit BLER tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,1,(black horizontal line in the centre): this is the normalised origin BLER
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,1.3,(red horizontal line): this is the specified upper limit of the range (BLER +30%) (upper test requirement)
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.2,Pass fail decision rules
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.3,Test conditions for dual limit BLER tests
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.1.10.4,Test conditions for dual limit TPC Command Error Rate tests
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2,Statistical testing of RRM delay performance
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.1,Test Method
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.2,Bad Delay Ratio (ER)
@@ -834,7 +835,6 @@
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4,Calculation assumptions
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4.1,Statistical independence
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4.2,Applied formulas
-34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,0.5,"* qchisq(D,2*ne) for experiment (1) and (2)"
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.4.3,Approximation of the distribution
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.5,Definition of good pass fail decision
 34.121-1,34121-1-g20_sAnnexA-sAnnexF.docx,F.6.2.6,Good balance between test-time and statistical significance
@@ -864,6 +864,9 @@
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.2.1,Conditions for E-UTRAN measurements
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3,Conditions for Measurement Performance for UE
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.1,Conditions for intra frequency CPICH RSCP measurements accuracy
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.10,Conditions for SFN-SFN observed time difference type 1
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.11,Conditions for intra frequency SFN-SFN observed time difference type 2 without or with IPDL period active
+34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.12,Conditions for inter frequency SFN-SFN observed time difference type 2
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.2,Conditions for intra frequency CPICH RSCP relative measurements accuracy
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.3,Conditions for inter frequency CPICH RSCP relative measurements accuracy
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.4,Conditions for intra frequency CPICH Ec/Io measurements accuracy
@@ -872,8 +875,5 @@
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.7,Conditions for inter frequency CPICH Ec/Io relative measurements accuracy
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.8,Conditions for intra frequency SFN-SFN observed time difference
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.9,Conditions for inter frequency SFN-SFN observed time difference
-34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.10,Conditions for SFN-SFN observed time difference type 1
-34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.11,Conditions for intra frequency SFN-SFN observed time difference type 2 without or with IPDL period active
-34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.3.12,Conditions for inter frequency SFN-SFN observed time difference type 2
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.4,Conditions for UTRAN Connected mode mobility
 34.121-1,34121-1-g20_sAnnexeG-AnnexL.docx,L.4.1,Conditions for identification of a new CGI of inter-RAT E-UTRA cell with autonomous gaps

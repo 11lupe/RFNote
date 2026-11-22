@@ -80,10 +80,10 @@
 25.133,25133-j00.docx,5.9.2.1,Delay
 25.133,25133-j00.docx,5.9.2.2,Interruption time
 25.133,25133-j00.docx,5.10,Serving HS-DSCH cell change
-25.133,25133-j00.docx,5.10.3,Introduction
 25.133,25133-j00.docx,5.10.2,Requirements
 25.133,25133-j00.docx,5.10.2.1,Serving HS-DSCH cell change delay
 25.133,25133-j00.docx,5.10.2.2,Interruption time
+25.133,25133-j00.docx,5.10.3,Introduction
 25.133,25133-j00.docx,5.11,Enhanced Serving HS-DSCH cell change
 25.133,25133-j00.docx,5.11.1,Introduction
 25.133,25133-j00.docx,5.11.2,Requirements
@@ -256,7 +256,10 @@
 25.133,25133-j00.docx,9.2.18,Received scheduled E-DCH power share (RSEPS)
 25.133,25133-j00.docx,9.2.18.1,Accuracy requirement
 25.133,25133-j00.docx,9.2.18.2,Received scheduled E-DCH power share measurement report mapping
-25.133,25133-j00.docx,Annex A,(normative):	Test Cases
+25.133,25133-j00.docx,14.08,"s when Nnorm, inter=2 for reselections to normal performance group, allow 14.1s in the test case."
+25.133,25133-j00.docx,78.08,"s when Knorm, EUTRA=4 for reselections to E-UTRA FDD normal performance group, allow 78.1s in the test case."
+25.133,25133-j00.docx,80,"inter-frequency cells, including"
+25.133,25133-j00.docx,116.48,"s when Nnorm, reducced=3 for reselections to reduced performance group, allow 116.5s in the test case."
 25.133,25133-j00.docx,A.1,Purpose of Annex
 25.133,25133-j00.docx,A.2,Requirement classification for statistical testing
 25.133,25133-j00.docx,A.2.1,Types of requirements in TS 25.133
@@ -275,8 +278,8 @@
 25.133,25133-j00.docx,A.4.2.3.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.4.2.3.2,Test Requirements
 25.133,25133-j00.docx,A.4.2.4,Scenario 4: Single carrier case with extended DRX
-25.133,25133-j00.docx,A.4.2.4.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.4.2.4,Scenario 5: Idle mode interfrequency reselection with extended DRX
+25.133,25133-j00.docx,A.4.2.4.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.4.3,UTRAN to GSM Cell Re-Selection
 25.133,25133-j00.docx,A.4.3.1,Scenario 1
 25.133,25133-j00.docx,A.4.3.1.1,Test Purpose and Environment
@@ -310,6 +313,12 @@
 25.133,25133-j00.docx,A.5.1.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.5.1.1.1,Test procedure
 25.133,25133-j00.docx,A.5.1.2,Test Requirements
+25.133,25133-j00.docx,A.5.10,Intrafrequency System information acquisition for CSG cell
+25.133,25133-j00.docx,A.5.10.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.10.2,Test Requirements
+25.133,25133-j00.docx,A.5.11,Interfrequency System information acquisition for CSG cell
+25.133,25133-j00.docx,A.5.11.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.5.11.2,Test Requirements
 25.133,25133-j00.docx,A.5.2,FDD/FDD Hard Handover
 25.133,25133-j00.docx,A.5.2.1,Handover to intra-frequency cell
 25.133,25133-j00.docx,A.5.2.1.1,Test Purpose and Environment
@@ -334,9 +343,9 @@
 25.133,25133-j00.docx,A.5.5.4.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.5.5.4.2,Test Requirements
 25.133,25133-j00.docx,A.5.5.5,UTRAN to E-UTRA Cell Reselection
+25.133,25133-j00.docx,A.5.5.5,2.1	Test Purpose and Environment
 25.133,25133-j00.docx,A.5.5.5.1,Reselection to E-UTRA FDD when HS-DSCH DRX is configured (E-UTRA has higher priority)
 25.133,25133-j00.docx,A.5.5.5.2,Reselection to E-UTRA FDD when HS-DSCH DRX is configured (E-UTRA has lower priority)
-25.133,25133-j00.docx,A.5.5.5,2.1	Test Purpose and Environment
 25.133,25133-j00.docx,A.5.5.5.3,Reselection to E-UTRA FDD when HS-DSCH 2nd DRX is configured (E-UTRA has higher priority)
 25.133,25133-j00.docx,A.5.5.5.4,Reselection to E-UTRA TDD when HS-DSCH DRX is configured (E-UTRA has higher priority)
 25.133,25133-j00.docx,A.5.5.5.5,Reselection to E-UTRA TDD when HS-DSCH DRX is configured (E-UTRA has lower priority)
@@ -366,12 +375,6 @@
 25.133,25133-j00.docx,A.5.9.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.5.9.1.1,Test procedure
 25.133,25133-j00.docx,A.5.9.2,Test Requirements
-25.133,25133-j00.docx,A.5.10,Intrafrequency System information acquisition for CSG cell
-25.133,25133-j00.docx,A.5.10.1,Test Purpose and Environment
-25.133,25133-j00.docx,A.5.10.2,Test Requirements
-25.133,25133-j00.docx,A.5.11,Interfrequency System information acquisition for CSG cell
-25.133,25133-j00.docx,A.5.11.1,Test Purpose and Environment
-25.133,25133-j00.docx,A.5.11.2,Test Requirements
 25.133,25133-j00.docx,A.6,RRC Connection Control
 25.133,25133-j00.docx,A.6.1,RRC Re-establishment delay
 25.133,25133-j00.docx,A.6.1.1,Test Purpose and Environment
@@ -473,25 +476,6 @@
 25.133,25133-j00.docx,A.9.1.1,CPICH RSCP
 25.133,25133-j00.docx,A.9.1.1.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.9.1.1.2,Test Requirements
-25.133,25133-j00.docx,A.9.1.2,CPICH Ec/Io
-25.133,25133-j00.docx,A.9.1.2.1,Test Purpose and Environment
-25.133,25133-j00.docx,A.9.1.2.2,Test Requirements
-25.133,25133-j00.docx,A.9.1.3,UTRA Carrier RSSI
-25.133,25133-j00.docx,A.9.1.3.1,Test Purpose and Environment
-25.133,25133-j00.docx,A.9.1.3.2,Test Requirements
-25.133,25133-j00.docx,A.9.1.4,SFN-CFN observed time difference
-25.133,25133-j00.docx,A.9.1.4.1,Test Purpose and Environment
-25.133,25133-j00.docx,A.9.1.4.2,Test Requirements
-25.133,25133-j00.docx,A.9.1.5,SFN-SFN observed time difference
-25.133,25133-j00.docx,A.9.1.5.1,SFN-SFN observed time difference type 1
-25.133,25133-j00.docx,A.9.1.5.2,SFN-SFN observed time difference type 2 without IPDL period active
-25.133,25133-j00.docx,A.9.1.5.3,SFN-SFN observed time difference type 2 with IPDL period active
-25.133,25133-j00.docx,A.9.1.6,UE Rx-Tx time difference
-25.133,25133-j00.docx,A.9.1.6.1,UE Rx-Tx time difference type 1
-25.133,25133-j00.docx,A.9.1.6.2,UE Rx-Tx time difference type 2
-25.133,25133-j00.docx,A.9.1.9,UE Transmission Power Headroom
-25.133,25133-j00.docx,A.9.1.9.1,Test Purpose and Environment
-25.133,25133-j00.docx,A.9.1.9.2,Test Requirements
 25.133,25133-j00.docx,A.9.1.10,E-UTRAN FDD RSRP absolute accuracy (CELL_DCH)
 25.133,25133-j00.docx,A.9.1.10.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.9.1.10.2,Test Requirements
@@ -522,15 +506,31 @@
 25.133,25133-j00.docx,A.9.1.19,E-UTRAN TDD RSRQ Absolute Accuracy (CELL_FACH)
 25.133,25133-j00.docx,A.9.1.19.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.9.1.19.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.2,CPICH Ec/Io
+25.133,25133-j00.docx,A.9.1.2.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.2.2,Test Requirements
 25.133,25133-j00.docx,A.9.1.20,E-UTRA FDD WB-RSRQ Absolute Accuracy (CELL_DCH)
 25.133,25133-j00.docx,A.9.1.20.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.9.1.20.2,Test Requirements
 25.133,25133-j00.docx,A.9.1.21,E-UTRA TDD WB-RSRQ Absolute Accuracy (CELL_DCH)
 25.133,25133-j00.docx,A.9.1.21.1,Test Purpose and Environment
 25.133,25133-j00.docx,A.9.1.21.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.3,UTRA Carrier RSSI
+25.133,25133-j00.docx,A.9.1.3.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.3.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.4,SFN-CFN observed time difference
+25.133,25133-j00.docx,A.9.1.4.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.4.2,Test Requirements
+25.133,25133-j00.docx,A.9.1.5,SFN-SFN observed time difference
+25.133,25133-j00.docx,A.9.1.5.1,SFN-SFN observed time difference type 1
+25.133,25133-j00.docx,A.9.1.5.2,SFN-SFN observed time difference type 2 without IPDL period active
+25.133,25133-j00.docx,A.9.1.5.3,SFN-SFN observed time difference type 2 with IPDL period active
+25.133,25133-j00.docx,A.9.1.6,UE Rx-Tx time difference
+25.133,25133-j00.docx,A.9.1.6.1,UE Rx-Tx time difference type 1
+25.133,25133-j00.docx,A.9.1.6.2,UE Rx-Tx time difference type 2
+25.133,25133-j00.docx,A.9.1.9,UE Transmission Power Headroom
+25.133,25133-j00.docx,A.9.1.9.1,Test Purpose and Environment
+25.133,25133-j00.docx,A.9.1.9.2,Test Requirements
+25.133,25133-j00.docx,Annex A,(normative):	Test Cases
 25.133,25133-j00.docx,Annex B,(normative):	Conditions for RRM requirements applicability for operating bands
-25.133,25133-j00.docx,80,"inter-frequency cells, including"
-25.133,25133-j00.docx,14.08,"s when Nnorm, inter=2 for reselections to normal performance group, allow 14.1s in the test case."
-25.133,25133-j00.docx,116.48,"s when Nnorm, reducced=3 for reselections to reduced performance group, allow 116.5s in the test case."
-25.133,25133-j00.docx,78.08,"s when Knorm, EUTRA=4 for reselections to E-UTRA FDD normal performance group, allow 78.1s in the test case."
 25.133,25133-j00.docx,Annex B,(normative): Conditions for RRM requirements applicability for operating bands
