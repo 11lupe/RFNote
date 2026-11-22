@@ -10,7 +10,7 @@
 1. 所有 Markdown 相对链接可解析（跳过 http/https/mailto/锚点）。
 2. 域目录内每篇笔记都有 ``域/...`` 标签的 frontmatter。
 3. Markdown 基名全库唯一（Obsidian wikilink 依赖）。
-4. 01–02 域索引的「共 N 篇」与 README 目录表一致。
+4. 01/02/04 域索引的「共 N 篇」与 README 目录表一致。
 5. 03 规范与标准/3GPP：每个规范目录有 docs / 章节索引.csv，
    各章节索引行数之和等于 ``检索总表.csv``，且与索引里的规范清单一致。
    （原始 zip 不入库，按需用 ``tools/3gpp/fetch.py`` 下载，故不参与校验。）
@@ -28,7 +28,8 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DOMAINS = ["01 基础概念", "02 测试指标", "03 规范与标准"]
+DOMAINS = ["01 基础概念", "02 测试指标", "03 规范与标准", "04 仪表与设备"]
+NOTE_DOMAINS = [name for name in DOMAINS if name != "03 规范与标准"]
 SPEC_RE = re.compile(r"^\d{2}\.\d{3}")
 EXCLUDE_DIRS = {".git", ".github", ".acl-recovery", "_local", "__pycache__", "node_modules", ".obsidian", "assets"}
 LINK_RE = re.compile(r"\]\(\s*(<[^>\n]*>|[^)\s]+)")
@@ -123,7 +124,7 @@ def check_index_counts() -> None:
         if domain:
             readme_counts[domain.group(1)] = int(cells[-1])
 
-    for name in DOMAINS[:2]:
+    for name in NOTE_DOMAINS:
         domain = ROOT / name
         indices = sorted(domain.glob("00 *索引.md"))
         if len(indices) != 1:
@@ -141,7 +142,7 @@ def check_index_counts() -> None:
 
     total_notes = sum(
         len([p for p in (ROOT / name).glob("*.md") if not p.name.startswith("00 ")])
-        for name in DOMAINS[:2]
+        for name in NOTE_DOMAINS
     )
     declared_total = re.search(r"规模：\*\*(\d+)\*\*\s*篇主题笔记", readme)
     if declared_total and int(declared_total.group(1)) != total_notes:
