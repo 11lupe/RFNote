@@ -122,6 +122,20 @@ def main(argv: list[str] | None = None) -> int:
         except Exception as exc:  # noqa: BLE001
             print(f"  EXTRACT FAIL: {exc}")
 
+    if args.list:
+        selected = [it for it in ITEMS if not wanted or it[0] in wanted]
+        missing = [
+            spec for spec, zip_name, _ in selected
+            if not (args.root / spec / zip_name).is_file()
+            or (args.root / spec / zip_name).stat().st_size <= 1024
+        ]
+        if missing:
+            print(f"\n缺失 {len(missing)} 份：{', '.join(missing)}")
+            print("运行 python tools/fetch_3gpp.py 下载")
+        else:
+            print("\n全部已下载")
+        return 0
+
     print("ALL DONE")
     return 0
 

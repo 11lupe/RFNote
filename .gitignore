@@ -21,5 +21,9 @@ _old_zips/
 *.tmp
 ~$*
 
+# 3GPP 原始包不入库，按需用 tools/fetch_3gpp.py 下载
+# 只忽略规范目录顶层的 zip；docs/ 内的附件仍随文档跟踪
+05 3GPP规范/*/*.zip
+
 # 本地个人覆盖
 *.local.md

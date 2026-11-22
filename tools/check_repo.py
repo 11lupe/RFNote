@@ -11,8 +11,9 @@
 2. 域目录内每篇笔记都有 ``域/...`` 标签的 frontmatter。
 3. Markdown 基名全库唯一（Obsidian wikilink 依赖）。
 4. 01–04 域索引的「共 N 篇」与 README 目录表一致。
-5. 05 3GPP规范：每个规范目录有 zip / docs / 章节索引.csv，
+5. 05 3GPP规范：每个规范目录有 docs / 章节索引.csv，
    各章节索引行数之和等于 ``检索总表.csv``，且与索引里的规范清单一致。
+   （原始 zip 不入库，按需用 ``tools/fetch_3gpp.py`` 下载，故不参与校验。）
 6. 不再引用旧脚本名（``_fetch.py`` / ``_index.py``）和本机绝对路径。
 
 只读脚本，不修改任何文件；发现问题时退出码 1。
@@ -167,8 +168,6 @@ def check_3gpp() -> None:
     counted = 0
     for spec in spec_dirs:
         spec_dir = base / spec
-        if not list(spec_dir.glob("*.zip")):
-            add(f"05 3GPP规范/{spec}: 缺原始 zip")
         if not (spec_dir / "docs").is_dir():
             add(f"05 3GPP规范/{spec}: 缺 docs/")
         chapter = spec_dir / "章节索引.csv"
