@@ -1,0 +1,676 @@
+﻿规范,文件,条款,标题
+38.141-2,38141-2-k10.docx,1,Scope
+38.141-2,38141-2-k10.docx,2,References
+38.141-2,38141-2-k10.docx,3,"Definitions, symbols and abbreviations"
+38.141-2,38141-2-k10.docx,3.1,Definitions
+38.141-2,38141-2-k10.docx,3.2,Symbols
+38.141-2,38141-2-k10.docx,3.3,Abbreviations
+38.141-2,38141-2-k10.docx,4,General radiated test conditions and declarations
+38.141-2,38141-2-k10.docx,4.1,Measurement uncertainties and test requirements
+38.141-2,38141-2-k10.docx,4.1.1,General
+38.141-2,38141-2-k10.docx,4.1.2,Acceptable uncertainty of OTA Test System
+38.141-2,38141-2-k10.docx,4.1.2.1,General
+38.141-2,38141-2-k10.docx,4.1.2.2,Measurement of transmitter
+38.141-2,38141-2-k10.docx,4.1.2.3,Measurement of receiver
+38.141-2,38141-2-k10.docx,4.1.2.4,Measurement of performance requirement
+38.141-2,38141-2-k10.docx,4.1.3,Interpretation of measurement results
+38.141-2,38141-2-k10.docx,4.2,Radiated requirement reference points
+38.141-2,38141-2-k10.docx,4.3,Base station classes
+38.141-2,38141-2-k10.docx,4.4,Regional requirements
+38.141-2,38141-2-k10.docx,4.5,BS configurations
+38.141-2,38141-2-k10.docx,4.5.1,Transmit configurations
+38.141-2,38141-2-k10.docx,4.5.2,Receive configurations
+38.141-2,38141-2-k10.docx,4.5.3,Power supply options
+38.141-2,38141-2-k10.docx,4.5.4,BS with integrated Iuant BS modem
+38.141-2,38141-2-k10.docx,4.6,Manufacturer's declarations
+38.141-2,38141-2-k10.docx,4.7,Test configurations
+38.141-2,38141-2-k10.docx,4.7.1,General
+38.141-2,38141-2-k10.docx,4.7.2,Test signal configurations
+38.141-2,38141-2-k10.docx,4.7.2.1,Test signal used to build Test Configurations
+38.141-2,38141-2-k10.docx,4.7.2.2,NRTC1: Contiguous spectrum operation
+38.141-2,38141-2-k10.docx,4.7.2.3,NRTC2: Contiguous CA occupied bandwidth
+38.141-2,38141-2-k10.docx,4.7.2.4,NRTC3: Non-contiguous spectrum operation
+38.141-2,38141-2-k10.docx,4.7.2.5,NRTC4: Multi-band test configuration for full carrier allocation
+38.141-2,38141-2-k10.docx,4.7.2.6,NRTC5: Multi-band test configuration with high PSD per carrier
+38.141-2,38141-2-k10.docx,4.7.2.7,NRTC-SBFD: SBFD Contiguous spectrum operation
+38.141-2,38141-2-k10.docx,4.8,Applicability of requirements
+38.141-2,38141-2-k10.docx,4.8.1,Requirement set applicability
+38.141-2,38141-2-k10.docx,4.8.2,Applicability of test configurations for single-band RIB
+38.141-2,38141-2-k10.docx,4.8.3,Applicability of test configurations for multi-band RIB
+38.141-2,38141-2-k10.docx,4.8.4,Additional conformance
+38.141-2,38141-2-k10.docx,4.9,RF channels and test models
+38.141-2,38141-2-k10.docx,4.9.1,RF channels
+38.141-2,38141-2-k10.docx,4.9.2,Test models
+38.141-2,38141-2-k10.docx,4.9.2.1,General
+38.141-2,38141-2-k10.docx,4.9.2.2,NR FR2 test models
+38.141-2,38141-2-k10.docx,4.9.2.3,Data content of physical channels and signals for NR-FR2-TM
+38.141-2,38141-2-k10.docx,4.9.3,Test beam direction set
+38.141-2,38141-2-k10.docx,4.9.3.1,General
+38.141-2,38141-2-k10.docx,4.9.3.2,Test beam direction set for protection of FSS UL
+38.141-2,38141-2-k10.docx,4.10,Requirements for contiguous and non-contiguous spectrum
+38.141-2,38141-2-k10.docx,4.11,Requirements for BS capable of multi-band operation
+38.141-2,38141-2-k10.docx,4.12,Co-location requirements
+38.141-2,38141-2-k10.docx,4.12.1,General
+38.141-2,38141-2-k10.docx,4.12.2,Co-location test antenna
+38.141-2,38141-2-k10.docx,4.12.2.1,General
+38.141-2,38141-2-k10.docx,4.12.2.2,Co-location test antenna characteristics
+38.141-2,38141-2-k10.docx,4.12.2.3,Co-location test antenna alignment
+38.141-2,38141-2-k10.docx,4.13,Format and interpretation of tests
+38.141-2,38141-2-k10.docx,4.14,Reference coordinate system
+38.141-2,38141-2-k10.docx,5,Operating bands and channel arrangement
+38.141-2,38141-2-k10.docx,6,Radiated transmitter characteristics
+38.141-2,38141-2-k10.docx,6.1,General
+38.141-2,38141-2-k10.docx,6.2,Radiated transmit power
+38.141-2,38141-2-k10.docx,6.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.2.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.2.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.2.5,Test requirement
+38.141-2,38141-2-k10.docx,6.3,OTA base station output power
+38.141-2,38141-2-k10.docx,6.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.3.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.3.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.3.5,Test requirement
+38.141-2,38141-2-k10.docx,6.3.5.1,BS type 1-O
+38.141-2,38141-2-k10.docx,6.3.5.2,BS type 2-O
+38.141-2,38141-2-k10.docx,6.4,OTA output power dynamics
+38.141-2,38141-2-k10.docx,6.4.1,General
+38.141-2,38141-2-k10.docx,6.4.2,OTA RE power control dynamic range
+38.141-2,38141-2-k10.docx,6.4.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.4.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.4.2.3,Method of test
+38.141-2,38141-2-k10.docx,6.4.3,OTA total power dynamic range
+38.141-2,38141-2-k10.docx,6.4.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.4.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.4.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.4.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.4.3.5,Test requirement
+38.141-2,38141-2-k10.docx,6.5,OTA transmit ON/OFF power
+38.141-2,38141-2-k10.docx,6.5.1,OTA transmitter OFF power
+38.141-2,38141-2-k10.docx,6.5.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.5.1.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.5.1.3,Test purpose
+38.141-2,38141-2-k10.docx,6.5.1.4,Method of test
+38.141-2,38141-2-k10.docx,6.5.1.5,Test requirements
+38.141-2,38141-2-k10.docx,6.5.2,OTA transmitter transient period
+38.141-2,38141-2-k10.docx,6.5.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.5.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.5.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.5.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.5.2.5,Test requirements
+38.141-2,38141-2-k10.docx,6.6,OTA transmitted signal quality
+38.141-2,38141-2-k10.docx,6.6.1,General
+38.141-2,38141-2-k10.docx,6.6.2,OTA frequency error
+38.141-2,38141-2-k10.docx,6.6.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.6.2.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,6.6.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.6.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.6.2.5,Test Requirements
+38.141-2,38141-2-k10.docx,6.6.3,OTA modulation quality
+38.141-2,38141-2-k10.docx,6.6.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.6.3.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,6.6.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.6.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.6.3.5,Test requirements
+38.141-2,38141-2-k10.docx,6.6.4,OTA time alignment error
+38.141-2,38141-2-k10.docx,6.6.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.6.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.6.4.3,Test purpose
+38.141-2,38141-2-k10.docx,6.6.4.4,Method of test
+38.141-2,38141-2-k10.docx,6.6.4.5,Test Requirement
+38.141-2,38141-2-k10.docx,6.7,OTA unwanted emissions
+38.141-2,38141-2-k10.docx,6.7.1,General
+38.141-2,38141-2-k10.docx,6.7.2,OTA occupied bandwidth
+38.141-2,38141-2-k10.docx,6.7.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.7.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.7.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.7.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.7.2.5,Test requirement
+38.141-2,38141-2-k10.docx,6.7.3,OTA Adjacent Channel Leakage Power Ratio (ACLR)
+38.141-2,38141-2-k10.docx,6.7.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.7.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.7.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.7.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.7.3.5,Test requirements
+38.141-2,38141-2-k10.docx,6.7.4,OTA operating band unwanted emissions
+38.141-2,38141-2-k10.docx,6.7.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.7.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.7.4.3,Test purpose
+38.141-2,38141-2-k10.docx,6.7.4.4,Method of test
+38.141-2,38141-2-k10.docx,6.7.4.5,Test requirements
+38.141-2,38141-2-k10.docx,6.7.5,OTA transmitter spurious emissions
+38.141-2,38141-2-k10.docx,6.7.5.1,General
+38.141-2,38141-2-k10.docx,6.7.5.2,General OTA transmitter spurious emissions requirements
+38.141-2,38141-2-k10.docx,6.7.5.3,Protection of the BS receiver of own or different BS
+38.141-2,38141-2-k10.docx,6.7.5.4,Additional spurious emissions requirements
+38.141-2,38141-2-k10.docx,6.7.5.5,Co-location requirements
+38.141-2,38141-2-k10.docx,6.8,OTA transmitter intermodulation
+38.141-2,38141-2-k10.docx,6.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.8.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.8.3,Test purpose
+38.141-2,38141-2-k10.docx,6.8.4,Method of test
+38.141-2,38141-2-k10.docx,6.8.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.8.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.8.5,Test requirements
+38.141-2,38141-2-k10.docx,6.8.5.1,Requirement for BS type 1-O
+38.141-2,38141-2-k10.docx,6.8.5.2,Additional requirements (regional)
+38.141-2,38141-2-k10.docx,6.9,OTA spatial emission
+38.141-2,38141-2-k10.docx,6.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.9.3,Test purpose
+38.141-2,38141-2-k10.docx,6.9.4,Method of test
+38.141-2,38141-2-k10.docx,6.9.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.9.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.9.5,Test requirements
+38.141-2,38141-2-k10.docx,6.9.5.1,Requirement for BS type 1-H and BS type 1-O
+38.141-2,38141-2-k10.docx,7,Radiated receiver characteristics
+38.141-2,38141-2-k10.docx,7.1,General
+38.141-2,38141-2-k10.docx,7.2,OTA sensitivity
+38.141-2,38141-2-k10.docx,7.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.2.3,Test Purpose
+38.141-2,38141-2-k10.docx,7.2.4,Method of test
+38.141-2,38141-2-k10.docx,7.2.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.2.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.2.5,Test requirements
+38.141-2,38141-2-k10.docx,7.2.5.1,General
+38.141-2,38141-2-k10.docx,7.2.5.2,Test requirements for BS type 1-H and BS type 1-O
+38.141-2,38141-2-k10.docx,7.2.5.3,Test requirements for BS type 2-O
+38.141-2,38141-2-k10.docx,7.3,OTA reference sensitivity level
+38.141-2,38141-2-k10.docx,7.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.3.3,Test Purpose
+38.141-2,38141-2-k10.docx,7.3.4,Method of test
+38.141-2,38141-2-k10.docx,7.3.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.3.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.3.5,Test requirements
+38.141-2,38141-2-k10.docx,7.3.5.1,General
+38.141-2,38141-2-k10.docx,7.3.5.2,Test requirements for BS type 1-O
+38.141-2,38141-2-k10.docx,7.3.5.3,Test requirements for BS type 2-O
+38.141-2,38141-2-k10.docx,7.4,OTA dynamic range
+38.141-2,38141-2-k10.docx,7.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.4.3,Test purpose
+38.141-2,38141-2-k10.docx,7.4.4,Method of test
+38.141-2,38141-2-k10.docx,7.4.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.4.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.4.5,Test requirement
+38.141-2,38141-2-k10.docx,7.4.5.1,General
+38.141-2,38141-2-k10.docx,7.4.5.2,Test requirements for BS type 1-O
+38.141-2,38141-2-k10.docx,7.5,OTA in-band selectivity and blocking
+38.141-2,38141-2-k10.docx,7.5.1,OTA adjacent channel selectivity
+38.141-2,38141-2-k10.docx,7.5.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.5.1.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.5.1.3,Test purpose
+38.141-2,38141-2-k10.docx,7.5.1.4,Method of test
+38.141-2,38141-2-k10.docx,7.5.1.5,Test requirement
+38.141-2,38141-2-k10.docx,7.5.2,OTA in-band blocking
+38.141-2,38141-2-k10.docx,7.5.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.5.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.5.2.3,Test purpose
+38.141-2,38141-2-k10.docx,7.5.2.4,Method of test
+38.141-2,38141-2-k10.docx,7.5.2.5,Test requirement
+38.141-2,38141-2-k10.docx,7.6,OTA out-of-band blocking
+38.141-2,38141-2-k10.docx,7.6.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.6.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.6.3,Test purpose
+38.141-2,38141-2-k10.docx,7.6.4,Method of test
+38.141-2,38141-2-k10.docx,7.6.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.6.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.6.5,Test requirements
+38.141-2,38141-2-k10.docx,7.6.5.1,Requirement for BS type 1-O
+38.141-2,38141-2-k10.docx,7.6.5.2,Requirement for BS type 2-O
+38.141-2,38141-2-k10.docx,7.7,OTA receiver spurious emissions
+38.141-2,38141-2-k10.docx,7.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.7.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.7.3,Test purpose
+38.141-2,38141-2-k10.docx,7.7.4,Method of test
+38.141-2,38141-2-k10.docx,7.7.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.7.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.7.5,Test requirement
+38.141-2,38141-2-k10.docx,7.7.5.1,Test requirement for BS type 1-O
+38.141-2,38141-2-k10.docx,7.7.5.2,Test requirement for BS type 2-O
+38.141-2,38141-2-k10.docx,7.8,OTA receiver intermodulation
+38.141-2,38141-2-k10.docx,7.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.8.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.8.3,Test purpose
+38.141-2,38141-2-k10.docx,7.8.4,Method of test
+38.141-2,38141-2-k10.docx,7.8.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.8.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.8.5,Test requirement
+38.141-2,38141-2-k10.docx,7.8.5.1,BS type 1-O
+38.141-2,38141-2-k10.docx,7.8.5.2,BS type 2-O
+38.141-2,38141-2-k10.docx,7.9,OTA in-channel selectivity
+38.141-2,38141-2-k10.docx,7.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.9.3,Test purpose
+38.141-2,38141-2-k10.docx,7.9.4,Method of test
+38.141-2,38141-2-k10.docx,7.9.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.9.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.9.5,Test requirement
+38.141-2,38141-2-k10.docx,7.9.5.1,BS type 1-O
+38.141-2,38141-2-k10.docx,7.9.5.2,BS type 2-O
+38.141-2,38141-2-k10.docx,8,Radiated performance requirements
+38.141-2,38141-2-k10.docx,8.1,General
+38.141-2,38141-2-k10.docx,8.1.0,Scope and definitions
+38.141-2,38141-2-k10.docx,8.1.1,OTA demodulation branches
+38.141-2,38141-2-k10.docx,8.1.2,Applicability rule
+38.141-2,38141-2-k10.docx,8.1.2.0,General
+38.141-2,38141-2-k10.docx,8.1.2.1,Applicability of PUSCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.2,Applicability of PUCCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.3,Applicability of PRACH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.4,Applicability of PUSCH for high speed train performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.5,Applicability of interlaced PUSCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.6,Applicability of interlaced PUCCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.7,Applicability of performance requirements for PRACH with LRA =1151 and LRA =571
+38.141-2,38141-2-k10.docx,8.1.2.8,Applicability of performance requirements for PUSCH with TB over Multi-Slots
+38.141-2,38141-2-k10.docx,8.1.2.9,Applicability of performance requirements for PUSCH with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.1.2.10,Applicability of performance requirements for PUCCH with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.1.2.11,Applicability of ATG PUSCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.12,Applicability of ATG PUCCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.13,Applicability of ATG PRACH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.14,Applicability of performance requirements for Multiple PRACH transmission
+38.141-2,38141-2-k10.docx,8.2,OTA performance requirements for PUSCH
+38.141-2,38141-2-k10.docx,8.2.1,Performance requirements for PUSCH with transform precoding disabled
+38.141-2,38141-2-k10.docx,8.2.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.1.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.1.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.1.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.1.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.2,Performance requirements for PUSCH with transform precoding enabled
+38.141-2,38141-2-k10.docx,8.2.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.2.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.2.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.2.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.2.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.3,Performance requirements for UCI multiplexed on PUSCH
+38.141-2,38141-2-k10.docx,8.2.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.3.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.3.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.3.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.3.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.4,Performance requirements for PUSCH for high speed train
+38.141-2,38141-2-k10.docx,8.2.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.4.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.4.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.4.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.4.5,Test Requirement for BS Type 1-O
+38.141-2,38141-2-k10.docx,8.2.4.6,Test Requirement for BS Type 2-O
+38.141-2,38141-2-k10.docx,8.2.5,Performance requirements for UL timing adjustment
+38.141-2,38141-2-k10.docx,8.2.5.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.5.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.5.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.5.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.5.5,Test Requirement for High Speed Train for BS type 1-O
+38.141-2,38141-2-k10.docx,8.2.5.6,Test Requirement for Normal Mode
+38.141-2,38141-2-k10.docx,8.2.6,Performance requirements for PUSCH with 0.001% BLER
+38.141-2,38141-2-k10.docx,8.2.6.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.6.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.6.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.6.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.6.5,Test requirement
+38.141-2,38141-2-k10.docx,8.2.7,Performance requirements for PUSCH repetition Type A
+38.141-2,38141-2-k10.docx,8.2.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.7.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.7.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.7.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.7.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.8,Performance requirements for PUSCH mapping Type B with non-slot transmission
+38.141-2,38141-2-k10.docx,8.2.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.8.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.8.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.8.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.8.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.9,Performance requirements for MsgA PUSCH
+38.141-2,38141-2-k10.docx,8.2.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.9.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.9.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.9.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.9.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.10,Requirements for interlaced PUSCH
+38.141-2,38141-2-k10.docx,8.2.10.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.10.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.10.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.10.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.10.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.11,Performance requirements for CG-UCI multiplexed on interlaced PUSCH
+38.141-2,38141-2-k10.docx,8.2.11.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.11.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.11.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.11.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.11.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.12,Performance requirements for TB processing over multi-slot PUSCH (TBoMS)
+38.141-2,38141-2-k10.docx,8.2.12.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.12.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.12.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.12.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.12.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.13,Performance requirements for PUSCH with DMRS bundling
+38.141-2,38141-2-k10.docx,8.2.13.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.13.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.13.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.13.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.13.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.14,Performance requirements for PUSCH for ATG
+38.141-2,38141-2-k10.docx,8.2.14.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.14.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.14.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.14.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.14.5,Test requirement
+38.141-2,38141-2-k10.docx,8.2.15,Performance requirements for PUSCH with enhanced DM-RS
+38.141-2,38141-2-k10.docx,8.2.15.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.15.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.15.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.15.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.15.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.16,Enhanced performance requirements for PUSCH with synchronous interference
+38.141-2,38141-2-k10.docx,8.2.16.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.16.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.16.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.16.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.16.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3,OTA performance requirements for PUCCH
+38.141-2,38141-2-k10.docx,8.3.1,Performance requirements for PUCCH format 0
+38.141-2,38141-2-k10.docx,8.3.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.1.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.1.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.1.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.1.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3.2,Performance requirements for PUCCH format 1
+38.141-2,38141-2-k10.docx,8.3.2.1,NACK to ACK detection
+38.141-2,38141-2-k10.docx,8.3.2.2,ACK missed detection
+38.141-2,38141-2-k10.docx,8.3.3,Performance requirements for PUCCH format 2
+38.141-2,38141-2-k10.docx,8.3.3.1,ACK missed detection performance requirements
+38.141-2,38141-2-k10.docx,8.3.3.2,UCI BLER performance requirements
+38.141-2,38141-2-k10.docx,8.3.4,Performance requirements for PUCCH format 3
+38.141-2,38141-2-k10.docx,8.3.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.3.4.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.4.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.4.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.5,Performance requirements for PUCCH format 4
+38.141-2,38141-2-k10.docx,8.3.5.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.5.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.3.5.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.5.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.5.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.6,Performance requirements for multi-slot PUCCH format
+38.141-2,38141-2-k10.docx,8.3.6.1,Performance requirements for multi-slot PUCCH format 1
+38.141-2,38141-2-k10.docx,8.3.7,Performance requirements for interlaced PUCCH format 0
+38.141-2,38141-2-k10.docx,8.3.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.7.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.7.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.7.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.7.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3.8,Performance requirements for interlaced PUCCH format 1
+38.141-2,38141-2-k10.docx,8.3.8.1,NACK to ACK detection
+38.141-2,38141-2-k10.docx,8.3.8.2,ACK missed detection
+38.141-2,38141-2-k10.docx,8.3.9,Performance requirements for interlaced PUCCH format 2
+38.141-2,38141-2-k10.docx,8.3.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.9.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.9.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.3.9.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.9.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.10,Performance requirements for interlaced PUCCH format 3
+38.141-2,38141-2-k10.docx,8.3.10.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.10.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.10.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.3.10.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.10.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.11,Performance requirements for PUCCH sub-slot based repetition format 0
+38.141-2,38141-2-k10.docx,8.3.11.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.11.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.11.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.11.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.11.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3.12,Performance requirements PUCCH format 1 with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.3.12.1,NACK to ACK detection
+38.141-2,38141-2-k10.docx,8.3.12.2,ACK missed detection
+38.141-2,38141-2-k10.docx,8.3.13,Performance requirements for PUCCH format 3 with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.3.13.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.13.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.3.13.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.13.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.13.5,Test requirement
+38.141-2,38141-2-k10.docx,8.4,OTA performance requirements for PRACH
+38.141-2,38141-2-k10.docx,8.4.1,PRACH false alarm probability and missed detection
+38.141-2,38141-2-k10.docx,8.4.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.4.1.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.4.1.3,Test purpose
+38.141-2,38141-2-k10.docx,8.4.1.4,Method of test
+38.141-2,38141-2-k10.docx,8.4.1.5,Test requirement for Normal Mode
+38.141-2,38141-2-k10.docx,8.4.1.6,Test requirement for high speed train
+38.141-2,38141-2-k10.docx,8.4.1.7,Test requirement for PRACH with LRA=1151 and LRA=571
+38.141-2,38141-2-k10.docx,8.4.1.8,Test requirement for PRACH with repetition transmission
+38.141-2,38141-2-k10.docx,9,Radiated characteristics for SBFD-capable BS
+38.141-2,38141-2-k10.docx,9.1,General
+38.141-2,38141-2-k10.docx,9.2,Radiated transmitter characteristics for SBFD-capable BS
+38.141-2,38141-2-k10.docx,9.2.1,General
+38.141-2,38141-2-k10.docx,9.2.2,Radiated transmit power for SBFD
+38.141-2,38141-2-k10.docx,9.2.2.1,"Minimum requirement for BS type 1-H, BS type 1-O, and BS type 2-O"
+38.141-2,38141-2-k10.docx,9.2.2.2,Test purpose
+38.141-2,38141-2-k10.docx,9.2.2.3,Method of test
+38.141-2,38141-2-k10.docx,9.2.2.4,Test requirement
+38.141-2,38141-2-k10.docx,9.2.3,OTA base station output power for SBFD
+38.141-2,38141-2-k10.docx,9.2.3.1,Minimum requirement for BS type 1-O and BS type 2-O
+38.141-2,38141-2-k10.docx,9.2.3.2,Test purpose
+38.141-2,38141-2-k10.docx,9.2.3.3,Method of test
+38.141-2,38141-2-k10.docx,9.2.3.4,Test requirement
+38.141-2,38141-2-k10.docx,9.2.4,OTA output power dynamics for SBFD
+38.141-2,38141-2-k10.docx,9.2.4.1,General
+38.141-2,38141-2-k10.docx,9.2.4.2,OTA RE power control dynamic range
+38.141-2,38141-2-k10.docx,9.2.4.3,OTA total power dynamic range
+38.141-2,38141-2-k10.docx,9.2.5,Transmit ON/OFF power for SBFD
+38.141-2,38141-2-k10.docx,9.2.5.1,General
+38.141-2,38141-2-k10.docx,9.2.6,OTA transmitted signal quality for SBFD
+38.141-2,38141-2-k10.docx,9.2.6.1,General
+38.141-2,38141-2-k10.docx,9.2.6.2,OTA frequency error for SBFD
+38.141-2,38141-2-k10.docx,9.2.6.3,OTA modulation quality for SBFD
+38.141-2,38141-2-k10.docx,9.2.6.4,OTA time alignment error for SBFD
+38.141-2,38141-2-k10.docx,9.2.7,OTA unwanted emissions for SBFD
+38.141-2,38141-2-k10.docx,9.2.7.1,General
+38.141-2,38141-2-k10.docx,9.2.7.2,OTA occupied bandwidth
+38.141-2,38141-2-k10.docx,9.2.7.3,OTA Adjacent Channel Leakage Power Ratio (ACLR) for SBFD
+38.141-2,38141-2-k10.docx,9.2.7.4,OTA operating band unwanted emissions for SBFD
+38.141-2,38141-2-k10.docx,9.2.7.5,OTA transmitter spurious emissions for SBFD
+38.141-2,38141-2-k10.docx,9.2.8,OTA transmitter intermodulation for SBFD
+38.141-2,38141-2-k10.docx,9.2.9,Transient period between SBFD and non-SBFD operation
+38.141-2,38141-2-k10.docx,9.2.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.2.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.2.9.3,Test purpose
+38.141-2,38141-2-k10.docx,9.2.9.4,Method of test
+38.141-2,38141-2-k10.docx,9.2.9.5,Test requirements
+38.141-2,38141-2-k10.docx,9.2.10,In-channel adjacent subband leakage for SBFD
+38.141-2,38141-2-k10.docx,9.2.10.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.2.10.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.2.10.3,Test purpose
+38.141-2,38141-2-k10.docx,9.2.10.4,Method of test
+38.141-2,38141-2-k10.docx,9.3,Radiated receiver characteristics for SBFD-capable BS
+38.141-2,38141-2-k10.docx,9.3.1,General
+38.141-2,38141-2-k10.docx,9.3.2,OTA sensitivity
+38.141-2,38141-2-k10.docx,9.3.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.2.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.2.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.2.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.3,OTA reference sensitivity level
+38.141-2,38141-2-k10.docx,9.3.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.3.3,Test Purpose
+38.141-2,38141-2-k10.docx,9.3.3.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.3.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.4,OTA dynamic range
+38.141-2,38141-2-k10.docx,9.3.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.4.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.4.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.4.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.5,OTA in-band selectivity and blocking
+38.141-2,38141-2-k10.docx,9.3.5.1,OTA adjacent channel selectivity
+38.141-2,38141-2-k10.docx,9.3.5.2,OTA in-band blocking
+38.141-2,38141-2-k10.docx,9.3.6,OTA out-of-band blocking
+38.141-2,38141-2-k10.docx,9.3.6.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.6.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.6.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.6.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.6.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.7,OTA receiver spurious emissions
+38.141-2,38141-2-k10.docx,9.3.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.7.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.7.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.7.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.7.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.8,OTA in-channel selectivity
+38.141-2,38141-2-k10.docx,9.3.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.8.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.8.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.8.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.8.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.9,In-channel adjacent subband blocking
+38.141-2,38141-2-k10.docx,9.3.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.9.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.9.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.9.5,Test requirements
+38.141-2,38141-2-k10.docx,10,Radiated performance requirements for SBFD-capable BS
+38.141-2,38141-2-k10.docx,10.1,General
+38.141-2,38141-2-k10.docx,10.1.0,Scope and definitions
+38.141-2,38141-2-k10.docx,10.1.1,OTA demodulation branches
+38.141-2,38141-2-k10.docx,10.1.2,Applicability rule
+38.141-2,38141-2-k10.docx,10.1.2.0,General
+38.141-2,38141-2-k10.docx,10.1.2.1,Applicability of PUSCH performance requirements
+38.141-2,38141-2-k10.docx,10.1.2.2,Applicability of PUCCH performance requirements
+38.141-2,38141-2-k10.docx,10.1.2.3,Applicability of PRACH performance requirements
+38.141-2,38141-2-k10.docx,10.2,OTA performance requirements for PUSCH
+38.141-2,38141-2-k10.docx,10.2.1,Performance requirements for PUSCH with UL resource muting
+38.141-2,38141-2-k10.docx,10.2.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,10.2.1.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,10.2.1.3,Test purpose
+38.141-2,38141-2-k10.docx,10.2.1.4,Method of test
+38.141-2,38141-2-k10.docx,10.2.1.5,Test Requirement
+38.141-2,38141-2-k10.docx,A.10,"Fixed Reference Channels for performance requirements (64QAM, R=517/1024)"
+38.141-2,38141-2-k10.docx,A.11,"Fixed Reference Channels for performance requirements (64QAM, R=438/1024)"
+38.141-2,38141-2-k10.docx,A.13,"Fixed Reference Channels for performance requirements (64QAM, R=948/1024)"
+38.141-2,38141-2-k10.docx,A.14,"Fixed Reference Channels for performance requirements (256QAM, R=754/1024)"
+38.141-2,38141-2-k10.docx,A.2,"Fixed Reference Channels for OTA dynamic range (16QAM, R=2/3)"
+38.141-2,38141-2-k10.docx,A.3,"Fixed Reference Channels for performance requirements (QPSK, R=193/1024)"
+38.141-2,38141-2-k10.docx,A.4,"Fixed Reference Channels for performance requirements (16QAM, R=658/1024)"
+38.141-2,38141-2-k10.docx,A.5,"Fixed Reference Channels for performance requirements (64QAM, R=567/1024)"
+38.141-2,38141-2-k10.docx,A.6,PRACH Test preambles
+38.141-2,38141-2-k10.docx,A.7,"Fixed Reference Channels for performance requirements (16QAM, R=434/1024)"
+38.141-2,38141-2-k10.docx,A.8,"Fixed Reference Channels for performance requirements (QPSK, R=157/1024)"
+38.141-2,38141-2-k10.docx,A.9,"Fixed Reference Channels for performance requirements (256QAM, R=682.5/1024)"
+38.141-2,38141-2-k10.docx,Annex A,(normative):	Reference measurement channels
+38.141-2,38141-2-k10.docx,Annex B,(normative):	Environmental requirements for the BS equipment
+38.141-2,38141-2-k10.docx,Annex D,(normative):	Calibration
+38.141-2,38141-2-k10.docx,Annex H,(normative):	Characteristics of the interfering signals
+38.141-2,38141-2-k10.docx,Annex I,(normative):	TRP measurement procedures
+38.141-2,38141-2-k10.docx,Annex J,(normative):	Propagation conditions
+38.141-2,38141-2-k10.docx,Annex L,(normative):	In-channel TX tests
+38.141-2,38141-2-k10.docx,Annex M,(normative):	General rules for statistical testing
+38.141-2,38141-2-k10.docx,Annex N,(normative):	Expected EIRP calculation and spatial sampling grid
+38.141-2,38141-2-k10.docx,Annex N,.2 describes the details of the calculation of the EEIRP from the measured EIRP samples.
+38.141-2,38141-2-k10.docx,B.1,General
+38.141-2,38141-2-k10.docx,B.2,Normal test environment
+38.141-2,38141-2-k10.docx,B.3,Extreme test environment
+38.141-2,38141-2-k10.docx,B.3.1,Extreme temperature
+38.141-2,38141-2-k10.docx,B.4,Vibration
+38.141-2,38141-2-k10.docx,B.5,Power supply
+38.141-2,38141-2-k10.docx,B.6,Measurement of test environments
+38.141-2,38141-2-k10.docx,B.7,OTA extreme test methods
+38.141-2,38141-2-k10.docx,B.7.1,Direct far field method
+38.141-2,38141-2-k10.docx,B.7.2,Relative method
+38.141-2,38141-2-k10.docx,B.8,Interference model for enhanced performance requirements for PUSCH with synchronous interference
+38.141-2,38141-2-k10.docx,B.8.1,Interference to Noise ratio (INR)
+38.141-2,38141-2-k10.docx,B.8.2,Interference model for synchronous scenario
+38.141-2,38141-2-k10.docx,C.1,Measurement of transmitter
+38.141-2,38141-2-k10.docx,C.2,Measurement of receiver
+38.141-2,38141-2-k10.docx,C.3,Measurement of performance requirements
+38.141-2,38141-2-k10.docx,E.1,Transmitter
+38.141-2,38141-2-k10.docx,E.1.2,"OTA base station output power, OTA ACLR, OTA operating band unwanted emissions"
+38.141-2,38141-2-k10.docx,E.1.3,OTA spurious emissions
+38.141-2,38141-2-k10.docx,E.1.4,"OTA co-location emissions, OTA transmit ON/OFF power (BS type 1-O)"
+38.141-2,38141-2-k10.docx,E.1.5,OTA transmitter intermodulation
+38.141-2,38141-2-k10.docx,E.2,Receiver
+38.141-2,38141-2-k10.docx,E.2.1,OTA sensitivity and OTA reference sensitivity level
+38.141-2,38141-2-k10.docx,E.2.2,OTA dynamic range
+38.141-2,38141-2-k10.docx,E.2.3,"OTA adjacent channel selectivity, general OTA blocking, and OTA narrowband blocking"
+38.141-2,38141-2-k10.docx,E.2.4,OTA blocking
+38.141-2,38141-2-k10.docx,E.2.4.1,General OTA out-of-band blocking
+38.141-2,38141-2-k10.docx,E.2.4.2,OTA co-location blocking
+38.141-2,38141-2-k10.docx,E.2.5,OTA receiver spurious emissions
+38.141-2,38141-2-k10.docx,E.2.6,OTA receiver intermodulation
+38.141-2,38141-2-k10.docx,E.2.7,OTA in-channel selectivity
+38.141-2,38141-2-k10.docx,E.3,Performance requirements
+38.141-2,38141-2-k10.docx,G.1,General
+38.141-2,38141-2-k10.docx,G.2,Declarations
+38.141-2,38141-2-k10.docx,I.1,General
+38.141-2,38141-2-k10.docx,I.10,Beam-based directions
+38.141-2,38141-2-k10.docx,I.11,Peak method
+38.141-2,38141-2-k10.docx,I.12,Equal sector with peak average
+38.141-2,38141-2-k10.docx,I.13,Pre-scan
+38.141-2,38141-2-k10.docx,I.2,Spherical equal angle grid
+38.141-2,38141-2-k10.docx,I.2.1,General
+38.141-2,38141-2-k10.docx,I.2.2,Reference angular step criteria
+38.141-2,38141-2-k10.docx,I.3,Spherical equal area grid
+38.141-2,38141-2-k10.docx,I.4,Spherical Fibonacci grid
+38.141-2,38141-2-k10.docx,I.5,Orthogonal cut grid
+38.141-2,38141-2-k10.docx,I.5.1,General
+38.141-2,38141-2-k10.docx,I.5.2,Operating band unwanted emissions
+38.141-2,38141-2-k10.docx,I.5.3,Spurious unwanted emissions
+38.141-2,38141-2-k10.docx,I.6,Wave vector space grid
+38.141-2,38141-2-k10.docx,I.9,Full sphere with sparse sampling
+38.141-2,38141-2-k10.docx,J.1,Static propagation condition
+38.141-2,38141-2-k10.docx,J.1.0,General
+38.141-2,38141-2-k10.docx,J.1.1,BS Receiver with 2Rx
+38.141-2,38141-2-k10.docx,J.2,Multi-path fading propagation conditions
+38.141-2,38141-2-k10.docx,J.2.1,Delay profiles
+38.141-2,38141-2-k10.docx,J.2.1.1,Delay profiles for FR1
+38.141-2,38141-2-k10.docx,J.2.1.2,Delay profiles for FR2
+38.141-2,38141-2-k10.docx,J.2.2,Combinations of channel model parameters
+38.141-2,38141-2-k10.docx,J.2.3,MIMO channel correlation matrices
+38.141-2,38141-2-k10.docx,J.2.3.1,MIMO correlation matrices using Uniform Linear Array
+38.141-2,38141-2-k10.docx,J.2.3.1.1,Definition of MIMO correlation matrices
+38.141-2,38141-2-k10.docx,J.2.3.1.2,"MIMO correlation matrices at high, medium and low level"
+38.141-2,38141-2-k10.docx,J.2.3.2,Multi-antenna channel models using cross polarized antennas
+38.141-2,38141-2-k10.docx,J.2.3.2.1,Definition of MIMO correlation matrices using cross polarized antennas
+38.141-2,38141-2-k10.docx,J.2.3.2.2,Spatial correlation matrices at UE and gNB sides
+38.141-2,38141-2-k10.docx,J.2.3.2.3,MIMO correlation matrices using cross polarized antennas
+38.141-2,38141-2-k10.docx,J.3,High speed train condition
+38.141-2,38141-2-k10.docx,J.4,Moving propagation conditions
+38.141-2,38141-2-k10.docx,L.1,General
+38.141-2,38141-2-k10.docx,L.2,Basic principles
+38.141-2,38141-2-k10.docx,L.2.1,Output signal of the TX under test
+38.141-2,38141-2-k10.docx,L.2.2,Ideal signal
+38.141-2,38141-2-k10.docx,L.2.3,Measurement results
+38.141-2,38141-2-k10.docx,L.2.4,Measurement points
+38.141-2,38141-2-k10.docx,L.3,Pre-FFT minimization process
+38.141-2,38141-2-k10.docx,L.4,Timing of the FFT window
+38.141-2,38141-2-k10.docx,L.5,Resource element TX power
+38.141-2,38141-2-k10.docx,L.6,Post-FFT equalisation
+38.141-2,38141-2-k10.docx,L.7,EVM
+38.141-2,38141-2-k10.docx,L.7.0,General
+38.141-2,38141-2-k10.docx,L.7.1,Averaged EVM (FDD)
+38.141-2,38141-2-k10.docx,L.7.2,Averaged EVM (TDD) for FR1 and FR2-1
+38.141-2,38141-2-k10.docx,L.7.3,Averaged EVM (TDD) for FR2-2
+38.141-2,38141-2-k10.docx,M.1,Testing methodology of PUSCH performance requirements with 0.001% BLER
+38.141-2,38141-2-k10.docx,M.1.1,General
+38.141-2,38141-2-k10.docx,M.1.2,Numerical definition of the pass-fail limits for testing PUSCH 0.001% BLER
+38.141-2,38141-2-k10.docx,M.1.3.1,Numerical definition of the pass-fail limits for testing PUSCH 0.001% BLER
+38.141-2,38141-2-k10.docx,M.1.3.2,Simulation to derive the pass-fail limits for testing PUSCH 0.001% BLER
+38.141-2,38141-2-k10.docx,N.1,General
+38.141-2,38141-2-k10.docx,N.2,Averaging processes
+38.141-2,38141-2-k10.docx,N.2.1,Averaging over beam directions
+38.141-2,38141-2-k10.docx,N.2.2,Averaging over horizontal and vertical angles
+38.141-2,38141-2-k10.docx,N.3,Spatial sampling grid
+38.141-2,38141-2-k10.docx,X.1,Definition and applicability
+38.141-2,38141-2-k10.docx,X.2,Minimum requirement
+38.141-2,38141-2-k10.docx,X.3,Test purpose
+38.141-2,38141-2-k10.docx,X.4,Method of test
+38.141-2,38141-2-k10.docx,X.4.1,General
+38.141-2,38141-2-k10.docx,X.5,Test requirement

@@ -4652,6 +4652,466 @@
 36.521-2,36521-2-j30.docx,A.4.6.3,Inter-band CA Physical Layer Baseline Implementation Capabilities
 36.521-2,36521-2-j30.docx,A.4.7,Category M1 UE Centre Frequency Implementation
 36.521-2,36521-2-j30.docx,Annex A,(normative):ICS proforma for E-UTRA User Equipment
+37.544,37544-g70.docx,1,Scope
+37.544,37544-g70.docx,2,References
+37.544,37544-g70.docx,3,"Definitions, symbols and abbreviations"
+37.544,37544-g70.docx,3.1,Definitions
+37.544,37544-g70.docx,3.2,Symbols
+37.544,37544-g70.docx,3.3,Abbreviations
+37.544,37544-g70.docx,4,General
+37.544,37544-g70.docx,4.1,Terminal classes
+37.544,37544-g70.docx,4.1.1,Mechanical modes
+37.544,37544-g70.docx,4.2,UTRA chip rates
+37.544,37544-g70.docx,4.3,DUT positioning
+37.544,37544-g70.docx,4.3.1,DUT positioning for Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,4.3.2,DUT positioning for LMEs on Laptop Ground Plane Phantom
+37.544,37544-g70.docx,4.3.3,DUT positioning for Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,4.3.3.1,General
+37.544,37544-g70.docx,4.3.3.2,Mono-blocks and closed sliders
+37.544,37544-g70.docx,4.3.3.3,Folds and open-slides
+37.544,37544-g70.docx,4.3.3.4,PDA
+37.544,37544-g70.docx,4.3.3.5,Wide Grip Hand Phantom
+37.544,37544-g70.docx,4.3.4,DUT positioning for Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,4.3.4.1,General
+37.544,37544-g70.docx,4.3.4.2,Narrow DUT
+37.544,37544-g70.docx,4.3.4.3,PDA
+37.544,37544-g70.docx,4.3.4.5,Wide Grip Hand Phantom
+37.544,37544-g70.docx,4.3.5,DUT positioning for devices with embedded modules
+37.544,37544-g70.docx,4.3.6,DUT positioning for total radiated multi-antenna sensitivity
+37.544,37544-g70.docx,4.3.6.1,Handheld UE – Free Space
+37.544,37544-g70.docx,4.4,Sampling grid
+37.544,37544-g70.docx,4.5,Number of independent samples (for reverberation chamber procedure)
+37.544,37544-g70.docx,5,Measurement frequencies
+37.544,37544-g70.docx,5.1,UTRA FDD frequency bands and measurement channels
+37.544,37544-g70.docx,5.2,UTRA TDD frequency bands and measurement channels
+37.544,37544-g70.docx,5.3,E-UTRA FDD frequency bands and measurement frequencies allocations
+37.544,37544-g70.docx,5.4,E-UTRA TDD frequency bands and measurement frequencies allocations
+37.544,37544-g70.docx,6,Transmitter Performance
+37.544,37544-g70.docx,6.1,Performance for handheld UE
+37.544,37544-g70.docx,6.1.1,Total Radiated Power (TRP) for UTRA FDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,6.1.1.1,Definition and applicability
+37.544,37544-g70.docx,6.1.1.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.1.3,Test purpose
+37.544,37544-g70.docx,6.1.1.4,Method of test
+37.544,37544-g70.docx,6.1.1.5,Test requirements
+37.544,37544-g70.docx,6.1.2,Total Radiated Power (TRP) for UTRA LCR TDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,6.1.2.1,Definition and applicability
+37.544,37544-g70.docx,6.1.2.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.2.3,Test purpose
+37.544,37544-g70.docx,6.1.2.4,Method of test
+37.544,37544-g70.docx,6.1.2.5,Test requirements
+37.544,37544-g70.docx,6.1.3,Total Radiated Power (TRP) for UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.3.1,Definition and applicability
+37.544,37544-g70.docx,6.1.3.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.3.3,Test purpose
+37.544,37544-g70.docx,6.1.3.4,Method of test
+37.544,37544-g70.docx,6.1.3.5,Test requirements
+37.544,37544-g70.docx,6.1.4,Total Radiated Power (TRP) for UTRA LCR TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.4.1,Definition and applicability
+37.544,37544-g70.docx,6.1.4.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.4.3,Test purpose
+37.544,37544-g70.docx,6.1.4.4,Method of test
+37.544,37544-g70.docx,6.1.4.5,Test requirements
+37.544,37544-g70.docx,6.1.5,Total Radiated Power (TRP) for E-UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.5.1,Definition and applicability
+37.544,37544-g70.docx,6.1.5.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.5.3,Test purpose
+37.544,37544-g70.docx,6.1.5.4,Method of test
+37.544,37544-g70.docx,6.1.5.5,Test requirements
+37.544,37544-g70.docx,6.1.6,Total Radiated Power (TRP) for E-UTRA TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.6.1,Definition and applicability
+37.544,37544-g70.docx,6.1.6.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.6.3,Test purpose
+37.544,37544-g70.docx,6.1.6.4,Method of test
+37.544,37544-g70.docx,6.1.6.5,Test requirements
+37.544,37544-g70.docx,6.1.7,Total Radiated Power (TRP) for UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.7.1,Definition and applicability
+37.544,37544-g70.docx,6.1.7.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.7.3,Test purpose
+37.544,37544-g70.docx,6.1.7.4,Method of test
+37.544,37544-g70.docx,6.1.7.5,Test requirements
+37.544,37544-g70.docx,6.1.8,Total Radiated Power (TRP) for UTRA LCR TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.8.1,Definition and applicability
+37.544,37544-g70.docx,6.1.8.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.8.3,Test purpose
+37.544,37544-g70.docx,6.1.8.4,Method of test
+37.544,37544-g70.docx,6.1.8.5,Test requirements
+37.544,37544-g70.docx,6.1.9,Total Radiated Power (TRP) for E-UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.9.1,Definition and applicability
+37.544,37544-g70.docx,6.1.9.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.9.3,Test purpose
+37.544,37544-g70.docx,6.1.9.4,Method of test
+37.544,37544-g70.docx,6.1.9.5,Test requirements
+37.544,37544-g70.docx,6.1.10,Total Radiated Power (TRP) for E-UTRA TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.10.1,Definition and applicability
+37.544,37544-g70.docx,6.1.10.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.10.3,Test purpose
+37.544,37544-g70.docx,6.1.10.4,Method of test
+37.544,37544-g70.docx,6.1.10.5,Test requirements
+37.544,37544-g70.docx,6.2,Performance for LME
+37.544,37544-g70.docx,6.2.1,Total Radiated Power (TRP) for UTRA FDD LME
+37.544,37544-g70.docx,6.2.1.1,Definition and applicability
+37.544,37544-g70.docx,6.2.1.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.1.3,Test purpose
+37.544,37544-g70.docx,6.2.1.4,Method of test
+37.544,37544-g70.docx,6.2.1.5,Test requirements
+37.544,37544-g70.docx,6.2.2,Total Radiated Power (TRP) for UTRA LCR TDD LME
+37.544,37544-g70.docx,6.2.2.1,Definition and applicability
+37.544,37544-g70.docx,6.2.2.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.2.3,Test purpose
+37.544,37544-g70.docx,6.2.2.4,Method of test
+37.544,37544-g70.docx,6.2.2.5,Test requirements
+37.544,37544-g70.docx,6.2.3,Total Radiated Power (TRP) for E-UTRA FDD LME
+37.544,37544-g70.docx,6.2.3.1,Definition and applicability
+37.544,37544-g70.docx,6.2.3.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.3.3,Test purpose
+37.544,37544-g70.docx,6.2.3.4,Method of test
+37.544,37544-g70.docx,6.2.3.5,Test requirements
+37.544,37544-g70.docx,6.2.4,Total Radiated Power (TRP) for E-UTRA TDD LME
+37.544,37544-g70.docx,6.2.4.1,Definition and applicability
+37.544,37544-g70.docx,6.2.4.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.4.3,Test purpose
+37.544,37544-g70.docx,6.2.4.4,Method of test
+37.544,37544-g70.docx,6.2.4.5,Test requirements
+37.544,37544-g70.docx,6.3,Performance for LEE
+37.544,37544-g70.docx,6.3.1,Total Radiated Power (TRP) for UTRA FDD LEE
+37.544,37544-g70.docx,6.3.1.1,Definition and applicability
+37.544,37544-g70.docx,6.3.1.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.1.3,Test purpose
+37.544,37544-g70.docx,6.3.1.4,Method of test
+37.544,37544-g70.docx,6.3.1.5,Test requirements
+37.544,37544-g70.docx,6.3.2,Total Radiated Power (TRP) for UTRA LCR TDD LEE
+37.544,37544-g70.docx,6.3.2.1,Definition and applicability
+37.544,37544-g70.docx,6.3.2.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.2.3,Test purpose
+37.544,37544-g70.docx,6.3.2.4,Method of test
+37.544,37544-g70.docx,6.3.2.5,Test requirements
+37.544,37544-g70.docx,6.3.3,Total Radiated Power (TRP) for E-UTRA FDD LEE
+37.544,37544-g70.docx,6.3.3.1,Definition and applicability
+37.544,37544-g70.docx,6.3.3.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.3.3,Test purpose
+37.544,37544-g70.docx,6.3.3.4,Method of test
+37.544,37544-g70.docx,6.3.3.5,Test requirements
+37.544,37544-g70.docx,6.3.4,Total Radiated Power (TRP) for E-UTRA TDD LEE
+37.544,37544-g70.docx,6.3.4.1,Definition and applicability
+37.544,37544-g70.docx,6.3.4.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.4.3,Test purpose
+37.544,37544-g70.docx,6.3.4.4,Method of test
+37.544,37544-g70.docx,6.3.4.5,Test requirements
+37.544,37544-g70.docx,7,Receiver Performance
+37.544,37544-g70.docx,7.1,Performance for handheld UE
+37.544,37544-g70.docx,7.1.1,Total Radiated Sensitivity (TRS) for UTRA FDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,7.1.1.1,Definition and applicability
+37.544,37544-g70.docx,7.1.1.2,Minimum requirements
+37.544,37544-g70.docx,7.1.1.3,Test Purpose
+37.544,37544-g70.docx,7.1.1.4,Method of test
+37.544,37544-g70.docx,7.1.1.5,Test requirements
+37.544,37544-g70.docx,7.1.2,Total Radiated Sensitivity (TRS) for UTRA LCR TDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,7.1.2.1,Definition and applicability
+37.544,37544-g70.docx,7.1.2.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.2.3,Test purpose
+37.544,37544-g70.docx,7.1.2.4,Method of test
+37.544,37544-g70.docx,7.1.2.5,Test requirements
+37.544,37544-g70.docx,7.1.3,Total Radiated Sensitivity (TRS) for UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.3.1,Definition and applicability
+37.544,37544-g70.docx,7.1.3.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.3.3,Test purpose
+37.544,37544-g70.docx,7.1.3.4,Method of test
+37.544,37544-g70.docx,7.1.3.5,Test requirements
+37.544,37544-g70.docx,7.1.4,Total Radiated Sensitivity (TRS) for UTRA LCR TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.4.1,Definition and applicability
+37.544,37544-g70.docx,7.1.4.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.4.3,Test purpose
+37.544,37544-g70.docx,7.1.4.5,Test requirements
+37.544,37544-g70.docx,7.1.5,Total Radiated Sensitivity (TRS) for E-UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.5.1,Definition and applicability
+37.544,37544-g70.docx,7.1.5.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.5.3,Test purpose
+37.544,37544-g70.docx,7.1.5.4,Method of test
+37.544,37544-g70.docx,7.1.5.5,Test requirements
+37.544,37544-g70.docx,7.1.6,Total Radiated Sensitivity (TRS) for E-UTRA TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.6.1,Definition and applicability
+37.544,37544-g70.docx,7.1.6.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.6.3,Test purpose
+37.544,37544-g70.docx,7.1.6.4,Method of test
+37.544,37544-g70.docx,7.1.6.5,Test requirements
+37.544,37544-g70.docx,7.1.7,Total Radiated Sensitivity (TRS) for UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.7.1,Definition and applicability
+37.544,37544-g70.docx,7.1.7.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.7.3,Test purpose
+37.544,37544-g70.docx,7.1.7.4,Method of test
+37.544,37544-g70.docx,7.1.7.5,Test requirements
+37.544,37544-g70.docx,7.1.8,Total Radiated Sensitivity (TRS) for UTRA LCR TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.8.1,Definition and applicability
+37.544,37544-g70.docx,7.1.8.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.8.3,Test purpose
+37.544,37544-g70.docx,7.1.8.4,Method of test
+37.544,37544-g70.docx,7.1.8.5,Test requirements
+37.544,37544-g70.docx,7.1.9,Total Radiated Sensitivity (TRS) for E-UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.9.1,Definition and applicability
+37.544,37544-g70.docx,7.1.9.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.9.3,Test purpose
+37.544,37544-g70.docx,7.1.9.4,Method of test
+37.544,37544-g70.docx,7.1.9.5,Test requirements
+37.544,37544-g70.docx,7.1.10,Total Radiated Sensitivity (TRS) for E-UTRA TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.10.1,Definition and applicability
+37.544,37544-g70.docx,7.1.10.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.10.3,Test purpose
+37.544,37544-g70.docx,7.1.10.4,Method of test
+37.544,37544-g70.docx,7.1.10.5,Test requirements
+37.544,37544-g70.docx,7.2,Performance for LME
+37.544,37544-g70.docx,7.2.1,Total Radiated Sensitivity (TRS) for UTRA FDD LME
+37.544,37544-g70.docx,7.2.1.1,Definition and applicability
+37.544,37544-g70.docx,7.2.1.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.1.3,Test purpose
+37.544,37544-g70.docx,7.2.1.4,Method of test
+37.544,37544-g70.docx,7.2.1.5,Test requirements
+37.544,37544-g70.docx,7.2.2,Total Radiated Sensitivity (TRS) for UTRA LCR TDD LME
+37.544,37544-g70.docx,7.2.2.1,Definition and applicability
+37.544,37544-g70.docx,7.2.2.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.2.3,Test purpose
+37.544,37544-g70.docx,7.2.2.4,Method of test
+37.544,37544-g70.docx,7.2.2.5,Test requirements
+37.544,37544-g70.docx,7.2.3,Total Radiated Sensitivity (TRS) for E-UTRA FDD LME
+37.544,37544-g70.docx,7.2.3.1,Definition and applicability
+37.544,37544-g70.docx,7.2.3.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.3.3,Test purpose
+37.544,37544-g70.docx,7.2.3.4,Method of test
+37.544,37544-g70.docx,7.2.3.5,Test requirements
+37.544,37544-g70.docx,7.2.4,Total Radiated Sensitivity (TRS) for E-UTRA TDD LME
+37.544,37544-g70.docx,7.2.4.1,Definition and applicability
+37.544,37544-g70.docx,7.2.4.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.4.3,Test purpose
+37.544,37544-g70.docx,7.2.4.4,Method of test
+37.544,37544-g70.docx,7.2.4.5,Test requirements
+37.544,37544-g70.docx,7.3,Performance for LEE
+37.544,37544-g70.docx,7.3.1,Total Radiated Sensitivity (TRS) for UTRA FDD LEE
+37.544,37544-g70.docx,7.3.1.1,Definition and applicability
+37.544,37544-g70.docx,7.3.1.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.1.3,Test purpose
+37.544,37544-g70.docx,7.3.1.4,Method of test
+37.544,37544-g70.docx,7.3.1.5,Test requirements
+37.544,37544-g70.docx,7.3.2,Total Radiated Sensitivity (TRS) for UTRA LCR TDD LEE
+37.544,37544-g70.docx,7.3.2.1,Definition and applicability
+37.544,37544-g70.docx,7.3.2.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.2.3,Test purpose
+37.544,37544-g70.docx,7.3.2.4,Method of test
+37.544,37544-g70.docx,7.3.2.5,Test requirements
+37.544,37544-g70.docx,7.3.3,Total Radiated Sensitivity (TRS) for E-UTRA FDD LEE
+37.544,37544-g70.docx,7.3.3.1,Definition and applicability
+37.544,37544-g70.docx,7.3.3.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.3.3,Test purpose
+37.544,37544-g70.docx,7.3.3.4,Method of test
+37.544,37544-g70.docx,7.3.3.5,Test requirements
+37.544,37544-g70.docx,7.3.4,Total Radiated Sensitivity (TRS) for E-UTRA TDD LEE
+37.544,37544-g70.docx,7.3.4.1,Definition and applicability
+37.544,37544-g70.docx,7.3.4.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.4.3,Test purpose
+37.544,37544-g70.docx,7.3.4.5,Test requirements
+37.544,37544-g70.docx,7.3.5.4,Method of test
+37.544,37544-g70.docx,7.4,Radiated Performance of Multiple-antenna Receivers in the UE
+37.544,37544-g70.docx,7.4.1,Total Radiated Multi-antenna Sensitivity (TRMS) for E-UTRA FDD for Handheld UE in Free Space
+37.544,37544-g70.docx,7.4.1.1,Definition and applicability
+37.544,37544-g70.docx,7.4.1.2,Minimum requirements
+37.544,37544-g70.docx,7.4.1.3,Test Purpose
+37.544,37544-g70.docx,7.4.1.4,Method of test for Multi-probe Anechoic Chamber
+37.544,37544-g70.docx,7.4.1.5,Test requirements
+37.544,37544-g70.docx,7.4.2,Total Radiated Multi-antenna Sensitivity (TRMS) for E-UTRA TDD for Handheld UE in Free Space
+37.544,37544-g70.docx,7.4.2.1,Definition and applicability
+37.544,37544-g70.docx,7.4.2.2,Minimum requirements
+37.544,37544-g70.docx,7.4.2.3,Test Purpose
+37.544,37544-g70.docx,7.4.2.4,Method of test for Multi-probe Anechoic Chamber
+37.544,37544-g70.docx,7.4.2.5,Test requirements
+37.544,37544-g70.docx,A.1,General
+37.544,37544-g70.docx,A.2,Phantom specifications
+37.544,37544-g70.docx,A.2.1,Head phantom
+37.544,37544-g70.docx,A.2.2,Hand phantom
+37.544,37544-g70.docx,A.2.2.1,General
+37.544,37544-g70.docx,A.2.2.2,Dimensions
+37.544,37544-g70.docx,A.2.2.3,Dielectric properties
+37.544,37544-g70.docx,A.2.2.4,Hand phantom grips
+37.544,37544-g70.docx,A.2.2.5,Mechanical Requirements of Hand Phantoms
+37.544,37544-g70.docx,A.2.2.6,Wide Grip Hand Phantom Definition
+37.544,37544-g70.docx,A.2.3,Laptop Ground Plane Phantom
+37.544,37544-g70.docx,A.2.4,Parameters for embedded devices
+37.544,37544-g70.docx,A.2.4.1,General
+37.544,37544-g70.docx,A.2.4.2,Notebook
+37.544,37544-g70.docx,A.2.4.3,Tablet
+37.544,37544-g70.docx,A.3,Anechoic chamber constraints
+37.544,37544-g70.docx,A.3.1,General
+37.544,37544-g70.docx,A.3.2,Quiet zone dimension
+37.544,37544-g70.docx,A.3.3,Minimum Range Length
+37.544,37544-g70.docx,A.3.4,Reflectivity of the quiet zone
+37.544,37544-g70.docx,A.3.5,Shielding effectiveness of the chamber
+37.544,37544-g70.docx,A.4,Reverberation chamber constraints
+37.544,37544-g70.docx,A.4.1,General
+37.544,37544-g70.docx,A.4.2,Positioning and mode stirring facilities
+37.544,37544-g70.docx,A.4.3,Polarization imbalance and receiving antennas
+37.544,37544-g70.docx,A.4.4,Measurement antennas
+37.544,37544-g70.docx,A.4.5,Chamber size and characteristics
+37.544,37544-g70.docx,A.4.6,Shielding effectiveness of the chamber
+37.544,37544-g70.docx,A.5,Anechoic chamber constraints for Radiated Performance of Multiple-antenna Receivers
+37.544,37544-g70.docx,A.5.1,General
+37.544,37544-g70.docx,A.5.1.1,Multi-probe Anechoic Chamber
+37.544,37544-g70.docx,A.5.1.1.1,Concept and configuration
+37.544,37544-g70.docx,A.5.1.2,Radiated Two-Stage
+37.544,37544-g70.docx,A.5.1.2.1,Concept and configuration
+37.544,37544-g70.docx,A.5.2,Testing environment conditions
+37.544,37544-g70.docx,A.5.2.1,MPAC Positioning Guidelines
+37.544,37544-g70.docx,A.5.2.2,RTS Positioning Guidelines and test zone dimensions
+37.544,37544-g70.docx,Annex A,(normative): Test system characterization and environmental requirements
+37.544,37544-g70.docx,Annex B,(normative): Calibration
+37.544,37544-g70.docx,Annex D,(normative): Maximum uncertainty of test system and test tolerance
+37.544,37544-g70.docx,Annex O,(normative): Environmental conditions
+37.544,37544-g70.docx,Annex P,(normative): Base Station (BS) configuration for Radiated Performance of Multiple-antenna Receivers
+37.544,37544-g70.docx,Annex R,: UE ATF Requirements
+37.544,37544-g70.docx,Annex S,: Change history
+37.544,37544-g70.docx,B.1,General
+37.544,37544-g70.docx,B.2,Calibration procedure
+37.544,37544-g70.docx,B.2.1,Calibration procedure for Anechoic chamber method
+37.544,37544-g70.docx,B.2.2,Calibration procedure for Reverberation chamber method
+37.544,37544-g70.docx,B.2.2.1,Measurement of S-parameters through the chamber for a complete stirring sequence
+37.544,37544-g70.docx,B.2.2.2,Calculation of the chamber reference transfer function
+37.544,37544-g70.docx,B.2.2.3,Cable calibration
+37.544,37544-g70.docx,B.2.3,Calibration procedure for Anechoic chamber method with Multiprobe configuration
+37.544,37544-g70.docx,B.2.3.1,Example Calibration Procedure
+37.544,37544-g70.docx,B.2.4,Calibration procedure for RTS method
+37.544,37544-g70.docx,C.1,General
+37.544,37544-g70.docx,D.1,Maximum uncertainty of test system
+37.544,37544-g70.docx,D.2,Test tolerances
+37.544,37544-g70.docx,E.1,General
+37.544,37544-g70.docx,E.10,Measurement distance
+37.544,37544-g70.docx,E.10.1,Offset of DUT phase centre from axis(es) of rotation
+37.544,37544-g70.docx,E.10.2,Mutual coupling
+37.544,37544-g70.docx,E.10.3,Phase curvature
+37.544,37544-g70.docx,E.11,Quality of quiet zone
+37.544,37544-g70.docx,E.12,Tx-power drift of DUT
+37.544,37544-g70.docx,E.13,Uncertainty related to the use of phantoms
+37.544,37544-g70.docx,E.13.1,Uncertainty from using different types of SAM phantom
+37.544,37544-g70.docx,E.13.2,Simulated tissue liquid uncertainty
+37.544,37544-g70.docx,E.13.3,Uncertainty of dielectric properties and shape of the hand phantom
+37.544,37544-g70.docx,E.13.4,Uncertainty from using different types of Laptop Ground Plane phantom
+37.544,37544-g70.docx,E.14,Coarse sampling grid
+37.544,37544-g70.docx,E.15,Random uncertainty
+37.544,37544-g70.docx,E.16,Uncertainty of network analyzer
+37.544,37544-g70.docx,E.17,Uncertainty of the gain/efficiency of the calibration antenna
+37.544,37544-g70.docx,E.18,Base station simulator: uncertainty of the absolute level
+37.544,37544-g70.docx,E.19,BER measurement: output level step resolution
+37.544,37544-g70.docx,E.2,Mismatch uncertainty between measurement receiver and the probe antenna
+37.544,37544-g70.docx,E.2.1,Total combined mismatch uncertainty calculations
+37.544,37544-g70.docx,E.2.1.1,Mismatch uncertainty through the connector between two elements
+37.544,37544-g70.docx,E.2.1.2,Mismatch uncertainty due to the interaction of several elements
+37.544,37544-g70.docx,E.2.2,Total combined mismatch uncertainty
+37.544,37544-g70.docx,E.20,Statistical uncertainty of the BER measurement
+37.544,37544-g70.docx,E.21,BER data rate normalization uncertainty
+37.544,37544-g70.docx,E.22,DUT sensitivity drift
+37.544,37544-g70.docx,E.23,Cable loss measurement uncertainty
+37.544,37544-g70.docx,E.24,Signal generator: uncertainty of the absolute output level
+37.544,37544-g70.docx,E.25,Signal generator: output level stability
+37.544,37544-g70.docx,E.26,Insertion loss: calibration antenna feed cable
+37.544,37544-g70.docx,E.27,Insertion loss: calibration antenna attenuator (if used)
+37.544,37544-g70.docx,E.28,Chamber Statistical Ripple and Repeatability
+37.544,37544-g70.docx,E.29,Additional Power Loss in EUT Chassis
+37.544,37544-g70.docx,E.3,Mismatch uncertainty of the RF relay
+37.544,37544-g70.docx,E.3.1,First part: RF Relay switched on the co-polarized signal
+37.544,37544-g70.docx,E.3.1.1,The mismatch through the connector between two elements
+37.544,37544-g70.docx,E.3.1.2,Mismatch due to the interaction between two elements or more
+37.544,37544-g70.docx,E.3.2,Second part: RF relay switched on the cross-polarized signal
+37.544,37544-g70.docx,E.3.2.1,The mismatch through the connector between two elements
+37.544,37544-g70.docx,E.3.2.2,Mismatch due to the interaction between two elements or more
+37.544,37544-g70.docx,E.3.3,Total combined mismatch uncertainty
+37.544,37544-g70.docx,E.4,Insertion loss of the probe antenna cable
+37.544,37544-g70.docx,E.5,Insertion loss of the probe antenna attenuator (if used)
+37.544,37544-g70.docx,E.6,Insertion loss of the RF relays (if used)
+37.544,37544-g70.docx,E.7,Influence of the antenna cable
+37.544,37544-g70.docx,E.7.1,Probe antenna cable
+37.544,37544-g70.docx,E.7.2,Calibration antenna cable
+37.544,37544-g70.docx,E.8,Absolute gain of the probe antenna
+37.544,37544-g70.docx,E.9,Measurement receiver: uncertainty of absolute level
+37.544,37544-g70.docx,F.1,General
+37.544,37544-g70.docx,G.1,Shielded anechoic chamber specifications
+37.544,37544-g70.docx,G.2,Quiet zone reflectivity level validation
+37.544,37544-g70.docx,G.2.1,Description of a practical method for Quiet Zone characterization
+37.544,37544-g70.docx,G.3,Standard deviation of electric field
+37.544,37544-g70.docx,H.1,Shielded reverberation chamber specifications
+37.544,37544-g70.docx,H.2,Reverberation chamber statistical ripple and repeatability validation
+37.544,37544-g70.docx,I.1,General
+37.544,37544-g70.docx,I.2,Total Radiated Power
+37.544,37544-g70.docx,I.2.1,Beside the head phantom position
+37.544,37544-g70.docx,I.2.1.1,UTRA FDD
+37.544,37544-g70.docx,I.2.1.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.2.2,Beside the head and hand phantoms position
+37.544,37544-g70.docx,I.2.2.1,UTRA FDD
+37.544,37544-g70.docx,I.2.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.2.2.3,E-UTRA FDD
+37.544,37544-g70.docx,I.2.2.4,E-UTRA TDD
+37.544,37544-g70.docx,I.2.3,Hand phantom browsing mode position
+37.544,37544-g70.docx,I.2.3.1,UTRA FDD
+37.544,37544-g70.docx,I.2.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.2.3.3,E-UTRA FDD
+37.544,37544-g70.docx,I.2.3.4,E-UTRA TDD
+37.544,37544-g70.docx,I.3,Total Radiated Sensitivity
+37.544,37544-g70.docx,I.3.1,Beside the head phantom position
+37.544,37544-g70.docx,I.3.1.1,UTRA FDD
+37.544,37544-g70.docx,I.3.1.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.3.2,Beside the head and hand phantoms position
+37.544,37544-g70.docx,I.3.2.1,UTRA FDD
+37.544,37544-g70.docx,I.3.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.3.2.3,E-UTRA FDD
+37.544,37544-g70.docx,I.3.2.4,E-UTRA TDD
+37.544,37544-g70.docx,I.3.3,Hand phantom browsing mode position
+37.544,37544-g70.docx,I.3.3.1,UTRA FDD
+37.544,37544-g70.docx,I.3.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.3.3.3,E-UTRA FDD
+37.544,37544-g70.docx,I.3.3.4,E-UTRA TDD
+37.544,37544-g70.docx,J.1,General
+37.544,37544-g70.docx,J.2,Total Radiated Power
+37.544,37544-g70.docx,J.2.1,UTRA FDD
+37.544,37544-g70.docx,J.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,J.2.3,E-UTRA FDD
+37.544,37544-g70.docx,J.2.4,E-UTRA TDD
+37.544,37544-g70.docx,J.3,Total Radiated Sensitivity
+37.544,37544-g70.docx,J.3.1,UTRA FDD
+37.544,37544-g70.docx,J.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,J.3.3,E-UTRA FDD
+37.544,37544-g70.docx,J.3.4,E-UTRA TDD
+37.544,37544-g70.docx,K.1,General
+37.544,37544-g70.docx,K.2,Total Radiated Power
+37.544,37544-g70.docx,K.2.1,UTRA FDD
+37.544,37544-g70.docx,K.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,K.2.3,E-UTRA FDD
+37.544,37544-g70.docx,K.2.4,E-UTRA TDD
+37.544,37544-g70.docx,K.3,Total Radiated Sensitivity
+37.544,37544-g70.docx,K.3.1,UTRA FDD
+37.544,37544-g70.docx,K.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,K.3.3,E-UTRA FDD
+37.544,37544-g70.docx,K.3.4,E-UTRA TDD
+37.544,37544-g70.docx,L.1,Multi-probe anechoic chamber specifications
+37.544,37544-g70.docx,L.2,Multi-probe anechoic chamber minimum distance between the DUT and the measurement antenna
+37.544,37544-g70.docx,L.3,Multi-probe anechoic chamber quiet zone reflectivity level validation
+37.544,37544-g70.docx,L.4,Multi-probe anechoic chamber channel model verification
+37.544,37544-g70.docx,M.1,Channel Model(s)
+37.544,37544-g70.docx,M.2,Base Station antenna pattern configuration
+37.544,37544-g70.docx,N.1,General
+37.544,37544-g70.docx,N.2,Fading channel emulator output uncertainty
+37.544,37544-g70.docx,N.3,External Amplifiers Uncertainty Terms
+37.544,37544-g70.docx,N.3.1,Stability
+37.544,37544-g70.docx,N.3.2,Linearity
+37.544,37544-g70.docx,N.3.3,Noise Figure
+37.544,37544-g70.docx,N.3.4,Mismatch
+37.544,37544-g70.docx,N.3.5,Gain
+37.544,37544-g70.docx,N.4,Throughput measurement: output level step resolution
+37.544,37544-g70.docx,O.1,General
+37.544,37544-g70.docx,O.2,Environmental requirements
+37.544,37544-g70.docx,O.2.1,Temperature
+37.544,37544-g70.docx,O.2.2,Voltage
+37.544,37544-g70.docx,P.1,eNodeB emulator settings
+37.544,37544-g70.docx,Q.1,RTS anechoic chamber specifications
+37.544,37544-g70.docx,Q.2,RTS anechoic chamber minimum distance between the DUT and the measurement antenna
+37.544,37544-g70.docx,Q.3,RTS anechoic chamber quiet zone reflectivity level validation
+37.544,37544-g70.docx,Q.4,RTS anechoic chamber channel model verification
+37.544,37544-g70.docx,R.1,RSAP
+37.544,37544-g70.docx,R.2,RSARP
 38.101-1,38101-1-k10_s06-06.docx,0,"dB reference is defined as 20log10│ãt(t,0)│."
 38.101-1,38101-1-k10_s00-05.docx,1,Scope
 38.101-1,38101-1-k10_s00-05.docx,2,References
@@ -4983,6 +5443,681 @@
 38.101-3,38101-3-k10_sAnnexes.docx,L.3.2,Files included to the TS Zip folder
 38.101-3,38101-3-k10_sAnnexes.docx,L.3.2.1,Distribution of data Files
 38.101-3,38101-3-k10_sAnnexes.docx,L.3.2.2,Distribution of visualization of specified band combinations
+38.141-2,38141-2-k10.docx,1,Scope
+38.141-2,38141-2-k10.docx,2,References
+38.141-2,38141-2-k10.docx,3,"Definitions, symbols and abbreviations"
+38.141-2,38141-2-k10.docx,3.1,Definitions
+38.141-2,38141-2-k10.docx,3.2,Symbols
+38.141-2,38141-2-k10.docx,3.3,Abbreviations
+38.141-2,38141-2-k10.docx,4,General radiated test conditions and declarations
+38.141-2,38141-2-k10.docx,4.1,Measurement uncertainties and test requirements
+38.141-2,38141-2-k10.docx,4.1.1,General
+38.141-2,38141-2-k10.docx,4.1.2,Acceptable uncertainty of OTA Test System
+38.141-2,38141-2-k10.docx,4.1.2.1,General
+38.141-2,38141-2-k10.docx,4.1.2.2,Measurement of transmitter
+38.141-2,38141-2-k10.docx,4.1.2.3,Measurement of receiver
+38.141-2,38141-2-k10.docx,4.1.2.4,Measurement of performance requirement
+38.141-2,38141-2-k10.docx,4.1.3,Interpretation of measurement results
+38.141-2,38141-2-k10.docx,4.2,Radiated requirement reference points
+38.141-2,38141-2-k10.docx,4.3,Base station classes
+38.141-2,38141-2-k10.docx,4.4,Regional requirements
+38.141-2,38141-2-k10.docx,4.5,BS configurations
+38.141-2,38141-2-k10.docx,4.5.1,Transmit configurations
+38.141-2,38141-2-k10.docx,4.5.2,Receive configurations
+38.141-2,38141-2-k10.docx,4.5.3,Power supply options
+38.141-2,38141-2-k10.docx,4.5.4,BS with integrated Iuant BS modem
+38.141-2,38141-2-k10.docx,4.6,Manufacturer's declarations
+38.141-2,38141-2-k10.docx,4.7,Test configurations
+38.141-2,38141-2-k10.docx,4.7.1,General
+38.141-2,38141-2-k10.docx,4.7.2,Test signal configurations
+38.141-2,38141-2-k10.docx,4.7.2.1,Test signal used to build Test Configurations
+38.141-2,38141-2-k10.docx,4.7.2.2,NRTC1: Contiguous spectrum operation
+38.141-2,38141-2-k10.docx,4.7.2.3,NRTC2: Contiguous CA occupied bandwidth
+38.141-2,38141-2-k10.docx,4.7.2.4,NRTC3: Non-contiguous spectrum operation
+38.141-2,38141-2-k10.docx,4.7.2.5,NRTC4: Multi-band test configuration for full carrier allocation
+38.141-2,38141-2-k10.docx,4.7.2.6,NRTC5: Multi-band test configuration with high PSD per carrier
+38.141-2,38141-2-k10.docx,4.7.2.7,NRTC-SBFD: SBFD Contiguous spectrum operation
+38.141-2,38141-2-k10.docx,4.8,Applicability of requirements
+38.141-2,38141-2-k10.docx,4.8.1,Requirement set applicability
+38.141-2,38141-2-k10.docx,4.8.2,Applicability of test configurations for single-band RIB
+38.141-2,38141-2-k10.docx,4.8.3,Applicability of test configurations for multi-band RIB
+38.141-2,38141-2-k10.docx,4.8.4,Additional conformance
+38.141-2,38141-2-k10.docx,4.9,RF channels and test models
+38.141-2,38141-2-k10.docx,4.9.1,RF channels
+38.141-2,38141-2-k10.docx,4.9.2,Test models
+38.141-2,38141-2-k10.docx,4.9.2.1,General
+38.141-2,38141-2-k10.docx,4.9.2.2,NR FR2 test models
+38.141-2,38141-2-k10.docx,4.9.2.3,Data content of physical channels and signals for NR-FR2-TM
+38.141-2,38141-2-k10.docx,4.9.3,Test beam direction set
+38.141-2,38141-2-k10.docx,4.9.3.1,General
+38.141-2,38141-2-k10.docx,4.9.3.2,Test beam direction set for protection of FSS UL
+38.141-2,38141-2-k10.docx,4.10,Requirements for contiguous and non-contiguous spectrum
+38.141-2,38141-2-k10.docx,4.11,Requirements for BS capable of multi-band operation
+38.141-2,38141-2-k10.docx,4.12,Co-location requirements
+38.141-2,38141-2-k10.docx,4.12.1,General
+38.141-2,38141-2-k10.docx,4.12.2,Co-location test antenna
+38.141-2,38141-2-k10.docx,4.12.2.1,General
+38.141-2,38141-2-k10.docx,4.12.2.2,Co-location test antenna characteristics
+38.141-2,38141-2-k10.docx,4.12.2.3,Co-location test antenna alignment
+38.141-2,38141-2-k10.docx,4.13,Format and interpretation of tests
+38.141-2,38141-2-k10.docx,4.14,Reference coordinate system
+38.141-2,38141-2-k10.docx,5,Operating bands and channel arrangement
+38.141-2,38141-2-k10.docx,6,Radiated transmitter characteristics
+38.141-2,38141-2-k10.docx,6.1,General
+38.141-2,38141-2-k10.docx,6.2,Radiated transmit power
+38.141-2,38141-2-k10.docx,6.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.2.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.2.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.2.5,Test requirement
+38.141-2,38141-2-k10.docx,6.3,OTA base station output power
+38.141-2,38141-2-k10.docx,6.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.3.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.3.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.3.5,Test requirement
+38.141-2,38141-2-k10.docx,6.3.5.1,BS type 1-O
+38.141-2,38141-2-k10.docx,6.3.5.2,BS type 2-O
+38.141-2,38141-2-k10.docx,6.4,OTA output power dynamics
+38.141-2,38141-2-k10.docx,6.4.1,General
+38.141-2,38141-2-k10.docx,6.4.2,OTA RE power control dynamic range
+38.141-2,38141-2-k10.docx,6.4.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.4.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.4.2.3,Method of test
+38.141-2,38141-2-k10.docx,6.4.3,OTA total power dynamic range
+38.141-2,38141-2-k10.docx,6.4.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.4.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.4.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.4.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.4.3.5,Test requirement
+38.141-2,38141-2-k10.docx,6.5,OTA transmit ON/OFF power
+38.141-2,38141-2-k10.docx,6.5.1,OTA transmitter OFF power
+38.141-2,38141-2-k10.docx,6.5.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.5.1.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.5.1.3,Test purpose
+38.141-2,38141-2-k10.docx,6.5.1.4,Method of test
+38.141-2,38141-2-k10.docx,6.5.1.5,Test requirements
+38.141-2,38141-2-k10.docx,6.5.2,OTA transmitter transient period
+38.141-2,38141-2-k10.docx,6.5.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.5.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.5.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.5.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.5.2.5,Test requirements
+38.141-2,38141-2-k10.docx,6.6,OTA transmitted signal quality
+38.141-2,38141-2-k10.docx,6.6.1,General
+38.141-2,38141-2-k10.docx,6.6.2,OTA frequency error
+38.141-2,38141-2-k10.docx,6.6.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.6.2.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,6.6.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.6.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.6.2.5,Test Requirements
+38.141-2,38141-2-k10.docx,6.6.3,OTA modulation quality
+38.141-2,38141-2-k10.docx,6.6.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.6.3.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,6.6.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.6.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.6.3.5,Test requirements
+38.141-2,38141-2-k10.docx,6.6.4,OTA time alignment error
+38.141-2,38141-2-k10.docx,6.6.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.6.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.6.4.3,Test purpose
+38.141-2,38141-2-k10.docx,6.6.4.4,Method of test
+38.141-2,38141-2-k10.docx,6.6.4.5,Test Requirement
+38.141-2,38141-2-k10.docx,6.7,OTA unwanted emissions
+38.141-2,38141-2-k10.docx,6.7.1,General
+38.141-2,38141-2-k10.docx,6.7.2,OTA occupied bandwidth
+38.141-2,38141-2-k10.docx,6.7.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.7.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.7.2.3,Test purpose
+38.141-2,38141-2-k10.docx,6.7.2.4,Method of test
+38.141-2,38141-2-k10.docx,6.7.2.5,Test requirement
+38.141-2,38141-2-k10.docx,6.7.3,OTA Adjacent Channel Leakage Power Ratio (ACLR)
+38.141-2,38141-2-k10.docx,6.7.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.7.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.7.3.3,Test purpose
+38.141-2,38141-2-k10.docx,6.7.3.4,Method of test
+38.141-2,38141-2-k10.docx,6.7.3.5,Test requirements
+38.141-2,38141-2-k10.docx,6.7.4,OTA operating band unwanted emissions
+38.141-2,38141-2-k10.docx,6.7.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.7.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.7.4.3,Test purpose
+38.141-2,38141-2-k10.docx,6.7.4.4,Method of test
+38.141-2,38141-2-k10.docx,6.7.4.5,Test requirements
+38.141-2,38141-2-k10.docx,6.7.5,OTA transmitter spurious emissions
+38.141-2,38141-2-k10.docx,6.7.5.1,General
+38.141-2,38141-2-k10.docx,6.7.5.2,General OTA transmitter spurious emissions requirements
+38.141-2,38141-2-k10.docx,6.7.5.3,Protection of the BS receiver of own or different BS
+38.141-2,38141-2-k10.docx,6.7.5.4,Additional spurious emissions requirements
+38.141-2,38141-2-k10.docx,6.7.5.5,Co-location requirements
+38.141-2,38141-2-k10.docx,6.8,OTA transmitter intermodulation
+38.141-2,38141-2-k10.docx,6.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.8.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.8.3,Test purpose
+38.141-2,38141-2-k10.docx,6.8.4,Method of test
+38.141-2,38141-2-k10.docx,6.8.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.8.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.8.5,Test requirements
+38.141-2,38141-2-k10.docx,6.8.5.1,Requirement for BS type 1-O
+38.141-2,38141-2-k10.docx,6.8.5.2,Additional requirements (regional)
+38.141-2,38141-2-k10.docx,6.9,OTA spatial emission
+38.141-2,38141-2-k10.docx,6.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,6.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,6.9.3,Test purpose
+38.141-2,38141-2-k10.docx,6.9.4,Method of test
+38.141-2,38141-2-k10.docx,6.9.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,6.9.4.2,Procedure
+38.141-2,38141-2-k10.docx,6.9.5,Test requirements
+38.141-2,38141-2-k10.docx,6.9.5.1,Requirement for BS type 1-H and BS type 1-O
+38.141-2,38141-2-k10.docx,7,Radiated receiver characteristics
+38.141-2,38141-2-k10.docx,7.1,General
+38.141-2,38141-2-k10.docx,7.2,OTA sensitivity
+38.141-2,38141-2-k10.docx,7.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.2.3,Test Purpose
+38.141-2,38141-2-k10.docx,7.2.4,Method of test
+38.141-2,38141-2-k10.docx,7.2.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.2.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.2.5,Test requirements
+38.141-2,38141-2-k10.docx,7.2.5.1,General
+38.141-2,38141-2-k10.docx,7.2.5.2,Test requirements for BS type 1-H and BS type 1-O
+38.141-2,38141-2-k10.docx,7.2.5.3,Test requirements for BS type 2-O
+38.141-2,38141-2-k10.docx,7.3,OTA reference sensitivity level
+38.141-2,38141-2-k10.docx,7.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.3.3,Test Purpose
+38.141-2,38141-2-k10.docx,7.3.4,Method of test
+38.141-2,38141-2-k10.docx,7.3.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.3.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.3.5,Test requirements
+38.141-2,38141-2-k10.docx,7.3.5.1,General
+38.141-2,38141-2-k10.docx,7.3.5.2,Test requirements for BS type 1-O
+38.141-2,38141-2-k10.docx,7.3.5.3,Test requirements for BS type 2-O
+38.141-2,38141-2-k10.docx,7.4,OTA dynamic range
+38.141-2,38141-2-k10.docx,7.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.4.3,Test purpose
+38.141-2,38141-2-k10.docx,7.4.4,Method of test
+38.141-2,38141-2-k10.docx,7.4.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.4.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.4.5,Test requirement
+38.141-2,38141-2-k10.docx,7.4.5.1,General
+38.141-2,38141-2-k10.docx,7.4.5.2,Test requirements for BS type 1-O
+38.141-2,38141-2-k10.docx,7.5,OTA in-band selectivity and blocking
+38.141-2,38141-2-k10.docx,7.5.1,OTA adjacent channel selectivity
+38.141-2,38141-2-k10.docx,7.5.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.5.1.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.5.1.3,Test purpose
+38.141-2,38141-2-k10.docx,7.5.1.4,Method of test
+38.141-2,38141-2-k10.docx,7.5.1.5,Test requirement
+38.141-2,38141-2-k10.docx,7.5.2,OTA in-band blocking
+38.141-2,38141-2-k10.docx,7.5.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.5.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.5.2.3,Test purpose
+38.141-2,38141-2-k10.docx,7.5.2.4,Method of test
+38.141-2,38141-2-k10.docx,7.5.2.5,Test requirement
+38.141-2,38141-2-k10.docx,7.6,OTA out-of-band blocking
+38.141-2,38141-2-k10.docx,7.6.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.6.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.6.3,Test purpose
+38.141-2,38141-2-k10.docx,7.6.4,Method of test
+38.141-2,38141-2-k10.docx,7.6.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.6.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.6.5,Test requirements
+38.141-2,38141-2-k10.docx,7.6.5.1,Requirement for BS type 1-O
+38.141-2,38141-2-k10.docx,7.6.5.2,Requirement for BS type 2-O
+38.141-2,38141-2-k10.docx,7.7,OTA receiver spurious emissions
+38.141-2,38141-2-k10.docx,7.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.7.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.7.3,Test purpose
+38.141-2,38141-2-k10.docx,7.7.4,Method of test
+38.141-2,38141-2-k10.docx,7.7.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.7.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.7.5,Test requirement
+38.141-2,38141-2-k10.docx,7.7.5.1,Test requirement for BS type 1-O
+38.141-2,38141-2-k10.docx,7.7.5.2,Test requirement for BS type 2-O
+38.141-2,38141-2-k10.docx,7.8,OTA receiver intermodulation
+38.141-2,38141-2-k10.docx,7.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.8.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.8.3,Test purpose
+38.141-2,38141-2-k10.docx,7.8.4,Method of test
+38.141-2,38141-2-k10.docx,7.8.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.8.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.8.5,Test requirement
+38.141-2,38141-2-k10.docx,7.8.5.1,BS type 1-O
+38.141-2,38141-2-k10.docx,7.8.5.2,BS type 2-O
+38.141-2,38141-2-k10.docx,7.9,OTA in-channel selectivity
+38.141-2,38141-2-k10.docx,7.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,7.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,7.9.3,Test purpose
+38.141-2,38141-2-k10.docx,7.9.4,Method of test
+38.141-2,38141-2-k10.docx,7.9.4.1,Initial conditions
+38.141-2,38141-2-k10.docx,7.9.4.2,Procedure
+38.141-2,38141-2-k10.docx,7.9.5,Test requirement
+38.141-2,38141-2-k10.docx,7.9.5.1,BS type 1-O
+38.141-2,38141-2-k10.docx,7.9.5.2,BS type 2-O
+38.141-2,38141-2-k10.docx,8,Radiated performance requirements
+38.141-2,38141-2-k10.docx,8.1,General
+38.141-2,38141-2-k10.docx,8.1.0,Scope and definitions
+38.141-2,38141-2-k10.docx,8.1.1,OTA demodulation branches
+38.141-2,38141-2-k10.docx,8.1.2,Applicability rule
+38.141-2,38141-2-k10.docx,8.1.2.0,General
+38.141-2,38141-2-k10.docx,8.1.2.1,Applicability of PUSCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.2,Applicability of PUCCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.3,Applicability of PRACH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.4,Applicability of PUSCH for high speed train performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.5,Applicability of interlaced PUSCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.6,Applicability of interlaced PUCCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.7,Applicability of performance requirements for PRACH with LRA =1151 and LRA =571
+38.141-2,38141-2-k10.docx,8.1.2.8,Applicability of performance requirements for PUSCH with TB over Multi-Slots
+38.141-2,38141-2-k10.docx,8.1.2.9,Applicability of performance requirements for PUSCH with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.1.2.10,Applicability of performance requirements for PUCCH with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.1.2.11,Applicability of ATG PUSCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.12,Applicability of ATG PUCCH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.13,Applicability of ATG PRACH performance requirements
+38.141-2,38141-2-k10.docx,8.1.2.14,Applicability of performance requirements for Multiple PRACH transmission
+38.141-2,38141-2-k10.docx,8.2,OTA performance requirements for PUSCH
+38.141-2,38141-2-k10.docx,8.2.1,Performance requirements for PUSCH with transform precoding disabled
+38.141-2,38141-2-k10.docx,8.2.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.1.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.1.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.1.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.1.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.2,Performance requirements for PUSCH with transform precoding enabled
+38.141-2,38141-2-k10.docx,8.2.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.2.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.2.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.2.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.2.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.3,Performance requirements for UCI multiplexed on PUSCH
+38.141-2,38141-2-k10.docx,8.2.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.3.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.3.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.3.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.3.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.4,Performance requirements for PUSCH for high speed train
+38.141-2,38141-2-k10.docx,8.2.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.4.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.4.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.4.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.4.5,Test Requirement for BS Type 1-O
+38.141-2,38141-2-k10.docx,8.2.4.6,Test Requirement for BS Type 2-O
+38.141-2,38141-2-k10.docx,8.2.5,Performance requirements for UL timing adjustment
+38.141-2,38141-2-k10.docx,8.2.5.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.5.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.5.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.5.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.5.5,Test Requirement for High Speed Train for BS type 1-O
+38.141-2,38141-2-k10.docx,8.2.5.6,Test Requirement for Normal Mode
+38.141-2,38141-2-k10.docx,8.2.6,Performance requirements for PUSCH with 0.001% BLER
+38.141-2,38141-2-k10.docx,8.2.6.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.6.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.6.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.6.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.6.5,Test requirement
+38.141-2,38141-2-k10.docx,8.2.7,Performance requirements for PUSCH repetition Type A
+38.141-2,38141-2-k10.docx,8.2.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.7.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.7.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.7.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.7.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.8,Performance requirements for PUSCH mapping Type B with non-slot transmission
+38.141-2,38141-2-k10.docx,8.2.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.8.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.8.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.8.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.8.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.9,Performance requirements for MsgA PUSCH
+38.141-2,38141-2-k10.docx,8.2.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.9.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.9.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.9.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.9.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.10,Requirements for interlaced PUSCH
+38.141-2,38141-2-k10.docx,8.2.10.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.10.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.10.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.10.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.10.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.11,Performance requirements for CG-UCI multiplexed on interlaced PUSCH
+38.141-2,38141-2-k10.docx,8.2.11.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.11.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.11.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.11.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.11.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.12,Performance requirements for TB processing over multi-slot PUSCH (TBoMS)
+38.141-2,38141-2-k10.docx,8.2.12.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.12.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.12.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.12.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.12.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.13,Performance requirements for PUSCH with DMRS bundling
+38.141-2,38141-2-k10.docx,8.2.13.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.13.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.13.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.13.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.13.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.14,Performance requirements for PUSCH for ATG
+38.141-2,38141-2-k10.docx,8.2.14.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.14.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.14.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.2.14.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.14.5,Test requirement
+38.141-2,38141-2-k10.docx,8.2.15,Performance requirements for PUSCH with enhanced DM-RS
+38.141-2,38141-2-k10.docx,8.2.15.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.15.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.15.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.15.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.15.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.2.16,Enhanced performance requirements for PUSCH with synchronous interference
+38.141-2,38141-2-k10.docx,8.2.16.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.2.16.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.2.16.3,Test purpose
+38.141-2,38141-2-k10.docx,8.2.16.4,Method of test
+38.141-2,38141-2-k10.docx,8.2.16.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3,OTA performance requirements for PUCCH
+38.141-2,38141-2-k10.docx,8.3.1,Performance requirements for PUCCH format 0
+38.141-2,38141-2-k10.docx,8.3.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.1.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.1.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.1.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.1.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3.2,Performance requirements for PUCCH format 1
+38.141-2,38141-2-k10.docx,8.3.2.1,NACK to ACK detection
+38.141-2,38141-2-k10.docx,8.3.2.2,ACK missed detection
+38.141-2,38141-2-k10.docx,8.3.3,Performance requirements for PUCCH format 2
+38.141-2,38141-2-k10.docx,8.3.3.1,ACK missed detection performance requirements
+38.141-2,38141-2-k10.docx,8.3.3.2,UCI BLER performance requirements
+38.141-2,38141-2-k10.docx,8.3.4,Performance requirements for PUCCH format 3
+38.141-2,38141-2-k10.docx,8.3.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.3.4.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.4.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.4.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.5,Performance requirements for PUCCH format 4
+38.141-2,38141-2-k10.docx,8.3.5.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.5.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.3.5.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.5.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.5.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.6,Performance requirements for multi-slot PUCCH format
+38.141-2,38141-2-k10.docx,8.3.6.1,Performance requirements for multi-slot PUCCH format 1
+38.141-2,38141-2-k10.docx,8.3.7,Performance requirements for interlaced PUCCH format 0
+38.141-2,38141-2-k10.docx,8.3.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.7.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.7.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.7.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.7.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3.8,Performance requirements for interlaced PUCCH format 1
+38.141-2,38141-2-k10.docx,8.3.8.1,NACK to ACK detection
+38.141-2,38141-2-k10.docx,8.3.8.2,ACK missed detection
+38.141-2,38141-2-k10.docx,8.3.9,Performance requirements for interlaced PUCCH format 2
+38.141-2,38141-2-k10.docx,8.3.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.9.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.9.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.3.9.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.9.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.10,Performance requirements for interlaced PUCCH format 3
+38.141-2,38141-2-k10.docx,8.3.10.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.10.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.10.3,Test Purpose
+38.141-2,38141-2-k10.docx,8.3.10.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.10.5,Test requirement
+38.141-2,38141-2-k10.docx,8.3.11,Performance requirements for PUCCH sub-slot based repetition format 0
+38.141-2,38141-2-k10.docx,8.3.11.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.11.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,8.3.11.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.11.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.11.5,Test Requirement
+38.141-2,38141-2-k10.docx,8.3.12,Performance requirements PUCCH format 1 with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.3.12.1,NACK to ACK detection
+38.141-2,38141-2-k10.docx,8.3.12.2,ACK missed detection
+38.141-2,38141-2-k10.docx,8.3.13,Performance requirements for PUCCH format 3 with DM-RS bundling
+38.141-2,38141-2-k10.docx,8.3.13.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.3.13.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.3.13.3,Test purpose
+38.141-2,38141-2-k10.docx,8.3.13.4,Method of test
+38.141-2,38141-2-k10.docx,8.3.13.5,Test requirement
+38.141-2,38141-2-k10.docx,8.4,OTA performance requirements for PRACH
+38.141-2,38141-2-k10.docx,8.4.1,PRACH false alarm probability and missed detection
+38.141-2,38141-2-k10.docx,8.4.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,8.4.1.2,Minimum requirement
+38.141-2,38141-2-k10.docx,8.4.1.3,Test purpose
+38.141-2,38141-2-k10.docx,8.4.1.4,Method of test
+38.141-2,38141-2-k10.docx,8.4.1.5,Test requirement for Normal Mode
+38.141-2,38141-2-k10.docx,8.4.1.6,Test requirement for high speed train
+38.141-2,38141-2-k10.docx,8.4.1.7,Test requirement for PRACH with LRA=1151 and LRA=571
+38.141-2,38141-2-k10.docx,8.4.1.8,Test requirement for PRACH with repetition transmission
+38.141-2,38141-2-k10.docx,9,Radiated characteristics for SBFD-capable BS
+38.141-2,38141-2-k10.docx,9.1,General
+38.141-2,38141-2-k10.docx,9.2,Radiated transmitter characteristics for SBFD-capable BS
+38.141-2,38141-2-k10.docx,9.2.1,General
+38.141-2,38141-2-k10.docx,9.2.2,Radiated transmit power for SBFD
+38.141-2,38141-2-k10.docx,9.2.2.1,"Minimum requirement for BS type 1-H, BS type 1-O, and BS type 2-O"
+38.141-2,38141-2-k10.docx,9.2.2.2,Test purpose
+38.141-2,38141-2-k10.docx,9.2.2.3,Method of test
+38.141-2,38141-2-k10.docx,9.2.2.4,Test requirement
+38.141-2,38141-2-k10.docx,9.2.3,OTA base station output power for SBFD
+38.141-2,38141-2-k10.docx,9.2.3.1,Minimum requirement for BS type 1-O and BS type 2-O
+38.141-2,38141-2-k10.docx,9.2.3.2,Test purpose
+38.141-2,38141-2-k10.docx,9.2.3.3,Method of test
+38.141-2,38141-2-k10.docx,9.2.3.4,Test requirement
+38.141-2,38141-2-k10.docx,9.2.4,OTA output power dynamics for SBFD
+38.141-2,38141-2-k10.docx,9.2.4.1,General
+38.141-2,38141-2-k10.docx,9.2.4.2,OTA RE power control dynamic range
+38.141-2,38141-2-k10.docx,9.2.4.3,OTA total power dynamic range
+38.141-2,38141-2-k10.docx,9.2.5,Transmit ON/OFF power for SBFD
+38.141-2,38141-2-k10.docx,9.2.5.1,General
+38.141-2,38141-2-k10.docx,9.2.6,OTA transmitted signal quality for SBFD
+38.141-2,38141-2-k10.docx,9.2.6.1,General
+38.141-2,38141-2-k10.docx,9.2.6.2,OTA frequency error for SBFD
+38.141-2,38141-2-k10.docx,9.2.6.3,OTA modulation quality for SBFD
+38.141-2,38141-2-k10.docx,9.2.6.4,OTA time alignment error for SBFD
+38.141-2,38141-2-k10.docx,9.2.7,OTA unwanted emissions for SBFD
+38.141-2,38141-2-k10.docx,9.2.7.1,General
+38.141-2,38141-2-k10.docx,9.2.7.2,OTA occupied bandwidth
+38.141-2,38141-2-k10.docx,9.2.7.3,OTA Adjacent Channel Leakage Power Ratio (ACLR) for SBFD
+38.141-2,38141-2-k10.docx,9.2.7.4,OTA operating band unwanted emissions for SBFD
+38.141-2,38141-2-k10.docx,9.2.7.5,OTA transmitter spurious emissions for SBFD
+38.141-2,38141-2-k10.docx,9.2.8,OTA transmitter intermodulation for SBFD
+38.141-2,38141-2-k10.docx,9.2.9,Transient period between SBFD and non-SBFD operation
+38.141-2,38141-2-k10.docx,9.2.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.2.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.2.9.3,Test purpose
+38.141-2,38141-2-k10.docx,9.2.9.4,Method of test
+38.141-2,38141-2-k10.docx,9.2.9.5,Test requirements
+38.141-2,38141-2-k10.docx,9.2.10,In-channel adjacent subband leakage for SBFD
+38.141-2,38141-2-k10.docx,9.2.10.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.2.10.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.2.10.3,Test purpose
+38.141-2,38141-2-k10.docx,9.2.10.4,Method of test
+38.141-2,38141-2-k10.docx,9.3,Radiated receiver characteristics for SBFD-capable BS
+38.141-2,38141-2-k10.docx,9.3.1,General
+38.141-2,38141-2-k10.docx,9.3.2,OTA sensitivity
+38.141-2,38141-2-k10.docx,9.3.2.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.2.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.2.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.2.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.2.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.3,OTA reference sensitivity level
+38.141-2,38141-2-k10.docx,9.3.3.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.3.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.3.3,Test Purpose
+38.141-2,38141-2-k10.docx,9.3.3.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.3.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.4,OTA dynamic range
+38.141-2,38141-2-k10.docx,9.3.4.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.4.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.4.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.4.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.4.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.5,OTA in-band selectivity and blocking
+38.141-2,38141-2-k10.docx,9.3.5.1,OTA adjacent channel selectivity
+38.141-2,38141-2-k10.docx,9.3.5.2,OTA in-band blocking
+38.141-2,38141-2-k10.docx,9.3.6,OTA out-of-band blocking
+38.141-2,38141-2-k10.docx,9.3.6.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.6.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.6.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.6.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.6.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.7,OTA receiver spurious emissions
+38.141-2,38141-2-k10.docx,9.3.7.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.7.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.7.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.7.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.7.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.8,OTA in-channel selectivity
+38.141-2,38141-2-k10.docx,9.3.8.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.8.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.8.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.8.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.8.5,Test requirements
+38.141-2,38141-2-k10.docx,9.3.9,In-channel adjacent subband blocking
+38.141-2,38141-2-k10.docx,9.3.9.1,Definition and applicability
+38.141-2,38141-2-k10.docx,9.3.9.2,Minimum requirement
+38.141-2,38141-2-k10.docx,9.3.9.3,Test purpose
+38.141-2,38141-2-k10.docx,9.3.9.4,Method of test
+38.141-2,38141-2-k10.docx,9.3.9.5,Test requirements
+38.141-2,38141-2-k10.docx,10,Radiated performance requirements for SBFD-capable BS
+38.141-2,38141-2-k10.docx,10.1,General
+38.141-2,38141-2-k10.docx,10.1.0,Scope and definitions
+38.141-2,38141-2-k10.docx,10.1.1,OTA demodulation branches
+38.141-2,38141-2-k10.docx,10.1.2,Applicability rule
+38.141-2,38141-2-k10.docx,10.1.2.0,General
+38.141-2,38141-2-k10.docx,10.1.2.1,Applicability of PUSCH performance requirements
+38.141-2,38141-2-k10.docx,10.1.2.2,Applicability of PUCCH performance requirements
+38.141-2,38141-2-k10.docx,10.1.2.3,Applicability of PRACH performance requirements
+38.141-2,38141-2-k10.docx,10.2,OTA performance requirements for PUSCH
+38.141-2,38141-2-k10.docx,10.2.1,Performance requirements for PUSCH with UL resource muting
+38.141-2,38141-2-k10.docx,10.2.1.1,Definition and applicability
+38.141-2,38141-2-k10.docx,10.2.1.2,Minimum Requirement
+38.141-2,38141-2-k10.docx,10.2.1.3,Test purpose
+38.141-2,38141-2-k10.docx,10.2.1.4,Method of test
+38.141-2,38141-2-k10.docx,10.2.1.5,Test Requirement
+38.141-2,38141-2-k10.docx,A.10,"Fixed Reference Channels for performance requirements (64QAM, R=517/1024)"
+38.141-2,38141-2-k10.docx,A.11,"Fixed Reference Channels for performance requirements (64QAM, R=438/1024)"
+38.141-2,38141-2-k10.docx,A.13,"Fixed Reference Channels for performance requirements (64QAM, R=948/1024)"
+38.141-2,38141-2-k10.docx,A.14,"Fixed Reference Channels for performance requirements (256QAM, R=754/1024)"
+38.141-2,38141-2-k10.docx,A.2,"Fixed Reference Channels for OTA dynamic range (16QAM, R=2/3)"
+38.141-2,38141-2-k10.docx,A.3,"Fixed Reference Channels for performance requirements (QPSK, R=193/1024)"
+38.141-2,38141-2-k10.docx,A.4,"Fixed Reference Channels for performance requirements (16QAM, R=658/1024)"
+38.141-2,38141-2-k10.docx,A.5,"Fixed Reference Channels for performance requirements (64QAM, R=567/1024)"
+38.141-2,38141-2-k10.docx,A.6,PRACH Test preambles
+38.141-2,38141-2-k10.docx,A.7,"Fixed Reference Channels for performance requirements (16QAM, R=434/1024)"
+38.141-2,38141-2-k10.docx,A.8,"Fixed Reference Channels for performance requirements (QPSK, R=157/1024)"
+38.141-2,38141-2-k10.docx,A.9,"Fixed Reference Channels for performance requirements (256QAM, R=682.5/1024)"
+38.141-2,38141-2-k10.docx,Annex A,(normative):	Reference measurement channels
+38.141-2,38141-2-k10.docx,Annex B,(normative):	Environmental requirements for the BS equipment
+38.141-2,38141-2-k10.docx,Annex D,(normative):	Calibration
+38.141-2,38141-2-k10.docx,Annex H,(normative):	Characteristics of the interfering signals
+38.141-2,38141-2-k10.docx,Annex I,(normative):	TRP measurement procedures
+38.141-2,38141-2-k10.docx,Annex J,(normative):	Propagation conditions
+38.141-2,38141-2-k10.docx,Annex L,(normative):	In-channel TX tests
+38.141-2,38141-2-k10.docx,Annex M,(normative):	General rules for statistical testing
+38.141-2,38141-2-k10.docx,Annex N,(normative):	Expected EIRP calculation and spatial sampling grid
+38.141-2,38141-2-k10.docx,Annex N,.2 describes the details of the calculation of the EEIRP from the measured EIRP samples.
+38.141-2,38141-2-k10.docx,B.1,General
+38.141-2,38141-2-k10.docx,B.2,Normal test environment
+38.141-2,38141-2-k10.docx,B.3,Extreme test environment
+38.141-2,38141-2-k10.docx,B.3.1,Extreme temperature
+38.141-2,38141-2-k10.docx,B.4,Vibration
+38.141-2,38141-2-k10.docx,B.5,Power supply
+38.141-2,38141-2-k10.docx,B.6,Measurement of test environments
+38.141-2,38141-2-k10.docx,B.7,OTA extreme test methods
+38.141-2,38141-2-k10.docx,B.7.1,Direct far field method
+38.141-2,38141-2-k10.docx,B.7.2,Relative method
+38.141-2,38141-2-k10.docx,B.8,Interference model for enhanced performance requirements for PUSCH with synchronous interference
+38.141-2,38141-2-k10.docx,B.8.1,Interference to Noise ratio (INR)
+38.141-2,38141-2-k10.docx,B.8.2,Interference model for synchronous scenario
+38.141-2,38141-2-k10.docx,C.1,Measurement of transmitter
+38.141-2,38141-2-k10.docx,C.2,Measurement of receiver
+38.141-2,38141-2-k10.docx,C.3,Measurement of performance requirements
+38.141-2,38141-2-k10.docx,E.1,Transmitter
+38.141-2,38141-2-k10.docx,E.1.2,"OTA base station output power, OTA ACLR, OTA operating band unwanted emissions"
+38.141-2,38141-2-k10.docx,E.1.3,OTA spurious emissions
+38.141-2,38141-2-k10.docx,E.1.4,"OTA co-location emissions, OTA transmit ON/OFF power (BS type 1-O)"
+38.141-2,38141-2-k10.docx,E.1.5,OTA transmitter intermodulation
+38.141-2,38141-2-k10.docx,E.2,Receiver
+38.141-2,38141-2-k10.docx,E.2.1,OTA sensitivity and OTA reference sensitivity level
+38.141-2,38141-2-k10.docx,E.2.2,OTA dynamic range
+38.141-2,38141-2-k10.docx,E.2.3,"OTA adjacent channel selectivity, general OTA blocking, and OTA narrowband blocking"
+38.141-2,38141-2-k10.docx,E.2.4,OTA blocking
+38.141-2,38141-2-k10.docx,E.2.4.1,General OTA out-of-band blocking
+38.141-2,38141-2-k10.docx,E.2.4.2,OTA co-location blocking
+38.141-2,38141-2-k10.docx,E.2.5,OTA receiver spurious emissions
+38.141-2,38141-2-k10.docx,E.2.6,OTA receiver intermodulation
+38.141-2,38141-2-k10.docx,E.2.7,OTA in-channel selectivity
+38.141-2,38141-2-k10.docx,E.3,Performance requirements
+38.141-2,38141-2-k10.docx,G.1,General
+38.141-2,38141-2-k10.docx,G.2,Declarations
+38.141-2,38141-2-k10.docx,I.1,General
+38.141-2,38141-2-k10.docx,I.10,Beam-based directions
+38.141-2,38141-2-k10.docx,I.11,Peak method
+38.141-2,38141-2-k10.docx,I.12,Equal sector with peak average
+38.141-2,38141-2-k10.docx,I.13,Pre-scan
+38.141-2,38141-2-k10.docx,I.2,Spherical equal angle grid
+38.141-2,38141-2-k10.docx,I.2.1,General
+38.141-2,38141-2-k10.docx,I.2.2,Reference angular step criteria
+38.141-2,38141-2-k10.docx,I.3,Spherical equal area grid
+38.141-2,38141-2-k10.docx,I.4,Spherical Fibonacci grid
+38.141-2,38141-2-k10.docx,I.5,Orthogonal cut grid
+38.141-2,38141-2-k10.docx,I.5.1,General
+38.141-2,38141-2-k10.docx,I.5.2,Operating band unwanted emissions
+38.141-2,38141-2-k10.docx,I.5.3,Spurious unwanted emissions
+38.141-2,38141-2-k10.docx,I.6,Wave vector space grid
+38.141-2,38141-2-k10.docx,I.9,Full sphere with sparse sampling
+38.141-2,38141-2-k10.docx,J.1,Static propagation condition
+38.141-2,38141-2-k10.docx,J.1.0,General
+38.141-2,38141-2-k10.docx,J.1.1,BS Receiver with 2Rx
+38.141-2,38141-2-k10.docx,J.2,Multi-path fading propagation conditions
+38.141-2,38141-2-k10.docx,J.2.1,Delay profiles
+38.141-2,38141-2-k10.docx,J.2.1.1,Delay profiles for FR1
+38.141-2,38141-2-k10.docx,J.2.1.2,Delay profiles for FR2
+38.141-2,38141-2-k10.docx,J.2.2,Combinations of channel model parameters
+38.141-2,38141-2-k10.docx,J.2.3,MIMO channel correlation matrices
+38.141-2,38141-2-k10.docx,J.2.3.1,MIMO correlation matrices using Uniform Linear Array
+38.141-2,38141-2-k10.docx,J.2.3.1.1,Definition of MIMO correlation matrices
+38.141-2,38141-2-k10.docx,J.2.3.1.2,"MIMO correlation matrices at high, medium and low level"
+38.141-2,38141-2-k10.docx,J.2.3.2,Multi-antenna channel models using cross polarized antennas
+38.141-2,38141-2-k10.docx,J.2.3.2.1,Definition of MIMO correlation matrices using cross polarized antennas
+38.141-2,38141-2-k10.docx,J.2.3.2.2,Spatial correlation matrices at UE and gNB sides
+38.141-2,38141-2-k10.docx,J.2.3.2.3,MIMO correlation matrices using cross polarized antennas
+38.141-2,38141-2-k10.docx,J.3,High speed train condition
+38.141-2,38141-2-k10.docx,J.4,Moving propagation conditions
+38.141-2,38141-2-k10.docx,L.1,General
+38.141-2,38141-2-k10.docx,L.2,Basic principles
+38.141-2,38141-2-k10.docx,L.2.1,Output signal of the TX under test
+38.141-2,38141-2-k10.docx,L.2.2,Ideal signal
+38.141-2,38141-2-k10.docx,L.2.3,Measurement results
+38.141-2,38141-2-k10.docx,L.2.4,Measurement points
+38.141-2,38141-2-k10.docx,L.3,Pre-FFT minimization process
+38.141-2,38141-2-k10.docx,L.4,Timing of the FFT window
+38.141-2,38141-2-k10.docx,L.5,Resource element TX power
+38.141-2,38141-2-k10.docx,L.6,Post-FFT equalisation
+38.141-2,38141-2-k10.docx,L.7,EVM
+38.141-2,38141-2-k10.docx,L.7.0,General
+38.141-2,38141-2-k10.docx,L.7.1,Averaged EVM (FDD)
+38.141-2,38141-2-k10.docx,L.7.2,Averaged EVM (TDD) for FR1 and FR2-1
+38.141-2,38141-2-k10.docx,L.7.3,Averaged EVM (TDD) for FR2-2
+38.141-2,38141-2-k10.docx,M.1,Testing methodology of PUSCH performance requirements with 0.001% BLER
+38.141-2,38141-2-k10.docx,M.1.1,General
+38.141-2,38141-2-k10.docx,M.1.2,Numerical definition of the pass-fail limits for testing PUSCH 0.001% BLER
+38.141-2,38141-2-k10.docx,M.1.3.1,Numerical definition of the pass-fail limits for testing PUSCH 0.001% BLER
+38.141-2,38141-2-k10.docx,M.1.3.2,Simulation to derive the pass-fail limits for testing PUSCH 0.001% BLER
+38.141-2,38141-2-k10.docx,N.1,General
+38.141-2,38141-2-k10.docx,N.2,Averaging processes
+38.141-2,38141-2-k10.docx,N.2.1,Averaging over beam directions
+38.141-2,38141-2-k10.docx,N.2.2,Averaging over horizontal and vertical angles
+38.141-2,38141-2-k10.docx,N.3,Spatial sampling grid
+38.141-2,38141-2-k10.docx,X.1,Definition and applicability
+38.141-2,38141-2-k10.docx,X.2,Minimum requirement
+38.141-2,38141-2-k10.docx,X.3,Test purpose
+38.141-2,38141-2-k10.docx,X.4,Method of test
+38.141-2,38141-2-k10.docx,X.4.1,General
+38.141-2,38141-2-k10.docx,X.5,Test requirement
 38.508-1,38508-1-k00_s00-s040311.docx,1,Scope
 38.508-1,38508-1-k00_s00-s040311.docx,2,References
 38.508-1,38508-1-k00_s00-s040311.docx,3,"Definitions, symbols and abbreviations"
@@ -5920,6 +7055,483 @@
 38.521-1,38521-1-k00_sAnnexes.docx,K.4,Test configuration
 38.521-1,38521-1-k00_sAnnexes.docx,K.5,RRC state for verification
 38.521-1,38521-1-k00_sAnnexes.docx,K.6,LP-WUS waveform
+38.521-2,38521-2-j41_s00-s05.docx,1,Scope
+38.521-2,38521-2-j41_s06-s0604D.docx,1.1,Retrieve the LO position from the parameter txDirectCurrentLocation in UplinkTxDirectCurrent IE.
+38.521-2,38521-2-j41_s06-s0604D.docx,1.2,Skip to Step 7.
+38.521-2,38521-2-j41_s06-s0604D.docx,1.2,End test procedure.
+38.521-2,38521-2-j41_s0605-s07.docx,1.2,End test procedure.
+38.521-2,38521-2-j41_s0605-s07.docx,1.5,Record all the measured EIRP1values.
+38.521-2,38521-2-j41_s00-s05.docx,2,References
+38.521-2,38521-2-j41_s06-s0604D.docx,2.1,Retrieve the LO position from the parameter txDirectCurrentLocation in UplinkTxDirectCurrent IE.
+38.521-2,38521-2-j41_s06-s0604D.docx,2.2,Skip to Step 7.
+38.521-2,38521-2-j41_s06-s0604D.docx,2.2,End test procedure.
+38.521-2,38521-2-j41_s06-s0604D.docx,2.2,PUCCH is set according to Table 6.4.2.1.4.1-2.
+38.521-2,38521-2-j41_s0605-s07.docx,2.2,End test procedure.
+38.521-2,38521-2-j41_s00-s05.docx,3,"Definitions, symbols and abbreviations"
+38.521-2,38521-2-j41_s00-s05.docx,3.1,Definitions
+38.521-2,38521-2-j41_s06-s0604D.docx,3.1,Retrieve the LO position from the parameter txDirectCurrentLocation in UplinkTxDirectCurrent IE.
+38.521-2,38521-2-j41_s0605-s07.docx,3.1,The PDCCH DCI format 0_1 is specified with the condition 2TX_UL_MIMO in 38.508-1 [10] subclause 4.3.6.1.1.2.
+38.521-2,38521-2-j41_s00-s05.docx,3.2,Symbols
+38.521-2,38521-2-j41_s06-s0604D.docx,3.2,End test procedure.
+38.521-2,38521-2-j41_s06-s0604D.docx,3.2,Set the UE in the Inband Tx beam peak direction found with a 3D EIRP scan as performed in Annex K.1.1.
+38.521-2,38521-2-j41_s00-s05.docx,3.3,Abbreviations
+38.521-2,38521-2-j41_s06-s0604D.docx,3.3,Skip to Step 7.
+38.521-2,38521-2-j41_s06-s0604D.docx,3.3,The SS shall set RS EPRE according to Table 6.4.2.1.4.1-3.
+38.521-2,38521-2-j41_s0605-s07.docx,3.3,End test procedure.
+38.521-2,38521-2-j41_s06-s0604D.docx,3.4,PRACH is set according to Table 6.4.2.1.4.1-3.
+38.521-2,38521-2-j41_s06-s0604D.docx,3.6,The UE shall send the signalled preamble to the SS.
+38.521-2,38521-2-j41_s00-s05.docx,4,General
+38.521-2,38521-2-j41_s00-s05.docx,4.1,Relationship between minimum requirements and test requirements
+38.521-2,38521-2-j41_s00-s05.docx,4.2,Applicability of minimum requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,4.2,Skip to Step 7.
+38.521-2,38521-2-j41_s06-s0604D.docx,4.2,End test procedure.
+38.521-2,38521-2-j41_s00-s05.docx,4.3,Specification suffix information
+38.521-2,38521-2-j41_s00-s05.docx,4.4,Test point analysis
+38.521-2,38521-2-j41_s00-s05.docx,4.5,Applicability and test coverage rules
+38.521-2,38521-2-j41_s00-s05.docx,5,Operating bands and channel arrangement
+38.521-2,38521-2-j41_s00-s05.docx,5.1,General
+38.521-2,38521-2-j41_s00-s05.docx,5.2,Operating bands
+38.521-2,38521-2-j41_s06-s0604D.docx,5.2,Skip to Step 7.
+38.521-2,38521-2-j41_s00-s05.docx,5.3,UE Channel bandwidth
+38.521-2,38521-2-j41_s00-s05.docx,5.3.1,General
+38.521-2,38521-2-j41_s00-s05.docx,5.3.2,Maximum transmission bandwidth configuration
+38.521-2,38521-2-j41_s00-s05.docx,5.3.3,Minimum guardband and transmission bandwidth configuration
+38.521-2,38521-2-j41_s00-s05.docx,5.3.4,RB alignment
+38.521-2,38521-2-j41_s00-s05.docx,5.3.5,Channel bandwidth per operating band
+38.521-2,38521-2-j41_s00-s05.docx,5.4,Channel arrangement
+38.521-2,38521-2-j41_s00-s05.docx,5.4.1,Channel spacing
+38.521-2,38521-2-j41_s00-s05.docx,5.4.1.1,Channel spacing for adjacent NR carriers
+38.521-2,38521-2-j41_s00-s05.docx,5.4.2,Channel raster
+38.521-2,38521-2-j41_s00-s05.docx,5.4.2.1,NR-ARFCN and channel raster
+38.521-2,38521-2-j41_s00-s05.docx,5.4.2.2,Channel raster to resource element mapping
+38.521-2,38521-2-j41_s00-s05.docx,5.4.2.3,Channel raster entries for each operating band
+38.521-2,38521-2-j41_s00-s05.docx,5.4.3,Synchronization raster
+38.521-2,38521-2-j41_s00-s05.docx,5.4.3.1,Synchronization raster and numbering
+38.521-2,38521-2-j41_s00-s05.docx,5.4.3.2,Synchronization raster to synchronization block resource element mapping
+38.521-2,38521-2-j41_s00-s05.docx,5.4.3.3,Synchronization raster entries for each operating band
+38.521-2,38521-2-j41_s00-s05.docx,5.5,Configurations
+38.521-2,38521-2-j41_s06-s0604D.docx,6,Transmitter characteristics
+38.521-2,38521-2-j41_s06-s0604D.docx,6.1,General
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2,Transmit power
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.1,UE maximum output power
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.1.0,General
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.1.1,UE maximum output power - EIRP and TRP
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.1.2,UE maximum output power - Spherical coverage
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.2,UE maximum output power reduction
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.2.0,General
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.2.1,Test purpose
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.2.2,Test applicability
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.2.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.2.4,Test description
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.2.5,Test requirement
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.3,UE maximum output power with additional requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.3.1,Test purpose
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.3.2,Test applicability
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.3.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.3.4,Test description
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.3.5,Test requirement
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.4,Configured transmitted power
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.4.1,Test purpose
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.4.2,Test applicability
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.4.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.4.4,Test description
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.4.5,Test requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.5,UE maximum output power – EIRP with UL Gaps
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.5.1,Test purpose
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.5.2,Test applicability
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.5.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.5.4,Test description
+38.521-2,38521-2-j41_s06-s0604D.docx,6.2.5.5,Test requirement
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3,Output power dynamics
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.1,Minimum output power
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.1.1,Test purpose
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.1.2,Test applicability
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.1.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.1.4,Test description
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.1.5,Test requirement
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.2,Transmit OFF power
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.2.1,Test purpose
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.2.2,Test applicability
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.2.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.2.4,Test description
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.2.5,Test requirement
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3,Transmit ON/OFF time mask
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3.1,General
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3.2,General ON/OFF time mask
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3.3,Transmit power time mask for slot and short or long subslot boundaries
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3.4,PRACH time mask
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3.6,SRS time mask
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3.7,PUSCH-PUCCH and PUSCH-SRS time masks
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.3.9,Transmit power time mask for consecutive short subslot transmissions boundaries
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.4,Power control
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.4.1,General
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.4.2,Absolute power tolerance
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.4.3,Relative power tolerance
+38.521-2,38521-2-j41_s06-s0604D.docx,6.3.4.4,Aggregate power tolerance
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4,Transmit signal quality
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.1,Frequency error
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.1.1,Test purpose
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.1.2,Test applicability
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.1.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.1.4,Test description
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.1.5,Test requirement
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.2,Transmit modulation quality
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.2.1,Error vector magnitude
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.2.2,Carrier leakage
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.2.3,In-band emissions
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.2.4,EVM equalizer spectrum flatness
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.2.5,EVM spectral flatness for pi/2 BPSK modulation
+38.521-2,38521-2-j41_s06-s0604D.docx,6.4.2.6,Phase continuity requirements for DMRS bundling
+38.521-2,38521-2-j41_s0605-s07.docx,6.5,Output RF spectrum emissions
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.1,Occupied bandwidth
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.1.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.1.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.1.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.1.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.1.5,Test requirement
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.2,Out of band emission
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.2.1,Spectrum Emission Mask
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.2.3,Adjacent channel leakage ratio
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.3,Spurious emissions
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.3.1,Transmitter Spurious emissions
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.3.2,Spurious emission band UE co-existence
+38.521-2,38521-2-j41_s0605-s07.docx,6.5.3.3,Additional spurious emissions
+38.521-2,38521-2-j41_s0605-s07.docx,6.6,Beam correspondence
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.0,General
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.1,Beam correspondence - EIRP
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.1.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.1.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.1.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.1.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.1.5,Test requirements
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.2,Enhanced Beam correspondence – EIRP
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.2.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.2.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.2.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.2.5,Test requirements
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.3,Beam Correspondence in RRC_INACTIVE and initial access
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.3.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.3.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.3.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.3.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,6.6.3.5,Test requirement
+38.521-2,38521-2-j41_s0605-s07.docx,7,Receiver characteristics
+38.521-2,38521-2-j41_s0605-s07.docx,7.1,General
+38.521-2,38521-2-j41_s0605-s07.docx,7.2,Diversity characteristics
+38.521-2,38521-2-j41_s0605-s07.docx,7.3,Reference sensitivity
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.1,General
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.2,Reference sensitivity power level
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.2.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.2.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.2.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.2.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.2.5,Test requirement
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.4,EIS spherical coverage
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.4.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.4.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.4.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.4.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,7.3.4.5,Test requirement
+38.521-2,38521-2-j41_s0605-s07.docx,7.4,Maximum input level
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.4.1,Initial conditions
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.4.2,Test procedure
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.4.3,Message contents
+38.521-2,38521-2-j41_s0605-s07.docx,7.4.5,Test requirement
+38.521-2,38521-2-j41_s0605-s07.docx,7.5,Adjacent channel selectivity
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.4.1,Initial conditions
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.4.2,Test procedure
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.4.3,Message contents
+38.521-2,38521-2-j41_s0605-s07.docx,7.5.5,Test requirements
+38.521-2,38521-2-j41_s0605-s07.docx,7.6,Blocking characteristics
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.1,General
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.2,In-band blocking
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.2.0,General
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.2.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.2.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.2.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.2.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,7.6.2.5,Test requirement
+38.521-2,38521-2-j41_s0605-s07.docx,7.9,Spurious emissions
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.1,Test purpose
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.2,Test applicability
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.3,Minimum conformance requirements
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.4,Test description
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.4.1,Initial conditions
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.4.2,Test procedure
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.4.3,Message contents
+38.521-2,38521-2-j41_s0605-s07.docx,7.9.5,Test requirement
+38.521-2,38521-2-j41_sAnnexes.docx,A.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,A.2,UL reference measurement channels
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3,Reference measurement channels for TDD
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.1,DFT-s-OFDM Pi/2-BPSK
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.2,DFT-s-OFDM QPSK
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.3,DFT-s-OFDM 16QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.4,DFT-s-OFDM 64QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.5,CP-OFDM QPSK
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.6,CP-OFDM 16QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.7,CP-OFDM 64QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.8,DFT-s-OFDM 256QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.2.3.9,CP-OFDM 256QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.3,DL reference measurement channels
+38.521-2,38521-2-j41_sAnnexes.docx,A.3.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,A.3.3,DL reference measurement channels for TDD
+38.521-2,38521-2-j41_sAnnexes.docx,A.3.3.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,A.3.3.2,FRC for receiver requirements for QPSK
+38.521-2,38521-2-j41_sAnnexes.docx,A.3.3.3,FRC for receiver requirements for 16QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.3.3.4,FRC for receiver requirements for 64QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.3.3.5,FRC for receiver requirements for 256QAM
+38.521-2,38521-2-j41_sAnnexes.docx,A.5,OFDMA Channel Noise Generator (OCNG)
+38.521-2,38521-2-j41_sAnnexes.docx,A.5.1,OCNG Patterns for FDD
+38.521-2,38521-2-j41_sAnnexes.docx,A.5.2,OCNG Patterns for TDD
+38.521-2,38521-2-j41_sAnnexes.docx,A.5.2.1,OCNG TDD pattern 1: Generic OCNG TDD Pattern for all unused REs
+38.521-2,38521-2-j41_sAnnexes.docx,A.6,FR2 RF tests with testability issues
+38.521-2,38521-2-j41_sAnnexes.docx,A.6.1,FR2 RF tests with testability issues not related to Measurement Uncertainty (MU)
+38.521-2,38521-2-j41_sAnnexes.docx,Annex C,(normative): Downlink Physical Channels
+38.521-2,38521-2-j41_sAnnexes.docx,Annex S,(normative):	LP-WUS/WUR test method
+38.521-2,38521-2-j41_sAnnexes.docx,B.0,No interference
+38.521-2,38521-2-j41_sAnnexes.docx,C.0,Downlink signal levels
+38.521-2,38521-2-j41_sAnnexes.docx,C.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,C.2,Setup
+38.521-2,38521-2-j41_sAnnexes.docx,C.3,Connection
+38.521-2,38521-2-j41_sAnnexes.docx,C.3.0,Measurement of Transmitter Characteristics
+38.521-2,38521-2-j41_sAnnexes.docx,C.3.1,Measurement of Receiver Characteristics
+38.521-2,38521-2-j41_sAnnexes.docx,D.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,D.2,Interference signals
+38.521-2,38521-2-j41_sAnnexes.docx,E.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,E.2,Signals and results
+38.521-2,38521-2-j41_sAnnexes.docx,E.2.1,Basic principle
+38.521-2,38521-2-j41_sAnnexes.docx,E.2.2,Output signal of the TX under test
+38.521-2,38521-2-j41_sAnnexes.docx,E.2.3,Reference signal
+38.521-2,38521-2-j41_sAnnexes.docx,E.2.4,Measurement results
+38.521-2,38521-2-j41_sAnnexes.docx,E.2.5,Measurement points
+38.521-2,38521-2-j41_sAnnexes.docx,E.3,Signal processing
+38.521-2,38521-2-j41_sAnnexes.docx,E.3.1,Pre FFT minimization process
+38.521-2,38521-2-j41_sAnnexes.docx,E.3.2,Timing of the FFT window
+38.521-2,38521-2-j41_sAnnexes.docx,E.3.3,Post FFT equalisation
+38.521-2,38521-2-j41_sAnnexes.docx,E.4,Derivation of the results
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.1,EVM
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.2,Averaged EVM
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.3,In-band emissions measurement
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.4,EVM equalizer spectrum flatness
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.5,Frequency error and Carrier leakage
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.6,EVM of Demodulation reference symbols (EVMDMRS)
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.6.1,1st average for EVM DMRS
+38.521-2,38521-2-j41_sAnnexes.docx,E.4.6.2,Final average for EVM DMRS
+38.521-2,38521-2-j41_sAnnexes.docx,E.5,EVM and inband emissions for PUCCH
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.1,Basic principle
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.10,Modified signal under test
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.2,Output signal of the TX under test
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.3,Reference signal
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.4,Measurement results
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.5,Measurement points
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.6,Pre FFT minimization process
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.7,Timing of the FFT window
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.8,Post FFT equalisation
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.9,Derivation of the results
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.9.1,EVMPUCCH
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.9.2,Averaged EVMPUCCH
+38.521-2,38521-2-j41_sAnnexes.docx,E.5.9.3,In-band emissions measurement
+38.521-2,38521-2-j41_sAnnexes.docx,E.6,EVM for PRACH
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.1,Basic principle
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.10,Modified signal under test
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.11,Phase offset measurement for DMRS bundling
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.11.1,Measurement point
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.11.2,Symbols used
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.11.3,Modified test signal
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.11.4,Phase offset measurement
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.2,Output signal of the TX under test
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.3,Reference signal
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.4,Measurement results
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.5,Measurement points
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.6,Pre FFT minimization process
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.7,Timing of the FFT window
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.8,Post FFT equalisation
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.9,Derivation of the results
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.9.1,EVMPRACH
+38.521-2,38521-2-j41_sAnnexes.docx,E.6.9.2,Averaged EVMPRACH
+38.521-2,38521-2-j41_sAnnexes.docx,E.7,EVM for dual transmit polarizations
+38.521-2,38521-2-j41_sAnnexes.docx,E.7.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,E.7.2,MIMO Equalization (UL MIMO transmission)
+38.521-2,38521-2-j41_sAnnexes.docx,E.7.3,Maximum Ratio combining (Tx diversity transmission)
+38.521-2,38521-2-j41_sAnnexes.docx,E.7.4,Layer processing
+38.521-2,38521-2-j41_sAnnexes.docx,F.1,Acceptable uncertainty of Test System (normative)
+38.521-2,38521-2-j41_sAnnexes.docx,F.1.0,General
+38.521-2,38521-2-j41_sAnnexes.docx,F.1.1,Measurement of test environments
+38.521-2,38521-2-j41_sAnnexes.docx,F.1.2,Measurement of transmitter
+38.521-2,38521-2-j41_sAnnexes.docx,F.1.3,Measurement of receiver
+38.521-2,38521-2-j41_sAnnexes.docx,F.10,FFS
+38.521-2,38521-2-j41_sAnnexes.docx,F.2,Interpretation of measurement results (normative)
+38.521-2,38521-2-j41_sAnnexes.docx,F.3.1,Measurement of test environments
+38.521-2,38521-2-j41_sAnnexes.docx,F.3.2,Measurement of transmitter
+38.521-2,38521-2-j41_sAnnexes.docx,F.3.3,Measurement of receiver
+38.521-2,38521-2-j41_sAnnexes.docx,F.4,Uplink power window
+38.521-2,38521-2-j41_sAnnexes.docx,F.4.1,Introduction
+38.521-2,38521-2-j41_sAnnexes.docx,F.4.2,Setting the power window above a requirement
+38.521-2,38521-2-j41_sAnnexes.docx,F.4.3,Setting the power window below a requirement
+38.521-2,38521-2-j41_sAnnexes.docx,F.4.4,Setting the power window centred on a target value
+38.521-2,38521-2-j41_sAnnexes.docx,F.8,FFS
+38.521-2,38521-2-j41_sAnnexes.docx,F.9,FFS
+38.521-2,38521-2-j41_sAnnexes.docx,G.0,Uplink Signal Levels
+38.521-2,38521-2-j41_sAnnexes.docx,G.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,G.2,Set-up
+38.521-2,38521-2-j41_sAnnexes.docx,G.3,Connection
+38.521-2,38521-2-j41_sAnnexes.docx,G.3.0,Measurement of Transmitter Characteristics
+38.521-2,38521-2-j41_sAnnexes.docx,G.3.1,Measurement of Receiver Characteristics
+38.521-2,38521-2-j41_sAnnexes.docx,H.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,H.2,Statistical testing of receiver characteristics
+38.521-2,38521-2-j41_sAnnexes.docx,H.2.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,H.2.2,Mapping throughput to error ratio
+38.521-2,38521-2-j41_sAnnexes.docx,H.2.3,Design of the test
+38.521-2,38521-2-j41_sAnnexes.docx,H.2.4,Numerical definition of the pass fail limits
+38.521-2,38521-2-j41_sAnnexes.docx,H.2.5,Pass fail decision rules
+38.521-2,38521-2-j41_sAnnexes.docx,H.2.6.1,Numerical definition of the pass-fail limits
+38.521-2,38521-2-j41_sAnnexes.docx,H.2.6.2,Simulation to derive the pass-fail limits for testing 95% throughput
+38.521-2,38521-2-j41_sAnnexes.docx,K.1,Direct far field (DFF)
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.1,TX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.11,RSRP(B) based RX beam peak search
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.11.1,Test procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.12,Enhanced test method for EIRP measurements
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.12.1,Applicability of TPMI side condition method
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.12.2,TPMI side condition method Measurement uncertainties impact
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.2,RX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.3,Peak EIRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.4,Peak EIS measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.5,EIRP spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.5.0,Tx Spherical Coverage Method
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.5.1,Tx Fast Spherical Coverage Method
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.5.1.1,Introduction
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.5.1.2,Description
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.5.1.3,Measurement uncertainties
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.6,EIS spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.6.0,Rx Spherical Coverage Method
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.6.1,Rx Fast Spherical Coverage Method
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.6.1.1,Introduction
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.6.1.2,Description
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.6.1.3,Measurement uncertainties
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.7,TRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.8,Blocking measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.1.9,Beam Correspondence tolerance procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.2,Direct far field (DFF) simplification
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.1,TX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.2,RX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.3,Peak EIRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.4,Peak EIS measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.5,EIRP spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.6,EIS spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.7,TRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.2.8,Blocking measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.3,Indirect far field (IFF)
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.1,TX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.2,RX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.3,Peak EIRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.4,Peak EIS measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.5,EIRP spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.6,EIS spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.7,TRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.3.8,Blocking measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.4,Near field to far field transform (NFTF)
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.1,TX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.2,RX beam peak direction search
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.3,Peak EIRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.4,Peak EIS measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.5,EIRP spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.6,EIS spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.7,TRP measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,K.4.8,Blocking measurement procedure
+38.521-2,38521-2-j41_sAnnexes.docx,M.1,Grid Types
+38.521-2,38521-2-j41_sAnnexes.docx,M.2,Beam Peak Search Grid
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.1,UE Power classes
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.1.1,Power class 1 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.1.2,Power class 2 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.1.3,Power class 3 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.1.4,Power class 4 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.1.5,Power class 5 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.1.6,Power class 6 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.2.2,Coarse and fine measurement grids
+38.521-2,38521-2-j41_sAnnexes.docx,M.3,Spherical Coverage Grid
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1,EIRP spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1.1,UE Power classes
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1.1.1,Power class 1 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1.1.2,Power class 2 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1.1.3,Power class 3 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1.1.4,Power class 4 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1.1.5,Power class 5 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.1.1.6,Power class 6 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2,EIS spherical coverage
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2.1,UE Power classes
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2.1.1,Power class 1 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2.1.2,Power class 2 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2.1.3,Power class 3 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2.1.4,Power class 4 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2.1.5,Power class 5 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.3.2.1.6,Power class 6 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.4,TRP Measurement Grid
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.1,UE Power Classes
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.1.1,Power class 1 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.1.2,Power class 2 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.1.3,Power class 3 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.1.4,Power class 4 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.1.5,Power class 5 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.1.6,Power class 6 devices
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.2,TRP Integration for Constant Step Size Grid Type
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.2.1,TRP Integration using Weights
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.3,TRP Integration for Constant Density Grid Types
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.4,Interpolation at or near the Pole
+38.521-2,38521-2-j41_sAnnexes.docx,M.4.5,TRP Grids for Spurious Emissions
+38.521-2,38521-2-j41_sAnnexes.docx,N.1,Reference coordinate system
+38.521-2,38521-2-j41_sAnnexes.docx,N.2,Test conditions and angle definitions
+38.521-2,38521-2-j41_sAnnexes.docx,N.3,DUT positioning guidelines
+38.521-2,38521-2-j41_sAnnexes.docx,O.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,O.2,Procedure to characterize the quality of the quiet zone for in-band/OOB for the permitted far field methods
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.1,Equipment used
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.2,Test frequencies
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.3,Reference measurements
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.4,Size of the quiet zone
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.5,Reference AUT positions
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.5.1,Distributed-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.5.2,Combined-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.6,Reference AUT orientations
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.6.1,Distributed-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.6.2,Combined-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.7,Quality of quiet zone measurement uncertainty calculations for TRP
+38.521-2,38521-2-j41_sAnnexes.docx,O.2.8,Quality of quiet zone measurement uncertainty for EIRP/EIS
+38.521-2,38521-2-j41_sAnnexes.docx,O.3,Procedure to characterize the spurious emissions quality of the quiet zone for the permitted far field methods
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.1,Equipment used
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.2,Test frequencies
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.3,Reference measurements
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.4,Size of the quiet zone
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.5,Reference AUT positions
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.5.1,Distributed-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.5.2,Combined-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.6,Reference AUT orientations
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.6.1,Distributed-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.6.2,Combined-axes system
+38.521-2,38521-2-j41_sAnnexes.docx,O.3.7,Quality of quiet zone measurement uncertainty calculations for TRP
+38.521-2,38521-2-j41_sAnnexes.docx,P.1,Indication of modified MPR behaviour
+38.521-2,38521-2-j41_sAnnexes.docx,Q.0,General
+38.521-2,38521-2-j41_sAnnexes.docx,Q.1,Measurement Point
+38.521-2,38521-2-j41_sAnnexes.docx,Q.2,Relative Phase Error Measurement
+38.521-2,38521-2-j41_sAnnexes.docx,Q.2.1,Symbols used
+38.521-2,38521-2-j41_sAnnexes.docx,Q.2.2,CFO (carrier frequency offset) correction
+38.521-2,38521-2-j41_sAnnexes.docx,Q.2.3,Steps of the measurement method
+38.521-2,38521-2-j41_sAnnexes.docx,R.1,Spherical coverage grid for simultaneous reception or transmission in multiple directions
+38.521-2,38521-2-j41_sAnnexes.docx,R.2,Probability to support 2AoA reception
+38.521-2,38521-2-j41_sAnnexes.docx,R.3,Spherical coverage procedure for simultaneous multi-Rx reception
+38.521-2,38521-2-j41_sAnnexes.docx,S.1,General
+38.521-2,38521-2-j41_sAnnexes.docx,S.2,Measurement of the miss detection rate
+38.521-2,38521-2-j41_sAnnexes.docx,S.3,Side conditions on the Main Radio channels carrying the UE response
+38.521-2,38521-2-j41_sAnnexes.docx,S.4,Test configuration
+38.521-2,38521-2-j41_sAnnexes.docx,S.5,RRC state for verification
+38.521-2,38521-2-j41_sAnnexes.docx,S.6,LP-WUS waveform
 38.521-3,38521-3-k00.docx,1,Scope
 38.521-3,38521-3-k00.docx,2,References
 38.521-3,38521-3-k00.docx,2.1,The parameter settings for E-UTRA cell are set up according to TS 36.508 [11] clause 4.4.3.

@@ -1,0 +1,461 @@
+﻿规范,文件,条款,标题
+37.544,37544-g70.docx,1,Scope
+37.544,37544-g70.docx,2,References
+37.544,37544-g70.docx,3,"Definitions, symbols and abbreviations"
+37.544,37544-g70.docx,3.1,Definitions
+37.544,37544-g70.docx,3.2,Symbols
+37.544,37544-g70.docx,3.3,Abbreviations
+37.544,37544-g70.docx,4,General
+37.544,37544-g70.docx,4.1,Terminal classes
+37.544,37544-g70.docx,4.1.1,Mechanical modes
+37.544,37544-g70.docx,4.2,UTRA chip rates
+37.544,37544-g70.docx,4.3,DUT positioning
+37.544,37544-g70.docx,4.3.1,DUT positioning for Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,4.3.2,DUT positioning for LMEs on Laptop Ground Plane Phantom
+37.544,37544-g70.docx,4.3.3,DUT positioning for Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,4.3.3.1,General
+37.544,37544-g70.docx,4.3.3.2,Mono-blocks and closed sliders
+37.544,37544-g70.docx,4.3.3.3,Folds and open-slides
+37.544,37544-g70.docx,4.3.3.4,PDA
+37.544,37544-g70.docx,4.3.3.5,Wide Grip Hand Phantom
+37.544,37544-g70.docx,4.3.4,DUT positioning for Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,4.3.4.1,General
+37.544,37544-g70.docx,4.3.4.2,Narrow DUT
+37.544,37544-g70.docx,4.3.4.3,PDA
+37.544,37544-g70.docx,4.3.4.5,Wide Grip Hand Phantom
+37.544,37544-g70.docx,4.3.5,DUT positioning for devices with embedded modules
+37.544,37544-g70.docx,4.3.6,DUT positioning for total radiated multi-antenna sensitivity
+37.544,37544-g70.docx,4.3.6.1,Handheld UE – Free Space
+37.544,37544-g70.docx,4.4,Sampling grid
+37.544,37544-g70.docx,4.5,Number of independent samples (for reverberation chamber procedure)
+37.544,37544-g70.docx,5,Measurement frequencies
+37.544,37544-g70.docx,5.1,UTRA FDD frequency bands and measurement channels
+37.544,37544-g70.docx,5.2,UTRA TDD frequency bands and measurement channels
+37.544,37544-g70.docx,5.3,E-UTRA FDD frequency bands and measurement frequencies allocations
+37.544,37544-g70.docx,5.4,E-UTRA TDD frequency bands and measurement frequencies allocations
+37.544,37544-g70.docx,6,Transmitter Performance
+37.544,37544-g70.docx,6.1,Performance for handheld UE
+37.544,37544-g70.docx,6.1.1,Total Radiated Power (TRP) for UTRA FDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,6.1.1.1,Definition and applicability
+37.544,37544-g70.docx,6.1.1.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.1.3,Test purpose
+37.544,37544-g70.docx,6.1.1.4,Method of test
+37.544,37544-g70.docx,6.1.1.5,Test requirements
+37.544,37544-g70.docx,6.1.2,Total Radiated Power (TRP) for UTRA LCR TDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,6.1.2.1,Definition and applicability
+37.544,37544-g70.docx,6.1.2.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.2.3,Test purpose
+37.544,37544-g70.docx,6.1.2.4,Method of test
+37.544,37544-g70.docx,6.1.2.5,Test requirements
+37.544,37544-g70.docx,6.1.3,Total Radiated Power (TRP) for UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.3.1,Definition and applicability
+37.544,37544-g70.docx,6.1.3.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.3.3,Test purpose
+37.544,37544-g70.docx,6.1.3.4,Method of test
+37.544,37544-g70.docx,6.1.3.5,Test requirements
+37.544,37544-g70.docx,6.1.4,Total Radiated Power (TRP) for UTRA LCR TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.4.1,Definition and applicability
+37.544,37544-g70.docx,6.1.4.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.4.3,Test purpose
+37.544,37544-g70.docx,6.1.4.4,Method of test
+37.544,37544-g70.docx,6.1.4.5,Test requirements
+37.544,37544-g70.docx,6.1.5,Total Radiated Power (TRP) for E-UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.5.1,Definition and applicability
+37.544,37544-g70.docx,6.1.5.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.5.3,Test purpose
+37.544,37544-g70.docx,6.1.5.4,Method of test
+37.544,37544-g70.docx,6.1.5.5,Test requirements
+37.544,37544-g70.docx,6.1.6,Total Radiated Power (TRP) for E-UTRA TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,6.1.6.1,Definition and applicability
+37.544,37544-g70.docx,6.1.6.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.6.3,Test purpose
+37.544,37544-g70.docx,6.1.6.4,Method of test
+37.544,37544-g70.docx,6.1.6.5,Test requirements
+37.544,37544-g70.docx,6.1.7,Total Radiated Power (TRP) for UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.7.1,Definition and applicability
+37.544,37544-g70.docx,6.1.7.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.7.3,Test purpose
+37.544,37544-g70.docx,6.1.7.4,Method of test
+37.544,37544-g70.docx,6.1.7.5,Test requirements
+37.544,37544-g70.docx,6.1.8,Total Radiated Power (TRP) for UTRA LCR TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.8.1,Definition and applicability
+37.544,37544-g70.docx,6.1.8.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.8.3,Test purpose
+37.544,37544-g70.docx,6.1.8.4,Method of test
+37.544,37544-g70.docx,6.1.8.5,Test requirements
+37.544,37544-g70.docx,6.1.9,Total Radiated Power (TRP) for E-UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.9.1,Definition and applicability
+37.544,37544-g70.docx,6.1.9.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.9.3,Test purpose
+37.544,37544-g70.docx,6.1.9.4,Method of test
+37.544,37544-g70.docx,6.1.9.5,Test requirements
+37.544,37544-g70.docx,6.1.10,Total Radiated Power (TRP) for E-UTRA TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,6.1.10.1,Definition and applicability
+37.544,37544-g70.docx,6.1.10.2,Minimum Requirements
+37.544,37544-g70.docx,6.1.10.3,Test purpose
+37.544,37544-g70.docx,6.1.10.4,Method of test
+37.544,37544-g70.docx,6.1.10.5,Test requirements
+37.544,37544-g70.docx,6.2,Performance for LME
+37.544,37544-g70.docx,6.2.1,Total Radiated Power (TRP) for UTRA FDD LME
+37.544,37544-g70.docx,6.2.1.1,Definition and applicability
+37.544,37544-g70.docx,6.2.1.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.1.3,Test purpose
+37.544,37544-g70.docx,6.2.1.4,Method of test
+37.544,37544-g70.docx,6.2.1.5,Test requirements
+37.544,37544-g70.docx,6.2.2,Total Radiated Power (TRP) for UTRA LCR TDD LME
+37.544,37544-g70.docx,6.2.2.1,Definition and applicability
+37.544,37544-g70.docx,6.2.2.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.2.3,Test purpose
+37.544,37544-g70.docx,6.2.2.4,Method of test
+37.544,37544-g70.docx,6.2.2.5,Test requirements
+37.544,37544-g70.docx,6.2.3,Total Radiated Power (TRP) for E-UTRA FDD LME
+37.544,37544-g70.docx,6.2.3.1,Definition and applicability
+37.544,37544-g70.docx,6.2.3.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.3.3,Test purpose
+37.544,37544-g70.docx,6.2.3.4,Method of test
+37.544,37544-g70.docx,6.2.3.5,Test requirements
+37.544,37544-g70.docx,6.2.4,Total Radiated Power (TRP) for E-UTRA TDD LME
+37.544,37544-g70.docx,6.2.4.1,Definition and applicability
+37.544,37544-g70.docx,6.2.4.2,Minimum Requirements
+37.544,37544-g70.docx,6.2.4.3,Test purpose
+37.544,37544-g70.docx,6.2.4.4,Method of test
+37.544,37544-g70.docx,6.2.4.5,Test requirements
+37.544,37544-g70.docx,6.3,Performance for LEE
+37.544,37544-g70.docx,6.3.1,Total Radiated Power (TRP) for UTRA FDD LEE
+37.544,37544-g70.docx,6.3.1.1,Definition and applicability
+37.544,37544-g70.docx,6.3.1.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.1.3,Test purpose
+37.544,37544-g70.docx,6.3.1.4,Method of test
+37.544,37544-g70.docx,6.3.1.5,Test requirements
+37.544,37544-g70.docx,6.3.2,Total Radiated Power (TRP) for UTRA LCR TDD LEE
+37.544,37544-g70.docx,6.3.2.1,Definition and applicability
+37.544,37544-g70.docx,6.3.2.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.2.3,Test purpose
+37.544,37544-g70.docx,6.3.2.4,Method of test
+37.544,37544-g70.docx,6.3.2.5,Test requirements
+37.544,37544-g70.docx,6.3.3,Total Radiated Power (TRP) for E-UTRA FDD LEE
+37.544,37544-g70.docx,6.3.3.1,Definition and applicability
+37.544,37544-g70.docx,6.3.3.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.3.3,Test purpose
+37.544,37544-g70.docx,6.3.3.4,Method of test
+37.544,37544-g70.docx,6.3.3.5,Test requirements
+37.544,37544-g70.docx,6.3.4,Total Radiated Power (TRP) for E-UTRA TDD LEE
+37.544,37544-g70.docx,6.3.4.1,Definition and applicability
+37.544,37544-g70.docx,6.3.4.2,Minimum Requirements
+37.544,37544-g70.docx,6.3.4.3,Test purpose
+37.544,37544-g70.docx,6.3.4.4,Method of test
+37.544,37544-g70.docx,6.3.4.5,Test requirements
+37.544,37544-g70.docx,7,Receiver Performance
+37.544,37544-g70.docx,7.1,Performance for handheld UE
+37.544,37544-g70.docx,7.1.1,Total Radiated Sensitivity (TRS) for UTRA FDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,7.1.1.1,Definition and applicability
+37.544,37544-g70.docx,7.1.1.2,Minimum requirements
+37.544,37544-g70.docx,7.1.1.3,Test Purpose
+37.544,37544-g70.docx,7.1.1.4,Method of test
+37.544,37544-g70.docx,7.1.1.5,Test requirements
+37.544,37544-g70.docx,7.1.2,Total Radiated Sensitivity (TRS) for UTRA LCR TDD in Speech Mode with beside the Head Phantom
+37.544,37544-g70.docx,7.1.2.1,Definition and applicability
+37.544,37544-g70.docx,7.1.2.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.2.3,Test purpose
+37.544,37544-g70.docx,7.1.2.4,Method of test
+37.544,37544-g70.docx,7.1.2.5,Test requirements
+37.544,37544-g70.docx,7.1.3,Total Radiated Sensitivity (TRS) for UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.3.1,Definition and applicability
+37.544,37544-g70.docx,7.1.3.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.3.3,Test purpose
+37.544,37544-g70.docx,7.1.3.4,Method of test
+37.544,37544-g70.docx,7.1.3.5,Test requirements
+37.544,37544-g70.docx,7.1.4,Total Radiated Sensitivity (TRS) for UTRA LCR TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.4.1,Definition and applicability
+37.544,37544-g70.docx,7.1.4.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.4.3,Test purpose
+37.544,37544-g70.docx,7.1.4.5,Test requirements
+37.544,37544-g70.docx,7.1.5,Total Radiated Sensitivity (TRS) for E-UTRA FDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.5.1,Definition and applicability
+37.544,37544-g70.docx,7.1.5.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.5.3,Test purpose
+37.544,37544-g70.docx,7.1.5.4,Method of test
+37.544,37544-g70.docx,7.1.5.5,Test requirements
+37.544,37544-g70.docx,7.1.6,Total Radiated Sensitivity (TRS) for E-UTRA TDD in Speech Mode with beside the Head and Hand Phantom
+37.544,37544-g70.docx,7.1.6.1,Definition and applicability
+37.544,37544-g70.docx,7.1.6.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.6.3,Test purpose
+37.544,37544-g70.docx,7.1.6.4,Method of test
+37.544,37544-g70.docx,7.1.6.5,Test requirements
+37.544,37544-g70.docx,7.1.7,Total Radiated Sensitivity (TRS) for UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.7.1,Definition and applicability
+37.544,37544-g70.docx,7.1.7.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.7.3,Test purpose
+37.544,37544-g70.docx,7.1.7.4,Method of test
+37.544,37544-g70.docx,7.1.7.5,Test requirements
+37.544,37544-g70.docx,7.1.8,Total Radiated Sensitivity (TRS) for UTRA LCR TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.8.1,Definition and applicability
+37.544,37544-g70.docx,7.1.8.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.8.3,Test purpose
+37.544,37544-g70.docx,7.1.8.4,Method of test
+37.544,37544-g70.docx,7.1.8.5,Test requirements
+37.544,37544-g70.docx,7.1.9,Total Radiated Sensitivity (TRS) for E-UTRA FDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.9.1,Definition and applicability
+37.544,37544-g70.docx,7.1.9.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.9.3,Test purpose
+37.544,37544-g70.docx,7.1.9.4,Method of test
+37.544,37544-g70.docx,7.1.9.5,Test requirements
+37.544,37544-g70.docx,7.1.10,Total Radiated Sensitivity (TRS) for E-UTRA TDD in Browsing Mode with Hand Phantom
+37.544,37544-g70.docx,7.1.10.1,Definition and applicability
+37.544,37544-g70.docx,7.1.10.2,Minimum Requirements
+37.544,37544-g70.docx,7.1.10.3,Test purpose
+37.544,37544-g70.docx,7.1.10.4,Method of test
+37.544,37544-g70.docx,7.1.10.5,Test requirements
+37.544,37544-g70.docx,7.2,Performance for LME
+37.544,37544-g70.docx,7.2.1,Total Radiated Sensitivity (TRS) for UTRA FDD LME
+37.544,37544-g70.docx,7.2.1.1,Definition and applicability
+37.544,37544-g70.docx,7.2.1.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.1.3,Test purpose
+37.544,37544-g70.docx,7.2.1.4,Method of test
+37.544,37544-g70.docx,7.2.1.5,Test requirements
+37.544,37544-g70.docx,7.2.2,Total Radiated Sensitivity (TRS) for UTRA LCR TDD LME
+37.544,37544-g70.docx,7.2.2.1,Definition and applicability
+37.544,37544-g70.docx,7.2.2.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.2.3,Test purpose
+37.544,37544-g70.docx,7.2.2.4,Method of test
+37.544,37544-g70.docx,7.2.2.5,Test requirements
+37.544,37544-g70.docx,7.2.3,Total Radiated Sensitivity (TRS) for E-UTRA FDD LME
+37.544,37544-g70.docx,7.2.3.1,Definition and applicability
+37.544,37544-g70.docx,7.2.3.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.3.3,Test purpose
+37.544,37544-g70.docx,7.2.3.4,Method of test
+37.544,37544-g70.docx,7.2.3.5,Test requirements
+37.544,37544-g70.docx,7.2.4,Total Radiated Sensitivity (TRS) for E-UTRA TDD LME
+37.544,37544-g70.docx,7.2.4.1,Definition and applicability
+37.544,37544-g70.docx,7.2.4.2,Minimum Requirements
+37.544,37544-g70.docx,7.2.4.3,Test purpose
+37.544,37544-g70.docx,7.2.4.4,Method of test
+37.544,37544-g70.docx,7.2.4.5,Test requirements
+37.544,37544-g70.docx,7.3,Performance for LEE
+37.544,37544-g70.docx,7.3.1,Total Radiated Sensitivity (TRS) for UTRA FDD LEE
+37.544,37544-g70.docx,7.3.1.1,Definition and applicability
+37.544,37544-g70.docx,7.3.1.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.1.3,Test purpose
+37.544,37544-g70.docx,7.3.1.4,Method of test
+37.544,37544-g70.docx,7.3.1.5,Test requirements
+37.544,37544-g70.docx,7.3.2,Total Radiated Sensitivity (TRS) for UTRA LCR TDD LEE
+37.544,37544-g70.docx,7.3.2.1,Definition and applicability
+37.544,37544-g70.docx,7.3.2.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.2.3,Test purpose
+37.544,37544-g70.docx,7.3.2.4,Method of test
+37.544,37544-g70.docx,7.3.2.5,Test requirements
+37.544,37544-g70.docx,7.3.3,Total Radiated Sensitivity (TRS) for E-UTRA FDD LEE
+37.544,37544-g70.docx,7.3.3.1,Definition and applicability
+37.544,37544-g70.docx,7.3.3.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.3.3,Test purpose
+37.544,37544-g70.docx,7.3.3.4,Method of test
+37.544,37544-g70.docx,7.3.3.5,Test requirements
+37.544,37544-g70.docx,7.3.4,Total Radiated Sensitivity (TRS) for E-UTRA TDD LEE
+37.544,37544-g70.docx,7.3.4.1,Definition and applicability
+37.544,37544-g70.docx,7.3.4.2,Minimum Requirements
+37.544,37544-g70.docx,7.3.4.3,Test purpose
+37.544,37544-g70.docx,7.3.4.5,Test requirements
+37.544,37544-g70.docx,7.3.5.4,Method of test
+37.544,37544-g70.docx,7.4,Radiated Performance of Multiple-antenna Receivers in the UE
+37.544,37544-g70.docx,7.4.1,Total Radiated Multi-antenna Sensitivity (TRMS) for E-UTRA FDD for Handheld UE in Free Space
+37.544,37544-g70.docx,7.4.1.1,Definition and applicability
+37.544,37544-g70.docx,7.4.1.2,Minimum requirements
+37.544,37544-g70.docx,7.4.1.3,Test Purpose
+37.544,37544-g70.docx,7.4.1.4,Method of test for Multi-probe Anechoic Chamber
+37.544,37544-g70.docx,7.4.1.5,Test requirements
+37.544,37544-g70.docx,7.4.2,Total Radiated Multi-antenna Sensitivity (TRMS) for E-UTRA TDD for Handheld UE in Free Space
+37.544,37544-g70.docx,7.4.2.1,Definition and applicability
+37.544,37544-g70.docx,7.4.2.2,Minimum requirements
+37.544,37544-g70.docx,7.4.2.3,Test Purpose
+37.544,37544-g70.docx,7.4.2.4,Method of test for Multi-probe Anechoic Chamber
+37.544,37544-g70.docx,7.4.2.5,Test requirements
+37.544,37544-g70.docx,A.1,General
+37.544,37544-g70.docx,A.2,Phantom specifications
+37.544,37544-g70.docx,A.2.1,Head phantom
+37.544,37544-g70.docx,A.2.2,Hand phantom
+37.544,37544-g70.docx,A.2.2.1,General
+37.544,37544-g70.docx,A.2.2.2,Dimensions
+37.544,37544-g70.docx,A.2.2.3,Dielectric properties
+37.544,37544-g70.docx,A.2.2.4,Hand phantom grips
+37.544,37544-g70.docx,A.2.2.5,Mechanical Requirements of Hand Phantoms
+37.544,37544-g70.docx,A.2.2.6,Wide Grip Hand Phantom Definition
+37.544,37544-g70.docx,A.2.3,Laptop Ground Plane Phantom
+37.544,37544-g70.docx,A.2.4,Parameters for embedded devices
+37.544,37544-g70.docx,A.2.4.1,General
+37.544,37544-g70.docx,A.2.4.2,Notebook
+37.544,37544-g70.docx,A.2.4.3,Tablet
+37.544,37544-g70.docx,A.3,Anechoic chamber constraints
+37.544,37544-g70.docx,A.3.1,General
+37.544,37544-g70.docx,A.3.2,Quiet zone dimension
+37.544,37544-g70.docx,A.3.3,Minimum Range Length
+37.544,37544-g70.docx,A.3.4,Reflectivity of the quiet zone
+37.544,37544-g70.docx,A.3.5,Shielding effectiveness of the chamber
+37.544,37544-g70.docx,A.4,Reverberation chamber constraints
+37.544,37544-g70.docx,A.4.1,General
+37.544,37544-g70.docx,A.4.2,Positioning and mode stirring facilities
+37.544,37544-g70.docx,A.4.3,Polarization imbalance and receiving antennas
+37.544,37544-g70.docx,A.4.4,Measurement antennas
+37.544,37544-g70.docx,A.4.5,Chamber size and characteristics
+37.544,37544-g70.docx,A.4.6,Shielding effectiveness of the chamber
+37.544,37544-g70.docx,A.5,Anechoic chamber constraints for Radiated Performance of Multiple-antenna Receivers
+37.544,37544-g70.docx,A.5.1,General
+37.544,37544-g70.docx,A.5.1.1,Multi-probe Anechoic Chamber
+37.544,37544-g70.docx,A.5.1.1.1,Concept and configuration
+37.544,37544-g70.docx,A.5.1.2,Radiated Two-Stage
+37.544,37544-g70.docx,A.5.1.2.1,Concept and configuration
+37.544,37544-g70.docx,A.5.2,Testing environment conditions
+37.544,37544-g70.docx,A.5.2.1,MPAC Positioning Guidelines
+37.544,37544-g70.docx,A.5.2.2,RTS Positioning Guidelines and test zone dimensions
+37.544,37544-g70.docx,Annex A,(normative): Test system characterization and environmental requirements
+37.544,37544-g70.docx,Annex B,(normative): Calibration
+37.544,37544-g70.docx,Annex D,(normative): Maximum uncertainty of test system and test tolerance
+37.544,37544-g70.docx,Annex O,(normative): Environmental conditions
+37.544,37544-g70.docx,Annex P,(normative): Base Station (BS) configuration for Radiated Performance of Multiple-antenna Receivers
+37.544,37544-g70.docx,Annex R,: UE ATF Requirements
+37.544,37544-g70.docx,Annex S,: Change history
+37.544,37544-g70.docx,B.1,General
+37.544,37544-g70.docx,B.2,Calibration procedure
+37.544,37544-g70.docx,B.2.1,Calibration procedure for Anechoic chamber method
+37.544,37544-g70.docx,B.2.2,Calibration procedure for Reverberation chamber method
+37.544,37544-g70.docx,B.2.2.1,Measurement of S-parameters through the chamber for a complete stirring sequence
+37.544,37544-g70.docx,B.2.2.2,Calculation of the chamber reference transfer function
+37.544,37544-g70.docx,B.2.2.3,Cable calibration
+37.544,37544-g70.docx,B.2.3,Calibration procedure for Anechoic chamber method with Multiprobe configuration
+37.544,37544-g70.docx,B.2.3.1,Example Calibration Procedure
+37.544,37544-g70.docx,B.2.4,Calibration procedure for RTS method
+37.544,37544-g70.docx,C.1,General
+37.544,37544-g70.docx,D.1,Maximum uncertainty of test system
+37.544,37544-g70.docx,D.2,Test tolerances
+37.544,37544-g70.docx,E.1,General
+37.544,37544-g70.docx,E.10,Measurement distance
+37.544,37544-g70.docx,E.10.1,Offset of DUT phase centre from axis(es) of rotation
+37.544,37544-g70.docx,E.10.2,Mutual coupling
+37.544,37544-g70.docx,E.10.3,Phase curvature
+37.544,37544-g70.docx,E.11,Quality of quiet zone
+37.544,37544-g70.docx,E.12,Tx-power drift of DUT
+37.544,37544-g70.docx,E.13,Uncertainty related to the use of phantoms
+37.544,37544-g70.docx,E.13.1,Uncertainty from using different types of SAM phantom
+37.544,37544-g70.docx,E.13.2,Simulated tissue liquid uncertainty
+37.544,37544-g70.docx,E.13.3,Uncertainty of dielectric properties and shape of the hand phantom
+37.544,37544-g70.docx,E.13.4,Uncertainty from using different types of Laptop Ground Plane phantom
+37.544,37544-g70.docx,E.14,Coarse sampling grid
+37.544,37544-g70.docx,E.15,Random uncertainty
+37.544,37544-g70.docx,E.16,Uncertainty of network analyzer
+37.544,37544-g70.docx,E.17,Uncertainty of the gain/efficiency of the calibration antenna
+37.544,37544-g70.docx,E.18,Base station simulator: uncertainty of the absolute level
+37.544,37544-g70.docx,E.19,BER measurement: output level step resolution
+37.544,37544-g70.docx,E.2,Mismatch uncertainty between measurement receiver and the probe antenna
+37.544,37544-g70.docx,E.2.1,Total combined mismatch uncertainty calculations
+37.544,37544-g70.docx,E.2.1.1,Mismatch uncertainty through the connector between two elements
+37.544,37544-g70.docx,E.2.1.2,Mismatch uncertainty due to the interaction of several elements
+37.544,37544-g70.docx,E.2.2,Total combined mismatch uncertainty
+37.544,37544-g70.docx,E.20,Statistical uncertainty of the BER measurement
+37.544,37544-g70.docx,E.21,BER data rate normalization uncertainty
+37.544,37544-g70.docx,E.22,DUT sensitivity drift
+37.544,37544-g70.docx,E.23,Cable loss measurement uncertainty
+37.544,37544-g70.docx,E.24,Signal generator: uncertainty of the absolute output level
+37.544,37544-g70.docx,E.25,Signal generator: output level stability
+37.544,37544-g70.docx,E.26,Insertion loss: calibration antenna feed cable
+37.544,37544-g70.docx,E.27,Insertion loss: calibration antenna attenuator (if used)
+37.544,37544-g70.docx,E.28,Chamber Statistical Ripple and Repeatability
+37.544,37544-g70.docx,E.29,Additional Power Loss in EUT Chassis
+37.544,37544-g70.docx,E.3,Mismatch uncertainty of the RF relay
+37.544,37544-g70.docx,E.3.1,First part: RF Relay switched on the co-polarized signal
+37.544,37544-g70.docx,E.3.1.1,The mismatch through the connector between two elements
+37.544,37544-g70.docx,E.3.1.2,Mismatch due to the interaction between two elements or more
+37.544,37544-g70.docx,E.3.2,Second part: RF relay switched on the cross-polarized signal
+37.544,37544-g70.docx,E.3.2.1,The mismatch through the connector between two elements
+37.544,37544-g70.docx,E.3.2.2,Mismatch due to the interaction between two elements or more
+37.544,37544-g70.docx,E.3.3,Total combined mismatch uncertainty
+37.544,37544-g70.docx,E.4,Insertion loss of the probe antenna cable
+37.544,37544-g70.docx,E.5,Insertion loss of the probe antenna attenuator (if used)
+37.544,37544-g70.docx,E.6,Insertion loss of the RF relays (if used)
+37.544,37544-g70.docx,E.7,Influence of the antenna cable
+37.544,37544-g70.docx,E.7.1,Probe antenna cable
+37.544,37544-g70.docx,E.7.2,Calibration antenna cable
+37.544,37544-g70.docx,E.8,Absolute gain of the probe antenna
+37.544,37544-g70.docx,E.9,Measurement receiver: uncertainty of absolute level
+37.544,37544-g70.docx,F.1,General
+37.544,37544-g70.docx,G.1,Shielded anechoic chamber specifications
+37.544,37544-g70.docx,G.2,Quiet zone reflectivity level validation
+37.544,37544-g70.docx,G.2.1,Description of a practical method for Quiet Zone characterization
+37.544,37544-g70.docx,G.3,Standard deviation of electric field
+37.544,37544-g70.docx,H.1,Shielded reverberation chamber specifications
+37.544,37544-g70.docx,H.2,Reverberation chamber statistical ripple and repeatability validation
+37.544,37544-g70.docx,I.1,General
+37.544,37544-g70.docx,I.2,Total Radiated Power
+37.544,37544-g70.docx,I.2.1,Beside the head phantom position
+37.544,37544-g70.docx,I.2.1.1,UTRA FDD
+37.544,37544-g70.docx,I.2.1.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.2.2,Beside the head and hand phantoms position
+37.544,37544-g70.docx,I.2.2.1,UTRA FDD
+37.544,37544-g70.docx,I.2.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.2.2.3,E-UTRA FDD
+37.544,37544-g70.docx,I.2.2.4,E-UTRA TDD
+37.544,37544-g70.docx,I.2.3,Hand phantom browsing mode position
+37.544,37544-g70.docx,I.2.3.1,UTRA FDD
+37.544,37544-g70.docx,I.2.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.2.3.3,E-UTRA FDD
+37.544,37544-g70.docx,I.2.3.4,E-UTRA TDD
+37.544,37544-g70.docx,I.3,Total Radiated Sensitivity
+37.544,37544-g70.docx,I.3.1,Beside the head phantom position
+37.544,37544-g70.docx,I.3.1.1,UTRA FDD
+37.544,37544-g70.docx,I.3.1.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.3.2,Beside the head and hand phantoms position
+37.544,37544-g70.docx,I.3.2.1,UTRA FDD
+37.544,37544-g70.docx,I.3.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.3.2.3,E-UTRA FDD
+37.544,37544-g70.docx,I.3.2.4,E-UTRA TDD
+37.544,37544-g70.docx,I.3.3,Hand phantom browsing mode position
+37.544,37544-g70.docx,I.3.3.1,UTRA FDD
+37.544,37544-g70.docx,I.3.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,I.3.3.3,E-UTRA FDD
+37.544,37544-g70.docx,I.3.3.4,E-UTRA TDD
+37.544,37544-g70.docx,J.1,General
+37.544,37544-g70.docx,J.2,Total Radiated Power
+37.544,37544-g70.docx,J.2.1,UTRA FDD
+37.544,37544-g70.docx,J.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,J.2.3,E-UTRA FDD
+37.544,37544-g70.docx,J.2.4,E-UTRA TDD
+37.544,37544-g70.docx,J.3,Total Radiated Sensitivity
+37.544,37544-g70.docx,J.3.1,UTRA FDD
+37.544,37544-g70.docx,J.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,J.3.3,E-UTRA FDD
+37.544,37544-g70.docx,J.3.4,E-UTRA TDD
+37.544,37544-g70.docx,K.1,General
+37.544,37544-g70.docx,K.2,Total Radiated Power
+37.544,37544-g70.docx,K.2.1,UTRA FDD
+37.544,37544-g70.docx,K.2.2,UTRA LCR TDD
+37.544,37544-g70.docx,K.2.3,E-UTRA FDD
+37.544,37544-g70.docx,K.2.4,E-UTRA TDD
+37.544,37544-g70.docx,K.3,Total Radiated Sensitivity
+37.544,37544-g70.docx,K.3.1,UTRA FDD
+37.544,37544-g70.docx,K.3.2,UTRA LCR TDD
+37.544,37544-g70.docx,K.3.3,E-UTRA FDD
+37.544,37544-g70.docx,K.3.4,E-UTRA TDD
+37.544,37544-g70.docx,L.1,Multi-probe anechoic chamber specifications
+37.544,37544-g70.docx,L.2,Multi-probe anechoic chamber minimum distance between the DUT and the measurement antenna
+37.544,37544-g70.docx,L.3,Multi-probe anechoic chamber quiet zone reflectivity level validation
+37.544,37544-g70.docx,L.4,Multi-probe anechoic chamber channel model verification
+37.544,37544-g70.docx,M.1,Channel Model(s)
+37.544,37544-g70.docx,M.2,Base Station antenna pattern configuration
+37.544,37544-g70.docx,N.1,General
+37.544,37544-g70.docx,N.2,Fading channel emulator output uncertainty
+37.544,37544-g70.docx,N.3,External Amplifiers Uncertainty Terms
+37.544,37544-g70.docx,N.3.1,Stability
+37.544,37544-g70.docx,N.3.2,Linearity
+37.544,37544-g70.docx,N.3.3,Noise Figure
+37.544,37544-g70.docx,N.3.4,Mismatch
+37.544,37544-g70.docx,N.3.5,Gain
+37.544,37544-g70.docx,N.4,Throughput measurement: output level step resolution
+37.544,37544-g70.docx,O.1,General
+37.544,37544-g70.docx,O.2,Environmental requirements
+37.544,37544-g70.docx,O.2.1,Temperature
+37.544,37544-g70.docx,O.2.2,Voltage
+37.544,37544-g70.docx,P.1,eNodeB emulator settings
+37.544,37544-g70.docx,Q.1,RTS anechoic chamber specifications
+37.544,37544-g70.docx,Q.2,RTS anechoic chamber minimum distance between the DUT and the measurement antenna
+37.544,37544-g70.docx,Q.3,RTS anechoic chamber quiet zone reflectivity level validation
+37.544,37544-g70.docx,Q.4,RTS anechoic chamber channel model verification
+37.544,37544-g70.docx,R.1,RSAP
+37.544,37544-g70.docx,R.2,RSARP
