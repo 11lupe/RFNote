@@ -59,3 +59,4 @@
   cd RFNote && git sparse-checkout set "01 基础概念" "02 测试指标"
   ```
 - 原始 zip 不入库，下载后留在各自的规范目录即可，不会出现在 `git status` 里：见 [00 3GPP检索索引](<03 规范与标准/3GPP/00 3GPP检索索引.md>) 与 [tools/3gpp/fetch.py](tools/3gpp/fetch.py)。
+- `04 仪表与设备/厂商文档/` 放厂商手册与应用笔记（PDF，文件名带版本号），是仓库里最大的一块；只看笔记时 sparse-checkout 不必取它，缺文件用 `python tools/instruments/fetch.py` 恢复。

@@ -138,7 +138,30 @@ print(sa.query("SYST:ERR?").strip())
 - [ ] 校准周期与证书；校准件、线缆、转接头单独管。
 - [ ] 与现有自动化栈的接口：LAN + VXI-11/HiSLIP，SCPI 覆盖所需功能。
 
-## 8. 参考
+## 8. 官方文档与命令参考
+
+FSW 的操作说明与 SCPI 命令在同一份用户手册里：Remote Control 章节逐条列命令、参数与返回格式，各测量模式（频谱、SEM/ACLR、相噪、IQ 解调）各自一章。入口是手册总览页：[FSW Manual](https://www.rohde-schwarz.com/us/manual/fsw-user-manual_78701-29088.html)；NR 选件另有 K144/K145 手册。
+
+| 文档 | 编号 / 版本 | 讲什么 |
+|---|---|---|
+| FSW User Manual | 1173.9411.01，en_57（2026-10） | 面板操作、测量配置、Remote Control 命令参考 |
+| FSW Getting Started | 1338.4102.01，en_17（2026-11） | 开箱、端口、参考与触发、第一次测量 |
+| FSW-K144 5G NR 下行 | 1178.8036.01，en_18 | NR 下行解调的设置与命令（EVM、ACLR、SEM…） |
+| FSW-K145 5G NR 上行 | 1178.8042.01，en_17 | NR 上行的设置与命令 |
+| 5G NR 信号生成与分析 | GFM322 | NR 波形、解调与误差来源总览 |
+
+本地副本在 `厂商文档/FSW/`，文件名与厂商原文一致：
+
+- [FSW User Manual en_57](<厂商文档/FSW/FSW_UserManual_en_57.pdf>)（1173.9411.01）
+- [FSW Getting Started en_17](<厂商文档/FSW/FSW_GettingStarted_en_17.pdf>)（1338.4102.01）
+- [FSW-K144 5G NR DL en_18](<厂商文档/FSW/FSW_K144_5G_NR_DL_UserManual_en_18~2.pdf>)（1178.8036.01）
+- [FSW-K145 5G NR UL en_17](<厂商文档/FSW/FSW_K145_5G_NR_UL_UserManual_en_17~1.pdf>)（1178.8042.01）
+
+官方下载页见上文总览页；版本更新后先按官网改文件名，再跑 `python tools/instruments/fetch.py` 取新版本。
+
+FSW 没有「制式配置指导」这种文档：配置指导就是 UM 里对应测量的那一章加 K 选件手册。命令按模式分家（频谱一套、SEM 一套、相噪一套、IQ 一套），先选模式再查命令；跨模式套用同一命令前缀是最常见的报错来源。
+
+## 9. 参考
 
 - 上位与同类：[射频常用仪表](<01 射频常用仪表.md>)、[CMW500](<02 CMW500.md>)、[SP9500](<03 SP9500.md>)
 - 方法：[测量基础与校准](<../02 测试指标/01 测量基础与校准.md>) §2 参考电平/衰减/RBW/平均

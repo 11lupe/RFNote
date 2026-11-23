@@ -8,6 +8,8 @@ tools/
 ├── 3gpp/              # 3GPP 数据维护
 │   ├── fetch.py       # 下载 / 解压规范原文
 │   └── index.py       # 重建章节索引与检索总表
+├── instruments/       # 仪表官方文档（厂商 PDF，不入库）
+│   └── fetch.py       # 下载手册到 _local/仪表文档/
 └── repo/              # 仓库级自检
     └── check.py       # 链接 / 标签 / 索引 / 规范库一致性
 ```
@@ -16,6 +18,7 @@ tools/
 | --- | --- | --- | --- |
 | `3gpp/` | `fetch.py` | 按 `ITEMS` 清单下载 / 解压 3GPP 原文 | `python tools/3gpp/fetch.py --list` |
 | `3gpp/` | `index.py` | 重建 `章节索引.csv` 与 `检索总表.csv` | `python tools/3gpp/index.py --check` |
+| `instruments/` | `fetch.py` | 把仪表手册 PDF 下载到 `04 仪表与设备/厂商文档/` | `python tools/instruments/fetch.py --list` |
 | `repo/` | `check.py` | 链接、标签、基名、索引计数、规范库一致性自检 | `python tools/repo/check.py` |
 
 三个脚本都只依赖标准库（`index.py` 另需 `python-docx`），都在仓库根目录执行，

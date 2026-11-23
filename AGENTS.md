@@ -19,6 +19,8 @@ RFNote/
 │   ├── 3gpp/                  # 3GPP 数据维护
 │   │   ├── fetch.py           # 下载 / 解压 3GPP 原文
 │   │   └── index.py           # 重建 检索总表.csv 与各 章节索引.csv
+│   ├── instruments/           # 仪表官方文档（厂商 PDF 随笔记入库）
+│   │   └── fetch.py           # 下载 / 校验 04 仪表与设备/厂商文档/
 │   ├── repo/                  # 仓库自检
 │   │   └── check.py           # 链接 / 标签 / 基名 / 索引 / 规范库自检
 │   └── README.md
