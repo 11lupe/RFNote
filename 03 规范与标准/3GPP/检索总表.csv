@@ -5370,6 +5370,258 @@
 38.101-1,38101-1-k10_sAnnexes.docx,N.4.3.1,Bandwidth classes for LTE
 38.101-1,38101-1-k10_sAnnexes.docx,N.4.3.2,Bandwidth classes for NR
 38.101-1,38101-1-k10_sAnnexes.docx,N.4.4,Notation of CA or DC configurations
+38.101-2,38101-2-k10.docx,1,Scope
+38.101-2,38101-2-k10.docx,2,References
+38.101-2,38101-2-k10.docx,3,"Definitions, symbols and abbreviations"
+38.101-2,38101-2-k10.docx,3,CFO correction on slot-by-slot basis using a common frequency correction for both antenna ports.
+38.101-2,38101-2-k10.docx,3.1,Definitions
+38.101-2,38101-2-k10.docx,3.2,Symbols
+38.101-2,38101-2-k10.docx,3.3,Abbreviations
+38.101-2,38101-2-k10.docx,4,General
+38.101-2,38101-2-k10.docx,4.1,Relationship between minimum requirements and test requirements
+38.101-2,38101-2-k10.docx,4.2,Applicability of minimum requirements
+38.101-2,38101-2-k10.docx,4.3,Specification suffix information
+38.101-2,38101-2-k10.docx,5,Operating bands and channel arrangement
+38.101-2,38101-2-k10.docx,5.1,General
+38.101-2,38101-2-k10.docx,5.2,Operating bands
+38.101-2,38101-2-k10.docx,5.3,UE Channel bandwidth
+38.101-2,38101-2-k10.docx,5.3.1,General
+38.101-2,38101-2-k10.docx,5.3.2,Maximum transmission bandwidth configuration
+38.101-2,38101-2-k10.docx,5.3.3,Minimum guardband and transmission bandwidth configuration
+38.101-2,38101-2-k10.docx,5.3.4,RB alignment
+38.101-2,38101-2-k10.docx,5.3.5,Channel bandwidth per operating band
+38.101-2,38101-2-k10.docx,5.4,Channel arrangement
+38.101-2,38101-2-k10.docx,5.4.1,Channel spacing
+38.101-2,38101-2-k10.docx,5.4.1.1,Channel spacing for adjacent NR carriers
+38.101-2,38101-2-k10.docx,5.4.2,Channel raster
+38.101-2,38101-2-k10.docx,5.4.2.1,NR-ARFCN and channel raster
+38.101-2,38101-2-k10.docx,5.4.2.2,Channel raster to resource element mapping
+38.101-2,38101-2-k10.docx,5.4.2.3,Channel raster entries for each operating band
+38.101-2,38101-2-k10.docx,5.4.3,Synchronization raster
+38.101-2,38101-2-k10.docx,5.4.3.1,Synchronization raster and numbering
+38.101-2,38101-2-k10.docx,5.4.3.2,Synchronization raster to synchronization block resource element mapping
+38.101-2,38101-2-k10.docx,5.4.3.3,Synchronization raster entries for each operating band
+38.101-2,38101-2-k10.docx,5.5,Configurations
+38.101-2,38101-2-k10.docx,6,Transmitter characteristics
+38.101-2,38101-2-k10.docx,6.1,General
+38.101-2,38101-2-k10.docx,6.2,Transmitter power
+38.101-2,38101-2-k10.docx,6.2.1,UE maximum output power
+38.101-2,38101-2-k10.docx,6.2.1.0,General
+38.101-2,38101-2-k10.docx,6.2.1.1,UE maximum output power for power class 1
+38.101-2,38101-2-k10.docx,6.2.1.2,UE maximum output power for power class 2
+38.101-2,38101-2-k10.docx,6.2.1.3,UE maximum output power for power class 3
+38.101-2,38101-2-k10.docx,6.2.1.4,UE maximum output power for power class 4
+38.101-2,38101-2-k10.docx,6.2.1.5,UE maximum output power for power class 5
+38.101-2,38101-2-k10.docx,6.2.1.6,UE maximum output power for power class 6
+38.101-2,38101-2-k10.docx,6.2.1.7,UE maximum output power for power class 7
+38.101-2,38101-2-k10.docx,6.2.2,UE maximum output power reduction
+38.101-2,38101-2-k10.docx,6.2.2.0,General
+38.101-2,38101-2-k10.docx,6.2.2.1,UE maximum output power reduction for power class 1
+38.101-2,38101-2-k10.docx,6.2.2.2,UE maximum output power reduction for power class 2
+38.101-2,38101-2-k10.docx,6.2.2.3,UE maximum output power reduction for power class 3
+38.101-2,38101-2-k10.docx,6.2.2.4,UE maximum output power reduction for power class 4
+38.101-2,38101-2-k10.docx,6.2.2.5,UE maximum output power reduction for power class 5
+38.101-2,38101-2-k10.docx,6.2.2.6,UE maximum output power reduction for power class 6
+38.101-2,38101-2-k10.docx,6.2.2.7,UE maximum output power reduction for power class 7
+38.101-2,38101-2-k10.docx,6.2.3,UE maximum output power with additional requirements
+38.101-2,38101-2-k10.docx,6.2.3.1,General
+38.101-2,38101-2-k10.docx,6.2.3.3,A-MPR for NS_202
+38.101-2,38101-2-k10.docx,6.2.3.4,A-MPR for NS_203
+38.101-2,38101-2-k10.docx,6.2.3.5,[Reserved]
+38.101-2,38101-2-k10.docx,6.2.3.6,A-MPR for NS_205
+38.101-2,38101-2-k10.docx,6.2.3.7,A-MPR for NS_206
+38.101-2,38101-2-k10.docx,6.2.4,Configured transmitted power
+38.101-2,38101-2-k10.docx,6.2.5,Requirements for UL gap (ul-GapFR2-r17) for TX power management
+38.101-2,38101-2-k10.docx,6.3,Output power dynamics
+38.101-2,38101-2-k10.docx,6.3.1,Minimum output power
+38.101-2,38101-2-k10.docx,6.3.1.0,General
+38.101-2,38101-2-k10.docx,6.3.1.1,Minimum output power for power class 1
+38.101-2,38101-2-k10.docx,6.3.1.2,"Minimum output power for power class 2, 3, and 4"
+38.101-2,38101-2-k10.docx,6.3.1.3,Minimum output power for power class 5 and 6
+38.101-2,38101-2-k10.docx,6.3.1.4,Minimum output power for power class 7
+38.101-2,38101-2-k10.docx,6.3.2,Transmit OFF power
+38.101-2,38101-2-k10.docx,6.3.3,Transmit ON/OFF time mask
+38.101-2,38101-2-k10.docx,6.3.3.1,General
+38.101-2,38101-2-k10.docx,6.3.3.2,General ON/OFF time mask
+38.101-2,38101-2-k10.docx,6.3.3.3,Transmit power time mask for slot and short or long subslot boundaries
+38.101-2,38101-2-k10.docx,6.3.3.4,PRACH time mask
+38.101-2,38101-2-k10.docx,6.3.3.6,SRS time mask
+38.101-2,38101-2-k10.docx,6.3.3.7,PUSCH-PUCCH and PUSCH-SRS time masks
+38.101-2,38101-2-k10.docx,6.3.3.9,Transmit power time mask for consecutive short subslot transmissions boundaries
+38.101-2,38101-2-k10.docx,6.3.4,Power control
+38.101-2,38101-2-k10.docx,6.3.4.1,General
+38.101-2,38101-2-k10.docx,6.3.4.2,Absolute power tolerance
+38.101-2,38101-2-k10.docx,6.3.4.3,Relative power tolerance
+38.101-2,38101-2-k10.docx,6.3.4.4,Aggregate power tolerance
+38.101-2,38101-2-k10.docx,6.4,Transmit signal quality
+38.101-2,38101-2-k10.docx,6.4.1,Frequency Error
+38.101-2,38101-2-k10.docx,6.4.2,Transmit modulation quality
+38.101-2,38101-2-k10.docx,6.4.2.0,General
+38.101-2,38101-2-k10.docx,6.4.2.1,Error vector magnitude
+38.101-2,38101-2-k10.docx,6.4.2.2,Carrier leakage
+38.101-2,38101-2-k10.docx,6.4.2.3,In-band emissions
+38.101-2,38101-2-k10.docx,6.4.2.4,EVM equalizer spectrum flatness
+38.101-2,38101-2-k10.docx,6.4.2.5,EVM spectral flatness for Pi/2 BPSK modulation
+38.101-2,38101-2-k10.docx,6.4.2.6,Phase continuity requirements for DMRS bundling
+38.101-2,38101-2-k10.docx,6.5,Output RF spectrum emissions
+38.101-2,38101-2-k10.docx,6.5.1,Occupied bandwidth
+38.101-2,38101-2-k10.docx,6.5.2,Out of band emissions
+38.101-2,38101-2-k10.docx,6.5.2.0,General
+38.101-2,38101-2-k10.docx,6.5.2.1,Spectrum emission mask
+38.101-2,38101-2-k10.docx,6.5.2.3,Adjacent channel leakage ratio
+38.101-2,38101-2-k10.docx,6.5.3,Spurious emissions
+38.101-2,38101-2-k10.docx,6.5.3.1,Spurious emission band UE co-existence
+38.101-2,38101-2-k10.docx,6.5.3.2,Additional spurious emissions
+38.101-2,38101-2-k10.docx,6.6,Beam correspondence
+38.101-2,38101-2-k10.docx,6.6.1,General
+38.101-2,38101-2-k10.docx,6.6.2,Beam correspondence for power class 1
+38.101-2,38101-2-k10.docx,6.6.2.1,General
+38.101-2,38101-2-k10.docx,6.6.2.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.2.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.4,Beam correspondence for power class 3
+38.101-2,38101-2-k10.docx,6.6.4.1,General
+38.101-2,38101-2-k10.docx,6.6.4.2,Beam correspondence tolerance for power class 3
+38.101-2,38101-2-k10.docx,6.6.4.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.4.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.6,Beam correspondence for power class 5
+38.101-2,38101-2-k10.docx,6.6.6.1,General
+38.101-2,38101-2-k10.docx,6.6.6.2,(Reserved)
+38.101-2,38101-2-k10.docx,6.6.6.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.6.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.7,Beam correspondence for power class 6
+38.101-2,38101-2-k10.docx,6.6.7.1,General
+38.101-2,38101-2-k10.docx,6.6.7.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.7.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.8,Beam correspondence for power class 7
+38.101-2,38101-2-k10.docx,6.6.8.1,General
+38.101-2,38101-2-k10.docx,6.6.8.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.8.4,Applicability
+38.101-2,38101-2-k10.docx,7,Receiver characteristics
+38.101-2,38101-2-k10.docx,7.1,General
+38.101-2,38101-2-k10.docx,7.2,Diversity characteristics
+38.101-2,38101-2-k10.docx,7.3,Reference sensitivity
+38.101-2,38101-2-k10.docx,7.3.1,General
+38.101-2,38101-2-k10.docx,7.3.2,Reference sensitivity power level
+38.101-2,38101-2-k10.docx,7.3.2.1,Reference sensitivity power level for power class 1
+38.101-2,38101-2-k10.docx,7.3.2.2,Reference sensitivity power level for power class 2
+38.101-2,38101-2-k10.docx,7.3.2.3,Reference sensitivity power level for power class 3
+38.101-2,38101-2-k10.docx,7.3.2.4,Reference sensitivity power level for power class 4
+38.101-2,38101-2-k10.docx,7.3.2.5,Reference sensitivity power level for power class 5
+38.101-2,38101-2-k10.docx,7.3.2.6,Reference sensitivity power level for power class 6
+38.101-2,38101-2-k10.docx,7.3.2.7,Reference sensitivity power level for power class 7
+38.101-2,38101-2-k10.docx,7.3.4,EIS spherical coverage
+38.101-2,38101-2-k10.docx,7.3.4.1,EIS spherical coverage for power class 1
+38.101-2,38101-2-k10.docx,7.3.4.2,EIS spherical coverage for power class 2
+38.101-2,38101-2-k10.docx,7.3.4.3,EIS spherical coverage for power class 3
+38.101-2,38101-2-k10.docx,7.3.4.4,EIS spherical coverage for power class 4
+38.101-2,38101-2-k10.docx,7.3.4.5,EIS spherical coverage for power class 5
+38.101-2,38101-2-k10.docx,7.3.4.6,EIS spherical coverage for power class 6
+38.101-2,38101-2-k10.docx,7.3.4.7,EIS spherical coverage for power class 7
+38.101-2,38101-2-k10.docx,7.4,Maximum input level
+38.101-2,38101-2-k10.docx,7.5,Adjacent channel selectivity
+38.101-2,38101-2-k10.docx,7.6,Blocking characteristics
+38.101-2,38101-2-k10.docx,7.6.1,General
+38.101-2,38101-2-k10.docx,7.6.2,In-band blocking
+38.101-2,38101-2-k10.docx,7.9,Spurious emissions
+38.101-2,38101-2-k10.docx,9,"Perform for each slot of the 20ms time window, steps 3 to 8."
+38.101-2,38101-2-k10.docx,10,Calculation of the maximum value of the “difference of relative phase error”.
+38.101-2,38101-2-k10.docx,A.1,General
+38.101-2,38101-2-k10.docx,A.2,UL reference measurement channels
+38.101-2,38101-2-k10.docx,A.2.1,General
+38.101-2,38101-2-k10.docx,A.2.3,Reference measurement channels for TDD
+38.101-2,38101-2-k10.docx,A.2.3.1,DFT-s-OFDM Pi/2-BPSK
+38.101-2,38101-2-k10.docx,A.2.3.2,DFT-s-OFDM QPSK
+38.101-2,38101-2-k10.docx,A.2.3.3,DFT-s-OFDM 16QAM
+38.101-2,38101-2-k10.docx,A.2.3.4,DFT-s-OFDM 64QAM
+38.101-2,38101-2-k10.docx,A.2.3.5,CP-OFDM QPSK
+38.101-2,38101-2-k10.docx,A.2.3.6,CP-OFDM 16QAM
+38.101-2,38101-2-k10.docx,A.2.3.7,CP-OFDM 64QAM
+38.101-2,38101-2-k10.docx,A.2.3.8,DFT-s-OFDM 256QAM
+38.101-2,38101-2-k10.docx,A.2.3.9,CP-OFDM 256QAM
+38.101-2,38101-2-k10.docx,A.3,DL reference measurement channels
+38.101-2,38101-2-k10.docx,A.3.1,General
+38.101-2,38101-2-k10.docx,A.3.3,DL reference measurement channels for TDD
+38.101-2,38101-2-k10.docx,A.3.3.1,General
+38.101-2,38101-2-k10.docx,A.3.3.2,FRC for receiver requirements for QPSK
+38.101-2,38101-2-k10.docx,A.3.3.3,FRC for receiver requirements for 16QAM
+38.101-2,38101-2-k10.docx,A.3.3.4,FRC for receiver requirements for 64QAM
+38.101-2,38101-2-k10.docx,A.3.3.5,FRC for receiver requirements for 256QAM
+38.101-2,38101-2-k10.docx,A.5,OFDMA Channel Noise Generator (OCNG)
+38.101-2,38101-2-k10.docx,A.5.1,OCNG Patterns for FDD
+38.101-2,38101-2-k10.docx,A.5.2,OCNG Patterns for TDD
+38.101-2,38101-2-k10.docx,A.5.2.1,OCNG TDD pattern 1: Generic OCNG TDD Pattern for all unused REs
+38.101-2,38101-2-k10.docx,Annex A,(normative):	Measurement channels
+38.101-2,38101-2-k10.docx,Annex C,(normative):	Downlink physical channels
+38.101-2,38101-2-k10.docx,Annex D,(normative):	Characteristics of the interfering signal
+38.101-2,38101-2-k10.docx,Annex E,(normative):	Environmental conditions
+38.101-2,38101-2-k10.docx,Annex F,(normative):	Transmit modulation
+38.101-2,38101-2-k10.docx,Annex G,(normative):	Difference of relative phase and power errors
+38.101-2,38101-2-k10.docx,Annex H,(Normative):	Modified MPR behavior
+38.101-2,38101-2-k10.docx,Annex J,(normative):	UE coordinate system
+38.101-2,38101-2-k10.docx,Annex L,(normative):	Requirement metric for simultaneous reception from multiple directions
+38.101-2,38101-2-k10.docx,Annex M,(normative):	Band Combination Database
+38.101-2,38101-2-k10.docx,C.1,General
+38.101-2,38101-2-k10.docx,C.2,Setup
+38.101-2,38101-2-k10.docx,C.3,Connection
+38.101-2,38101-2-k10.docx,C.3.1,Measurement of Receiver Characteristics
+38.101-2,38101-2-k10.docx,D.1,General
+38.101-2,38101-2-k10.docx,D.2,Interference signals
+38.101-2,38101-2-k10.docx,E.1,General
+38.101-2,38101-2-k10.docx,E.2,Environmental
+38.101-2,38101-2-k10.docx,E.2.1,Temperature
+38.101-2,38101-2-k10.docx,E.2.2,Voltage
+38.101-2,38101-2-k10.docx,F.1,Measurement Point
+38.101-2,38101-2-k10.docx,F.10,EVM for dual transmit polarizations
+38.101-2,38101-2-k10.docx,F.10.1,General
+38.101-2,38101-2-k10.docx,F.10.2,MIMO Equalization (UL MIMO transmission)
+38.101-2,38101-2-k10.docx,F.10.3,Maximum Ratio combining (Tx diversity transmission)
+38.101-2,38101-2-k10.docx,F.10.4,Layer processing
+38.101-2,38101-2-k10.docx,F.2,Basic Error Vector Magnitude measurement
+38.101-2,38101-2-k10.docx,F.3,Basic in-band emissions measurement
+38.101-2,38101-2-k10.docx,F.4,Modified signal under test
+38.101-2,38101-2-k10.docx,F.5,Window length
+38.101-2,38101-2-k10.docx,F.5.1,Timing offset
+38.101-2,38101-2-k10.docx,F.5.2,Window length
+38.101-2,38101-2-k10.docx,F.5.3,Window length for normal CP
+38.101-2,38101-2-k10.docx,F.5.4,Window length for Extended CP
+38.101-2,38101-2-k10.docx,F.5.5,Window length for PRACH
+38.101-2,38101-2-k10.docx,F.6,Averaged EVM
+38.101-2,38101-2-k10.docx,F.7,Spectrum Flatness
+38.101-2,38101-2-k10.docx,F.8,Phase offset measurement for DMRS bundling
+38.101-2,38101-2-k10.docx,F.8.1,Measurement point
+38.101-2,38101-2-k10.docx,F.8.2,Symbols used
+38.101-2,38101-2-k10.docx,F.8.3,Modified test signal
+38.101-2,38101-2-k10.docx,F.8.4,Phase offset measurement
+38.101-2,38101-2-k10.docx,F.9,Reserved
+38.101-2,38101-2-k10.docx,G.0,General
+38.101-2,38101-2-k10.docx,G.1,Measurement Point
+38.101-2,38101-2-k10.docx,G.2,Relative Phase Error Measurement
+38.101-2,38101-2-k10.docx,G.2.1,Symbols and subcarriers used
+38.101-2,38101-2-k10.docx,G.2.2,CFO (carrier frequency offset) correction
+38.101-2,38101-2-k10.docx,G.2.3,Steps of the measurement method
+38.101-2,38101-2-k10.docx,H.1,Indication of modified MPR behavior
+38.101-2,38101-2-k10.docx,J.1,Reference coordinate system
+38.101-2,38101-2-k10.docx,J.2,Test conditions and angle definitions
+38.101-2,38101-2-k10.docx,J.3,DUT positioning guidelines
+38.101-2,38101-2-k10.docx,L.1,Spherical coverage grid for simultaneous reception or transmission in multiple directions
+38.101-2,38101-2-k10.docx,L.2,Probability to support 2AoA reception
+38.101-2,38101-2-k10.docx,M.1,General
+38.101-2,38101-2-k10.docx,M.2,Content of the Band Combination Database
+38.101-2,38101-2-k10.docx,M.2.1,File Types and Name Convention
+38.101-2,38101-2-k10.docx,M.2.1.0,General
+38.101-2,38101-2-k10.docx,M.2.1.1,Schema Files
+38.101-2,38101-2-k10.docx,M.2.1.1.0,General
+38.101-2,38101-2-k10.docx,M.2.1.1.1,Channel Bandwidth Schema File
+38.101-2,38101-2-k10.docx,M.2.1.1.2,Carrier Aggregation Schema File
+38.101-2,38101-2-k10.docx,M.2.1.2,Data Files
+38.101-2,38101-2-k10.docx,M.2.1.2.0,General
+38.101-2,38101-2-k10.docx,M.2.1.2.1,Channel Bandwidth Data File
+38.101-2,38101-2-k10.docx,M.2.1.2.2,Carrier Aggregation Data File
+38.101-2,38101-2-k10.docx,M.3,Access and Visualization
+38.101-2,38101-2-k10.docx,M.3.1,General
+38.101-2,38101-2-k10.docx,M.3.2,Files included to the TS Zip folder
+38.101-2,38101-2-k10.docx,M.3.2.1,Distribution of data Files
+38.101-2,38101-2-k10.docx,M.3.2.2,Distribution of visualization of specified band combinations
 38.101-3,38101-3-k10_s00-05.docx,1,Scope
 38.101-3,38101-3-k10_s00-05.docx,2,References
 38.101-3,38101-3-k10_s00-05.docx,3,"Definitions, symbols and abbreviations"
@@ -7645,6 +7897,314 @@
 38.521-3,38521-3-k00.docx,H.2.3,Design of the test
 38.521-3,38521-3-k00.docx,H.2.4,Numerical definition of the pass fail limits
 38.521-3,38521-3-k00.docx,H.2.5,Pass fail decision rules
+45.005,45005-j00.docx,1,Scope
+45.005,45005-j00.docx,1.1,References
+45.005,45005-j00.docx,1.2,Abbreviations
+45.005,45005-j00.docx,1.3,Definitions
+45.005,45005-j00.docx,2,Frequency bands and channel arrangement
+45.005,45005-j00.docx,3,Reference configuration
+45.005,45005-j00.docx,4,Transmitter characteristics
+45.005,45005-j00.docx,4.1,Output power
+45.005,45005-j00.docx,4.1.1,Mobile Station
+45.005,45005-j00.docx,4.1.2,Base station
+45.005,45005-j00.docx,4.1.2.1,Additional requirements for PCS 1 900 and MXM 1900 Base stations
+45.005,45005-j00.docx,4.1.2.2,Additional requirements for GSM 850 and MXM 850 Base stations
+45.005,45005-j00.docx,4.1.2.3,Additional requirements for GSM 700 Base stations
+45.005,45005-j00.docx,4.1.2.4,Additional requirements for ER-GSM 900 Base stations
+45.005,45005-j00.docx,4.2,Output RF spectrum
+45.005,45005-j00.docx,4.2.1,Spectrum due to the modulation and wide band noise
+45.005,45005-j00.docx,4.2.1.1,General requirements for all types of Base stations and MS
+45.005,45005-j00.docx,4.2.1.2,Additional requirements for multicarrier BTS
+45.005,45005-j00.docx,4.2.1.3,Tables for spectrum requirements due to modulation and wideband noise
+45.005,45005-j00.docx,4.2.1.4,Exceptions for spectrum due to modulation and wideband noise
+45.005,45005-j00.docx,4.2.2,Spectrum due to switching transients
+45.005,45005-j00.docx,4.2.2.1,General requirements
+45.005,45005-j00.docx,4.3,Spurious emissions
+45.005,45005-j00.docx,4.3.1,Principle of the specification
+45.005,45005-j00.docx,4.3.2,Base Transceiver Station
+45.005,45005-j00.docx,4.3.2.1,General requirements
+45.005,45005-j00.docx,4.3.2.2,Additional requirements for co-existence with GSM systems on other frequency bands
+45.005,45005-j00.docx,4.3.2.3,Additional requirements for co-existence with 3 G
+45.005,45005-j00.docx,4.3.3,Mobile Station
+45.005,45005-j00.docx,4.3.3.1,"Mobile Station GSM 400, T-GSM 810, GSM 900, ER-GSM 900 and DCS 1 800"
+45.005,45005-j00.docx,4.3.3.2,"Mobile Station GSM 700, GSM 850 and PCS 1 900"
+45.005,45005-j00.docx,4.4,Radio frequency tolerance
+45.005,45005-j00.docx,4.5,Output level dynamic operation
+45.005,45005-j00.docx,4.5.1,Base Transceiver Station
+45.005,45005-j00.docx,4.5.2,Mobile Station
+45.005,45005-j00.docx,4.6,Modulation accuracy
+45.005,45005-j00.docx,4.6.1,GMSK modulation
+45.005,45005-j00.docx,4.6.2,"QPSK, AQPSK, 8-PSK, 16-QAM and 32-QAM modulations"
+45.005,45005-j00.docx,4.6.2.1,RMS EVM
+45.005,45005-j00.docx,4.6.2.2,Origin Offset Suppression
+45.005,45005-j00.docx,4.6.2.3,Peak EVM
+45.005,45005-j00.docx,4.6.2.4,95:th percentile
+45.005,45005-j00.docx,4.6.3,Phase and amplitude coherency when using blind physical layer transmissions
+45.005,45005-j00.docx,4.6.3.1,General
+45.005,45005-j00.docx,4.6.3.2,EC-GSM-IoT MS
+45.005,45005-j00.docx,4.6.3.3,BTS supporting EC-GSM-IoT
+45.005,45005-j00.docx,4.7,Intermodulation attenuation
+45.005,45005-j00.docx,4.7.1,Base transceiver station
+45.005,45005-j00.docx,4.7.2,Intra BTS intermodulation attenuation
+45.005,45005-j00.docx,4.7.2.1,"GSM 400, GSM 900, ER-GSM 900, DCS 1800"
+45.005,45005-j00.docx,4.7.2.2,MXM 850 and MXM 1900
+45.005,45005-j00.docx,4.7.2.3,"GSM 700, GSM 850 and PCS 1900"
+45.005,45005-j00.docx,4.7.4,Mobile PBX (GSM 900 only)
+45.005,45005-j00.docx,5,Receiver characteristics
+45.005,45005-j00.docx,5,"Hz to 20 Hz	0,96 m2/s3"
+45.005,45005-j00.docx,5.1,Blocking characteristics
+45.005,45005-j00.docx,5.1.1,Definitions of applicable frequency ranges
+45.005,45005-j00.docx,5.1.2,Requirements for MS
+45.005,45005-j00.docx,5.1.3,Requirements for BTS
+45.005,45005-j00.docx,5.1.4,Signal levels of blocking signal
+45.005,45005-j00.docx,5.1.5,Micro- and pico-BTS
+45.005,45005-j00.docx,5.2,AM suppression characteristics
+45.005,45005-j00.docx,5.2.1,Requirements for MS
+45.005,45005-j00.docx,5.2.2,Requirements for BTS
+45.005,45005-j00.docx,5.3,Intermodulation characteristics
+45.005,45005-j00.docx,5.3.1,Requirements for MS
+45.005,45005-j00.docx,5.3.2,Requirements for BTS
+45.005,45005-j00.docx,5.4,Spurious emissions
+45.005,45005-j00.docx,6,Transmitter/receiver performance
+45.005,45005-j00.docx,6.1,Nominal Error Rates (NER)
+45.005,45005-j00.docx,6.1.1,GMSK modulation
+45.005,45005-j00.docx,6.1.1.1,General performance requirements
+45.005,45005-j00.docx,6.1.1.2,Requirements for MS
+45.005,45005-j00.docx,6.1.1.3,Requirements for BTS
+45.005,45005-j00.docx,6.1.2,QPSK/8-PSK modulation
+45.005,45005-j00.docx,6.1.2.1,Requirements for MS
+45.005,45005-j00.docx,6.1.2.2,Requirements for BTS
+45.005,45005-j00.docx,6.1.3,16-QAM/32-QAM modulation
+45.005,45005-j00.docx,6.1.3.1,Requirements for MS
+45.005,45005-j00.docx,6.1.3.2,Requirements for BTS
+45.005,45005-j00.docx,6.2,Reference sensitivity level
+45.005,45005-j00.docx,6.2.1,Circuit-switched channels
+45.005,45005-j00.docx,6.2.2,Packet-switched channels
+45.005,45005-j00.docx,6.2.3,Flexible Layer One
+45.005,45005-j00.docx,6.2.4,Repeated associated control channel performance
+45.005,45005-j00.docx,6.2.5,Enhanced MS receiver performance
+45.005,45005-j00.docx,6.2.6,Additional performance conditions
+45.005,45005-j00.docx,6.3,Reference interference level
+45.005,45005-j00.docx,6.3.1,GMSK modulated speech channels and associated control channels
+45.005,45005-j00.docx,6.3.2,Co-channel reference interference performance
+45.005,45005-j00.docx,6.3.2.1,MS requirements
+45.005,45005-j00.docx,6.3.2.2,BTS requirements
+45.005,45005-j00.docx,6.3.3,Adjacent channel reference interference performance
+45.005,45005-j00.docx,6.3.3.1,Normal symbol rate used
+45.005,45005-j00.docx,6.3.3.2,Higher symbol rate used
+45.005,45005-j00.docx,6.3.4,Reference interference performance – signal levels
+45.005,45005-j00.docx,6.3.5,Additional reference interference performance requirements and conditions
+45.005,45005-j00.docx,6.4,Erroneous frame indication performance
+45.005,45005-j00.docx,6.5,Random access and paging performance at high input levels
+45.005,45005-j00.docx,6.6,Frequency hopping performance under interference conditions
+45.005,45005-j00.docx,6.7,Incremental Redundancy Performance for EGPRS and EGPRS2 MS
+45.005,45005-j00.docx,10,– 100 Hz:   3 m2/s3  (0.0132 g2/Hz)
+45.005,45005-j00.docx,20,"Hz to 500 Hz	0,96 m2/s3 at 20 Hz, thereafter -3 dB/Octave"
+45.005,45005-j00.docx,100,– 500 Hz:  -3dB/Octave
+45.005,45005-j00.docx,Annex B,(normative):	Transmitted power level versus time
+45.005,45005-j00.docx,Annex C,(normative):	Propagation conditions
+45.005,45005-j00.docx,Annex D,(normative):	Environmental conditions
+45.005,45005-j00.docx,Annex E,(normative):	Repeater characteristics
+45.005,45005-j00.docx,Annex F,"(normative):	Antenna Feeder Loss Compensator Characteristics (GSM 400, GSM 900 and DCS 1800)"
+45.005,45005-j00.docx,Annex G,(normative):	Calculation of Error Vector Magnitude
+45.005,45005-j00.docx,Annex H,(normative):	Requirements on Location Measurement Unit
+45.005,45005-j00.docx,Annex I,(normative):	E-OTD Mobile Station Requirements
+45.005,45005-j00.docx,Annex K,(normative):	Reference TFCs for FLO
+45.005,45005-j00.docx,Annex L,(normative):	Reference Test Scenarios for DARP
+45.005,45005-j00.docx,Annex M,(normative):	Minimum Performance Requirements for Assisted Global Positioning System (A-GPS)
+45.005,45005-j00.docx,Annex N,(normative):	Reference Test Scenarios for DARP Phase II (MSRD)
+45.005,45005-j00.docx,Annex P,(normative):	Minimum receiver performance requirements for MSR BS
+45.005,45005-j00.docx,Annex R,(normative):	Reference Test Scenarios for Overlaid CDMA
+45.005,45005-j00.docx,Annex S,(normative):	Normalized coherency error
+45.005,45005-j00.docx,Annex T,(normative):	Calculation of the equivalent combined power
+45.005,45005-j00.docx,C.1,Simple wideband propagation model
+45.005,45005-j00.docx,C.2,Doppler spectrum types
+45.005,45005-j00.docx,C.3,Propagation models
+45.005,45005-j00.docx,C.3.1,Typical case for rural area (RAx): (6 tap setting)
+45.005,45005-j00.docx,C.3.2,Typical case for hilly terrain (HTx): (12 tap setting)
+45.005,45005-j00.docx,C.3.3,Typical case for urban area (TUx): (12 tap setting)
+45.005,45005-j00.docx,C.3.4,Profile for equalization test (EQx): (6 tap setting)
+45.005,45005-j00.docx,C.3.5,Typical case for very small cells (TIx): (2 tap setting)
+45.005,45005-j00.docx,D.1,General
+45.005,45005-j00.docx,D.2,Environmental requirements for the MSs
+45.005,45005-j00.docx,D.2.1,"Temperature (GSM 400, GSM 900, ER-GSM 900 and DCS 1 800)"
+45.005,45005-j00.docx,D.2.1.1,"Environmental Conditions (PCS 1 900, GSM 850 and GSM 700)"
+45.005,45005-j00.docx,D.2.2,Voltage
+45.005,45005-j00.docx,D.2.3,"Vibration (GSM 400, GSM 900, ER-GSM 900 and DCS 1 800)"
+45.005,45005-j00.docx,D.2.3.1,"Vibration (PCS 1 900, GSM 850 and GSM 700)"
+45.005,45005-j00.docx,D.3,Environmental requirements for the BSS equipment
+45.005,45005-j00.docx,D.3.1,Environmental requirements for the BSS equipment
+45.005,45005-j00.docx,E.1,Introduction
+45.005,45005-j00.docx,E.2,Spurious emissions
+45.005,45005-j00.docx,E.3,Intermodulation products
+45.005,45005-j00.docx,E.4,Out of band gain
+45.005,45005-j00.docx,E.5,Frequency error and modulation accuracy
+45.005,45005-j00.docx,E.5.1,Frequency error
+45.005,45005-j00.docx,E.5.2,Modulation accuracy at GMSK modulation
+45.005,45005-j00.docx,E.5.3,"Modulation accuracy at 8-PSK, 16-QAM, 32-QAM, QPSK and AQPSK modulation"
+45.005,45005-j00.docx,F.1,Introduction
+45.005,45005-j00.docx,F.2,Transmitting path
+45.005,45005-j00.docx,F.2.1,Maximum output power
+45.005,45005-j00.docx,F.2.2,Gain
+45.005,45005-j00.docx,F.2.3,Burst transmission characteristics
+45.005,45005-j00.docx,F.2.4,Phase error
+45.005,45005-j00.docx,F.2.5,Frequency error
+45.005,45005-j00.docx,F.2.6,Group delay
+45.005,45005-j00.docx,F.2.7,Spurious emissions
+45.005,45005-j00.docx,F.2.8,VSWR
+45.005,45005-j00.docx,F.2.9,Stability
+45.005,45005-j00.docx,F.3,Receiving path
+45.005,45005-j00.docx,F.3.1,Gain
+45.005,45005-j00.docx,F.3.2,Noise figure
+45.005,45005-j00.docx,F.3.3,Group delay
+45.005,45005-j00.docx,F.3.4,Intermodulation performance
+45.005,45005-j00.docx,F.3.5,VSWR
+45.005,45005-j00.docx,F.3.6,Stability
+45.005,45005-j00.docx,H.1,TOA LMU Requirements
+45.005,45005-j00.docx,H.1.2,LMU characteristics
+45.005,45005-j00.docx,H.1.2.1,Blocking characteristics
+45.005,45005-j00.docx,H.1.2.2,AM suppression characteristics
+45.005,45005-j00.docx,H.1.2.3,Intermodulation characteristics
+45.005,45005-j00.docx,H.1.2.4,Spurious emissions
+45.005,45005-j00.docx,H.1.3,Time-of-Arrival Measurement Performance
+45.005,45005-j00.docx,H.1.3.1,Sensitivity Performance
+45.005,45005-j00.docx,H.1.3.2,Interference Performance
+45.005,45005-j00.docx,H.1.3.3,Multipath Performance
+45.005,45005-j00.docx,H.1.4,Radio Interface Timing Measurement Performance
+45.005,45005-j00.docx,H.2,E-OTD LMU Requirements
+45.005,45005-j00.docx,H.2.1,LMU Characteristics
+45.005,45005-j00.docx,H.2.1.1,Blocking characteristics
+45.005,45005-j00.docx,H.2.1.2,AM suppression characteristics
+45.005,45005-j00.docx,H.2.1.3,Intermodulation characteristics
+45.005,45005-j00.docx,H.2.2,Sensitivity and Interference Performance
+45.005,45005-j00.docx,H.2.2.1,Sensitivity Performance
+45.005,45005-j00.docx,H.2.2.2,Interference Performance
+45.005,45005-j00.docx,H.2.2.3,Multipath Performance
+45.005,45005-j00.docx,I.1,Introduction
+45.005,45005-j00.docx,I.2,Sensitivity and Interference Performance
+45.005,45005-j00.docx,I.2.1,Sensitivity Performance
+45.005,45005-j00.docx,I.2.2,Interference Performance
+45.005,45005-j00.docx,I.2.3,Multipath Performance
+45.005,45005-j00.docx,J.1,Introduction
+45.005,45005-j00.docx,J.2,"Dynamic allocation of GSM 400, GSM 800, GSM 900, ER-GSM 900, DCS 1800 and PCS 1900 ARFCNs"
+45.005,45005-j00.docx,J.3,Controlling changes in dynamic mapping
+45.005,45005-j00.docx,M.1,General
+45.005,45005-j00.docx,M.1.1,Abbreviations
+45.005,45005-j00.docx,M.1.2,Measurement parameters
+45.005,45005-j00.docx,M.1.2.1,MS based A-GPS measurement parameters
+45.005,45005-j00.docx,M.1.2.2,MS assisted A-GPS measurement parameters
+45.005,45005-j00.docx,M.1.3,Response time
+45.005,45005-j00.docx,M.1.4,Time assistance
+45.005,45005-j00.docx,M.1.4.1,Use of fine time assistance
+45.005,45005-j00.docx,M.1.4.2,2D position error
+45.005,45005-j00.docx,M.2,A-GPS minimum performance requirements
+45.005,45005-j00.docx,M.2.1,Sensitivity
+45.005,45005-j00.docx,M.2.1.1,Coarse time assistance
+45.005,45005-j00.docx,M.2.1.1.1,Minimum Requirements (Coarse time assistance)
+45.005,45005-j00.docx,M.2.1.2,Fine time assistance
+45.005,45005-j00.docx,M.2.1.2.1,Minimum Requirements (Fine time assistance)
+45.005,45005-j00.docx,M.2.2,Nominal Accuracy
+45.005,45005-j00.docx,M.2.2.1,Minimum requirements (nominal accuracy)
+45.005,45005-j00.docx,M.2.3,Dynamic Range
+45.005,45005-j00.docx,M.2.3.1,Minimum requirements (dynamic range)
+45.005,45005-j00.docx,M.2.4,Multi-Path scenario
+45.005,45005-j00.docx,M.2.4.1,Minimum Requirements (multi-path scenario)
+45.005,45005-j00.docx,M.2.5,Moving scenario and periodic location
+45.005,45005-j00.docx,M.2.5.1,Minimum Requirements (moving scenario and periodic location)
+45.005,45005-j00.docx,M.3,Test conditions
+45.005,45005-j00.docx,M.3.1,General
+45.005,45005-j00.docx,M.3.1.1,Parameter values
+45.005,45005-j00.docx,M.3.1.10,RESET MS POSITIONING STORED INFORMATION Message
+45.005,45005-j00.docx,M.3.1.2,Time assistance
+45.005,45005-j00.docx,M.3.1.3,GPS Reference Time
+45.005,45005-j00.docx,M.3.1.4,Reference and MS locations
+45.005,45005-j00.docx,M.3.1.5,Satellite constellation and assistance data
+45.005,45005-j00.docx,M.3.1.6,Atmospheric delays
+45.005,45005-j00.docx,M.3.1.7,GSM Frequency and frequency error
+45.005,45005-j00.docx,M.3.1.8,Information elements
+45.005,45005-j00.docx,M.3.1.9,GPS signals
+45.005,45005-j00.docx,M.4,Propagation Conditions
+45.005,45005-j00.docx,M.4.1,Static propagation conditions
+45.005,45005-j00.docx,M.4.2,Multi-path Case G1
+45.005,45005-j00.docx,M.5,Measurement sequence chart
+45.005,45005-j00.docx,M.5.1,General
+45.005,45005-j00.docx,M.5.2,MS Based A-GPS Measurement Sequence Chart
+45.005,45005-j00.docx,M.5.3,MS Assisted A-GPS Measurement Sequence Chart
+45.005,45005-j00.docx,M.6,Assistance data required for testing
+45.005,45005-j00.docx,M.6.1,Introduction
+45.005,45005-j00.docx,M.6.2,Information elements required for MS-based
+45.005,45005-j00.docx,M.6.3,Information elements available for MS-assisted
+45.005,45005-j00.docx,M.7,Converting MS-assisted measurement reports into position estimates
+45.005,45005-j00.docx,M.7.1,Introduction
+45.005,45005-j00.docx,M.7.2,MS measurement reports
+45.005,45005-j00.docx,M.7.3,Weighted Least Squares (WLS) position solution
+45.005,45005-j00.docx,N.1,Interferer configurations
+45.005,45005-j00.docx,N.2,Correlation and antenna gain imbalance
+45.005,45005-j00.docx,N.3,Testing MSRD terminal conformance to legacy requirements
+45.005,45005-j00.docx,O.1,General
+45.005,45005-j00.docx,O.1.1,Abbreviations
+45.005,45005-j00.docx,O.1.2,Measurement parameters
+45.005,45005-j00.docx,O.1.2.1,MS based A-GANSS measurement parameters
+45.005,45005-j00.docx,O.1.2.2,MS assisted A-GANSS measurement parameters
+45.005,45005-j00.docx,O.1.3,Response time
+45.005,45005-j00.docx,O.1.4,Time assistance
+45.005,45005-j00.docx,O.1.4.1,Use of fine time assistance
+45.005,45005-j00.docx,O.1.5,Error definitions
+45.005,45005-j00.docx,O.1.6,Mobile stations supporting multiple constellations
+45.005,45005-j00.docx,O.1.7,Mobile stations supporting multiple signals
+45.005,45005-j00.docx,O.2,A-GANSS minimum performance requirements
+45.005,45005-j00.docx,O.2.1,Sensitivity
+45.005,45005-j00.docx,O.2.1.1,Coarse time assistance
+45.005,45005-j00.docx,O.2.1.1.1,Minimum Requirements (Coarse time assistance)
+45.005,45005-j00.docx,O.2.1.2,Fine time assistance
+45.005,45005-j00.docx,O.2.1.2.1,Minimum Requirements (Fine time assistance)
+45.005,45005-j00.docx,O.2.2,Nominal Accuracy
+45.005,45005-j00.docx,O.2.2.1,Minimum requirements (nominal accuracy)
+45.005,45005-j00.docx,O.2.3,Dynamic Range
+45.005,45005-j00.docx,O.2.3.1,Minimum requirements (dynamic range)
+45.005,45005-j00.docx,O.2.4,Multi-Path scenario
+45.005,45005-j00.docx,O.2.4.1,Minimum Requirements (multi-path scenario)
+45.005,45005-j00.docx,O.2.5,Moving scenario and periodic location
+45.005,45005-j00.docx,O.2.5.1,Minimum Requirements (moving scenario and periodic location)
+45.005,45005-j00.docx,O.3,Test conditions
+45.005,45005-j00.docx,O.3.1,General
+45.005,45005-j00.docx,O.3.1.1,Parameter values
+45.005,45005-j00.docx,O.3.1.10,RESET MS POSITIONING STORED INFORMATION Message
+45.005,45005-j00.docx,O.3.1.2,Time assistance
+45.005,45005-j00.docx,O.3.1.3,GANSS Reference Time
+45.005,45005-j00.docx,O.3.1.4,Reference and MS locations
+45.005,45005-j00.docx,O.3.1.5,Satellite constellation and assistance data
+45.005,45005-j00.docx,O.3.1.6,Atmospheric delays
+45.005,45005-j00.docx,O.3.1.7,Sensors
+45.005,45005-j00.docx,O.3.1.8,Information elements
+45.005,45005-j00.docx,O.3.1.9,GNSS signals
+45.005,45005-j00.docx,O.3.2,GNSS System Time Offsets
+45.005,45005-j00.docx,O.4,Propagation Conditions
+45.005,45005-j00.docx,O.4.1,Static propagation conditions
+45.005,45005-j00.docx,O.4.2,Multi-path case
+45.005,45005-j00.docx,O.5,Measurement sequence chart
+45.005,45005-j00.docx,O.5.1,General
+45.005,45005-j00.docx,O.5.2,TTFF Measurement Sequence Chart
+45.005,45005-j00.docx,O.6,Assistance data required for testing
+45.005,45005-j00.docx,O.6.1,GPS assistance data
+45.005,45005-j00.docx,O.6.2,GANSS assistance data
+45.005,45005-j00.docx,O.7,Converting MS-assisted measurement reports into position estimates
+45.005,45005-j00.docx,O.7.1,Introduction
+45.005,45005-j00.docx,O.7.2,MS measurement reports
+45.005,45005-j00.docx,O.7.3,Weighted Least Squares (WLS) position solution
+45.005,45005-j00.docx,P.1,Reference Sensitivity and interference performance
+45.005,45005-j00.docx,P.2,Other receiver characteristics
+45.005,45005-j00.docx,P.2.1,Blocking characteristics
+45.005,45005-j00.docx,P.2.2,Intermodulation characteristics
+45.005,45005-j00.docx,P.2.3,AM suppression
+45.005,45005-j00.docx,Q.1,Interferer configurations in downlink
+45.005,45005-j00.docx,Q.2,Interferer configurations in uplink
+45.005,45005-j00.docx,Q.3,Sensitivity test configuration in downlink
+45.005,45005-j00.docx,Q.4,Sensitivity test configuration in uplink
+45.005,45005-j00.docx,Q.5,Time and frequency offset in uplink
+45.005,45005-j00.docx,Q.6,VAMOS DTX scenario in downlink
+45.005,45005-j00.docx,Q.7,Correlation and antenna gain imbalance for VAMOS III MS
+45.005,45005-j00.docx,R.1,Frequency offset in uplink
 51.010-1,51010-1-df0_s12-s13.docx,0,dBc	│        │                                      │
 51.010-1,51010-1-df0_s12-s13.docx,0,dBc		│        │                              │
 51.010-1,51010-1-df0_s12-s13.docx,0,dBc		¦        ¦                                      ¦

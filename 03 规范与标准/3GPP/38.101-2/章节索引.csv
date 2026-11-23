@@ -1,0 +1,253 @@
+﻿规范,文件,条款,标题
+38.101-2,38101-2-k10.docx,1,Scope
+38.101-2,38101-2-k10.docx,2,References
+38.101-2,38101-2-k10.docx,3,"Definitions, symbols and abbreviations"
+38.101-2,38101-2-k10.docx,3,CFO correction on slot-by-slot basis using a common frequency correction for both antenna ports.
+38.101-2,38101-2-k10.docx,3.1,Definitions
+38.101-2,38101-2-k10.docx,3.2,Symbols
+38.101-2,38101-2-k10.docx,3.3,Abbreviations
+38.101-2,38101-2-k10.docx,4,General
+38.101-2,38101-2-k10.docx,4.1,Relationship between minimum requirements and test requirements
+38.101-2,38101-2-k10.docx,4.2,Applicability of minimum requirements
+38.101-2,38101-2-k10.docx,4.3,Specification suffix information
+38.101-2,38101-2-k10.docx,5,Operating bands and channel arrangement
+38.101-2,38101-2-k10.docx,5.1,General
+38.101-2,38101-2-k10.docx,5.2,Operating bands
+38.101-2,38101-2-k10.docx,5.3,UE Channel bandwidth
+38.101-2,38101-2-k10.docx,5.3.1,General
+38.101-2,38101-2-k10.docx,5.3.2,Maximum transmission bandwidth configuration
+38.101-2,38101-2-k10.docx,5.3.3,Minimum guardband and transmission bandwidth configuration
+38.101-2,38101-2-k10.docx,5.3.4,RB alignment
+38.101-2,38101-2-k10.docx,5.3.5,Channel bandwidth per operating band
+38.101-2,38101-2-k10.docx,5.4,Channel arrangement
+38.101-2,38101-2-k10.docx,5.4.1,Channel spacing
+38.101-2,38101-2-k10.docx,5.4.1.1,Channel spacing for adjacent NR carriers
+38.101-2,38101-2-k10.docx,5.4.2,Channel raster
+38.101-2,38101-2-k10.docx,5.4.2.1,NR-ARFCN and channel raster
+38.101-2,38101-2-k10.docx,5.4.2.2,Channel raster to resource element mapping
+38.101-2,38101-2-k10.docx,5.4.2.3,Channel raster entries for each operating band
+38.101-2,38101-2-k10.docx,5.4.3,Synchronization raster
+38.101-2,38101-2-k10.docx,5.4.3.1,Synchronization raster and numbering
+38.101-2,38101-2-k10.docx,5.4.3.2,Synchronization raster to synchronization block resource element mapping
+38.101-2,38101-2-k10.docx,5.4.3.3,Synchronization raster entries for each operating band
+38.101-2,38101-2-k10.docx,5.5,Configurations
+38.101-2,38101-2-k10.docx,6,Transmitter characteristics
+38.101-2,38101-2-k10.docx,6.1,General
+38.101-2,38101-2-k10.docx,6.2,Transmitter power
+38.101-2,38101-2-k10.docx,6.2.1,UE maximum output power
+38.101-2,38101-2-k10.docx,6.2.1.0,General
+38.101-2,38101-2-k10.docx,6.2.1.1,UE maximum output power for power class 1
+38.101-2,38101-2-k10.docx,6.2.1.2,UE maximum output power for power class 2
+38.101-2,38101-2-k10.docx,6.2.1.3,UE maximum output power for power class 3
+38.101-2,38101-2-k10.docx,6.2.1.4,UE maximum output power for power class 4
+38.101-2,38101-2-k10.docx,6.2.1.5,UE maximum output power for power class 5
+38.101-2,38101-2-k10.docx,6.2.1.6,UE maximum output power for power class 6
+38.101-2,38101-2-k10.docx,6.2.1.7,UE maximum output power for power class 7
+38.101-2,38101-2-k10.docx,6.2.2,UE maximum output power reduction
+38.101-2,38101-2-k10.docx,6.2.2.0,General
+38.101-2,38101-2-k10.docx,6.2.2.1,UE maximum output power reduction for power class 1
+38.101-2,38101-2-k10.docx,6.2.2.2,UE maximum output power reduction for power class 2
+38.101-2,38101-2-k10.docx,6.2.2.3,UE maximum output power reduction for power class 3
+38.101-2,38101-2-k10.docx,6.2.2.4,UE maximum output power reduction for power class 4
+38.101-2,38101-2-k10.docx,6.2.2.5,UE maximum output power reduction for power class 5
+38.101-2,38101-2-k10.docx,6.2.2.6,UE maximum output power reduction for power class 6
+38.101-2,38101-2-k10.docx,6.2.2.7,UE maximum output power reduction for power class 7
+38.101-2,38101-2-k10.docx,6.2.3,UE maximum output power with additional requirements
+38.101-2,38101-2-k10.docx,6.2.3.1,General
+38.101-2,38101-2-k10.docx,6.2.3.3,A-MPR for NS_202
+38.101-2,38101-2-k10.docx,6.2.3.4,A-MPR for NS_203
+38.101-2,38101-2-k10.docx,6.2.3.5,[Reserved]
+38.101-2,38101-2-k10.docx,6.2.3.6,A-MPR for NS_205
+38.101-2,38101-2-k10.docx,6.2.3.7,A-MPR for NS_206
+38.101-2,38101-2-k10.docx,6.2.4,Configured transmitted power
+38.101-2,38101-2-k10.docx,6.2.5,Requirements for UL gap (ul-GapFR2-r17) for TX power management
+38.101-2,38101-2-k10.docx,6.3,Output power dynamics
+38.101-2,38101-2-k10.docx,6.3.1,Minimum output power
+38.101-2,38101-2-k10.docx,6.3.1.0,General
+38.101-2,38101-2-k10.docx,6.3.1.1,Minimum output power for power class 1
+38.101-2,38101-2-k10.docx,6.3.1.2,"Minimum output power for power class 2, 3, and 4"
+38.101-2,38101-2-k10.docx,6.3.1.3,Minimum output power for power class 5 and 6
+38.101-2,38101-2-k10.docx,6.3.1.4,Minimum output power for power class 7
+38.101-2,38101-2-k10.docx,6.3.2,Transmit OFF power
+38.101-2,38101-2-k10.docx,6.3.3,Transmit ON/OFF time mask
+38.101-2,38101-2-k10.docx,6.3.3.1,General
+38.101-2,38101-2-k10.docx,6.3.3.2,General ON/OFF time mask
+38.101-2,38101-2-k10.docx,6.3.3.3,Transmit power time mask for slot and short or long subslot boundaries
+38.101-2,38101-2-k10.docx,6.3.3.4,PRACH time mask
+38.101-2,38101-2-k10.docx,6.3.3.6,SRS time mask
+38.101-2,38101-2-k10.docx,6.3.3.7,PUSCH-PUCCH and PUSCH-SRS time masks
+38.101-2,38101-2-k10.docx,6.3.3.9,Transmit power time mask for consecutive short subslot transmissions boundaries
+38.101-2,38101-2-k10.docx,6.3.4,Power control
+38.101-2,38101-2-k10.docx,6.3.4.1,General
+38.101-2,38101-2-k10.docx,6.3.4.2,Absolute power tolerance
+38.101-2,38101-2-k10.docx,6.3.4.3,Relative power tolerance
+38.101-2,38101-2-k10.docx,6.3.4.4,Aggregate power tolerance
+38.101-2,38101-2-k10.docx,6.4,Transmit signal quality
+38.101-2,38101-2-k10.docx,6.4.1,Frequency Error
+38.101-2,38101-2-k10.docx,6.4.2,Transmit modulation quality
+38.101-2,38101-2-k10.docx,6.4.2.0,General
+38.101-2,38101-2-k10.docx,6.4.2.1,Error vector magnitude
+38.101-2,38101-2-k10.docx,6.4.2.2,Carrier leakage
+38.101-2,38101-2-k10.docx,6.4.2.3,In-band emissions
+38.101-2,38101-2-k10.docx,6.4.2.4,EVM equalizer spectrum flatness
+38.101-2,38101-2-k10.docx,6.4.2.5,EVM spectral flatness for Pi/2 BPSK modulation
+38.101-2,38101-2-k10.docx,6.4.2.6,Phase continuity requirements for DMRS bundling
+38.101-2,38101-2-k10.docx,6.5,Output RF spectrum emissions
+38.101-2,38101-2-k10.docx,6.5.1,Occupied bandwidth
+38.101-2,38101-2-k10.docx,6.5.2,Out of band emissions
+38.101-2,38101-2-k10.docx,6.5.2.0,General
+38.101-2,38101-2-k10.docx,6.5.2.1,Spectrum emission mask
+38.101-2,38101-2-k10.docx,6.5.2.3,Adjacent channel leakage ratio
+38.101-2,38101-2-k10.docx,6.5.3,Spurious emissions
+38.101-2,38101-2-k10.docx,6.5.3.1,Spurious emission band UE co-existence
+38.101-2,38101-2-k10.docx,6.5.3.2,Additional spurious emissions
+38.101-2,38101-2-k10.docx,6.6,Beam correspondence
+38.101-2,38101-2-k10.docx,6.6.1,General
+38.101-2,38101-2-k10.docx,6.6.2,Beam correspondence for power class 1
+38.101-2,38101-2-k10.docx,6.6.2.1,General
+38.101-2,38101-2-k10.docx,6.6.2.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.2.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.4,Beam correspondence for power class 3
+38.101-2,38101-2-k10.docx,6.6.4.1,General
+38.101-2,38101-2-k10.docx,6.6.4.2,Beam correspondence tolerance for power class 3
+38.101-2,38101-2-k10.docx,6.6.4.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.4.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.6,Beam correspondence for power class 5
+38.101-2,38101-2-k10.docx,6.6.6.1,General
+38.101-2,38101-2-k10.docx,6.6.6.2,(Reserved)
+38.101-2,38101-2-k10.docx,6.6.6.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.6.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.7,Beam correspondence for power class 6
+38.101-2,38101-2-k10.docx,6.6.7.1,General
+38.101-2,38101-2-k10.docx,6.6.7.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.7.4,Applicability
+38.101-2,38101-2-k10.docx,6.6.8,Beam correspondence for power class 7
+38.101-2,38101-2-k10.docx,6.6.8.1,General
+38.101-2,38101-2-k10.docx,6.6.8.3,Side Conditions
+38.101-2,38101-2-k10.docx,6.6.8.4,Applicability
+38.101-2,38101-2-k10.docx,7,Receiver characteristics
+38.101-2,38101-2-k10.docx,7.1,General
+38.101-2,38101-2-k10.docx,7.2,Diversity characteristics
+38.101-2,38101-2-k10.docx,7.3,Reference sensitivity
+38.101-2,38101-2-k10.docx,7.3.1,General
+38.101-2,38101-2-k10.docx,7.3.2,Reference sensitivity power level
+38.101-2,38101-2-k10.docx,7.3.2.1,Reference sensitivity power level for power class 1
+38.101-2,38101-2-k10.docx,7.3.2.2,Reference sensitivity power level for power class 2
+38.101-2,38101-2-k10.docx,7.3.2.3,Reference sensitivity power level for power class 3
+38.101-2,38101-2-k10.docx,7.3.2.4,Reference sensitivity power level for power class 4
+38.101-2,38101-2-k10.docx,7.3.2.5,Reference sensitivity power level for power class 5
+38.101-2,38101-2-k10.docx,7.3.2.6,Reference sensitivity power level for power class 6
+38.101-2,38101-2-k10.docx,7.3.2.7,Reference sensitivity power level for power class 7
+38.101-2,38101-2-k10.docx,7.3.4,EIS spherical coverage
+38.101-2,38101-2-k10.docx,7.3.4.1,EIS spherical coverage for power class 1
+38.101-2,38101-2-k10.docx,7.3.4.2,EIS spherical coverage for power class 2
+38.101-2,38101-2-k10.docx,7.3.4.3,EIS spherical coverage for power class 3
+38.101-2,38101-2-k10.docx,7.3.4.4,EIS spherical coverage for power class 4
+38.101-2,38101-2-k10.docx,7.3.4.5,EIS spherical coverage for power class 5
+38.101-2,38101-2-k10.docx,7.3.4.6,EIS spherical coverage for power class 6
+38.101-2,38101-2-k10.docx,7.3.4.7,EIS spherical coverage for power class 7
+38.101-2,38101-2-k10.docx,7.4,Maximum input level
+38.101-2,38101-2-k10.docx,7.5,Adjacent channel selectivity
+38.101-2,38101-2-k10.docx,7.6,Blocking characteristics
+38.101-2,38101-2-k10.docx,7.6.1,General
+38.101-2,38101-2-k10.docx,7.6.2,In-band blocking
+38.101-2,38101-2-k10.docx,7.9,Spurious emissions
+38.101-2,38101-2-k10.docx,9,"Perform for each slot of the 20ms time window, steps 3 to 8."
+38.101-2,38101-2-k10.docx,10,Calculation of the maximum value of the “difference of relative phase error”.
+38.101-2,38101-2-k10.docx,A.1,General
+38.101-2,38101-2-k10.docx,A.2,UL reference measurement channels
+38.101-2,38101-2-k10.docx,A.2.1,General
+38.101-2,38101-2-k10.docx,A.2.3,Reference measurement channels for TDD
+38.101-2,38101-2-k10.docx,A.2.3.1,DFT-s-OFDM Pi/2-BPSK
+38.101-2,38101-2-k10.docx,A.2.3.2,DFT-s-OFDM QPSK
+38.101-2,38101-2-k10.docx,A.2.3.3,DFT-s-OFDM 16QAM
+38.101-2,38101-2-k10.docx,A.2.3.4,DFT-s-OFDM 64QAM
+38.101-2,38101-2-k10.docx,A.2.3.5,CP-OFDM QPSK
+38.101-2,38101-2-k10.docx,A.2.3.6,CP-OFDM 16QAM
+38.101-2,38101-2-k10.docx,A.2.3.7,CP-OFDM 64QAM
+38.101-2,38101-2-k10.docx,A.2.3.8,DFT-s-OFDM 256QAM
+38.101-2,38101-2-k10.docx,A.2.3.9,CP-OFDM 256QAM
+38.101-2,38101-2-k10.docx,A.3,DL reference measurement channels
+38.101-2,38101-2-k10.docx,A.3.1,General
+38.101-2,38101-2-k10.docx,A.3.3,DL reference measurement channels for TDD
+38.101-2,38101-2-k10.docx,A.3.3.1,General
+38.101-2,38101-2-k10.docx,A.3.3.2,FRC for receiver requirements for QPSK
+38.101-2,38101-2-k10.docx,A.3.3.3,FRC for receiver requirements for 16QAM
+38.101-2,38101-2-k10.docx,A.3.3.4,FRC for receiver requirements for 64QAM
+38.101-2,38101-2-k10.docx,A.3.3.5,FRC for receiver requirements for 256QAM
+38.101-2,38101-2-k10.docx,A.5,OFDMA Channel Noise Generator (OCNG)
+38.101-2,38101-2-k10.docx,A.5.1,OCNG Patterns for FDD
+38.101-2,38101-2-k10.docx,A.5.2,OCNG Patterns for TDD
+38.101-2,38101-2-k10.docx,A.5.2.1,OCNG TDD pattern 1: Generic OCNG TDD Pattern for all unused REs
+38.101-2,38101-2-k10.docx,Annex A,(normative):	Measurement channels
+38.101-2,38101-2-k10.docx,Annex C,(normative):	Downlink physical channels
+38.101-2,38101-2-k10.docx,Annex D,(normative):	Characteristics of the interfering signal
+38.101-2,38101-2-k10.docx,Annex E,(normative):	Environmental conditions
+38.101-2,38101-2-k10.docx,Annex F,(normative):	Transmit modulation
+38.101-2,38101-2-k10.docx,Annex G,(normative):	Difference of relative phase and power errors
+38.101-2,38101-2-k10.docx,Annex H,(Normative):	Modified MPR behavior
+38.101-2,38101-2-k10.docx,Annex J,(normative):	UE coordinate system
+38.101-2,38101-2-k10.docx,Annex L,(normative):	Requirement metric for simultaneous reception from multiple directions
+38.101-2,38101-2-k10.docx,Annex M,(normative):	Band Combination Database
+38.101-2,38101-2-k10.docx,C.1,General
+38.101-2,38101-2-k10.docx,C.2,Setup
+38.101-2,38101-2-k10.docx,C.3,Connection
+38.101-2,38101-2-k10.docx,C.3.1,Measurement of Receiver Characteristics
+38.101-2,38101-2-k10.docx,D.1,General
+38.101-2,38101-2-k10.docx,D.2,Interference signals
+38.101-2,38101-2-k10.docx,E.1,General
+38.101-2,38101-2-k10.docx,E.2,Environmental
+38.101-2,38101-2-k10.docx,E.2.1,Temperature
+38.101-2,38101-2-k10.docx,E.2.2,Voltage
+38.101-2,38101-2-k10.docx,F.1,Measurement Point
+38.101-2,38101-2-k10.docx,F.10,EVM for dual transmit polarizations
+38.101-2,38101-2-k10.docx,F.10.1,General
+38.101-2,38101-2-k10.docx,F.10.2,MIMO Equalization (UL MIMO transmission)
+38.101-2,38101-2-k10.docx,F.10.3,Maximum Ratio combining (Tx diversity transmission)
+38.101-2,38101-2-k10.docx,F.10.4,Layer processing
+38.101-2,38101-2-k10.docx,F.2,Basic Error Vector Magnitude measurement
+38.101-2,38101-2-k10.docx,F.3,Basic in-band emissions measurement
+38.101-2,38101-2-k10.docx,F.4,Modified signal under test
+38.101-2,38101-2-k10.docx,F.5,Window length
+38.101-2,38101-2-k10.docx,F.5.1,Timing offset
+38.101-2,38101-2-k10.docx,F.5.2,Window length
+38.101-2,38101-2-k10.docx,F.5.3,Window length for normal CP
+38.101-2,38101-2-k10.docx,F.5.4,Window length for Extended CP
+38.101-2,38101-2-k10.docx,F.5.5,Window length for PRACH
+38.101-2,38101-2-k10.docx,F.6,Averaged EVM
+38.101-2,38101-2-k10.docx,F.7,Spectrum Flatness
+38.101-2,38101-2-k10.docx,F.8,Phase offset measurement for DMRS bundling
+38.101-2,38101-2-k10.docx,F.8.1,Measurement point
+38.101-2,38101-2-k10.docx,F.8.2,Symbols used
+38.101-2,38101-2-k10.docx,F.8.3,Modified test signal
+38.101-2,38101-2-k10.docx,F.8.4,Phase offset measurement
+38.101-2,38101-2-k10.docx,F.9,Reserved
+38.101-2,38101-2-k10.docx,G.0,General
+38.101-2,38101-2-k10.docx,G.1,Measurement Point
+38.101-2,38101-2-k10.docx,G.2,Relative Phase Error Measurement
+38.101-2,38101-2-k10.docx,G.2.1,Symbols and subcarriers used
+38.101-2,38101-2-k10.docx,G.2.2,CFO (carrier frequency offset) correction
+38.101-2,38101-2-k10.docx,G.2.3,Steps of the measurement method
+38.101-2,38101-2-k10.docx,H.1,Indication of modified MPR behavior
+38.101-2,38101-2-k10.docx,J.1,Reference coordinate system
+38.101-2,38101-2-k10.docx,J.2,Test conditions and angle definitions
+38.101-2,38101-2-k10.docx,J.3,DUT positioning guidelines
+38.101-2,38101-2-k10.docx,L.1,Spherical coverage grid for simultaneous reception or transmission in multiple directions
+38.101-2,38101-2-k10.docx,L.2,Probability to support 2AoA reception
+38.101-2,38101-2-k10.docx,M.1,General
+38.101-2,38101-2-k10.docx,M.2,Content of the Band Combination Database
+38.101-2,38101-2-k10.docx,M.2.1,File Types and Name Convention
+38.101-2,38101-2-k10.docx,M.2.1.0,General
+38.101-2,38101-2-k10.docx,M.2.1.1,Schema Files
+38.101-2,38101-2-k10.docx,M.2.1.1.0,General
+38.101-2,38101-2-k10.docx,M.2.1.1.1,Channel Bandwidth Schema File
+38.101-2,38101-2-k10.docx,M.2.1.1.2,Carrier Aggregation Schema File
+38.101-2,38101-2-k10.docx,M.2.1.2,Data Files
+38.101-2,38101-2-k10.docx,M.2.1.2.0,General
+38.101-2,38101-2-k10.docx,M.2.1.2.1,Channel Bandwidth Data File
+38.101-2,38101-2-k10.docx,M.2.1.2.2,Carrier Aggregation Data File
+38.101-2,38101-2-k10.docx,M.3,Access and Visualization
+38.101-2,38101-2-k10.docx,M.3.1,General
+38.101-2,38101-2-k10.docx,M.3.2,Files included to the TS Zip folder
+38.101-2,38101-2-k10.docx,M.3.2.1,Distribution of data Files
+38.101-2,38101-2-k10.docx,M.3.2.2,Distribution of visualization of specified band combinations

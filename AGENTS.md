@@ -4,7 +4,7 @@
 
 ## 这是什么
 
-通用射频知识库：29 篇主题笔记 + 7 个域索引 + 规范库（当前收录 3GPP 17 份规范；原始 zip 不入库，按需下载）。个人学习计划、进度与面试材料不入库，只保留在本地 `_local/`。
+通用射频知识库：29 篇主题笔记 + 7 个域索引 + 规范库（当前收录 3GPP 19 份规范；原始 zip 不入库，按需下载）。个人学习计划、进度与面试材料不入库，只保留在本地 `_local/`。
 
 ## 目录地图
 
@@ -69,7 +69,7 @@ RFNote/
 ```bash
 python tools/3gpp/index.py           # 重建全部章节索引与总表
 python tools/3gpp/index.py --check   # 只比对，确认索引与 docx 没漂移
-python tools/3gpp/fetch.py --list    # 查看 17 份规范的下载状态
+python tools/3gpp/fetch.py --list    # 查看 19 份规范的下载状态
 ```
 
 ## 校验
